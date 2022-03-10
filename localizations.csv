@@ -1,0 +1,274 @@
+id,de,en,fr
+ADVANCED_OPTIONS,Erweiterte Optionen,Advanced options,Options avancées
+ALL_RIGHT_RESERVED,,All rights reserved,tous droits réservés
+CANCEL,Stornieren,Cancel,Annuler
+CHARACTER_POPUP_INFO,"Um ein Attribut zu erzeugen, würfelt das Spiel mit 3 6er-Würfeln und multipliziert das Ergebnis mit 5.
+Daher kann ein Attribut zwischen 15 und 90 liegen.
+Wenn Sie eine Aktion versuchen, müssen Sie auf 100 würfeln. Das Ergebnis ist ein Erfolg, wenn Sie ","To generate an attribute, the game rolls 3 dice of 6 and multiplies the result by 5.
+Therefore, an attribute can be between 15-90.
+When you try an action you must roll on 100. The result is a success if you roll under your attribute score.
+The closer to 1, the better the result. 1 is a critical success.","Pour générer un attribut, le jeu lance 3 dés de 6 et multiplie le résultat par 5.
+Par conséquent, un attribut peut être entre 15-90.
+Lorsque vous essayez une action, vous devez lancer un dé 100. Le résultat est un succès si il est sous votre score d’attribut.
+Le plus proche de 1, le mieux. 1 est un succès critique."
+CHARACTER_POPUP_INFO_TITLE,Wie funktioniert es?,How does it work?,Comment ça marche?
+CHARISMA,Charisma,Charisma,Charisme
+CLOSE,Nah dran,Close,Fermer
+CONSTITUTION,Verfassung,Constitution,Constitution
+CONTEXT_MAX_LENGTH,Maximale Kontextlänge,Context max length,Taille max du contexte
+CONTEXT_MAX_LENGTH_HINT,Wie viele zuvor generierte Zeichen muss sich die KI merken?,How many previously generated characters the AI must remember.,Combien de caractères précédemment générés l'IA doit-elle se rappeler?
+CUSTOM_MODEL,Benutzerdefiniertes Modell,Custom model,Model personnalisé
+CUSTOM_SCENARIOS,Benutzerdefinierte Szenarien,Custom scenarios,Scénarios personnalisés
+CUSTOM_START,Benutzerdefinierter Start,Custom start,Départ personalisé
+DELETE,Löschen,Delete,Supprimer
+DEXTERITY,Geschicklichkeit,Dexterity,Dextérité
+DISPLAY_ADVANCED_OPTIONS,Erweiterte Optionen anzeigen,Display advanced options,Afficher les options avancées
+DOWNLOAD_DIALOG_LABEL,"Bitte warten Sie, bis der Download abgeschlossen ist.",Please wait until the download is done.,Veuillez attendre que le téléchargement soit terminé.
+DO_SAMPLE_HINT,"Aktivieren Sie die zufällige Auswahl des nächsten Wortes.
+Es begrenzt die Wiederholung.","Enable randomly picking the next word.
+It limits the repetition.","Permet de choisir au hasard le mot suivant.
+Ça limite la répétition."
+EDIT,Bearbeiten,Edit,Modifier
+EDIT_BAR_ASK_GENERATION,Fragen Sie eine andere Generation,Ask another generation,Demander une autre génération
+EDIT_BAR_NEXT,Nächste,Next,Suivant
+EDIT_BAR_PREVIOUS,Vorherige,Previous,Précédent
+EDIT_BAR_VALIDATE,Bestätigen,Validate,Valider
+END_DEMO_MESSAGE,"Vielen Dank, dass Sie die Demo von AIdventure spielen!
+Sie haben das Limit erreicht.
+Kaufen Sie das Spiel, um dieses Abenteuer fortzusetzen.","Thank you for playing AIdventure's demo!
+You reached the limit.
+Buy the game to continue this adventure.","Merci d'avoir joué à la démo d'AIdventure !
+Vous avez atteint la limite.
+Achetez le jeu pour continuer cette aventure."
+ERROR_POPUP_CLIPBOARD,Protokolle in die Zwischenablage kopieren,Copy logs to clipboard,Copier les logs dans le presse-papiers
+ERROR_POPUP_REPORT,Melde den Fehler auf Discord oder im Forum,Report the error on Discord or the forum,Signaler l'erreur sur Discord ou sur le forum
+ERROR_POPUP_TITLE,Es ist ein Fehler aufgetreten!,An error occured!,Une erreur est survenue
+ESCAPE_MENU_EDIT_STORY,Bearbeiten Sie die Geschichte,Edit the story,Modifier l'histoire
+FONT,Schriftart,Font,Police
+FONT_COLOR,Schriftfarbe,Font color,Couleur de la police
+FONT_SIZE,Schriftgröße,Font size,Taille de la police
+FORUM,Forum,Forum,Forum
+GENERATION_MAX_LENGTH,Maximale Länge der Generation,Generation's max length,Taille max de la génération
+GENERATION_MAX_LENGTH_HINT,Die maximal zu generierenden Wörter.,The maximum words to be generated.,Le nombre maximum de mots à générer.
+INCOMPATIBLE_MEMORY_ACCEPT,Jawohl! ,Yes! Change the option,Oui! Changer l'option
+INCOMPATIBLE_MEMORY_QUESTION,"Möchten Sie die Option „Maximale Speicherlänge“ ändern, um dieses Szenario unter den besten Bedingungen zu spielen?","Do you want to change the ""Memory max length"" option to play this scenario in the best conditions?","Voulez-vous changer l'option ""Taille max de la mémoire"" pour jouer ce scénario dans les meilleures conditions ?"
+INCOMPATIBLE_MEMORY_REFUSE,Nein. Nichts ändern,No. Don't change anything,Non. Ne rien changer
+INCOMPATIBLE_MEMORY_WARNING,"Die in Ihrer Option definierte ""Maximale Speicherlänge"" ist für dieses Szenario zu klein.
+Erforderliche Speicherlänge:","The ""Memory max length"" defined in your option is too small for this scenario.
+Memory length required : ","La ""Taille max de la mémoire"" définie dans les options est trop petite pour ce scénario.
+Longueur de mémoire requise : "
+INPUT_BAR_DO,Machen,Do,Faire
+INPUT_BAR_DO_HINT,leeren Sie Ihren Wassereimer auf dem Kopf des Ritters.,empty your bucket of water on the knight's head.,vides ton seau d'eau sur la tete du chevalier.
+INPUT_BAR_GENERATE,Generieren,Generate,Générer
+INPUT_BAR_MEMORY,Erinnerung,Memory,Mémoire
+INPUT_BAR_MEMORY_HINT,"Klicken Sie hier, um den Speicher zu ändern.",Clic to modify memory.,Cliquer pour modifier la mémoire.
+INPUT_BAR_MODE_BUTTON_HINT,"Klicken Sie, um den Modus zu wechseln.",Clic to switch of mode.,Cliquer pour changer de mode.
+INPUT_BAR_SAY,Sagen,Say,Dire
+INPUT_BAR_SAY_HINT,"Sir, ist das Ihr Maultier oder Ihre Genetrix?","Sir, is that your mule or your genetrix?","Sire, est-ce votre mule ou votre génitrice"
+INPUT_BAR_STORY,Geschichte,Story,Histoire
+INPUT_BAR_STORY_HINT,Der Ritter zieht sein Schwert und macht einen Schritt nach vorne.,The knight draws his sword and takes a step forward.,Le chevalier dégaine son épée et fait un pas en avant.
+INPUT_BAR_TRY,Versuchen,Try,Essayer
+INPUT_BAR_TRY_HINT,Verstecke den gestohlenen Ring in deiner Tasche.,conceal the stolen ring in your pocket.,cacher la bague volée dans ta poche.
+INTELLIGENCE,Intelligenz,Intelligence,Intelligence
+INTRO_DEMO_BUY,Kaufen Sie das Spiel,Buy the game,Acheter le jeu
+INTRO_DEMO_DISCORD,Tritt dem Discord bei,Join the discord,Rejoindre le discord
+INTRO_DEMO_ENABLED_MODELS,Nur die folgenden Modelle sind aktiviert:,Only the following models are enabled: ,Seuls les models suivants sont activés:
+INTRO_DEMO_LIMITATIONS,Ihre Abenteuer sind begrenzt auf,Your adventures are limited to ,Vos aventures sont limitées à 
+INTRO_DEMO_PLAY,Das Spiel spielen,Play the game,Jouer au jeu
+INTRO_DEMO_TITLE,"Vielen Dank, dass Sie die Demo von AIdventure heruntergeladen haben!",Thank you for downloading AIdventure's demo!,Merci pour le d'avoir téléchargé de la démo d'AIdventure !
+IN_GAME_TOP_MENU,Speisekarte,Menu,Menu
+IN_GAME_TOP_MENU_HINT,"Drücken Sie ESC, um es zu öffnen.",Press ESC to open it.,Appuyer sur ÉCHAP pour l'ouvrir.
+LINE_SEPARATION,Linientrennung,Line separation,Séparation entre les lignes
+LOAD,Belastung,Load,Charger
+LUCK,Glück,Luck,Chance
+MAIN_MENU,Hauptmenü,Main Menu,Menu Principal
+MAIN_MENU_CREDITS,Kredite,Credits,Crédits
+MAIN_MENU_LOAD_STORY,Geschichte laden,Load Story,Charger une Histoire
+MAIN_MENU_NEW_STORY,Neue Geschichte,New Story,Nouvelle Histoire
+MAIN_MENU_OPTIONS,Optionen,Options,Options
+MAIN_MENU_QUIT,Aufhören,Quit,Quitter
+MAIN_MENU_REPORT_BUG,Melde einen technischen Fehler,Report a bug,Signaler un bug
+MAIN_MENU_SCENARIO_EDITOR,Szenario-Editor,Scenario Editor,Éditeur de Scénario
+MAIN_MENU_SCENARIO_EDITOR_HINT,Bearbeiten / Erstellen Sie ein neues Szenario.,Edit / Create a new scenario.,Modifier / Créer un nouveau scénario.
+MAIN_MENU_STORY_EDITOR,Story-Editor,Story Editor,Éditeur d'Histoire
+MAIN_MENU_STORY_EDITOR_HINT,Bearbeite einen deiner Saves.,Edit one of your save.,Modifier une sauvegarde.
+MAIN_MENU_TAG_LINE,Erleben Sie unbegrenzte und unendliche Abenteuer,Live unlimited and infinite adventures,Vivez des aventures sans limites et infinies
+MAIN_MENU_WEBSITE,Webseite,Website,Site Web
+MAX_TIME,Maximale Zeit,Max time,Temps max
+MAX_TIME_HINT,"Die maximale Zeit in Sekunden, die Sie der KI erlauben, Text zu generieren.","The maximum amount of time you allow the AI to generate text, in seconds.","Le temps maximum que vous laissez à l'IA pour générer du texte, en secondes."
+MEMORY_DIALOG_HINT,"Schreiben Sie hier, woran sich die KI erinnern soll.
+Beispiel: ""Sie sind Arthur, König von England.
+Sie befinden sich im Krieg mit Schottland.""","Write here what the AI should remember.
+Example: ""You are Arthur, King of England.\nYou are in war with Scotland""","Écrivez ici ce dont l'IA doit se souvenir.
+Exemple : « Vous êtes Arthur, roi d'Angleterre.
+Vous êtes en guerre contre l'Écosse"""
+MEMORY_MAX_LENGTH,Maximale Speicherlänge,Memory max length,Taille max de la mémoire
+MEMORY_MAX_LENGTH_HINT,Wie viele Zeichen der Speicher aufnehmen kann.,How many characters the memory can hold.,Combien de caractères la mémoire peut contenir.
+MODEL_SELECTOR_125M_AID_HINT,Am besten zum Testen von Abenteuern mit hoher Geschwindigkeit geeignet.,Mostly suitable for testing adventure at fast speed.,Convient surtout pour tester l'aventure à vitesse rapide.
+MODEL_SELECTOR_BROWSE_MODEL,Suchen Sie online nach Modellen,Browse for models online,Rechercher des modèles en ligne
+MODEL_SELECTOR_BUTTON,Wählen Sie ein Modell aus,Select a model,Sélectionner un modèle
+MODEL_SELECTOR_CUSTOM_LABEL,Geben Sie den Namen des Modells von huggingface.com ein. ,Enter the name of the model from huggingface.com. The name is CasEsenSitivE!,Entrez le nom du modèle dans huggingface.com. Le nom est SeNsIbLeÀlACaSsE
+MODEL_SELECTOR_GPT2_HINT,"Das Modell ist am besten darin, wofür es vortrainiert wurde, nämlich Texte aus einer Eingabeaufforderung zu generieren.","The model is best at what it was pretrained for, which is generating texts from a prompt.","Le modèle est le meilleur à ce pour quoi il a été conçu, génèrer des textes à partir d'une entrée."
+MODEL_SELECTOR_GPT2_LARGE_HINT,"Gleich wie gpt2-medium, aber leistungsfähiger.",Same than gpt2-medium but more powerful.,Identique à gpt2-medium mais plus puissant.
+MODEL_SELECTOR_GPT2_MEDIUM_HINT,"Dasselbe wie gpt2, aber leistungsfähiger.",Same than gpt2 but more powerful.,Identique à gpt2 mais plus puissant.
+MODEL_SELECTOR_GPT2_XL_HINT,"Gleich wie gpt2-large, aber leistungsfähiger.",Same than gpt2-large but more powerful.,Identique à gpt2-large mais plus puissant.
+MODEL_SELECTOR_GPT_J_6B_ADVENTURE_HINT,"Ein Hybrid, der darauf abzielt, eine ausgewogene Story-getriebene Erfahrung zu schaffen.",A hybrid aimed to create a balanced story driven experience.,Un hybride visant à créer une expérience équilibrée axée sur l'histoires.
+MODEL_SELECTOR_GPT_J_6B_SKEIN_HINT,"Wenn Sie wie AI Dungeon spielen möchten, ist dies die richtige Wahl.
+Es funktioniert hervorragend, wenn die Zufälligkeit auf 0,5 eingestellt ist.",If you wish to play like AI Dungeon this is the one to pick.It works great with the randomness set to 0.5 .,"Si vous souhaitez jouer comme AI Dungeon, c'est celui à choisir.
+Il fonctionne très bien avec l'aléatoire fixé à 0,5 ."
+MODEL_SELECTOR_GPT_NEO_125_HINT,Ähnlich gpt2. ,Similar to gpt2. First model supported by AIdventure.,Similaire à gpt2. Premier modèle supporté par AIdventure.
+MODEL_SELECTOR_GPT_NEO_13B_HINT,"Gleich wie gpt-neo-125M, aber leistungsfähiger.",Same than gpt-neo-125M but more powerful.,Identique à gpt-neo-125M mais plus puissant.
+MODEL_SELECTOR_GPT_NEO_27B_HINT,"Gleich wie EleutherAI/gpt-neo-1.3B, aber leistungsfähiger.",Same than EleutherAI/gpt-neo-1.3B but more powerful.,Identique à gpt-neo-1.3B mais plus puissant.
+MODEL_SELECTOR_HORNI_HINT,"Kann weiterhin für SFW-Storys verwendet werden, wird jedoch eine Ausrichtung auf NSFW-Inhalte haben.",Can still be used for SFW stories but will have a bias towards NSFW content.,"Peut toujours être utilisé pour les histoires SFW, mais aura tendance a créer du contenu NSFW."
+MODEL_SELECTOR_HORNI_LN_HINT,"Dieses Modell ist dem Horni sehr ähnlich, aber eher SFW.
+Dies ist ein gutes Modell zum Schreiben von Romanen, besonders wenn Sie der Mischung Erotik hinzufügen möchten.","This model is much like the Horni, but more likely to go SFW.
+This is a good model for Novel writing especially if you want to add erotica to the mix.","Ce modèle ressemble beaucoup au modèle Horni, mais il est plus susceptible d'être SFW.
+C'est un bon modèle pour l'écriture de roman surtout si vous voulez ajouter l’érotisme au mélange."
+MODEL_SELECTOR_INSTRUCTION,"Wählen Sie ein Modell für Ihr Spiel aus.
+Das Laden großer Modelle kann einige Zeit in Anspruch nehmen. ","Choose a model for your game.
+Big models might take some time to load. If you are selectecting a model for the first time it will download it.","Choisissez un modèle pour votre jeu.
+Les gros modèles peuvent prendre du temps à charger. Si vous sélectionnez un modèle pour la première fois, il sera téléchargé."
+MODEL_SELECTOR_NSFW_DISCLAIMER,"** Die KI sollte keine NSFW-Inhalte selbst generieren, aber sie könnte es trotzdem tun, wenn Sie ihr NSFW-Eingaben geben.","** The AI shouldn't generate NSFW content by itself, but it might still do if you give it NSFW inputs.","** L'IA ne devrait pas générer de contenu NSFW par elle-même, mais elle pourrait tout de même le faire si vous lui donnez des entrées NSFW."
+MODEL_SELECTOR_PICARD_HINT,"Es konzentriert sich auf das Schreiben im Romanstil ohne NSFW.
+Dieses Modell ist für eine Vielzahl von Genres konzipiert","It is focused on Novel style writing without NSFW.
+This model is designed for a variety of genre's","Il est axé sur l'écriture de sans NSFW.
+Ce modèle est conçu pour une variété de genres."
+MODEL_SELECTOR_RAM_DISCLAIMER,* Der von der KI selbst benötigte Arbeitsspeicher. ,* The RAM required by the AI itself. You will need a bit more.,* La RAM requise par l'IA elle-même. Il vous en faudra un peu plus.
+MODEL_SELECTOR_SHINEN_HINT,Im Vergleich zu GPT-Neo-2.7-Horni ist dieses Modell viel stärker auf den sexuellen Inhalt ausgelegt.,"Compared to GPT-Neo-2.7-Horni, this model is much heavier on the sexual content.","Comparé au GPT-Neo-2.7-Horni, ce modèle est beaucoup plus sexuel."
+NAME,Name,Name,Nom
+NB_BEAMS_HINT,"Wenn größer als 1, wird eine Strahlsuche für saubereren Text ausgeführt.
+1 bedeutet keine Strahlsuche.","If greater than 1, executes beam search for cleaner text.
+1 means no beam search.","S'il est supérieur à 1, exécute la recherche de faisceau pour un texte plus propre.
+1 signifie pas de recherche de faisceau."
+NGRAM_SIZE_HINT,"Token-Länge, um die Wiederholung bestimmter Sätze zu vermeiden.
+Auf 0 setzen, um sie zu deaktivieren.","Token length to avoid repeating given phrases.
+Set to 0 to disable it.","S'il est supérieur à 1, exécute la recherche de faisceau pour un texte plus propre.
+1 signifie pas de recherche de faisceau."
+OK,OK,Ok,Ok
+OPTIONS_ADVANCED_OPTION_DISCLAIMER,"Es wird empfohlen, die erweiterten Optionen nur zu bearbeiten, wenn Sie wissen, was Sie tun.
+Wenn Sie die Generierung ""abbrechen"", drücken Sie einfach die Schaltfläche ""Zurücksetzen"".","It is recommended to only edit the advanced options if you know what you are doing.
+If you happen to ""break"" the generation, just press the ""reset"" button.","Il est recommandé de ne modifier les options avancées que si vous savez ce que vous faites.
+Si vous arrivez à ""casser"" la génération, appuyez simplement sur le bouton ""réinitialiser""."
+OPTIONS_AI_TAB,KI-Optionen,AI Options,Options de l'IA
+OPTIONS_CONFIRM_RESET,Möchten Sie die Optionen wirklich zurücksetzen?,Are you sure you want to reset the options?,Êtes-vous sûr de vouloir réinitialiser les options ?
+OPTIONS_DISPLAY,Anzeige,Display,Affichage
+OPTIONS_FONT_HINT,"Sie können der Liste benutzerdefinierte Schriftarten hinzufügen.
+- Erstellen Sie einen „Fonts“
+- Ordner im Spielordner
+- Laden Sie Schriftarten online herunter (https://www.dafont.com/)
+- Fügen Sie die „.ttf“
+- Datei hinzu ","You can add custom fonts to the list.
+- Create a ""fonts"" folder in the game folder
+- Download fonts online (https://www.dafont.com/)
+- Add the "".ttf"" file in the fonts folder
+- Reload.","Vous pouvez ajouter des polices personnalisées à la liste.
+- Créer un dossier ""fonts"" dans le dossier du jeu
+- Télécharger des polices en ligne (https://www.dafont.com/)
+- Ajouter le fichier "".ttf"" dans le dossier fonts
+- Recharger."
+OPTIONS_HIDE_TOP_BAR,Blenden Sie das Menü der oberen Leiste aus,Hide the top bar menu,Cacher le menu supérieur
+OPTIONS_HIDE_TOP_BAR_HINT,"Dadurch wird die obere Leiste im Spiel ausgeblendet.
+Du kannst immer noch auf das Menü zugreifen, indem du die ESC-Taste drückst.","It will hide the top bar in the game.
+You can still access the menu by pressing the ESC key.","Va masquer la barre supérieure dans le jeu.
+Vous pouvez toujours accéder au menu en appuyant sur la touche ECHAP."
+OPTIONS_LINE_SEPARATION_HINT,Der Abstand zwischen zwei Zeilen.,The space left between two lines.,L'espace entre deux lignes
+OPTIONS_POV,Standpunkt der Geschichte,Story's point of view,Point de vue de l'histoire
+OPTIONS_POV_HINT,"Es wird ""Sie"" oder ""Ich"" in Ihren Eingaben verwenden","It will use ""You"" or ""I"" in your inputs","Va utiliser ""Tu"" ou ""Je"" pour les actions"
+OPTIONS_PREFERENCES_TAB,Einstellungen,Preferences,Préférences
+OPTIONS_REMOTE_SERVER,Verbinden Sie sich mit einem Remote-Server,Connect to a remote server,Se connecter à un serveur distant
+OPTIONS_SERVER_DISCLAIMER,"Wenn Sie nicht wissen, was Sie tun, ändern Sie hier nichts.","If you don't know what you are doing, don't change anything here.","Si vous ne savez pas ce que vous faites, ne changez rien ici."
+OPTIONS_SERVER_SECURITY_DISCLAIMER,Momentan ist die Kommunikation mit dem Server nicht sicher. ,For now the communication with the server isn't secure. Use this for local networks only.,"Pour l’instant, la communication avec le serveur n’est pas sécurisée. Utilisez-la uniquement pour les réseaux locaux."
+OPTIONS_SERVER_TAB,Server,Server,Serveur
+OPTIONS_STORY_READER,Vorlieben für Geschichtenleser:,Story reader preferences:,Préférences du lecteur d'histoire
+OVERWRITE_FILE_DIALOG,,"A file already has this name.
+If you click ""OK"" you will overwrite the old one.
+There is no going back.","Un fichier a déjà ce nom.
+Si vous cliquez sur ""OK"" vous écraserez l’ancien.
+Il n’y a pas de retour en arrière."
+PLAY,Spiel,Play,Jouer
+PLEASE_WAIT,Warten Sie mal,Please wait,Veuillez patienter
+RANDOMNESS,Zufälligkeit,Randomness,Aléatoire
+RANDOMNESS_HINT,"Machen Sie den generierten Text mehr oder weniger zufällig.
+Gewöhnlich als ""Temperatur"" bezeichnet, bedeutet 0 keine Zufälligkeit.","Make the generated text more or less coherent.
+Commonly named ""Temperature"", 0 means no randomness.","Rends plus ou moins cohérent le texte généré.
+Aussi appelée ""Température"", 0 signifie pas d'aléatoire"
+REMOVE_UNFINISHED_SENTENCES,Entfernen Sie unvollendete Sätze,Remove unfinished sentences,Supprimer les phrases incomplètes
+REMOVE_UNFINISHED_SENTENCES_HINT,"Löschen Sie den letzten Satz, wenn die KI ihn nicht beendet hat.
+Es könnte die gesamte Ausgabe löschen, wenn ""max length"" zu klein ist!","Delete the last sentence if the AI didn't finish it.
+It might delete the whole output if ""max length"" is too small!","Supprimez la dernière phrase si l'IA ne l'a pas terminée.
+Il pourrait supprimer toute la sortie si ""longueur max"" est trop petite!"
+RENAME,Umbenennen,Rename,Renommer
+REPETITION_PENALTY,Wiederholungsstrafe,Repetition penalty,Pénalité de répétition
+REPETITION_PENALTY_HINT,"Wenn größer als 1,0, werden Wiederholungen in einem Text bestraft, um Endlosschleifen zu vermeiden.
+1 bedeutet keine Strafe.","If greater than 1.0, penalizes repetition in a text to avoid infinite loops.
+1 means no penalty.","S'il est supérieur à 1,0, pénalise la répétition dans un texte pour éviter les boucles infinies.
+1 signifie pas de pénalité."
+REROLL,Neu würfeln,Reroll,Relancer
+RESET_TO_DEFAULT,Zurücksetzen,Reset to default,Réinitialiser par défaut
+RESIZER_HINT,"Halten Sie die linke Maustaste gedrückt, um die Größe zu ändern.",Hold left click to resize.,Maintenir click gauche pour redimensionner.
+RESUME,Fortsetzen,Resume,Continuer
+ROLL_THE_DICE,Würfeln!,Roll the dice!,Lancer les dès!
+SAFE_FOR_WORK,Sicher zum Arbeiten**,Safe for work**,Safe for work**
+SAVE,Speichern,Save,Sauvegarder
+SAVE_AS,Speichern als...,Save as...,Sauvegarder sous...
+SAVE_DIALOG_PLACEHOLDER,Meine Superstory,My super story,Ma super histoire
+SAVE_DIALOG_TEXT,Nennen Sie Ihre Geschichte:,Name your story :,Nommez votre histoire :
+SCENARIO_EDITOR_AUTHOR_FIELD,Autor:,Author:,Auteur:
+SCENARIO_EDITOR_CATEGORY_FIELD,Kategorie:,Category:,Catégorie:
+SCENARIO_EDITOR_MEMORY_FIELD,Erinnerung:,Memory:,Mémoire:
+SCENARIO_EDITOR_MEMORY_HINT,Der Speicher hat eine Standardgrenze. ,"The memory has a default limit. I recommend to keep it short (max 400 characters).
+This is only a recommendation though. Feel free to experiment.","La mémoire a une limite par défaut. Je recommande de la garder courte (maximum de 400 caractères).
+Ceci n'est qu'une recommandation.N'hésitez pas à expérimenter."
+SCENARIO_EDITOR_OPEN,Öffnen Sie ein Szenario,Open a scenario,Ouvrir un scénario
+SCENARIO_EDITOR_SCENARIO_FIELD,Szenario:,Scenario:,Scénario:
+SCENARIO_EDITOR_SCENARIO_HINT,Die Einführung in Ihre Geschichte. ,The introduction to your story. You can detail as much as you want.,L'introduction de votre histoire. Vous pouvez la détailler comme vous le souhaitez.
+SCENARIO_EDITOR_TITLE,Szenario-Editor,Scenario Editor,Éditeur de Scénario
+SELECTION_COLOR,Auswahlfarbe,Selection color,Couleur de la sélection
+SERVER_IP,IP des Servers,Server's IP,IP du serveur
+SERVER_PORT,Port des Servers,Server's port,Port du serveur
+SIZE,Größe,Size,Taille
+STATUS_CONNECTED_TO_SERVER,Erfolgreich mit dem Server verbunden.,Successfully connected to the server.,Connexion au serveur réussie.
+STATUS_CONNECTING_TO_SERVER,Verbinde mit dem Server.,Connecting to the server.,Connection au serveur.
+STATUS_CONNECTION_TO_SERVER_FAILED,Die Verbindung zum Server ist fehlgeschlagen.,The connection to the server failed.,Connexion au serveur échouée.
+STATUS_LOADING_AI,KI wird geladen:,Loading AI : ,Chargement de l'IA :
+STATUS_MODEL_LOADED,Modell geladen.,Model loaded.,Model chargé.
+STATUS_MOVING_FILES_TO_GAME,Verschieben der Dateien in den Ordner des Spiels.,Moving the files to the game's folder.,Déplacement des fichiers dans le dossier du jeu.
+STATUS_STARTING_SERVER,Starten des Servers.,Starting the server.,Démarrage du serveur.
+STORY_EDITOR_CHARACTER_EDITOR,Zeicheneditor öffnen,Open character editor,Ouvrir l'éditeur de personnage
+STORY_EDITOR_OPEN_SCENARIO_FOLDER,Öffnen Sie den Ordner des Szenarios,Open scenario's folder,Ouvrir le dossiers des scénarios
+STORY_EDITOR_OPEN_STORY,Öffnen Sie eine Geschichte,Open a story,Ouvrir une histoire
+STORY_EDITOR_OPEN_STORY_FOLDER,Öffnen Sie den Stories-Ordner,Open stories' folder,Ouvrir le dossiers des histoires
+STORY_EDITOR_TITLE,Story-Editor,Story Editor,Éditeur d'Histoire
+STRENGTH,Stärke,Strength,Force
+TOOLTIP_LABEL,"Bewegen Sie den Mauszeiger über die Namen der Modelle, um die QuickInfo anzuzeigen",Hover the models' names to display the tooltip,Placez le curseur sur les noms des modèles pour afficher l’infobulle
+TOP_K_HINT,"Die K wahrscheinlichsten nächsten Wörter werden gefiltert
+und die Wahrscheinlichkeitsmasse wird neu verteilt
+nur unter diesen K nächsten Wörtern
+Auf 0 setzen, um sie zu deaktivieren.","The K most likely next words are filtered and the probability mass is redistributed
+among only those K next words.
+Set to 0 to disable it.","Les mots suivants K les plus probables sont filtrés
+et la masse de probabilité est redistribuée
+parmi les seuls K mots suivants.
+Mettre à 0 pour le désactiver."
+TOP_P_HINT,"Wählt aus der kleinstmöglichen Menge von Wörtern aus, deren kumulative Wahrscheinlichkeit die Wahrscheinlichkeit p übersteigt.
+Die Wahrscheinlichkeitsmasse wird dann unter dieser Menge von Wörtern neu verteilt.
+Wenn auf < 1 gesetzt, nur die wahrscheinlichsten Token mit Wahrscheinlichkeiten, die sich zu top_p summieren ","Chooses from the smallest possible set of words whose cumulative probability exceeds the probability p.
+The probability mass is then redistributed among this set of words.
+If set to < 1, only the most probable tokens with probabilities that
+add up to top_p or higher are kept for generation.
+Set to 0 to disable it.","Choisit les plus petit ensemble possible de mots dont le cumul
+de probabilité dépasse la probabilité p.
+La masse de probabilité est ensuite redistribuée parmi cet ensemble de mots.
+Si la valeur est < 1, seuls les jetons les plus probables avec des
+probabilités qui s'additionnent jusqu’à top_p ou plus sont conservées pour la génération.
+Mettre à 0 pour le désactiver."
+USE_GPU,Verwenden Sie die GPU,Use the GPU,Utiliser le GPU
+USE_GPU_HINT,"Wenn aktiviert, wird Ihre GPU anstelle Ihrer CPU verwendet.
+Das macht die KI schneller.
+Unter https://developer.nvidia.com/cuda-gpus finden Sie eine Liste kompatibler GPUs.","If enabled, your GPU will be used instead of your CPU.
+It will make the AI faster.
+Check https://developer.nvidia.com/cuda-gpus for the list of compatible GPU.","S'il est activé, votre GPU sera utilisé à la place de votre CPU.
+Cela accélérera l'IA. 
+Consultez https://developer.nvidia.com/cuda-gpus pour la liste des GPU compatibles."
+VALIDATE,Bestätigen,Validate,Valider
+WISDOM,Weisheit,Wisdom,Sagesse
