@@ -1,7 +1,7 @@
 # CONTRIBUTING
 
 Thank you for considering contributing to my project! It's very kind. 
-However, be sure to read the code of conduit and the style guide before to contribute.
+However, be sure to read the code of conduit before to contribute.
 
 ## How to file a bug report?
 Go in **issues**, then click on **new issue** and select **bug report**
