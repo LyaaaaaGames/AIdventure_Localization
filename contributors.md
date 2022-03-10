@@ -1,3 +1,3 @@
 # Hall of fame
 
-- @Nyk7 - *German translation*
+- [@Nyk7](https://github.com/Nyk7) - *German translation*
