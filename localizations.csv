@@ -1,6 +1,6 @@
 id,de,en,fr
 ADVANCED_OPTIONS,Erweiterte Optionen,Advanced options,Options avancées
-ALL_RIGHT_RESERVED,Alle Rechte vorbehalten,All rights reserved,tous droits réservés
+ALL_RIGHT_RESERVED,Alle Rechte vorbehalten,All rights reserved,Tous droits réservés
 CANCEL,Abbrechen,Cancel,Annuler
 CHARACTER_POPUP_INFO,"Um ein Attribut zu erzeugen, würfelt das Spiel mit 3 6er-Würfeln und multipliziert das Ergebnis mit 5.
 Daher kann ein Attribut zwischen 15 und 90 liegen.
@@ -10,7 +10,7 @@ Therefore, an attribute can be between 15-90.
 When you try an action you must roll on 100. The result is a success if you roll under your attribute score.
 The closer to 1, the better the result. 1 is a critical success.","Pour générer un attribut, le jeu lance 3 dés de 6 et multiplie le résultat par 5.
 Par conséquent, un attribut peut être entre 15-90.
-Lorsque vous essayez une action, vous devez lancer un dé 100. Le résultat est un succès si il est sous votre score d’attribut.
+Lorsque vous tentez d’accomplir une action, vous devez lancer un dé 100. Le résultat est un succès si il est sous votre score d’attribut.
 Le plus proche de 1, le mieux. 1 est un succès critique."
 CHARACTER_POPUP_INFO_TITLE,Wie funktioniert es?,How does it work?,Comment ça marche?
 CHARISMA,Charisma,Charisma,Charisme
@@ -18,9 +18,9 @@ CLOSE,Schließen,Close,Fermer
 CONSTITUTION,Konstitution,Constitution,Constitution
 CONTEXT_MAX_LENGTH,Maximale Kontextlänge,Context max length,Taille max du contexte
 CONTEXT_MAX_LENGTH_HINT,Wie viele zuvor generierte Zeichen muss sich die KI merken?,How many previously generated characters the AI must remember.,Combien de caractères précédemment générés l'IA doit-elle se rappeler?
-CUSTOM_MODEL,Benutzerdefiniertes Modell,Custom model,Model personnalisé
+CUSTOM_MODEL,Benutzerdefiniertes Modell,Custom model,Modèle personnalisé
 CUSTOM_SCENARIOS,Benutzerdefinierte Szenarien,Custom scenarios,Scénarios personnalisés
-CUSTOM_START,Benutzerdefinierter Start,Custom start,Départ personalisé
+CUSTOM_START,Benutzerdefinierter Start,Custom start,Départ personnalisé
 DELETE,Löschen,Delete,Supprimer
 DEXTERITY,Geschicklichkeit,Dexterity,Dextérité
 DISPLAY_ADVANCED_OPTIONS,Erweiterte Optionen anzeigen,Display advanced options,Afficher les options avancées
@@ -28,7 +28,7 @@ DOWNLOAD_DIALOG_LABEL,"Bitte warten Sie, bis der Download abgeschlossen ist.",Pl
 DO_SAMPLE_HINT,"Aktivieren Sie die zufällige Auswahl des nächsten Wortes.
 Dadurch werden Wiederholungen begrenzt.","Enable randomly picking the next word.
 It limits the repetition.","Permet de choisir au hasard le mot suivant.
-Ça limite la répétition."
+Cela limite la répétition."
 EDIT,Bearbeiten,Edit,Modifier
 EDIT_BAR_ASK_GENERATION,Nächste Generation fragen,Ask another generation,Demander une autre génération
 EDIT_BAR_NEXT,Nächste,Next,Suivant
@@ -53,19 +53,19 @@ GENERATION_MAX_LENGTH,Maximal generierte länge,Generation's max length,Taille m
 GENERATION_MAX_LENGTH_HINT,Die maximal zu generierenden Wörter.,The maximum words to be generated.,Le nombre maximum de mots à générer.
 INCOMPATIBLE_MEMORY_ACCEPT,Ja! Änderung Übernehmen.,Yes! Change the option,Oui! Changer l'option
 INCOMPATIBLE_MEMORY_QUESTION,"Möchten Sie die Option „Maximale Speicherlänge“ ändern, um dieses Szenario unter den besten Bedingungen zu spielen?","Do you want to change the ""Memory max length"" option to play this scenario in the best conditions?","Voulez-vous changer l'option ""Taille max de la mémoire"" pour jouer ce scénario dans les meilleures conditions ?"
-INCOMPATIBLE_MEMORY_REFUSE,Nein. Nichts ändern,No. Don't change anything,Non. Ne rien changer
+INCOMPATIBLE_MEMORY_REFUSE,Nein. Nichts ändern,No. Don't change anything,Non. Ne rien changer.
 INCOMPATIBLE_MEMORY_WARNING,"Die in Ihrer Option definierte ""Maximale Speicherlänge"" ist für diese Geschichte zu gering.
 Erforderliche Speicherlänge:","The ""Memory max length"" defined in your option is too small for this scenario.
 Memory length required : ","La ""Taille max de la mémoire"" définie dans les options est trop petite pour ce scénario.
 Longueur de mémoire requise : "
 INPUT_BAR_DO,Tun,Do,Faire
-INPUT_BAR_DO_HINT,den Wassereimer auf dem Kopf des Ritters entleeren,empty your bucket of water on the knight's head.,vides ton seau d'eau sur la tete du chevalier.
+INPUT_BAR_DO_HINT,den Wassereimer auf dem Kopf des Ritters entleeren,empty your bucket of water on the knight's head.,vides ton seau d'eau sur la tête du chevalier.
 INPUT_BAR_GENERATE,Generieren,Generate,Générer
 INPUT_BAR_MEMORY,Speicher,Memory,Mémoire
 INPUT_BAR_MEMORY_HINT,"Hier klicken, um den Speicher zu ändern.",Clic to modify memory.,Cliquer pour modifier la mémoire.
 INPUT_BAR_MODE_BUTTON_HINT,"Hier klicken, um den Modus zu wechseln.",Clic to switch of mode.,Cliquer pour changer de mode.
 INPUT_BAR_SAY,Sagen,Say,Dire
-INPUT_BAR_SAY_HINT,"Sir, ist das Ihr Maultier oder Ihre Genetrix?","Sir, is that your mule or your genetrix?","Sire, est-ce votre mule ou votre génitrice"
+INPUT_BAR_SAY_HINT,"Sir, ist das Ihr Maultier oder Ihre Genetrix?","Sir, is that your mule or your genetrix?","Sire, est-ce votre mule ou votre génitrice ?"
 INPUT_BAR_STORY,Geschichte,Story,Histoire
 INPUT_BAR_STORY_HINT,Der Ritter zieht sein Schwert und macht einen Schritt nach vorne.,The knight draws his sword and takes a step forward.,Le chevalier dégaine son épée et fait un pas en avant.
 INPUT_BAR_TRY,Versuchen,Try,Essayer
@@ -73,10 +73,10 @@ INPUT_BAR_TRY_HINT,Verstecke den gestohlenen Ring in deiner Tasche.,conceal the 
 INTELLIGENCE,Intelligenz,Intelligence,Intelligence
 INTRO_DEMO_BUY,Spiel kaufen,Buy the game,Acheter le jeu
 INTRO_DEMO_DISCORD,Discord beitreten,Join the discord,Rejoindre le discord
-INTRO_DEMO_ENABLED_MODELS,folgende Modelle sind aktiviert:,Only the following models are enabled: ,Seuls les models suivants sont activés:
+INTRO_DEMO_ENABLED_MODELS,folgende Modelle sind aktiviert:,Only the following models are enabled: ,Seuls les modèles suivants sont activés:
 INTRO_DEMO_LIMITATIONS,Ihre Abenteuer sind begrenzt auf,Your adventures are limited to ,Vos aventures sont limitées à 
 INTRO_DEMO_PLAY,Das Spiel spielen,Play the game,Jouer au jeu
-INTRO_DEMO_TITLE,"Vielen Dank, dass Sie die Demo von AIdventure heruntergeladen haben!",Thank you for downloading AIdventure's demo!,Merci pour le d'avoir téléchargé de la démo d'AIdventure !
+INTRO_DEMO_TITLE,"Vielen Dank, dass Sie die Demo von AIdventure heruntergeladen haben!",Thank you for downloading AIdventure's demo!,Merci d'avoir téléchargé la démo d'AIdventure !
 IN_GAME_TOP_MENU,Menü,Menu,Menu
 IN_GAME_TOP_MENU_HINT,ESC zum Öffnen drücken,Press ESC to open it.,Appuyer sur ÉCHAP pour l'ouvrir.
 LINE_SEPARATION,Linientrennung,Line separation,Séparation entre les lignes
@@ -109,13 +109,13 @@ MODEL_SELECTOR_125M_AID_HINT,Am besten zum Testen von Abenteuern mit hoher Gesch
 MODEL_SELECTOR_BROWSE_MODEL,Online nach mehr Modellen suchen,Browse for models online,Rechercher des modèles en ligne
 MODEL_SELECTOR_BUTTON,Modell auswählen,Select a model,Sélectionner un modèle
 MODEL_SELECTOR_CUSTOM_LABEL,Geben Sie den Namen des Modells von huggingface.com ein. Beim Namen muss die GrOß- UnD KleInScHrEiBuNg beachtet werden.,Enter the name of the model from huggingface.com. The name is CasEsenSitivE!,Entrez le nom du modèle dans huggingface.com. Le nom est SeNsIbLeÀlACaSsE
-MODEL_SELECTOR_GPT2_HINT,"Dieses Modell ist gut dafür geeignet wozu es trainiert wurde, nämlich Texte aus einer Eingabeaufforderung zu generieren.","The model is best at what it was pretrained for, which is generating texts from a prompt.","Le modèle est le meilleur à ce pour quoi il a été conçu, génèrer des textes à partir d'une entrée."
+MODEL_SELECTOR_GPT2_HINT,"Dieses Modell ist gut dafür geeignet wozu es trainiert wurde, nämlich Texte aus einer Eingabeaufforderung zu generieren.","The model is best at what it was pretrained for, which is generating texts from a prompt.","Le modèle est le meilleur à ce pour quoi il a été conçu, générer des textes à partir d'une entrée."
 MODEL_SELECTOR_GPT2_LARGE_HINT,"Wie gpt2-medium, nur leistungsfähiger.",Same than gpt2-medium but more powerful.,Identique à gpt2-medium mais plus puissant.
 MODEL_SELECTOR_GPT2_MEDIUM_HINT,"Wie wie gpt2, nur leistungsfähiger.",Same than gpt2 but more powerful.,Identique à gpt2 mais plus puissant.
 MODEL_SELECTOR_GPT2_XL_HINT,"Gleich wie gpt2-large, aber leistungsfähiger.",Same than gpt2-large but more powerful.,Identique à gpt2-large mais plus puissant.
-MODEL_SELECTOR_GPT_J_6B_ADVENTURE_HINT,"Ein Hybrid, der darauf abzielt, eine ausgewogene Story-getriebene Erfahrung zu schaffen.",A hybrid aimed to create a balanced story driven experience.,Un hybride visant à créer une expérience équilibrée axée sur l'histoires.
+MODEL_SELECTOR_GPT_J_6B_ADVENTURE_HINT,"Ein Hybrid, der darauf abzielt, eine ausgewogene Story-getriebene Erfahrung zu schaffen.",A hybrid aimed to create a balanced story driven experience.,Un hybride visant à créer une expérience équilibrée axée sur l'histoire.
 MODEL_SELECTOR_GPT_J_6B_SKEIN_HINT,"Wenn Sie wie AI Dungeon spielen möchten, ist dies die richtige Wahl.
-Dieses Modell funktioniert hervorragend, wenn die Zufälligkeit auf 0,5 eingestellt ist.",If you wish to play like AI Dungeon this is the one to pick.It works great with the randomness set to 0.5 .,"Si vous souhaitez jouer comme AI Dungeon, c'est celui à choisir.
+Dieses Modell funktioniert hervorragend, wenn die Zufälligkeit auf 0,5 eingestellt ist.",If you wish to play like AI Dungeon this is the one to pick.It works great with the randomness set to 0.5 .,"Si vous souhaitez jouer comme dans AI Dungeon, c'est celui qu’il faut choisir.
 Il fonctionne très bien avec l'aléatoire fixé à 0,5 ."
 MODEL_SELECTOR_GPT_NEO_125_HINT,Ähnlich gpt2. ,Similar to gpt2. First model supported by AIdventure.,Similaire à gpt2. Premier modèle supporté par AIdventure.
 MODEL_SELECTOR_GPT_NEO_13B_HINT,"Wie gpt-neo-125M, nur leistungsfähiger.",Same than gpt-neo-125M but more powerful.,Identique à gpt-neo-125M mais plus puissant.
@@ -124,7 +124,7 @@ MODEL_SELECTOR_HORNI_HINT,"Kann für SFW-Geschichten verwendet werden, aber neig
 MODEL_SELECTOR_HORNI_LN_HINT,"Dieses Modell ist Horni sehr ähnlich, aber eher SFW.
 Dies ist ein gutes Modell zum Schreiben von Romanen, besonders wenn sie Erotik beinhalten sollen.","This model is much like the Horni, but more likely to go SFW.
 This is a good model for Novel writing especially if you want to add erotica to the mix.","Ce modèle ressemble beaucoup au modèle Horni, mais il est plus susceptible d'être SFW.
-C'est un bon modèle pour l'écriture de roman surtout si vous voulez ajouter l’érotisme au mélange."
+C'est un bon modèle pour l'écriture de roman surtout si vous voulez ajouter de l’érotisme dans le texte généré."
 MODEL_SELECTOR_INSTRUCTION,"Wählen Sie ein Modell für Ihr Spiel aus.
 Das Laden großer Modelle kann einige Zeit in Anspruch nehmen. ","Choose a model for your game.
 Big models might take some time to load. If you are selectecting a model for the first time it will download it.","Choisissez un modèle pour votre jeu.
@@ -132,7 +132,7 @@ Les gros modèles peuvent prendre du temps à charger. Si vous sélectionnez un 
 MODEL_SELECTOR_NSFW_DISCLAIMER,"** Die KI sollte keine NSFW-Inhalte selbst generieren, aber sie könnte es trotzdem tun, wenn Sie ihr NSFW-Eingaben geben.","** The AI shouldn't generate NSFW content by itself, but it might still do if you give it NSFW inputs.","** L'IA ne devrait pas générer de contenu NSFW par elle-même, mais elle pourrait tout de même le faire si vous lui donnez des entrées NSFW."
 MODEL_SELECTOR_PICARD_HINT,"konzentriert sich auf das Schreiben im Romanstil ohne NSFW.
 Dieses Modell ist für eine Vielzahl von Genres konzipiert","It is focused on Novel style writing without NSFW.
-This model is designed for a variety of genre's","Il est axé sur l'écriture de sans NSFW.
+This model is designed for a variety of genre's","Il est axé sur l'écriture de fictions sans NSFW.
 Ce modèle est conçu pour une variété de genres."
 MODEL_SELECTOR_RAM_DISCLAIMER,* Der von der KI benötigte Arbeitsspeicher. ,* The RAM required by the AI itself. You will need a bit more.,* La RAM requise par l'IA elle-même. Il vous en faudra un peu plus.
 MODEL_SELECTOR_SHINEN_HINT,Im Vergleich zu GPT-Neo-2.7-Horni ist dieses Modell viel stärker auf sexuelle Inhalte ausgelegt.,"Compared to GPT-Neo-2.7-Horni, this model is much heavier on the sexual content.","Comparé au GPT-Neo-2.7-Horni, ce modèle est beaucoup plus sexuel."
@@ -193,7 +193,7 @@ PLEASE_WAIT,Bitte warten.,Please wait,Veuillez patienter
 RANDOMNESS,Zufälligkeit,Randomness,Aléatoire
 RANDOMNESS_HINT,"Macht generierten Text mehr oder weniger zufällig.
 Gewöhnlich als ""Temperatur"" bezeichnet, bedeutet 0 keine Zufälligkeit.","Make the generated text more or less coherent.
-Commonly named ""Temperature"", 0 means no randomness.","Rends plus ou moins cohérent le texte généré.
+Commonly named ""Temperature"", 0 means no randomness.","Rend plus ou moins cohérent le texte généré.
 Aussi appelée ""Température"", 0 signifie pas d'aléatoire"
 REMOVE_UNFINISHED_SENTENCES,unvollendete Sätze entfernen,Remove unfinished sentences,Supprimer les phrases incomplètes
 REMOVE_UNFINISHED_SENTENCES_HINT,"Löscht den letzten Satz, wenn die KI ihn nicht beendet hat.
