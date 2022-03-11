@@ -1,6 +1,14 @@
 # AIdventure_Localization
 the localization of AIdventure.
 
+## Supported language
+
+| Language | Code |
+|----------|------|
+| English  | en   |
+| French   | fr   |
+| German   | de   |
+
 ## If you want to help translate the game, see the following docs
 
 [How to contribute](https://github.com/LyaaaaaGames/AIdventure_Localization/blob/main/CONTRIBUTING.md)
