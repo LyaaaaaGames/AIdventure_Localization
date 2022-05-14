@@ -1,7 +1,7 @@
 id,de,en,fr
 ADVANCED_OPTIONS,Erweiterte Optionen,Advanced options,Options avancées
 ALL_RIGHT_RESERVED,Alle Rechte vorbehalten,All rights reserved,tous droits réservés
-AUTO_TRANSLATION_DISCLAIMER,,"The automatic translation is used to interact with the AI with the selected language instead of English.
+AUTO_TRANSLATION_DISCLAIMER,"Die automatische Übersetzung wird dazu verwendet, an Stelle von Englisch, mit der ausgewählten Sprache mit der KI zu interagieren. Sie übersetzt nicht das Interface!","The automatic translation is used to interact with the AI with the selected language instead of English.
 It doesn't translate the interface!","La traduction automatique est utilisée pour interagir avec l'IA dans la langue sélectionnée au lieu de l'anglais.
 Ça ne traduit pas l'interface !"
 CANCEL,Abbrechen,Cancel,Annuler
@@ -21,8 +21,8 @@ CLOSE,Schließen,Close,Fermer
 CONSTITUTION,Konstitution,Constitution,Constitution
 CONTEXT_MAX_LENGTH,Maximale Kontextlänge,Context max length,Taille max du contexte
 CONTEXT_MAX_LENGTH_HINT,Wie viele zuvor generierte Zeichen muss sich die KI merken?,How many previously generated characters the AI must remember.,Combien de caractères précédemment générés l'IA doit-elle se rappeler?
-CRITICAL_FAIL_PREFIX,,pathetically fail to,échoues pathétiquement à
-CRITICAL_SUCCESS_PREFIX,,perfectly,réussis à la perfection à
+CRITICAL_FAIL_PREFIX,auf erbärmliche Art und Weise,pathetically fail to,échoues pathétiquement à
+CRITICAL_SUCCESS_PREFIX,perfekt,perfectly,réussis à la perfection à
 CUSTOM_MODEL,Benutzerdefiniertes Modell,Custom model,Model personnalisé
 CUSTOM_SCENARIOS,Benutzerdefinierte Szenarien,Custom scenarios,Scénarios personnalisés
 CUSTOM_START,Benutzerdefinierter Start,Custom start,Départ personalisé
@@ -30,8 +30,8 @@ DELETE,Löschen,Delete,Supprimer
 DEXTERITY,Geschicklichkeit,Dexterity,Dextérité
 DISPLAY_ADVANCED_OPTIONS,Erweiterte Optionen anzeigen,Display advanced options,Afficher les options avancées
 DOWNLOAD_DIALOG_LABEL,"Bitte warten Sie, bis der Download abgeschlossen ist.",Please wait until the download is done.,Veuillez attendre que le téléchargement soit terminé.
-DOWNLOAD_TRANSLATOR_CONFIRMATION,,Do you want to download the translators?,Voulez vous télécharger les traducteurs?
-DOWNLOAD_TRANSLATOR_WARNING,,You need to download the translator in order to enable the automatic translation.,Vous devez télécharger les traducteurs pour activer la traduction automatique.
+DOWNLOAD_TRANSLATOR_CONFIRMATION,Möchten Sie die Übersetzer herunterladen?,Do you want to download the translators?,Voulez vous télécharger les traducteurs?
+DOWNLOAD_TRANSLATOR_WARNING,"Sie müssen die Übersetzer herunterladen, um die automatische Übersetzung zu verwenden",You need to download the translator in order to enable the automatic translation.,Vous devez télécharger les traducteurs pour activer la traduction automatique.
 DO_SAMPLE_HINT,"Aktivieren Sie die zufällige Auswahl des nächsten Wortes.
 Dadurch werden Wiederholungen begrenzt.","Enable randomly picking the next word.
 It limits the repetition.","Permet de choisir au hasard le mot suivant.
@@ -41,7 +41,7 @@ EDIT_BAR_ASK_GENERATION,Nächste Generation fragen,Ask another generation,Demand
 EDIT_BAR_NEXT,Nächste,Next,Suivant
 EDIT_BAR_PREVIOUS,Vorherige,Previous,Précédent
 EDIT_BAR_VALIDATE,Bestätigen,Validate,Valider
-ENABLE_AUTO_TRANSLATION,,Enable the automatic translation,Activer la traduction automatique
+ENABLE_AUTO_TRANSLATION,Automatische Übersetzung aktivieren,Enable the automatic translation,Activer la traduction automatique
 END_DEMO_MESSAGE,"Vielen Dank, dass Sie die Demo von AIdventure gespielt haben!
 Sie haben das Limit erreicht.
 Kaufen Sie das Spiel, um dieses Abenteuer fortzusetzen.","Thank you for playing AIdventure's demo!
@@ -53,8 +53,8 @@ ERROR_POPUP_CLIPBOARD,Protokolle in die Zwischenablage kopieren,Copy logs to cli
 ERROR_POPUP_REPORT,Fehler auf Discord oder im Forum melden,Report the error on Discord or the forum,Signaler l'erreur sur Discord ou sur le forum
 ERROR_POPUP_TITLE,Es ist ein Fehler aufgetreten!,An error occured!,Une erreur est survenue
 ESCAPE_MENU_EDIT_STORY,Geschichte bearbeiten,Edit the story,Modifier l'histoire
-EXTREME_SUCCESS_PREFIX,,competently,réussis avec compétence à
-FIRST_PERSON_PRONOUN,,I,Je
+EXTREME_SUCCESS_PREFIX,auf kompetente Art und Weise,competently,réussis avec compétence à
+FIRST_PERSON_PRONOUN,Ich,I,Je
 FONT,Schriftart,Font,Police
 FONT_COLOR,Schriftfarbe,Font color,Couleur de la police
 FONT_SIZE,Schriftgröße,Font size,Taille de la police
@@ -89,7 +89,7 @@ INTRO_DEMO_PLAY,Das Spiel spielen,Play the game,Jouer au jeu
 INTRO_DEMO_TITLE,"Vielen Dank, dass Sie die Demo von AIdventure heruntergeladen haben!",Thank you for downloading AIdventure's demo!,Merci pour le d'avoir téléchargé de la démo d'AIdventure !
 IN_GAME_TOP_MENU,Menü,Menu,Menu
 IN_GAME_TOP_MENU_HINT,ESC zum Öffnen drücken,Press ESC to open it.,Appuyer sur ÉCHAP pour l'ouvrir.
-LANGUAGE,,Language,Langue
+LANGUAGE,Sprache,Language,Langue
 LINE_SEPARATION,Linientrennung,Line separation,Séparation entre les lignes
 LOAD,Laden,Load,Charger
 LUCK,Glück,Luck,Chance
@@ -106,7 +106,7 @@ MAIN_MENU_STORY_EDITOR,Story-Editor,Story Editor,Éditeur d'Histoire
 MAIN_MENU_STORY_EDITOR_HINT,Eine gespeicherte Geschichte bearbeiten,Edit one of your save.,Modifier une sauvegarde.
 MAIN_MENU_TAG_LINE,Erleben Sie unbegrenzte und unendliche Abenteuer,Live unlimited and infinite adventures,Vivez des aventures sans limites et infinies
 MAIN_MENU_WEBSITE,Webseit,Website,Site Web
-MAJOR_SUCCESS_PREFIX,,satisfyingly,réussie convenablement à
+MAJOR_SUCCESS_PREFIX,auf zufriedenstellende Art und Weise,satisfyingly,réussie convenablement à
 MAX_TIME,Maximale Zeit,Max time,Temps max
 MAX_TIME_HINT,"Die maximale Zeit in Sekunden, die Sie der KI geben, um Text zu generieren.","The maximum amount of time you allow the AI to generate text, in seconds.","Le temps maximum que vous laissez à l'IA pour générer du texte, en secondes."
 MEMORY_DIALOG_HINT,"Schreiben Sie hier, woran sich die KI erinnern soll.
@@ -158,15 +158,15 @@ Auf 0 setzen, um sie zu deaktivieren.","Token length to avoid repeating given ph
 Set to 0 to disable it.","S'il est supérieur à 1, exécute la recherche de faisceau pour un texte plus propre.
 1 signifie pas de recherche de faisceau."
 NO,Nein,No,Non
-NORMAL_FAIL_PREFIX,,fail to,échoues à
-NORMAL_SUCCESS_PREFIX,,succeed to,réussis à
+NORMAL_FAIL_PREFIX,scheitern bei,fail to,échoues à
+NORMAL_SUCCESS_PREFIX,schaffen es zu,succeed to,réussis à
 OK,OK,Ok,Ok
 OPTIONS_ADVANCED_OPTION_DISCLAIMER,"Es wird empfohlen, die erweiterten Optionen nur zu bearbeiten, wenn Sie wissen, was Sie tun.
 Falls es bei der Generation fehler gibt, drücken Sie einfach die Schaltfläche ""Zurücksetzen"".","It is recommended to only edit the advanced options if you know what you are doing.
 If you happen to ""break"" the generation, just press the ""reset"" button.","Il est recommandé de ne modifier les options avancées que si vous savez ce que vous faites.
 Si vous arrivez à ""casser"" la génération, appuyez simplement sur le bouton ""réinitialiser""."
 OPTIONS_AI_TAB,KI-Optionen,AI Options,Options de l'IA
-OPTIONS_AUTO_TRANSLATION_TAB,,Translation,Traduction
+OPTIONS_AUTO_TRANSLATION_TAB,Übersetzungen,Translation,Traduction
 OPTIONS_CONFIRM_RESET,Möchten Sie die Optionen wirklich zurücksetzen?,Are you sure you want to reset the options?,Êtes-vous sûr de vouloir réinitialiser les options ?
 OPTIONS_DISPLAY,Anzeige,Display,Affichage
 OPTIONS_FONT_HINT,"Sie können der Liste benutzerdefinierte Schriftarten hinzufügen.
@@ -192,7 +192,7 @@ OPTIONS_LINE_SEPARATION_HINT,Der Abstand zwischen zwei Zeilen.,The space left be
 OPTIONS_POV,Perspektive der Geschichte,Story's point of view,Point de vue de l'histoire
 OPTIONS_POV_HINT,"Die KI wird ""Du"" oder ""Ich"" in Ihren Eingaben verwenden","It will use ""You"" or ""I"" in your inputs","Va utiliser ""Tu"" ou ""Je"" pour les actions"
 OPTIONS_PREFERENCES_TAB,Einstellungen,Preferences,Préférences
-OPTIONS_RELOAD_LABEL,,You will need to return to the main menu to apply the modification.,Vous devrez revenir au menu principal pour appliquer la modification.
+OPTIONS_RELOAD_LABEL,"Bitte kehren Sie zum Hauptmenü zurück, um die Änderungen zu übernehmen",You will need to return to the main menu to apply the modification.,Vous devrez revenir au menu principal pour appliquer la modification.
 OPTIONS_REMOTE_SERVER,Mit einem Remote-Server verbinden,Connect to a remote server,Se connecter à un serveur distant
 OPTIONS_SERVER_DISCLAIMER,"Wenn Sie nicht wissen, was das ist, ändern Sie nichts.","If you don't know what you are doing, don't change anything here.","Si vous ne savez pas ce que vous faites, ne changez rien ici."
 OPTIONS_SERVER_SECURITY_DISCLAIMER,Momentan ist die Kommunikation mit Remote-Servern nicht sicher und ist daher nur in lokalen Netzen zu verwenden.,For now the communication with the server isn't secure. Use this for local networks only.,"Pour l’instant, la communication avec le serveur n’est pas sécurisée. Utilisez-la uniquement pour les réseaux locaux."
@@ -233,7 +233,7 @@ SAVE,Speichern,Save,Sauvegarder
 SAVE_AS,Speichern als...,Save as...,Sauvegarder sous...
 SAVE_DIALOG_PLACEHOLDER,Meine Superstory,My super story,Ma super histoire
 SAVE_DIALOG_TEXT,Benennen Sie Ihre Geschichte:,Name your story :,Nommez votre histoire :
-SAY_PREFIX,,say,dis
+SAY_PREFIX,sagen,say,dis
 SCENARIO_EDITOR_AUTHOR_FIELD,Autor,Author,Auteur
 SCENARIO_EDITOR_CATEGORY_FIELD,Kategorie,Category,Catégorie
 SCENARIO_EDITOR_MEMORY_FIELD,Speicher,Memory,Mémoire
@@ -245,7 +245,7 @@ SCENARIO_EDITOR_OPEN,Ein Szenario öffnen,Open a scenario,Ouvrir un scénario
 SCENARIO_EDITOR_SCENARIO_FIELD,Szenario,Scenario,Scénario
 SCENARIO_EDITOR_SCENARIO_HINT,"Die Einführung Ihrer Geschichte. Sie kann so Detailreich sein, wie Sie wollen.",The introduction to your story. You can detail as much as you want.,L'introduction de votre histoire. Vous pouvez la détailler comme vous le souhaitez.
 SCENARIO_EDITOR_TITLE,Szenario-Editor,Scenario Editor,Éditeur de Scénario
-SECOND_PERSON_PRONOUN,,You,Tu
+SECOND_PERSON_PRONOUN,du,You,Tu
 SELECTION_COLOR,Auswahlfarbe,Selection color,Couleur de la sélection
 SERVER_IP,IP des Servers,Server's IP,IP du serveur
 SERVER_PORT,Port des Servers,Server's port,Port du serveur
@@ -254,11 +254,11 @@ STATUS_CONNECTED_TO_SERVER,Erfolgreich mit dem Server verbunden.,Successfully co
 STATUS_CONNECTING_TO_SERVER,Verbinde mit dem Server.,Connecting to the server.,Connection au serveur.
 STATUS_CONNECTION_TO_SERVER_FAILED,Die Verbindung zum Server ist fehlgeschlagen.,The connection to the server failed.,Connexion au serveur échouée.
 STATUS_LOADING_AI,KI wird geladen:,Loading AI : ,Chargement de l'IA :
-STATUS_LOADING_TRANSLATOR,,Loading the translator.,Chargement du traducteur.
+STATUS_LOADING_TRANSLATOR,Übersetzer wird geladen,Loading the translator.,Chargement du traducteur.
 STATUS_MODEL_LOADED,Modell geladen.,Model loaded.,Model chargé.
 STATUS_MOVING_FILES_TO_GAME,Dateien werden in den Ordner des Spiels verschoben.,Moving the files to the game's folder.,Déplacement des fichiers dans le dossier du jeu.
 STATUS_STARTING_SERVER,Server wird gestartet.,Starting the server.,Démarrage du serveur.
-STATUS_TRANSLATOR_LOADED,,Translator loaded.,Traducteur chargé.
+STATUS_TRANSLATOR_LOADED,Übersetzer ist vollständig geladen,Translator loaded.,Traducteur chargé.
 STORY_EDITOR_CHARACTER_EDITOR,Charakter-Editor öffnen,Open character editor,Ouvrir l'éditeur de personnage
 STORY_EDITOR_OPEN_SCENARIO_FOLDER,Szenario Ordner öffnen,Open scenario's folder,Ouvrir le dossiers des scénarios
 STORY_EDITOR_OPEN_STORY,Geschichte öffnen,Open a story,Ouvrir une histoire
@@ -286,7 +286,7 @@ La masse de probabilité est ensuite redistribuée parmi cet ensemble de mots.
 Si la valeur est < 1, seuls les jetons les plus probables avec des
 probabilités qui s'additionnent jusqu’à top_p ou plus sont conservées pour la génération.
 Mettre à 0 pour le désactiver."
-TRANSLATE_SCENARIO_INFO,,This scenario seems to be in English. Do you want the game to translate the scenario to your language?,Ce scénario semble être en anglais. Voulez-vous que le jeu traduise le scénario dans votre langue?
+TRANSLATE_SCENARIO_INFO,"Dieses Szenario scheint Englisch zu sein. Möchten Sie, dass das Spiel dieses Szenario auf Ihre Sprache übersetzt?",This scenario seems to be in English. Do you want the game to translate the scenario to your language?,Ce scénario semble être en anglais. Voulez-vous que le jeu traduise le scénario dans votre langue?
 USE_GPU,GPU verwenden,Use the GPU,Utiliser le GPU
 USE_GPU_HINT,"Falls aktiv, wird Ihre GPU anstelle Ihrer CPU verwendet.
 Das macht die KI schneller.
