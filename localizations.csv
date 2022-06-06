@@ -31,7 +31,10 @@ DEXTERITY,Geschicklichkeit,Dexterity,Dextérité
 DISPLAY_ADVANCED_OPTIONS,Erweiterte Optionen anzeigen,Display advanced options,Afficher les options avancées
 DOWNLOAD_DIALOG_LABEL,"Bitte warten Sie, bis der Download abgeschlossen ist.",Please wait until the download is done.,Veuillez attendre que le téléchargement soit terminé.
 DOWNLOAD_TRANSLATOR_CONFIRMATION,Möchten Sie die Übersetzer herunterladen?,Do you want to download the translators?,Voulez vous télécharger les traducteurs?
-DOWNLOAD_TRANSLATOR_WARNING,"Sie müssen die Übersetzer herunterladen, um die automatische Übersetzung zu verwenden",You need to download the translator in order to enable the automatic translation.,Vous devez télécharger les traducteurs pour activer la traduction automatique.
+DOWNLOAD_TRANSLATOR_WARNING,"Sie müssen die Übersetzer herunterladen, um die automatische Übersetzung zu verwenden.
+Falls Sie einen Remote Server vewenden, müssen Sie die Übersetzer nicht herunterladen.","You need to download the translators in order to enable the automatic translation.
+If you are using a remote server, you don't have to download the translators.","Vous devez télécharger les traducteurs pour activer la traduction automatique.
+Si vous utilisez un serveur distant, vous n’avez pas à télécharger les traducteurs."
 DO_SAMPLE_HINT,"Aktivieren Sie die zufällige Auswahl des nächsten Wortes.
 Dadurch werden Wiederholungen begrenzt.","Enable randomly picking the next word.
 It limits the repetition.","Permet de choisir au hasard le mot suivant.
