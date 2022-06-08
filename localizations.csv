@@ -1,6 +1,7 @@
 id,de,en,fr
 ADVANCED_OPTIONS,Erweiterte Optionen,Advanced options,Options avancées
 ALL_RIGHT_RESERVED,Alle Rechte vorbehalten,All rights reserved,tous droits réservés
+ALREADY_INSTALLED,Ich habe das Spiel schon installiert,I already installed the game,J'ai déjà installé le jeu
 AUTO_TRANSLATION_DISCLAIMER,"Die automatische Übersetzung wird dazu verwendet, an Stelle von Englisch, mit der ausgewählten Sprache mit der KI zu interagieren. Sie übersetzt nicht das Interface!","The automatic translation is used to interact with the AI with the selected language instead of English.
 It doesn't translate the interface!","La traduction automatique est utilisée pour interagir avec l'IA dans la langue sélectionnée au lieu de l'anglais.
 Ça ne traduit pas l'interface !"
@@ -31,7 +32,10 @@ DEXTERITY,Geschicklichkeit,Dexterity,Dextérité
 DISPLAY_ADVANCED_OPTIONS,Erweiterte Optionen anzeigen,Display advanced options,Afficher les options avancées
 DOWNLOAD_DIALOG_LABEL,"Bitte warten Sie, bis der Download abgeschlossen ist.",Please wait until the download is done.,Veuillez attendre que le téléchargement soit terminé.
 DOWNLOAD_TRANSLATOR_CONFIRMATION,Möchten Sie die Übersetzer herunterladen?,Do you want to download the translators?,Voulez vous télécharger les traducteurs?
-DOWNLOAD_TRANSLATOR_WARNING,"Sie müssen die Übersetzer herunterladen, um die automatische Übersetzung zu verwenden",You need to download the translator in order to enable the automatic translation.,Vous devez télécharger les traducteurs pour activer la traduction automatique.
+DOWNLOAD_TRANSLATOR_WARNING,"Sie müssen die Übersetzer herunterladen, um die automatische Übersetzung zu verwenden.
+Falls Sie einen Remote Server vewenden, müssen Sie die Übersetzer nicht herunterladen.","You need to download the translators in order to enable the automatic translation.
+If you are using a remote server, you don't have to download the translators.","Vous devez télécharger les traducteurs pour activer la traduction automatique.
+Si vous utilisez un serveur distant, vous n’avez pas à télécharger les traducteurs."
 DO_SAMPLE_HINT,"Aktivieren Sie die zufällige Auswahl des nächsten Wortes.
 Dadurch werden Wiederholungen begrenzt.","Enable randomly picking the next word.
 It limits the repetition.","Permet de choisir au hasard le mot suivant.
@@ -80,6 +84,9 @@ INPUT_BAR_STORY,Geschichte,Story,Histoire
 INPUT_BAR_STORY_HINT,Der Ritter zieht sein Schwert und macht einen Schritt nach vorne.,The knight draws his sword and takes a step forward.,Le chevalier dégaine son épée et fait un pas en avant.
 INPUT_BAR_TRY,Versuchen,Try,Essayer
 INPUT_BAR_TRY_HINT,Verstecke den gestohlenen Ring in deiner Tasche.,conceal the stolen ring in your pocket.,cacher la bague volée dans ta poche.
+INSTALLER_NOT_FOUND,Der Installer konnte nicht gefunden werden.,Installer not found.,Installateur introuvable.
+INSTALL_NOT_FOUND,Das Spiel konnte die Installation nicht finden. Bitte führen Sie den Installer aus um das Spiel zu installieren,The game didn't find the installation. Please run the installer and install the game.,Le jeu n’a pas trouvé l'installation. Veuillez lancer l'installateur et installer le jeu.
+INSTALL_OUTDATED,Ihre Installation ist nicht auf dem neusten Stand. Bitte führen sie zum Aktualisieren den Installer aus.,"Your installation is outdated. Please, run the installer and update.",Votre installation est obsolète. Veuillez exécuter l'installateur et mettre à jour.
 INTELLIGENCE,Intelligenz,Intelligence,Intelligence
 INTRO_DEMO_BUY,Spiel kaufen,Buy the game,Acheter le jeu
 INTRO_DEMO_DISCORD,Discord beitreten,Join the discord,Rejoindre le discord
@@ -90,6 +97,7 @@ INTRO_DEMO_TITLE,"Vielen Dank, dass Sie die Demo von AIdventure heruntergeladen 
 IN_GAME_TOP_MENU,Menü,Menu,Menu
 IN_GAME_TOP_MENU_HINT,ESC zum Öffnen drücken,Press ESC to open it.,Appuyer sur ÉCHAP pour l'ouvrir.
 LANGUAGE,Sprache,Language,Langue
+LAUNCH_INSTALLER,Installer ausführen,Launch the installer,Lancer l'installeur
 LINE_SEPARATION,Linientrennung,Line separation,Séparation entre les lignes
 LOAD,Laden,Load,Charger
 LUCK,Glück,Luck,Chance
@@ -250,6 +258,7 @@ SELECTION_COLOR,Auswahlfarbe,Selection color,Couleur de la sélection
 SERVER_IP,IP des Servers,Server's IP,IP du serveur
 SERVER_PORT,Port des Servers,Server's port,Port du serveur
 SIZE,Größe,Size,Taille
+SKIP,Überspringen,Skip,Ignorer
 STATUS_CONNECTED_TO_SERVER,Erfolgreich mit dem Server verbunden.,Successfully connected to the server.,Connexion au serveur réussie.
 STATUS_CONNECTING_TO_SERVER,Verbinde mit dem Server.,Connecting to the server.,Connection au serveur.
 STATUS_CONNECTION_TO_SERVER_FAILED,Die Verbindung zum Server ist fehlgeschlagen.,The connection to the server failed.,Connexion au serveur échouée.
