@@ -1,6 +1,7 @@
 id,de,en,fr
 ADVANCED_OPTIONS,Erweiterte Optionen,Advanced options,Options avancées
 ALL_RIGHT_RESERVED,Alle Rechte vorbehalten,All rights reserved,tous droits réservés
+ALREADY_INSTALLED,,I already installed the game,J'ai déjà installé le jeu
 AUTO_TRANSLATION_DISCLAIMER,"Die automatische Übersetzung wird dazu verwendet, an Stelle von Englisch, mit der ausgewählten Sprache mit der KI zu interagieren. Sie übersetzt nicht das Interface!","The automatic translation is used to interact with the AI with the selected language instead of English.
 It doesn't translate the interface!","La traduction automatique est utilisée pour interagir avec l'IA dans la langue sélectionnée au lieu de l'anglais.
 Ça ne traduit pas l'interface !"
@@ -83,7 +84,11 @@ INPUT_BAR_STORY,Geschichte,Story,Histoire
 INPUT_BAR_STORY_HINT,Der Ritter zieht sein Schwert und macht einen Schritt nach vorne.,The knight draws his sword and takes a step forward.,Le chevalier dégaine son épée et fait un pas en avant.
 INPUT_BAR_TRY,Versuchen,Try,Essayer
 INPUT_BAR_TRY_HINT,Verstecke den gestohlenen Ring in deiner Tasche.,conceal the stolen ring in your pocket.,cacher la bague volée dans ta poche.
+INSTALLER_NOT_FOUND,,Installer not found.,Installateur introuvable.
+INSTALL_NOT_FOUND,,"The game didn't find the installation. Please, run the installer and install the game.",Le jeu n’a pas trouvé l'installation. Veuillez lancer l'installateur et installer le jeu.
+INSTALL_OUTDATED,,"Your installation is outdated. Please, run the installer and update.",Votre installation est obsolète. Veuillez exécuter l'installateur et mettre à jour.
 INTELLIGENCE,Intelligenz,Intelligence,Intelligence
+INTERFACE_LANGUAGE,Schnittstellensprache,Interface language,Langue de l'interface
 INTRO_DEMO_BUY,Spiel kaufen,Buy the game,Acheter le jeu
 INTRO_DEMO_DISCORD,Discord beitreten,Join the discord,Rejoindre le discord
 INTRO_DEMO_ENABLED_MODELS,folgende Modelle sind aktiviert:,Only the following models are enabled: ,Seuls les models suivants sont activés:
@@ -93,6 +98,7 @@ INTRO_DEMO_TITLE,"Vielen Dank, dass Sie die Demo von AIdventure heruntergeladen 
 IN_GAME_TOP_MENU,Menü,Menu,Menu
 IN_GAME_TOP_MENU_HINT,ESC zum Öffnen drücken,Press ESC to open it.,Appuyer sur ÉCHAP pour l'ouvrir.
 LANGUAGE,Sprache,Language,Langue
+LAUNCH_INSTALLER,,Launch the installer,Lancer l'installeur
 LINE_SEPARATION,Linientrennung,Line separation,Séparation entre les lignes
 LOAD,Laden,Load,Charger
 LUCK,Glück,Luck,Chance
@@ -253,6 +259,7 @@ SELECTION_COLOR,Auswahlfarbe,Selection color,Couleur de la sélection
 SERVER_IP,IP des Servers,Server's IP,IP du serveur
 SERVER_PORT,Port des Servers,Server's port,Port du serveur
 SIZE,Größe,Size,Taille
+SKIP,,Skip,Ignorer
 STATUS_CONNECTED_TO_SERVER,Erfolgreich mit dem Server verbunden.,Successfully connected to the server.,Connexion au serveur réussie.
 STATUS_CONNECTING_TO_SERVER,Verbinde mit dem Server.,Connecting to the server.,Connection au serveur.
 STATUS_CONNECTION_TO_SERVER_FAILED,Die Verbindung zum Server ist fehlgeschlagen.,The connection to the server failed.,Connexion au serveur échouée.
