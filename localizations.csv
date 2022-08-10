@@ -1,7 +1,8 @@
 id,de,en,fr
+ADD,hinzufügen,Add,Ajouter
 ADVANCED_OPTIONS,Erweiterte Optionen,Advanced options,Options avancées
 ALL_RIGHT_RESERVED,Alle Rechte vorbehalten,All rights reserved,tous droits réservés
-ALREADY_INSTALLED,Ich habe das Spiel schon installiert,I already installed the game,J'ai déjà installé le jeu
+ALREADY_INSTALLED,,I already installed the game,J'ai déjà installé le jeu
 AUTO_TRANSLATION_DISCLAIMER,"Die automatische Übersetzung wird dazu verwendet, an Stelle von Englisch, mit der ausgewählten Sprache mit der KI zu interagieren. Sie übersetzt nicht das Interface!","The automatic translation is used to interact with the AI with the selected language instead of English.
 It doesn't translate the interface!","La traduction automatique est utilisée pour interagir avec l'IA dans la langue sélectionnée au lieu de l'anglais.
 Ça ne traduit pas l'interface !"
@@ -19,6 +20,7 @@ Le plus proche de 1, le mieux. 1 est un succès critique."
 CHARACTER_POPUP_INFO_TITLE,Wie funktioniert es?,How does it work?,Comment ça marche?
 CHARISMA,Charisma,Charisma,Charisme
 CLOSE,Schließen,Close,Fermer
+CONFIRMATION_DIALOG_TITLE,Bitte bestätigen…,Please confirm...,Veuillez confirmer...
 CONSTITUTION,Konstitution,Constitution,Constitution
 CONTEXT_MAX_LENGTH,Maximale Kontextlänge,Context max length,Taille max du contexte
 CONTEXT_MAX_LENGTH_HINT,Wie viele zuvor generierte Zeichen muss sich die KI merken?,How many previously generated characters the AI must remember.,Combien de caractères précédemment générés l'IA doit-elle se rappeler?
@@ -28,6 +30,7 @@ CUSTOM_MODEL,Benutzerdefiniertes Modell,Custom model,Model personnalisé
 CUSTOM_SCENARIOS,Benutzerdefinierte Szenarien,Custom scenarios,Scénarios personnalisés
 CUSTOM_START,Benutzerdefinierter Start,Custom start,Départ personalisé
 DELETE,Löschen,Delete,Supprimer
+DELETE_CONFIRMATION,"Sind Sie sicher, dass Sie das löschen möchten?",Are you sure you want to delete it?,Êtes-vous sûr de vouloir supprimer?
 DEXTERITY,Geschicklichkeit,Dexterity,Dextérité
 DISPLAY_ADVANCED_OPTIONS,Erweiterte Optionen anzeigen,Display advanced options,Afficher les options avancées
 DOWNLOAD_DIALOG_LABEL,"Bitte warten Sie, bis der Download abgeschlossen ist.",Please wait until the download is done.,Veuillez attendre que le téléchargement soit terminé.
@@ -57,6 +60,7 @@ ERROR_POPUP_CLIPBOARD,Protokolle in die Zwischenablage kopieren,Copy logs to cli
 ERROR_POPUP_REPORT,Fehler auf Discord oder im Forum melden,Report the error on Discord or the forum,Signaler l'erreur sur Discord ou sur le forum
 ERROR_POPUP_TITLE,Es ist ein Fehler aufgetreten!,An error occured!,Une erreur est survenue
 ESCAPE_MENU_EDIT_STORY,Geschichte bearbeiten,Edit the story,Modifier l'histoire
+EXPORT,exportieren,Export,Exporter
 EXTREME_SUCCESS_PREFIX,auf kompetente Art und Weise,competently,réussis avec compétence à
 FIRST_PERSON_PRONOUN,Ich,I,Je
 FONT,Schriftart,Font,Police
@@ -65,6 +69,7 @@ FONT_SIZE,Schriftgröße,Font size,Taille de la police
 FORUM,Forum,Forum,Forum
 GENERATION_MAX_LENGTH,Maximal generierte länge,Generation's max length,Taille max de la génération
 GENERATION_MAX_LENGTH_HINT,Die maximal zu generierenden Wörter.,The maximum words to be generated.,Le nombre maximum de mots à générer.
+IMPORT,importieren,Import,Importer
 INCOMPATIBLE_MEMORY_ACCEPT,Ja! Änderung Übernehmen.,Yes! Change the option,Oui! Changer l'option
 INCOMPATIBLE_MEMORY_QUESTION,"Möchten Sie die Option „Maximale Speicherlänge“ ändern, um dieses Szenario unter den besten Bedingungen zu spielen?","Do you want to change the ""Memory max length"" option to play this scenario in the best conditions?","Voulez-vous changer l'option ""Taille max de la mémoire"" pour jouer ce scénario dans les meilleures conditions ?"
 INCOMPATIBLE_MEMORY_REFUSE,Nein. Nichts ändern,No. Don't change anything,Non. Ne rien changer
@@ -84,10 +89,11 @@ INPUT_BAR_STORY,Geschichte,Story,Histoire
 INPUT_BAR_STORY_HINT,Der Ritter zieht sein Schwert und macht einen Schritt nach vorne.,The knight draws his sword and takes a step forward.,Le chevalier dégaine son épée et fait un pas en avant.
 INPUT_BAR_TRY,Versuchen,Try,Essayer
 INPUT_BAR_TRY_HINT,Verstecke den gestohlenen Ring in deiner Tasche.,conceal the stolen ring in your pocket.,cacher la bague volée dans ta poche.
-INSTALLER_NOT_FOUND,Der Installer konnte nicht gefunden werden.,Installer not found.,Installateur introuvable.
-INSTALL_NOT_FOUND,Das Spiel konnte die Installation nicht finden. Bitte führen Sie den Installer aus um das Spiel zu installieren,The game didn't find the installation. Please run the installer and install the game.,Le jeu n’a pas trouvé l'installation. Veuillez lancer l'installateur et installer le jeu.
-INSTALL_OUTDATED,Ihre Installation ist nicht auf dem neusten Stand. Bitte führen sie zum Aktualisieren den Installer aus.,"Your installation is outdated. Please, run the installer and update.",Votre installation est obsolète. Veuillez exécuter l'installateur et mettre à jour.
+INSTALLER_NOT_FOUND,,Installer not found.,Installateur introuvable.
+INSTALL_NOT_FOUND,,"The game didn't find the installation. Please, run the installer and install the game.",Le jeu n’a pas trouvé l'installation. Veuillez lancer l'installateur et installer le jeu.
+INSTALL_OUTDATED,,"Your installation is outdated. Please, run the installer and update.",Votre installation est obsolète. Veuillez exécuter l'installateur et mettre à jour.
 INTELLIGENCE,Intelligenz,Intelligence,Intelligence
+INTERFACE_LANGUAGE,Schnittstellensprache,Interface language,Langue de l'interface
 INTRO_DEMO_BUY,Spiel kaufen,Buy the game,Acheter le jeu
 INTRO_DEMO_DISCORD,Discord beitreten,Join the discord,Rejoindre le discord
 INTRO_DEMO_ENABLED_MODELS,folgende Modelle sind aktiviert:,Only the following models are enabled: ,Seuls les models suivants sont activés:
@@ -97,9 +103,14 @@ INTRO_DEMO_TITLE,"Vielen Dank, dass Sie die Demo von AIdventure heruntergeladen 
 IN_GAME_TOP_MENU,Menü,Menu,Menu
 IN_GAME_TOP_MENU_HINT,ESC zum Öffnen drücken,Press ESC to open it.,Appuyer sur ÉCHAP pour l'ouvrir.
 LANGUAGE,Sprache,Language,Langue
-LAUNCH_INSTALLER,Installer ausführen,Launch the installer,Lancer l'installeur
+LAUNCH_INSTALLER,,Launch the installer,Lancer l'installeur
 LINE_SEPARATION,Linientrennung,Line separation,Séparation entre les lignes
 LOAD,Laden,Load,Charger
+LOREBOOK,Geschichtsbuch,Lorebook,Encyclopédie
+LOREBOOK_HINT,"Der Eintragstitel wird nicht zum Server geschickt. Falls also der Eintrag „Batman“ heißt, sollte auch die Definition „Batman“ sein.
+Beispiel: „Batman ist ein Superheld ohne eine Superkraft“","The entry title isn't sent to the server. If your entry title is ""Batman"" you should have ""Batman"" in the definition.
+Example: ""Batman is a super hero with no special power.""","Le titre de l'entrée n'est pas envoyé au serveur. Si votre titre d'entrée est ""Batman"" vous devriez avoir ""Batman"" dans la définition.
+Exemple : ""Batman est un super héros sans super pouvoir."""
 LUCK,Glück,Luck,Chance
 MAIN_MENU,Hauptmenü,Main Menu,Menu Principal
 MAIN_MENU_CREDITS,Mitwirkende,Credits,Crédits
@@ -107,13 +118,13 @@ MAIN_MENU_LOAD_STORY,Geschichte laden,Load Story,Charger une Histoire
 MAIN_MENU_NEW_STORY,Neue Geschichte,New Story,Nouvelle Histoire
 MAIN_MENU_OPTIONS,Optionen,Options,Options
 MAIN_MENU_QUIT,Verlassen,Quit,Quitter
-MAIN_MENU_REPORT_BUG,technischen Fehler melden,Report a bug,Signaler un bug
+MAIN_MENU_REPORT_BUG,Technischen Fehler melden,Report a bug,Signaler un bug
 MAIN_MENU_SCENARIO_EDITOR,Szenario-Editor,Scenario Editor,Éditeur de Scénario
 MAIN_MENU_SCENARIO_EDITOR_HINT,Bearbeiten / Erstellen Sie ein neues Szenario.,Edit / Create a new scenario.,Modifier / Créer un nouveau scénario.
 MAIN_MENU_STORY_EDITOR,Story-Editor,Story Editor,Éditeur d'Histoire
 MAIN_MENU_STORY_EDITOR_HINT,Eine gespeicherte Geschichte bearbeiten,Edit one of your save.,Modifier une sauvegarde.
 MAIN_MENU_TAG_LINE,Erleben Sie unbegrenzte und unendliche Abenteuer,Live unlimited and infinite adventures,Vivez des aventures sans limites et infinies
-MAIN_MENU_WEBSITE,Webseit,Website,Site Web
+MAIN_MENU_WEBSITE,Internetseite,Website,Site Web
 MAJOR_SUCCESS_PREFIX,auf zufriedenstellende Art und Weise,satisfyingly,réussie convenablement à
 MAX_TIME,Maximale Zeit,Max time,Temps max
 MAX_TIME_HINT,"Die maximale Zeit in Sekunden, die Sie der KI geben, um Text zu generieren.","The maximum amount of time you allow the AI to generate text, in seconds.","Le temps maximum que vous laissez à l'IA pour générer du texte, en secondes."
@@ -169,6 +180,7 @@ NO,Nein,No,Non
 NORMAL_FAIL_PREFIX,scheitern bei,fail to,échoues à
 NORMAL_SUCCESS_PREFIX,schaffen es zu,succeed to,réussis à
 OK,OK,Ok,Ok
+OPEN...,Öffnen...,Open...,Ouvrir...
 OPTIONS_ADVANCED_OPTION_DISCLAIMER,"Es wird empfohlen, die erweiterten Optionen nur zu bearbeiten, wenn Sie wissen, was Sie tun.
 Falls es bei der Generation fehler gibt, drücken Sie einfach die Schaltfläche ""Zurücksetzen"".","It is recommended to only edit the advanced options if you know what you are doing.
 If you happen to ""break"" the generation, just press the ""reset"" button.","Il est recommandé de ne modifier les options avancées que si vous savez ce que vous faites.
@@ -211,8 +223,8 @@ Mit dem Klicken auf „OK“ wird diese Datei überschrieben.
 Dies kann nicht rückgängig gemacht werden.","A file already has this name.
 If you click ""OK"" you will overwrite the old one.
 There is no going back.","Un fichier a déjà ce nom.
-Si vous cliquez sur ""OK"" vous écraserez l’ancien.
-Il n’y a pas de retour en arrière."
+Si vous cliquez sur ""OK"" vous écraserez l'ancien.
+Il n'y a pas de retour en arrière."
 PLAY,Spielen,Play,Jouer
 PLEASE_WAIT,Bitte warten.,Please wait,Veuillez patienter
 RANDOMNESS,Zufälligkeit,Randomness,Aléatoire
@@ -232,7 +244,7 @@ REPETITION_PENALTY_HINT,"Wenn größer als 1,0, werden Wiederholungen in einem T
 1 means no penalty.","S'il est supérieur à 1,0, pénalise la répétition dans un texte pour éviter les boucles infinies.
 1 signifie pas de pénalité."
 REROLL,Neu würfeln,Reroll,Relancer
-RESET_TO_DEFAULT,Auf Standard Zurücksetzen,Reset to default,Réinitialiser par défaut
+RESET_TO_DEFAULT,Auf Standard zurücksetzen,Reset to default,Réinitialiser par défaut
 RESIZER_HINT,Linke Maustaste zur Größenänderung gedrückt halten.,Hold left click to resize.,Maintenir click gauche pour redimensionner.
 RESUME,Fortsetzen,Resume,Continuer
 ROLL_THE_DICE,Würfeln!,Roll the dice!,Lancer les dès!
@@ -258,7 +270,7 @@ SELECTION_COLOR,Auswahlfarbe,Selection color,Couleur de la sélection
 SERVER_IP,IP des Servers,Server's IP,IP du serveur
 SERVER_PORT,Port des Servers,Server's port,Port du serveur
 SIZE,Größe,Size,Taille
-SKIP,Überspringen,Skip,Ignorer
+SKIP,,Skip,Ignorer
 STATUS_CONNECTED_TO_SERVER,Erfolgreich mit dem Server verbunden.,Successfully connected to the server.,Connexion au serveur réussie.
 STATUS_CONNECTING_TO_SERVER,Verbinde mit dem Server.,Connecting to the server.,Connection au serveur.
 STATUS_CONNECTION_TO_SERVER_FAILED,Die Verbindung zum Server ist fehlgeschlagen.,The connection to the server failed.,Connexion au serveur échouée.
@@ -269,10 +281,10 @@ STATUS_MOVING_FILES_TO_GAME,Dateien werden in den Ordner des Spiels verschoben.,
 STATUS_STARTING_SERVER,Server wird gestartet.,Starting the server.,Démarrage du serveur.
 STATUS_TRANSLATOR_LOADED,Übersetzer ist vollständig geladen,Translator loaded.,Traducteur chargé.
 STORY_EDITOR_CHARACTER_EDITOR,Charakter-Editor öffnen,Open character editor,Ouvrir l'éditeur de personnage
-STORY_EDITOR_OPEN_SCENARIO_FOLDER,Szenario Ordner öffnen,Open scenario's folder,Ouvrir le dossiers des scénarios
+STORY_EDITOR_OPEN_SCENARIO_FOLDER,Szenario-Ordner öffnen,Open scenario's folder,Ouvrir le dossiers des scénarios
 STORY_EDITOR_OPEN_STORY,Geschichte öffnen,Open a story,Ouvrir une histoire
 STORY_EDITOR_OPEN_STORY_FOLDER,Ordner der Geschichte öffnen,Open stories' folder,Ouvrir le dossiers des histoires
-STORY_EDITOR_TITLE,Story-Editor,Story Editor,Éditeur d'Histoire
+STORY_EDITOR_TITLE,Geschichten-Editor,Story Editor,Éditeur d'Histoire
 STRENGTH,Stärke,Strength,Force
 TOOLTIP_LABEL,"Bewegen Sie den Mauszeiger über die Namen der Modelle, um zusätzliche Informationen zu erhalten.",Hover the models' names to display the tooltip,Placez le curseur sur les noms des modèles pour afficher l'infobulle
 TOP_K_HINT,"Die K wahrscheinlichsten nächsten Wörter werden gefiltert und die Wahrscheinlichkeitsmasse wird nur unter diesen K nächsten Wörtern neu verteilt.
