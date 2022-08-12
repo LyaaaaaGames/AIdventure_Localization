@@ -20,7 +20,7 @@ Le plus proche de 1, le mieux. 1 est un succès critique."
 CHARACTER_POPUP_INFO_TITLE,Wie funktioniert es?,How does it work?,Comment ça marche?
 CHARISMA,Charisma,Charisma,Charisme
 CLOSE,Schließen,Close,Fermer
-CONFIRMATION_DIALOG_TITLE,Bitte bestätigen…,Please confirm...,Veuillez confirmer...
+CONFIRMATION_DIALOG_TITLE,Bitte bestätigen...,Please confirm...,Veuillez confirmer...
 CONSTITUTION,Konstitution,Constitution,Constitution
 CONTEXT_MAX_LENGTH,Maximale Kontextlänge,Context max length,Taille max du contexte
 CONTEXT_MAX_LENGTH_HINT,Wie viele zuvor generierte Zeichen muss sich die KI merken?,How many previously generated characters the AI must remember.,Combien de caractères précédemment générés l'IA doit-elle se rappeler?
