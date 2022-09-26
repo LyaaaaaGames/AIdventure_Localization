@@ -33,6 +33,7 @@ CUSTOM_SCENARIOS,Benutzerdefinierte Szenarien,Custom scenarios,Scénarios person
 CUSTOM_START,Benutzerdefinierter Start,Custom start,Départ personalisé,Inicio customizado
 DELETE,Löschen,Delete,Supprimer,Deletar
 DELETE_CONFIRMATION,"Sind Sie sicher, dass Sie das löschen möchten?",Are you sure you want to delete it?,Êtes-vous sûr de vouloir supprimer?,Você tem certeza que quer deletar?
+DESCRIPTION,,Description,Description,
 DEXTERITY,Geschicklichkeit,Dexterity,Dextérité,Destreza
 DISPLAY_ADVANCED_OPTIONS,Erweiterte Optionen anzeigen,Display advanced options,Afficher les options avancées,Mostrar opções avançadas
 DOWNLOAD_DIALOG_LABEL,"Bitte warten Sie, bis der Download abgeschlossen ist.",Please wait until the download is done.,Veuillez attendre que le téléchargement soit terminé.,Por favor aguarde até o download finalizar
@@ -62,6 +63,7 @@ Vous avez atteint la limite.
 Achetez le jeu pour continuer cette aventure.","Obrigado por jogar a demo de AIdventure!
 Você atingiu o limite.
 Compre o jogo para continuar essa aventura."
+ENTRY,,Entry,Entrée,
 ERROR_POPUP_CLIPBOARD,Protokolle in die Zwischenablage kopieren,Copy logs to clipboard,Copier les logs dans le presse-papiers,Copiar logs para a área de transferência
 ERROR_POPUP_REPORT,Fehler auf Discord oder im Forum melden,Report the error on Discord or the forum,Signaler l'erreur sur Discord ou sur le forum,Reportar um erro no Discord ou fórum
 ERROR_POPUP_TITLE,Es ist ein Fehler aufgetreten!,An error occured!,Une erreur est survenue,Ocorreu um erro!
@@ -119,6 +121,10 @@ Beispiel: „Batman ist ein Superheld ohne eine Superkraft“","The entry title 
 Example: ""Batman is a super hero with no special power.""","Le titre de l'entrée n'est pas envoyé au serveur. Si votre titre d'entrée est ""Batman"" vous devriez avoir ""Batman"" dans la définition.
 Exemple : ""Batman est un super héros sans super pouvoir.""","O título não foi enviado. Se seu título tiver “Batman” você deve ter “Batman” na definição.
 Exemplo: “Batman é um super-herói sem poderes"""
+LOW_RAM_HINT,,"This is an experimental feature.
+It reduces by ~2 the memory needed by the server.","C'est une fonctionnalité expérimentale.
+Elle réduit de ~2 la mémoire nécessaire au serveur.",
+LOW_RAM_MODE,,Low RAM mode,Mode faible RAM,
 LUCK,Glück,Luck,Chance,Sorte
 MAIN_MENU,Hauptmenü,Main Menu,Menu Principal,Menu principal
 MAIN_MENU_CREDITS,Mitwirkende,Credits,Crédits,Créditos
