@@ -173,7 +173,7 @@ C'est un bon modèle pour l'écriture de roman surtout si vous voulez ajouter l'
 Esse é um bom modelo para escrever novelas onde você quer adicionar erótica no mix."
 MODEL_SELECTOR_INSTRUCTION,"Wählen Sie ein Modell für Ihr Spiel aus.
 Das Laden großer Modelle kann einige Zeit in Anspruch nehmen. ","Choose a model for your game.
-Big models might take some time to load. If you are selectecting a model for the first time it will download it.","Choisissez un modèle pour votre jeu.
+Big models might take some time to load. If you are selecting a model for the first time it will download it.","Choisissez un modèle pour votre jeu.
 Les gros modèles peuvent prendre du temps à charger. Si vous sélectionnez un modèle pour la première fois, il sera téléchargé.","Escolha um modelo para seu jogo.
 Modelos grandes podem demorar um tempo para carregar. Se estiver selecionando um modelo pela primeira vez ele será baixado."
 MODEL_SELECTOR_NSFW_DISCLAIMER,"** Die KI sollte keine NSFW-Inhalte selbst generieren, aber sie könnte es trotzdem tun, wenn Sie ihr NSFW-Eingaben geben.","** The AI shouldn't generate NSFW content by itself, but it might still do if you give it NSFW inputs.","** L'IA ne devrait pas générer de contenu NSFW par elle-même, mais elle pourrait tout de même le faire si vous lui donnez des entrées NSFW.","** A IA não deve gerar conteúdo NSFW por si próprio, mas pode gerar se você escrever coisas NSFW."
