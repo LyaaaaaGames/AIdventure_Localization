@@ -8,7 +8,9 @@ the localization of AIdventure.
 | English    | en     |
 | French     | fr     |
 | German     | de     |
-| Portuguese | pt_BR  |
+| Portuguese | pt     |
+| Spanish    | es     |
+| Catalan    | ca     |
 
 ## If you want to help translate the game, see the following docs
 
