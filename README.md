@@ -11,6 +11,7 @@ the localization of AIdventure.
 | Portuguese | pt     |
 | Spanish    | es     |
 | Catalan    | ca     |
+| Polish     | pl     |
 
 ## If you want to help translate the game, see the following docs
 
