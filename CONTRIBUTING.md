@@ -20,7 +20,7 @@ This translation is stored in a .cvs file with the following format.
 
 ## How to modify / add new languages
 
-1. Download the [project](https://github.com/LyaaaaaGames/AIdventure_Localization/archive/refs/heads/main.zip).
+1. Download the [project](https://github.com/LyaaaaaGames/AIdventure_Localization/archive/refs/heads/Develop.zip).
 2. Edit it with either [libreoffice](https://www.libreoffice.org/) or [Google sheet](https://www.google.com/sheets). **Avoid Microsoft Excel** as it use the wrong encoding.
 
 **If you need to add a new language, simply add a new column with the language id** (e.g "es" for Spanish).
