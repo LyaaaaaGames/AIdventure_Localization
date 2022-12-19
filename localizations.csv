@@ -1,9 +1,6 @@
 id,ca,de,en,es,fr,pl,pt
-1ST_PERSON,,Ich-Perspektive,,1ère Personne,1st Person,,
-2ND_PERSON,,Du-Perspektive,,2ème Personne,2nd Person,,
 ADD,Afegir,hinzufügen,Add,Añadir,Ajouter,Dodaj,Adicionar
 ADVANCED_OPTIONS,Opcions avançades,Erweiterte Optionen,Advanced options,Opciones avanzadas,Options avancées,Opcje zaawansowane,Opções avançadas
-ADVENTURE,,Abenteuer,,Aventure,Adventure,,
 ALL_RIGHT_RESERVED,Tots els drets reservats,Alle Rechte vorbehalten,All rights reserved,Todos los derechos reservados,tous droits réservés,Wszelkie prawa zastrzeżone,Todos os direitos reservados
 ALREADY_INSTALLED,Ja he instal·lat el joc,Ich habe das Spiel schon installiert,I already installed the game,Ya he instalado el juego,J'ai déjà installé le jeu,Zainstalowałem już grę,Eu já instalei esse jogo
 AUTO_TRANSLATION_DISCLAIMER,"La traducció automàtica es fa servir per interactuar amb la IA en l'idioma seleccionat en comptes de l'anglès.
@@ -37,6 +34,7 @@ CHARACTER_POPUP_INFO_TITLE,Com funciona?,Wie funktioniert es?,How does it work?,
 CHARISMA,Carisma,Charisma,Charisma,Carisma,Charisme,Charyzma,Carisma
 CLOSE,Tancar,Schließen,Close,Cerrar,Fermer,Zamknij,Fechar
 CONFIRMATION_DIALOG_TITLE,Confirma si us plau…,Bitte bestätigen...,Please confirm...,Confirma por favor…,Veuillez confirmer...,Proszę potwierdzić…,Por favor confirmar…
+CONSOLE,,Konsole,Console,,Console,,
 CONSTITUTION,Constitució,Konstitution,Constitution,Constitución,Constitution,Konstytucja,Constituição
 CONTEXT_MAX_LENGTH,Longitud màxima del context,Maximale Kontextlänge,Context max length,Longitud máxima del contexto,Taille max du contexte,Maksymalna długość kontekstu,Tamanho máximo do contexto
 CONTEXT_MAX_LENGTH_HINT,"Quants caràcters, prèviament generats, hauria de recordar la IA?",Wie viele zuvor generierte Zeichen muss sich die KI merken?,How many previously generated characters the AI must remember.,¿Cuántos caracteres generados previamente debería recordar la IA?,Combien de caractères précédemment générés l'IA doit-elle se rappeler?,Jak wiele poprzednio wygenerowanych liter musi pamiętać AI.,Quantos caracteres gerados anteriormente a IA deve lembrar.
@@ -45,8 +43,6 @@ CRITICAL_SUCCESS_PREFIX,perfectament,perfekt,perfectly,perfectamente,réussis à
 CUSTOM_MODEL,Model personalitzat,Benutzerdefiniertes Modell,Custom model,Modelo personalizado,Model personnalisé,Niestandardowy model,Modelo customizado
 CUSTOM_SCENARIOS,Escenaris personalitzats,Benutzerdefinierte Szenarien,Custom scenarios,Escenarios personalizados,Scénarios personnalisés,Niestandardowe scenariusze,Cenários customizados
 CUSTOM_START,Inici personalitzat,Benutzerdefinierter Start,Custom start,Comienzo personalizado,Départ personalisé,Niestandardowy początek,Inicio customizado
-CYBERPUNK,,Cyberpunk,,Cyberpunk,Cyberpunk,,
-DARK,,Düster,,Sombre,Dark,,
 DELETE,Esborrar,Löschen,Delete,Borrar,Supprimer,Usuń,Deletar
 DELETE_CONFIRMATION,Segur que ho vols esborrar?,"Sind Sie sicher, dass Sie das löschen möchten?",Are you sure you want to delete it?,¿Seguro que lo quieres borrar?,Êtes-vous sûr de vouloir supprimer?,Jesteś pewny że chcesz to usunąć?,Você tem certeza que quer deletar?
 DESCRIPTION,,Beschreibung,Description,,Description,Opis,
@@ -72,7 +68,6 @@ Esto limita la repetición.","Permet de choisir au hasard le mot suivant.
 Ça limite la répétition.","Włącz losowe dobieranie kolejnego wyrazu.
 Eliminuje powtarzalność.","Permite escolher randomicamente a próxima palavra.
 Isso limita a repetição."
-DYSTOPIAN,,Dystopisch,,Dystopique,Dystopian,,
 EDIT,Modificar,Bearbeiten,Edit,Editar,Modifier,Edytuj,Editar
 EDIT_BAR_ASK_GENERATION,Tornar a generar,Nächste Generation fragen,Ask another generation,Volver a generar,Demander une autre génération,Poproś o nową generację,Pedir outra geração
 EDIT_BAR_NEXT,Següent,Nächste,Next,Siguiente,Suivant,Dalej,Próximo
@@ -102,8 +97,6 @@ ESCAPE_MENU_EDIT_STORY,Modificar la història,Geschichte bearbeiten,Edit the sto
 EXPORT,Exportar,exportieren,Export,Exportar,Exporter,Eksportuj,Exportar
 EXTREME_SUCCESS_PREFIX,competentment,auf kompetente Art und Weise,competently,competentemente,réussis avec compétence à,umiejętnie,competentemente
 FAILED_UPLOAD_TO_WORKSHOP,,Das Hochladen in den Workshop ist fehlgeschlagen.,Uploading to the Workshop failed.,,L'envoi vers le Workshop a échoué.,,
-FANTASY,,Fantasy,,Fantaisie,Fantasy,,
-FEMALE_PROTAGONIST,,weibliche Protagonistin,,Protagoniste Féminine,Female Protagonist,,
 FIRST_PERSON_PRONOUN,Jo,Ich,I,Yo,Je,Ja,Eu
 FONT,Tipus de lletra,Schriftart,Font,Tipo de letra,Police,Czcionka,Fonte
 FONT_COLOR,Color de la lletra,Schriftfarbe,Font color,Color de la letra,Couleur de la police,Kolor czcionki,Cor da fonte
@@ -112,8 +105,6 @@ FORUM,Fòrum,Forum,Forum,Foro,Forum,Forum,Fórum
 FRIENDS_ONLY,,Nur Freunde,Friends only,,Amis seulement,,
 GENERATION_MAX_LENGTH,Longitud màxima de la generació,Maximal generierte länge,Generation's max length,Longitud máxima de la generación,Taille max de la génération,Maksymalna długość generacji,Tamanho máximo da geração
 GENERATION_MAX_LENGTH_HINT,Màxim de paraules a generar,Die maximal zu generierenden Wörter.,The maximum words to be generated.,Máximo de palabras a generar,Le nombre maximum de mots à générer.,Maksymalna ilość wyrazów do wygenerowania.,O máximo de palavras a serem geradas
-HISTORICAL,,Historisch,,Historique,Historical,,
-HORROR,,Horror,,Horreur,Horror,,
 IMPORT,Importar,importieren,Import,Importar,Importer,Importuj,Importar
 INCOMPATIBLE_MEMORY_ACCEPT,Sí! Canviar l'opció,Ja! Änderung Übernehmen.,Yes! Change the option,¡Sí! Cambiar la opción,Oui! Changer l'option,Tak! Zmień tę opcję,Sim! Mude a opção
 INCOMPATIBLE_MEMORY_QUESTION,Vols canviar l'opció “Longitud de memòria màxima” per jugar en aquest escenari en les millors condicions?,"Möchten Sie die Option „Maximale Speicherlänge“ ändern, um dieses Szenario unter den besten Bedingungen zu spielen?","Do you want to change the ""Memory max length"" option to play this scenario in the best conditions?",¿Quieres cambiar la opción “Longitud de memoria máxima” para jugar en este escenario en las mejores condiciones?,"Voulez-vous changer l'option ""Taille max de la mémoire"" pour jouer ce scénario dans les meilleures conditions ?",Czy chcesz zmienić opcję „Maksymalna długość pamięci” aby zagrać w ten scenariusz w najlepszych warunkach?,Você quer mudar a opção “Tamanho máximo de memória” para jogar esse cenário nas melhores condições?
@@ -155,7 +146,6 @@ ITEM_URL,,Gegenstand-URL,Open item URL,,Ouvrir l'URL de l'objet,,
 I_ACCEPTED_TOS,,Ich habe die Nutzungsbedingungen akzeptiert.,I accepted the terms of use.,,J'ai accepté les conditions d'utilisation.,,
 LANGUAGE,Idioma,Sprache,Language,Idioma,Langue,Język,Linguagem
 LAUNCH_INSTALLER,Iniciar l'instal·lador,Installationsprogramm ausführen,Launch the installer,Iniciar el instalador,Lancer l'installeur,Uruchom instalator,Iniciar o instalador
-LGBTQ,,LGBTQ,,LGBTQ+,LGBTQ+,,
 LINE_SEPARATION,Separació entre línies,Linientrennung,Line separation,Separación entre lineas,Séparation entre les lignes,Odległość między liniami,Separação de linha
 LOAD,Carregar,Laden,Load,Cargar,Charger,Wczytaj,Carregar
 LOREBOOK,Llibre del Coneixement,Geschichtsbuch,Lorebook,Libro del Conocimiento,Encyclopédie,Księga wiedzy,Enciclopédia
@@ -167,7 +157,6 @@ Por ejemplo: “Batman es un superhéroe sin superpoderes.”","Le titre de l'en
 Exemple : ""Batman est un super héros sans super pouvoir.""","Tytuł wpisu nie jest wysyłany na server. Jeśli twój tytuł wpisu to „Batman” definicja powinna zawierać słowo „Batman”.
 Przykład: „Batman jest superbohaterem bez żadnych specjalnych mocy”","O título não foi enviado. Se seu título tiver “Batman” você deve ter “Batman” na definição.
 Exemplo: “Batman é um super-herói sem poderes"""
-LOREBOOK_INCLUDED,,Enthält Lorebook,,Encyclopédie Incluse,Lorebook Included,,
 LOW_RAM_HINT,,"Das ist eine experimentelle Funktion.
 Sie reduziert den, vom Server benötigten, RAM um ungefähr die Hälfte","This is an experimental feature.
 It reduces by ~2 the memory needed by the server.",,"C'est une fonctionnalité expérimentale.
@@ -189,10 +178,8 @@ MAIN_MENU_STORY_EDITOR_HINT,Modificar un dels teus fitxers de guardat.,Eine gesp
 MAIN_MENU_TAG_LINE,Viure il·limitades i infinites aventures,Erleben Sie unbegrenzte und unendliche Abenteuer,Live unlimited and infinite adventures,Vivir ilimitadas e infinitas aventuras,Vivez des aventures sans limites et infinies,Przeżyj nielimitowane i nieskończone przygody,Vida ilimitada e aventuras ilimitadas
 MAIN_MENU_WEBSITE,Lloc Web,Internetseite,Website,Sitio Web,Site Web,Strona,Website
 MAJOR_SUCCESS_PREFIX,satisfactòriament,auf zufriedenstellende Art und Weise,satisfyingly,satisfactoriamente,réussie convenablement à,satysfakcjonująco,satisfatoriamente
-MALE_PROTAGONIST,,Männlicher Protagonist,,Protagoniste Masculin,Male Protagonist,,
 MAX_TIME,Temps màxim,Maximale Zeit,Max time,Tiempo máximo,Temps max,Maksymalny czas,Tempo máximo
 MAX_TIME_HINT,"El temps màxim que té la IA per generar text, en segons.","Die maximale Zeit in Sekunden, die Sie der KI geben, um Text zu generieren.","The maximum amount of time you allow the AI to generate text, in seconds.","El tiempo máximo que tiene la IA para generar texto, en segundos.","Le temps maximum que vous laissez à l'IA pour générer du texte, en secondes.","Maksymalna ilość czasu w jakim zezwalasz AI na generację tekstu, w sekundach.","O tempo máximo que você deixa a IA gerar texto, em segundos."
-MEDIEVAL,,Mittelalter,,Médiéval,Medieval,,
 MEMORY_DIALOG_HINT,"Escriu aquí allò que la IA hauria de recordar.
 Per exemple: “Ets l’Artús, Rei d'Anglaterra.\nEstàs en guerra amb Escòcia”","Schreiben Sie hier, woran sich die KI erinnern soll.
 Beispiel: ""Sie sind Arthur, König von England.
@@ -246,8 +233,6 @@ Ce modèle est conçu pour une variété de genres.","Jest skupiony na stylu pis
 Ten model jest przeznaczony do wielu kategorii.",É focado em um tipo de escrita sem NSFW. Esse modelo é feito para uma variedade de gêneros
 MODEL_SELECTOR_RAM_DISCLAIMER,* La RAM requerida per la IA. En necessitaràs una mica més.,* Der von der KI benötigte Arbeitsspeicher.,* The RAM required by the AI itself. You will need a bit more.,* La RAM requerida por la IA. Necesitarás un poco más.,* La RAM requise par l'IA elle-même. Il vous en faudra un peu plus.,* RAM wymagany TYLKO przez AI. Ty będziesz potrzebował więcej.,* A RAM é requerida pela IA. Você precisará de um pouco mais.
 MODEL_SELECTOR_SHINEN_HINT,"Comparat amb el GPT-Neo-2.7-Horni, aquest model utilitza molt més contingut sexual.",Im Vergleich zu GPT-Neo-2.7-Horni ist dieses Modell viel stärker auf sexuelle Inhalte ausgelegt.,"Compared to GPT-Neo-2.7-Horni, this model is much heavier on the sexual content.","Comparado con el GPT-Neo-2.7-Horni, este modelo usa mucho más contenido sexual.","Comparé au GPT-Neo-2.7-Horni, ce modèle est beaucoup plus sexuel.",W porównaniu z GPT-Neo-2.7-Horni ten model jest intensywniejszy w generowaniu zawartości seksualnych.,"Comparado ao GPT-Neo-2.7-Horni, esse modelo é mais pesado em conteúdo sexual."
-MODERN_ERA,,Moderne Ära,,Époque Moderne,Modern Era,,
-MYSTERY,,Geheimnisvoll,,Mystère,Mystery,,
 NAME,Nom,Name,Name,Nombre,Nom,Nazwa,Nome
 NB_BEAMS_HINT,"Si és superior a 1, executa una “beam search” per tenir un text més net.
 Un 1 vol dir que no hi haurà cerca.","Wenn größer als 1, wird eine Strahlensuche für saubereren Text ausgeführt.
@@ -346,10 +331,8 @@ Jeśli naciśniesz „OK” nadpiszesz poprzedni.
 Nie ma powrotu.","Um arquivo já tem esse nome.
 Se você clicar em “OK” você irá sobrescrever o antigo.
 Não terá volta."
-PIRATE,,Piraten,,Pirate,Pirate,,
 PLAY,Jugar,Spielen,Play,Jugar,Jouer,Zagraj,Jogar
 PLEASE_WAIT,"Espera, si us plau…",Bitte warten.,Please wait,"Espera, por favor…",Veuillez patienter,Proszę poczekać,Por favor aguarde
-POST_APOCALYPTIC,,Post Apokalyptisch,,Post-apocalyptique,Post-Apocalyptic,,
 PREVIEW_IMAGE,,Vorschaubild,Preview image,,Image de présentation,,
 PRIVATE,,Privat,Private,,Privée,,
 PUBLIC,,Öffentlich,Public,,Publique,,
@@ -387,7 +370,6 @@ RESET_TO_DEFAULT,Restablir els valors per defecte,Auf Standard zurücksetzen,Res
 RESIZER_HINT,Mantingues el clic esquerre per redimensionar.,Linke Maustaste zur Größenänderung gedrückt halten.,Hold left click to resize.,Mantén el clic izquierdo para redimensionar.,Maintenir click gauche pour redimensionner.,Przytrzymaj lewy przycisk myszy aby zmienić rozmiar,Segure o botão esquerdo para redimensionar.
 RESUME,Continuar,Fortsetzen,Resume,Continuar,Continuer,Wznów,Resumir
 ROLL_THE_DICE,Llançar el dau!,Würfeln!,Roll the dice!,¡Lanzar el dado!,Lancer les dès!,Rzuć kością!,Rodar o dado!
-ROMANCE,,Romantisch,,Romance,Romance,,
 SAFE_FOR_WORK,SFW**,Safe for work**,Safe for work**,SFW**,Safe for work**,Bezpieczne Do Pracy**,Safe for work**
 SAVE,Desar,Speichern,Save,Guardar,Sauvegarder,Zapisz,Salvar
 SAVE_AS,Desar com…,Speichern als...,Save as...,Guardar como…,Sauvegarder sous...,Zapisz jako…,Salvar como…
@@ -409,7 +391,6 @@ SCENARIO_EDITOR_OPEN,Obrir un escenari,Ein Szenario öffnen,Open a scenario,Abri
 SCENARIO_EDITOR_SCENARIO_FIELD,Escenari,Szenario,Scenario,Escenario,Scénario,Scenariusz,Cenário
 SCENARIO_EDITOR_SCENARIO_HINT,La introducció a la teva història. Pots detallar-la tant com vulguis.,"Die Einführung Ihrer Geschichte. Sie kann so Detailreich sein, wie Sie wollen.",The introduction to your story. You can detail as much as you want.,La introducción a tu historia. Puedes detallarla tanto como quieras.,L'introduction de votre histoire. Vous pouvez la détailler comme vous le souhaitez.,Instrukcja dla twojej historii. Możesz zamieścić tyle detali ile chcesz.,A introdução da sua história. Você pode detalhar o quanto quiser.
 SCENARIO_EDITOR_TITLE,Editor d'Escenaris,Szenario-Editor,Scenario Editor,Editor de Escenarios,Éditeur de Scénario,Edytor scenariusza,Editor de cenário
-SCIENCE_FICTION,,Science Fiction,,Science Fiction,Science Fiction,,
 SECOND_PERSON_PRONOUN,Tu,du,You,Tú,Tu,Ty,Você
 SELECTION_COLOR,Color de la selecció,Auswahlfarbe,Selection color,Color de la selección,Couleur de la sélection,Kolor wyboru,Cor de seleção
 SELECT_LANGUAGE,,Sprache auswählen,Select a language,,Sélectionnez une langue,,
@@ -428,7 +409,6 @@ STATUS_MODEL_LOADED,Model carregat.,Modell geladen.,Model loaded.,Modelo cargado
 STATUS_MOVING_FILES_TO_GAME,Movent els arxius a la carpeta del joc.,Dateien werden in den Ordner des Spiels verschoben.,Moving the files to the game's folder.,Moviendo los archivos a la carpeta del juego.,Déplacement des fichiers dans le dossier du jeu.,Przenoszenie plików do folderu gry.,Transferindo os arquivos para a pasta do jogo.
 STATUS_STARTING_SERVER,Iniciant el servidor.,Server wird gestartet.,Starting the server.,Iniciando el servidor.,Démarrage du serveur.,Uruchamianie serwera.,Iniciando o servidor.
 STATUS_TRANSLATOR_LOADED,Traductor carregat.,Übersetzer ist vollständig geladen,Translator loaded.,Traductor cargado.,Traducteur chargé.,Tłumacz wczytany,Tradutor carregado.
-STEAMPUNK,,Steampunk,,Steampunk,Steampunk,,
 STORY_EDITOR_CHARACTER_EDITOR,Obrir l’editor de personatge,Charakter-Editor öffnen,Open character editor,Abrir el editor de personaje,Ouvrir l'éditeur de personnage,Otwórz edytor postaci,Abrir editor de personagem
 STORY_EDITOR_OPEN_SCENARIO_FOLDER,Obrir la carpeta de l'escenari,Szenario-Ordner öffnen,Open scenario's folder,Abrir la carpeta del escenario,Ouvrir le dossiers des scénarios,Otwórz folder ze scenariuszami,Abrir pasta de cenário
 STORY_EDITOR_OPEN_STORY,Obrir una història,Geschichte öffnen,Open a story,Abrir una historia,Ouvrir une histoire,Otwórz historię,Abrir uma história
@@ -436,7 +416,31 @@ STORY_EDITOR_OPEN_STORY_FOLDER,Obrir la carpeta de les històries,Ordner der Ges
 STORY_EDITOR_TITLE,Editor d'Històries,Geschichten-Editor,Story Editor,Editor de Historias,Éditeur d'Histoire,Edytor Historii,Editor de história
 STRENGTH,Força,Stärke,Strength,Fuerza,Force,Siła,Força
 SUCCESS_UPLOAD_TO_WORKSHOP,,Erfolgreich in den Workshop hochgeladen!,Successfully uploaded to the Workshop.,,Envoyé avec succès dans le Workshop.,,
-THRILLER,,Thriller,,Thriller,Thriller,,
+TAG_1ST_PERSON,,Ich-Perspektive,1st Person,,1ère Personne,,
+TAG_2ND_PERSON,,Du-Perspektive,2nd Person,,2ème Personne,,
+TAG_ADVENTURE,,Abenteuer,Adventure,,Aventure,,
+TAG_CYBERPUNK,,Cyberpunk,Cyberpunk,,Cyberpunk,,
+TAG_DARK,,Düster,Dark,,Sombre,,
+TAG_DYSTOPIAN,,Dystopisch,Dystopian,,Dystopique,,
+TAG_FANTASY,,Fantasy,Fantasy,,Fantaisie,,
+TAG_FEMALE_PROTAGONIST,,weibliche Protagonistin,Female Protagonist,,Protagoniste Féminine,,
+TAG_HISTORICAL,,Historisch,Historical,,Historique,,
+TAG_HORROR,,Horror,Horror,,Horreur,,
+TAG_LGBTQ,,LGBTQ,LGBTQ+,,LGBTQ+,,
+TAG_LOREBOOK_INCLUDED,,Enthält Lorebook,Lorebook Included,,Encyclopédie Incluse,,
+TAG_MALE_PROTAGONIST,,Männlicher Protagonist,Male Protagonist,,Protagoniste Masculin,,
+TAG_MEDIEVAL,,Mittelalter,Medieval,,Médiéval,,
+TAG_MODERN_ERA,,Moderne Ära,Modern Era,,Époque Moderne,,
+TAG_MYSTERY,,Geheimnisvoll,Mystery,,Mystère,,
+TAG_PIRATE,,Piraten,Pirate,,Pirate,,
+TAG_POST_APOCALYPTIC,,Post Apokalyptisch,Post-Apocalyptic,,Post-apocalyptique,,
+TAG_ROMANCE,,Romantisch,Romance,,Romance,,
+TAG_SCIENCE_FICTION,,Science Fiction,Science Fiction,,Science Fiction,,
+TAG_STEAMPUNK,,Steampunk,Steampunk,,Steampunk,,
+TAG_THRILLER,,Thriller,Thriller,,Thriller,,
+TAG_UPLIFTING,,Aufbauend,Uplifting,,Exaltant,,
+TAG_WILD_WEST,,Wilder Westen,Wild West,,Far West,,
+TAG_ZOMBIE,,Zombie,Zombie,,Zombie,,
 TOOLTIP_LABEL,Posa el cursor sobre els noms dels models per mostrar una descripció emergent.,"Bewegen Sie den Mauszeiger über die Namen der Modelle, um zusätzliche Informationen zu erhalten.",Hover the models' names to display the tooltip,Coloca el cursor sobre los nombres de los modelos para mostrar una descripción emergente.,Placez le curseur sur les noms des modèles pour afficher l'infobulle,Najedź na nazwy modeli aby wyświetlić wskazówki,Passe o mouse no nome do modelo para mostrar a dica
 TOP_K_HINT,"Les següents K paraules més probables són filtrades i la massa de probabilitat es redistribueix, únicament, entre aquestes K paraules següents. Posar a 0 per deshabilitar-ho.","Die K wahrscheinlichsten nächsten Wörter werden gefiltert und die Wahrscheinlichkeitsmasse wird nur unter diesen K nächsten Wörtern neu verteilt.
 Auf 0 setzen, um sie zu deaktivieren.","The K most likely next words are filtered and the probability mass is redistributed
@@ -478,7 +482,6 @@ Deixe em 0 para desabilitar."
 TRANSLATE_SCENARIO_INFO,Sembla que aquest escenari és en anglès. Vols que el joc el tradueixi al teu idioma?,"Dieses Szenario scheint Englisch zu sein. Möchten Sie, dass das Spiel dieses Szenario auf Ihre Sprache übersetzt?",This scenario seems to be in English. Do you want the game to translate the scenario to your language?,Parece que este escenario está en inglés. ¿Quieres que el juego lo traduzca a tu idioma?,Ce scénario semble être en anglais. Voulez-vous que le jeu traduise le scénario dans votre langue?,"Wygląda na to, że ten scenariusz jest po angielsku. Czy chcesz go przetłumaczyć na polski?",Esse cenário parece estar em inglês. Você quer que o jogo traduza automaticamente para sua língua?
 TYPE_OF_FILE,,Dateityp,Type of file,,Type de fichier,,
 UPDATE_CONTENT,,Inhalt aktualisieren,Update content,,Mettre à jour du contenu,,
-UPLIFTING,,Aufbauend,,Exaltant,Uplifting,,
 UPLOAD_TO_WORKSHOP,,In den Workshop hochladen,Upload to the Workshop,,Envoyer vers le Workshop,,
 USE_GPU,Fer servir el GPU,GPU verwenden,Use the GPU,Usar el GPU,Utiliser le GPU,Używaj karty graficznej,Usar a GPU
 USE_GPU_HINT,"Si s’activa, es farà servir la GPU en comptes de la CPU.
@@ -498,7 +501,6 @@ Fará a IA mais rápida.
 Verifique  https://developer.nvidia.com/cuda-gpus para uma lista de GPU compatíveis."
 VALIDATE,Validar,Bestätigen,Validate,Validar,Valider,Zezwól,Valiar
 VISIBILITY,,Sichtbarkeit,Visibility,,Visiblité,,
-WILD_WEST,,Wilder Westen,,Far West,Wild West,,
 WISDOM,Saviesa,Weisheit,Wisdom,Sabiduría,Sagesse,Mądrość,Sabedoria
 WORKSHOP_UPLOAD_ACCEPT_DIALOG,,"Sind Sie sich sicher, das sie diesen Gegenstand hochladen möchten?",Are you sure you want to upload this item?,,Voulez-vous vraiment publier cet objet?,,
 WORKSHOP_UPLOAD_BUTTON_HINT,,"Um etwas in den Workshop hochzuladen, müssen Sie die Abonnentenbedingungen akzeptieren.
@@ -521,5 +523,3 @@ You also need to complete the following:
 - Sélectionnez au moins une balise",,
 YES,Sí,Ja,Yes,Sí,Oui,Tak,Sim
 YOUR_ITEMS,,Deine Gegenstände,Your items,,Vos objets,,
-ZOMBIE,,Zombie,,Zombie,Zombie,,
-CONSOLE,,Konsole,Console,,Console,,
