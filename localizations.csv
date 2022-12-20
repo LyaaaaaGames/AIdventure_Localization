@@ -521,5 +521,8 @@ You also need to complete the following:
 - Écrire un titre
 - Rédiger une description
 - Sélectionnez au moins une balise",,
+WRONG_FONT_WARNING,,,"The font you are using might not correctly display the language you selected.
+Do you want to use the recommended font?",,"La police que vous utilisez risque de ne pas pouvoir afficher la langue que vous avez sélectionnée.
+Voulez-vous utiliser la police recommandée?",,
 YES,Sí,Ja,Yes,Sí,Oui,Tak,Sim
 YOUR_ITEMS,,Deine Gegenstände,Your items,,Vos objets,,
