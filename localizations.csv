@@ -34,7 +34,7 @@ CHARACTER_POPUP_INFO_TITLE,Com funciona?,Wie funktioniert es?,How does it work?,
 CHARISMA,Carisma,Charisma,Charisma,Carisma,Charisme,Charyzma,Carisma
 CLOSE,Tancar,Schließen,Close,Cerrar,Fermer,Zamknij,Fechar
 CONFIRMATION_DIALOG_TITLE,Confirma si us plau…,Bitte bestätigen...,Please confirm...,Confirma por favor…,Veuillez confirmer...,Proszę potwierdzić…,Por favor confirmar…
-CONSOLE,,Konsole,Console,,Console,,
+CONSOLE,,Konsole,Console,,Console,Konsola,
 CONSTITUTION,Constitució,Konstitution,Constitution,Constitución,Constitution,Konstytucja,Constituição
 CONTEXT_MAX_LENGTH,Longitud màxima del context,Maximale Kontextlänge,Context max length,Longitud máxima del contexto,Taille max du contexte,Maksymalna długość kontekstu,Tamanho máximo do contexto
 CONTEXT_MAX_LENGTH_HINT,"Quants caràcters, prèviament generats, hauria de recordar la IA?",Wie viele zuvor generierte Zeichen muss sich die KI merken?,How many previously generated characters the AI must remember.,¿Cuántos caracteres generados previamente debería recordar la IA?,Combien de caractères précédemment générés l'IA doit-elle se rappeler?,Jak wiele poprzednio wygenerowanych liter musi pamiętać AI.,Quantos caracteres gerados anteriormente a IA deve lembrar.
@@ -48,8 +48,8 @@ DELETE_CONFIRMATION,Segur que ho vols esborrar?,"Sind Sie sicher, dass Sie das l
 DESCRIPTION,,Beschreibung,Description,,Description,Opis,
 DEXTERITY,Destresa,Geschicklichkeit,Dexterity,Destreza,Dextérité,Zręczność,Destreza
 DISPLAY_ADVANCED_OPTIONS,Mostrar les opcions avançades,Erweiterte Optionen anzeigen,Display advanced options,Mostrar las opciones avanzadas,Afficher les options avancées,Wyświetl zaawansowane opcje,Mostrar opções avançadas
-DISPLAY_ONLY_PNG,,Es werden nur PNG Dateien angezeigt.,Only PNG are displayed.,,Seulement les PNG sont affichés.,,
-DOWNLOAD,,Herunterladen,Download,,Télécharger,,
+DISPLAY_ONLY_PNG,,Es werden nur PNG Dateien angezeigt.,Only PNG are displayed.,,Seulement les PNG sont affichés.,Tylko PNG są wyświetlane,
+DOWNLOAD,,Herunterladen,Download,,Télécharger,Pobierz,
 DOWNLOAD_DIALOG_LABEL,"Si us plau, espera que acabi la baixada.","Bitte warten Sie, bis der Download abgeschlossen ist.",Please wait until the download is done.,"Por favor, espera a que termine la descarga.",Veuillez attendre que le téléchargement soit terminé.,Proszę poczekać zanim pobieranie się skończy.,Por favor aguarde até o download finalizar
 DOWNLOAD_TRANSLATOR_CONFIRMATION,Vols baixar els traductors?,Möchten Sie die Übersetzer herunterladen?,Do you want to download the translators?,¿Quieres descargar los traductores?,Voulez vous télécharger les traducteurs?,Czy chcesz pobrać tłumaczy?,Você quer baixar os tradutores?
 DOWNLOAD_TRANSLATOR_WARNING,"Necessites baixar els traductors per activar la traducció automàtica.
@@ -96,13 +96,13 @@ ERROR_POPUP_TITLE,Hi ha hagut un error!,Es ist ein Fehler aufgetreten!,An error 
 ESCAPE_MENU_EDIT_STORY,Modificar la història,Geschichte bearbeiten,Edit the story,Modificar la historia,Modifier l'histoire,Edytuj historię,Editar a historia
 EXPORT,Exportar,exportieren,Export,Exportar,Exporter,Eksportuj,Exportar
 EXTREME_SUCCESS_PREFIX,competentment,auf kompetente Art und Weise,competently,competentemente,réussis avec compétence à,umiejętnie,competentemente
-FAILED_UPLOAD_TO_WORKSHOP,,Das Hochladen in den Workshop ist fehlgeschlagen.,Uploading to the Workshop failed.,,L'envoi vers le Workshop a échoué.,,
+FAILED_UPLOAD_TO_WORKSHOP,,Das Hochladen in den Workshop ist fehlgeschlagen.,Uploading to the Workshop failed.,,L'envoi vers le Workshop a échoué.,Przesyłanie do Warsztatu nie powiodło się,
 FIRST_PERSON_PRONOUN,Jo,Ich,I,Yo,Je,Ja,Eu
 FONT,Tipus de lletra,Schriftart,Font,Tipo de letra,Police,Czcionka,Fonte
 FONT_COLOR,Color de la lletra,Schriftfarbe,Font color,Color de la letra,Couleur de la police,Kolor czcionki,Cor da fonte
 FONT_SIZE,Mida de la lletra,Schriftgröße,Font size,Tamaño de la letra,Taille de la police,Rozmiar czcionki,Tamanho da fonte
 FORUM,Fòrum,Forum,Forum,Foro,Forum,Forum,Fórum
-FRIENDS_ONLY,,Nur Freunde,Friends only,,Amis seulement,,
+FRIENDS_ONLY,,Nur Freunde,Friends only,,Amis seulement,Tylko znajomi,
 GENERATION_MAX_LENGTH,Longitud màxima de la generació,Maximal generierte länge,Generation's max length,Longitud máxima de la generación,Taille max de la génération,Maksymalna długość generacji,Tamanho máximo da geração
 GENERATION_MAX_LENGTH_HINT,Màxim de paraules a generar,Die maximal zu generierenden Wörter.,The maximum words to be generated.,Máximo de palabras a generar,Le nombre maximum de mots à générer.,Maksymalna ilość wyrazów do wygenerowania.,O máximo de palavras a serem geradas
 IMPORT,Importar,importieren,Import,Importar,Importer,Importuj,Importar
@@ -142,8 +142,8 @@ INTRO_DEMO_PLAY,Jugar,Das Spiel spielen,Play the game,Jugar,Jouer au jeu,Zagraj 
 INTRO_DEMO_TITLE,Gràcies per baixar la demo d'Aidventure!,"Vielen Dank, dass Sie die Demo von AIdventure heruntergeladen haben!",Thank you for downloading AIdventure's demo!,¡Gracias por descargar la demo de Aidventure!,Merci pour le d'avoir téléchargé de la démo d'AIdventure !,Dzięki za pobranie dema Aidventure!,Obrigado por instalar a demo de AIdventure!
 IN_GAME_TOP_MENU,Menú,Menü,Menu,Menú,Menu,Menu,Menu
 IN_GAME_TOP_MENU_HINT,Prem l’ESC per obrir-lo.,ESC zum Öffnen drücken,Press ESC to open it.,Presiona ESC para abrirlo.,Appuyer sur ÉCHAP pour l'ouvrir.,Naciśnij ESC aby otworzyć.,Pressione ESC para abrir
-ITEM_URL,,Gegenstand-URL,Open item URL,,Ouvrir l'URL de l'objet,,
-I_ACCEPTED_TOS,,Ich habe die Nutzungsbedingungen akzeptiert.,I accepted the terms of use.,,J'ai accepté les conditions d'utilisation.,,
+ITEM_URL,,Gegenstand-URL,Open item URL,,Ouvrir l'URL de l'objet,Otwórz adres URL przedmiotu,
+I_ACCEPTED_TOS,,Ich habe die Nutzungsbedingungen akzeptiert.,I accepted the terms of use.,,J'ai accepté les conditions d'utilisation.,Zaakceptowałem warunki użytkowania,
 LANGUAGE,Idioma,Sprache,Language,Idioma,Langue,Język,Linguagem
 LAUNCH_INSTALLER,Iniciar l'instal·lador,Installationsprogramm ausführen,Launch the installer,Iniciar el instalador,Lancer l'installeur,Uruchom instalator,Iniciar o instalador
 LINE_SEPARATION,Separació entre línies,Linientrennung,Line separation,Separación entre lineas,Séparation entre les lignes,Odległość między liniami,Separação de linha
@@ -333,9 +333,9 @@ Se você clicar em “OK” você irá sobrescrever o antigo.
 Não terá volta."
 PLAY,Jugar,Spielen,Play,Jugar,Jouer,Zagraj,Jogar
 PLEASE_WAIT,"Espera, si us plau…",Bitte warten.,Please wait,"Espera, por favor…",Veuillez patienter,Proszę poczekać,Por favor aguarde
-PREVIEW_IMAGE,,Vorschaubild,Preview image,,Image de présentation,,
-PRIVATE,,Privat,Private,,Privée,,
-PUBLIC,,Öffentlich,Public,,Publique,,
+PREVIEW_IMAGE,,Vorschaubild,Preview image,,Image de présentation,Podgląd obrazka,
+PRIVATE,,Privat,Private,,Privée,Prywatne,
+PUBLIC,,Öffentlich,Public,,Publique,Publiczne,
 RANDOMNESS,Aleatorietat,Zufälligkeit,Randomness,Aleatoriedad,Aléatoire,Losowość,Aleatoriedade
 RANDOMNESS_HINT,"Fa que el text generat sigui més o menys coherent.
 Normalment anomenat “Temperatura”, 0 significa que no hi ha aleatorietat.","Macht generierten Text mehr oder weniger zufällig.
@@ -345,7 +345,7 @@ Llamado comúnmente “Temperatura”, 0 significa que no hay aleatoriedad.","Re
 Aussi appelée ""Température"", 0 signifie pas d'aléatoire","Zrób wygenerowany tekst mniej lub bardziej spójny.
 Powszechnie nazywana „Temperatura”, 0 oznacza brak losowości.","Faz o texto gerado ser mais ou menos coerente.
 Comumente chamado de “Temperatura”, 0 significa sem aleatoriedade."
-READ_TOS,,Lesen Sie die Nutzungsbedingungen!,Read the terms of use,,Lire les conditions d'utilisation,,
+READ_TOS,,Lesen Sie die Nutzungsbedingungen!,Read the terms of use,,Lire les conditions d'utilisation,Przeczytaj warunki użytkowania,
 REMOVE_UNFINISHED_SENTENCES,Esborra les frases incompletes.,unvollendete Sätze entfernen,Remove unfinished sentences,Borra las frases incompletas.,Supprimer les phrases incomplètes,Zlikwiduj niedokończone zdania,Remover sentenças inacabadas
 REMOVE_UNFINISHED_SENTENCES_HINT,"Esborra l'última frase si la IA no l'ha acabat.
 Podria esborrar el text sencer si la “longitud màxima” és massa curta!","Löscht den letzten Satz, wenn die KI ihn nicht beendet hat.
@@ -393,11 +393,11 @@ SCENARIO_EDITOR_SCENARIO_HINT,La introducció a la teva història. Pots detallar
 SCENARIO_EDITOR_TITLE,Editor d'Escenaris,Szenario-Editor,Scenario Editor,Editor de Escenarios,Éditeur de Scénario,Edytor scenariusza,Editor de cenário
 SECOND_PERSON_PRONOUN,Tu,du,You,Tú,Tu,Ty,Você
 SELECTION_COLOR,Color de la selecció,Auswahlfarbe,Selection color,Color de la selección,Couleur de la sélection,Kolor wyboru,Cor de seleção
-SELECT_LANGUAGE,,Sprache auswählen,Select a language,,Sélectionnez une langue,,
+SELECT_LANGUAGE,,Sprache auswählen,Select a language,,Sélectionnez une langue,Wybierz język,
 SERVER_IP,IP del servidor,IP des Servers,Server's IP,IP del servidor,IP du serveur,IP serwera,IP do Servidor
 SERVER_PORT,Port del servidor,Port des Servers,Server's port,Puerto del servidor,Port du serveur,Port serwera,Port do Servidor
-SHARE,,Teilen,Share,,Partager,,
-SHARE_CONTENT,,Inhalt teilen,Share content,,Partager du contenu,,
+SHARE,,Teilen,Share,,Partager,Udostępnij,
+SHARE_CONTENT,,Inhalt teilen,Share content,,Partager du contenu,Udostępnij zawartość,
 SIZE,Mida,Größe,Size,Tamaño,Taille,Rozmiar,Tamanho
 SKIP,Ometre,überspringen,Skip,Omitir,Ignorer,Pomiń,Pular
 STATUS_CONNECTED_TO_SERVER,Connexió al servidor amb èxit.,Erfolgreich mit dem Server verbunden.,Successfully connected to the server.,Conexión al servidor exitosa.,Connexion au serveur réussie.,Pomyślnie połączono z serwerem.,Conectado com sucesso ao servidor.
@@ -415,32 +415,32 @@ STORY_EDITOR_OPEN_STORY,Obrir una història,Geschichte öffnen,Open a story,Abri
 STORY_EDITOR_OPEN_STORY_FOLDER,Obrir la carpeta de les històries,Ordner der Geschichte öffnen,Open stories' folder,Abrir la carpeta de las historias,Ouvrir le dossiers des histoires,Otwórz folder z historiami,Abrir pasta de histórias
 STORY_EDITOR_TITLE,Editor d'Històries,Geschichten-Editor,Story Editor,Editor de Historias,Éditeur d'Histoire,Edytor Historii,Editor de história
 STRENGTH,Força,Stärke,Strength,Fuerza,Force,Siła,Força
-SUCCESS_UPLOAD_TO_WORKSHOP,,Erfolgreich in den Workshop hochgeladen!,Successfully uploaded to the Workshop.,,Envoyé avec succès dans le Workshop.,,
-TAG_1ST_PERSON,,Ich-Perspektive,1st Person,,1ère Personne,,
-TAG_2ND_PERSON,,Du-Perspektive,2nd Person,,2ème Personne,,
-TAG_ADVENTURE,,Abenteuer,Adventure,,Aventure,,
-TAG_CYBERPUNK,,Cyberpunk,Cyberpunk,,Cyberpunk,,
-TAG_DARK,,Düster,Dark,,Sombre,,
-TAG_DYSTOPIAN,,Dystopisch,Dystopian,,Dystopique,,
-TAG_FANTASY,,Fantasy,Fantasy,,Fantaisie,,
-TAG_FEMALE_PROTAGONIST,,weibliche Protagonistin,Female Protagonist,,Protagoniste Féminine,,
-TAG_HISTORICAL,,Historisch,Historical,,Historique,,
-TAG_HORROR,,Horror,Horror,,Horreur,,
-TAG_LGBTQ,,LGBTQ,LGBTQ+,,LGBTQ+,,
-TAG_LOREBOOK_INCLUDED,,Enthält Lorebook,Lorebook Included,,Encyclopédie Incluse,,
-TAG_MALE_PROTAGONIST,,Männlicher Protagonist,Male Protagonist,,Protagoniste Masculin,,
-TAG_MEDIEVAL,,Mittelalter,Medieval,,Médiéval,,
-TAG_MODERN_ERA,,Moderne Ära,Modern Era,,Époque Moderne,,
-TAG_MYSTERY,,Geheimnisvoll,Mystery,,Mystère,,
-TAG_PIRATE,,Piraten,Pirate,,Pirate,,
-TAG_POST_APOCALYPTIC,,Post Apokalyptisch,Post-Apocalyptic,,Post-apocalyptique,,
-TAG_ROMANCE,,Romantisch,Romance,,Romance,,
-TAG_SCIENCE_FICTION,,Science Fiction,Science Fiction,,Science Fiction,,
-TAG_STEAMPUNK,,Steampunk,Steampunk,,Steampunk,,
-TAG_THRILLER,,Thriller,Thriller,,Thriller,,
-TAG_UPLIFTING,,Aufbauend,Uplifting,,Exaltant,,
-TAG_WILD_WEST,,Wilder Westen,Wild West,,Far West,,
-TAG_ZOMBIE,,Zombie,Zombie,,Zombie,,
+SUCCESS_UPLOAD_TO_WORKSHOP,,Erfolgreich in den Workshop hochgeladen!,Successfully uploaded to the Workshop.,,Envoyé avec succès dans le Workshop.,Pomyślnie przesłano do Warsztatu,
+TAG_1ST_PERSON,,Ich-Perspektive,1st Person,,1ère Personne,Pierwszoosobowy,
+TAG_2ND_PERSON,,Du-Perspektive,2nd Person,,2ème Personne,Drugoosobowy,
+TAG_ADVENTURE,,Abenteuer,Adventure,,Aventure,Przygoda,
+TAG_CYBERPUNK,,Cyberpunk,Cyberpunk,,Cyberpunk,Cyberpunk,
+TAG_DARK,,Düster,Dark,,Sombre,Ciemność,
+TAG_DYSTOPIAN,,Dystopisch,Dystopian,,Dystopique,Dystopia,
+TAG_FANTASY,,Fantasy,Fantasy,,Fantaisie,Fantastyka,
+TAG_FEMALE_PROTAGONIST,,weibliche Protagonistin,Female Protagonist,,Protagoniste Féminine,Żeński Protagonista,
+TAG_HISTORICAL,,Historisch,Historical,,Historique,Historyczne,
+TAG_HORROR,,Horror,Horror,,Horreur,Horror,
+TAG_LGBTQ,,LGBTQ,LGBTQ+,,LGBTQ+,LGBTQ+,
+TAG_LOREBOOK_INCLUDED,,Enthält Lorebook,Lorebook Included,,Encyclopédie Incluse,Zawiera Księgę wiedzy,
+TAG_MALE_PROTAGONIST,,Männlicher Protagonist,Male Protagonist,,Protagoniste Masculin,Męski Protagonista,
+TAG_MEDIEVAL,,Mittelalter,Medieval,,Médiéval,Średniowiecze,
+TAG_MODERN_ERA,,Moderne Ära,Modern Era,,Époque Moderne,Epoka Nowożytna,
+TAG_MYSTERY,,Geheimnisvoll,Mystery,,Mystère,Tajemnica,
+TAG_PIRATE,,Piraten,Pirate,,Pirate,Pirat,
+TAG_POST_APOCALYPTIC,,Post Apokalyptisch,Post-Apocalyptic,,Post-apocalyptique,Post-Apokalipsa,
+TAG_ROMANCE,,Romantisch,Romance,,Romance,Romans,
+TAG_SCIENCE_FICTION,,Science Fiction,Science Fiction,,Science Fiction,Science Fiction,
+TAG_STEAMPUNK,,Steampunk,Steampunk,,Steampunk,Steampunk,
+TAG_THRILLER,,Thriller,Thriller,,Thriller,Thriller,
+TAG_UPLIFTING,,Aufbauend,Uplifting,,Exaltant,Podnoszący na duchu,
+TAG_WILD_WEST,,Wilder Westen,Wild West,,Far West,Dziki Zachód,
+TAG_ZOMBIE,,Zombie,Zombie,,Zombie,Zombie,
 TOOLTIP_LABEL,Posa el cursor sobre els noms dels models per mostrar una descripció emergent.,"Bewegen Sie den Mauszeiger über die Namen der Modelle, um zusätzliche Informationen zu erhalten.",Hover the models' names to display the tooltip,Coloca el cursor sobre los nombres de los modelos para mostrar una descripción emergente.,Placez le curseur sur les noms des modèles pour afficher l'infobulle,Najedź na nazwy modeli aby wyświetlić wskazówki,Passe o mouse no nome do modelo para mostrar a dica
 TOP_K_HINT,"Les següents K paraules més probables són filtrades i la massa de probabilitat es redistribueix, únicament, entre aquestes K paraules següents. Posar a 0 per deshabilitar-ho.","Die K wahrscheinlichsten nächsten Wörter werden gefiltert und die Wahrscheinlichkeitsmasse wird nur unter diesen K nächsten Wörtern neu verteilt.
 Auf 0 setzen, um sie zu deaktivieren.","The K most likely next words are filtered and the probability mass is redistributed
@@ -480,9 +480,9 @@ A massa da probabilidade é então redistribuída entre esse conjunto de palavra
 Se deixar < 1, apenas os tokens mais prováveis com probabilidades que somam até top_p ou maior são mantidas para geração.
 Deixe em 0 para desabilitar."
 TRANSLATE_SCENARIO_INFO,Sembla que aquest escenari és en anglès. Vols que el joc el tradueixi al teu idioma?,"Dieses Szenario scheint Englisch zu sein. Möchten Sie, dass das Spiel dieses Szenario auf Ihre Sprache übersetzt?",This scenario seems to be in English. Do you want the game to translate the scenario to your language?,Parece que este escenario está en inglés. ¿Quieres que el juego lo traduzca a tu idioma?,Ce scénario semble être en anglais. Voulez-vous que le jeu traduise le scénario dans votre langue?,"Wygląda na to, że ten scenariusz jest po angielsku. Czy chcesz go przetłumaczyć na polski?",Esse cenário parece estar em inglês. Você quer que o jogo traduza automaticamente para sua língua?
-TYPE_OF_FILE,,Dateityp,Type of file,,Type de fichier,,
-UPDATE_CONTENT,,Inhalt aktualisieren,Update content,,Mettre à jour du contenu,,
-UPLOAD_TO_WORKSHOP,,In den Workshop hochladen,Upload to the Workshop,,Envoyer vers le Workshop,,
+TYPE_OF_FILE,,Dateityp,Type of file,,Type de fichier,Typ pliku,
+UPDATE_CONTENT,,Inhalt aktualisieren,Update content,,Mettre à jour du contenu,Zaktualizuj zawartość,
+UPLOAD_TO_WORKSHOP,,In den Workshop hochladen,Upload to the Workshop,,Envoyer vers le Workshop,Prześlij do Warsztatu,
 USE_GPU,Fer servir el GPU,GPU verwenden,Use the GPU,Usar el GPU,Utiliser le GPU,Używaj karty graficznej,Usar a GPU
 USE_GPU_HINT,"Si s’activa, es farà servir la GPU en comptes de la CPU.
 Això farà que la IA sigui més ràpida.
@@ -500,9 +500,9 @@ Sprawdź https://developer.nvidia.com/cuda-gpus po listę wspieranych kart grafi
 Fará a IA mais rápida.
 Verifique  https://developer.nvidia.com/cuda-gpus para uma lista de GPU compatíveis."
 VALIDATE,Validar,Bestätigen,Validate,Validar,Valider,Zezwól,Valiar
-VISIBILITY,,Sichtbarkeit,Visibility,,Visiblité,,
+VISIBILITY,,Sichtbarkeit,Visibility,,Visiblité,Widzialność,
 WISDOM,Saviesa,Weisheit,Wisdom,Sabiduría,Sagesse,Mądrość,Sabedoria
-WORKSHOP_UPLOAD_ACCEPT_DIALOG,,"Sind Sie sich sicher, das sie diesen Gegenstand hochladen möchten?",Are you sure you want to upload this item?,,Voulez-vous vraiment publier cet objet?,,
+WORKSHOP_UPLOAD_ACCEPT_DIALOG,,"Sind Sie sich sicher, das sie diesen Gegenstand hochladen möchten?",Are you sure you want to upload this item?,,Voulez-vous vraiment publier cet objet?,"Jesteś pewny, że chcesz przesłać ten przedmiot?",
 WORKSHOP_UPLOAD_BUTTON_HINT,,"Um etwas in den Workshop hochzuladen, müssen Sie die Abonnentenbedingungen akzeptieren.
 Außerdem müssen die folgenden Schritte erfüllt sein:
 - Sichtbarkeit festlegen
@@ -520,9 +520,16 @@ You also need to complete the following:
 - Préciser la langue
 - Écrire un titre
 - Rédiger une description
-- Sélectionnez au moins une balise",,
+- Sélectionnez au moins une balise","Aby przesłać do warsztatu musisz zaakceptować Umowę użytkownika Steam.
+Musisz również spełniać podane wymagania:
+- Wybierz widoczność
+- Wybierz język
+- Napisz tytuł
+- Napisz opis
+- Wybierz przynajmniej jeden tag",
 WRONG_FONT_WARNING,,,"The font you are using might not correctly display the language you selected.
 Do you want to use the recommended font?",,"La police que vous utilisez risque de ne pas pouvoir afficher la langue que vous avez sélectionnée.
-Voulez-vous utiliser la police recommandée?",,
+Voulez-vous utiliser la police recommandée?","Czcionka której używasz może nie być kompatybilna z językiem który wybrałeś.
+Czy chcesz użyć polecanej czcionki?",
 YES,Sí,Ja,Yes,Sí,Oui,Tak,Sim
-YOUR_ITEMS,,Deine Gegenstände,Your items,,Vos objets,,
+YOUR_ITEMS,,Deine Gegenstände,Your items,,Vos objets,Twoje przedmioty,
