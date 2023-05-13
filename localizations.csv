@@ -1,6 +1,8 @@
 id,ca,de,en,es,fr,pl,pt
 ADD,Afegir,hinzufügen,Add,Añadir,Ajouter,Dodaj,Adicionar
 ADVANCED_OPTIONS,Opcions avançades,Erweiterte Optionen,Advanced options,Opciones avanzadas,Options avancées,Opcje zaawansowane,Opções avançadas
+ALLOW_MODEL_DOWNLOAD,,,,,,,
+ALLOW_MODEL_DOWNLOAD_HINT,,,,,,,
 ALL_RIGHT_RESERVED,Tots els drets reservats,Alle Rechte vorbehalten,All rights reserved,Todos los derechos reservados,tous droits réservés,Wszelkie prawa zastrzeżone,Todos os direitos reservados
 ALREADY_INSTALLED,Ja he instal·lat el joc,Ich habe das Spiel schon installiert,I already installed the game,Ya he instalado el juego,J'ai déjà installé le jeu,Zainstalowałem już grę,Eu já instalei esse jogo
 AUTO_TRANSLATION_DISCLAIMER,"La traducció automàtica es fa servir per interactuar amb la IA en l'idioma seleccionat en comptes de l'anglès.
@@ -38,6 +40,7 @@ CONSOLE,,Konsole,Console,,Console,Konsola,
 CONSTITUTION,Constitució,Konstitution,Constitution,Constitución,Constitution,Konstytucja,Constituição
 CONTEXT_MAX_LENGTH,Longitud màxima del context,Maximale Kontextlänge,Context max length,Longitud máxima del contexto,Taille max du contexte,Maksymalna długość kontekstu,Tamanho máximo do contexto
 CONTEXT_MAX_LENGTH_HINT,"Quants caràcters, prèviament generats, hauria de recordar la IA?",Wie viele zuvor generierte Zeichen muss sich die KI merken?,How many previously generated characters the AI must remember.,¿Cuántos caracteres generados previamente debería recordar la IA?,Combien de caractères précédemment générés l'IA doit-elle se rappeler?,Jak wiele poprzednio wygenerowanych liter musi pamiętać AI.,Quantos caracteres gerados anteriormente a IA deve lembrar.
+CPU_MEMORY,,,,,,,
 CRITICAL_FAIL_PREFIX,fracassa patèticament,auf erbärmliche Art und Weise,pathetically fail to,fracasa patéticamente,échoues pathétiquement à,żałośnie nie udało się,falha pateticamente em
 CRITICAL_SUCCESS_PREFIX,perfectament,perfekt,perfectly,perfectamente,réussis à la perfection à,perfekcyjnie,perfeitamente
 CUSTOM_MODEL,Model personalitzat,Benutzerdefiniertes Modell,Custom model,Modelo personalizado,Model personnalisé,Niestandardowy model,Modelo customizado
@@ -105,6 +108,7 @@ FORUM,Fòrum,Forum,Forum,Foro,Forum,Forum,Fórum
 FRIENDS_ONLY,,Nur Freunde,Friends only,,Amis seulement,Tylko znajomi,
 GENERATION_MAX_LENGTH,Longitud màxima de la generació,Maximal generierte länge,Generation's max length,Longitud máxima de la generación,Taille max de la génération,Maksymalna długość generacji,Tamanho máximo da geração
 GENERATION_MAX_LENGTH_HINT,Màxim de paraules a generar,Die maximal zu generierenden Wörter.,The maximum words to be generated.,Máximo de palabras a generar,Le nombre maximum de mots à générer.,Maksymalna ilość wyrazów do wygenerowania.,O máximo de palavras a serem geradas
+GPU_MEMORY,,,,,,,
 IMPORT,Importar,importieren,Import,Importar,Importer,Importuj,Importar
 INCOMPATIBLE_MEMORY_ACCEPT,Sí! Canviar l'opció,Ja! Änderung Übernehmen.,Yes! Change the option,¡Sí! Cambiar la opción,Oui! Changer l'option,Tak! Zmień tę opcję,Sim! Mude a opção
 INCOMPATIBLE_MEMORY_QUESTION,Vols canviar l'opció “Longitud de memòria màxima” per jugar en aquest escenari en les millors condicions?,"Möchten Sie die Option „Maximale Speicherlänge“ ändern, um dieses Szenario unter den besten Bedingungen zu spielen?","Do you want to change the ""Memory max length"" option to play this scenario in the best conditions?",¿Quieres cambiar la opción “Longitud de memoria máxima” para jugar en este escenario en las mejores condiciones?,"Voulez-vous changer l'option ""Taille max de la mémoire"" pour jouer ce scénario dans les meilleures conditions ?",Czy chcesz zmienić opcję „Maksymalna długość pamięci” aby zagrać w ten scenariusz w najlepszych warunkach?,Você quer mudar a opção “Tamanho máximo de memória” para jogar esse cenário nas melhores condições?
@@ -146,6 +150,8 @@ ITEM_URL,,Gegenstand-URL,Open item URL,,Ouvrir l'URL de l'objet,Otwórz adres UR
 I_ACCEPTED_TOS,,Ich habe die Nutzungsbedingungen akzeptiert.,I accepted the terms of use.,,J'ai accepté les conditions d'utilisation.,Zaakceptowałem warunki użytkowania,
 LANGUAGE,Idioma,Sprache,Language,Idioma,Langue,Język,Linguagem
 LAUNCH_INSTALLER,Iniciar l'instal·lador,Installationsprogramm ausführen,Launch the installer,Iniciar el instalador,Lancer l'installeur,Uruchom instalator,Iniciar o instalador
+LIMIT_MEMORY,,,,,,,
+LIMIT_MEMORY_HINT,,,,,,,
 LINE_SEPARATION,Separació entre línies,Linientrennung,Line separation,Separación entre lineas,Séparation entre les lignes,Odległość między liniami,Separação de linha
 LOAD,Carregar,Laden,Load,Cargar,Charger,Wczytaj,Carregar
 LOREBOOK,Llibre del Coneixement,Geschichtsbuch,Lorebook,Libro del Conocimiento,Encyclopédie,Księga wiedzy,Enciclopédia
@@ -251,6 +257,10 @@ Ustaw na 0 aby wyłączyć.",Tamanho do token para impedir repetição de certas
 NO,No,Nein,No,No,Non,Nie,Não
 NORMAL_FAIL_PREFIX,falla,scheitern bei,fail to,falla,échoues à,nie udało się,falhou em
 NORMAL_SUCCESS_PREFIX,aconsegueix,schaffen es zu,succeed to,logra,réussis à,udało się,sucedeu em
+OFFLOAD_DICTIONNARY,,,,,,,
+OFFLOAD_DICTIONNARY_HINT,,,,,,,
+OFFLOAD_MODEL,,,,,,,
+OFFLOAD_MODEL_HINT,,,,,,,
 OK,D’acord,OK,Ok,Vale,Ok,Ok,Ok
 OPEN...,Obrir…,Öffnen...,Open...,Abrir…,Ouvrir...,Otwórz…,Abrir…
 OPTIONS_ADVANCED_OPTION_DISCLAIMER,"Només es recomana editar les opcions avançades si saps què estàs fent.
