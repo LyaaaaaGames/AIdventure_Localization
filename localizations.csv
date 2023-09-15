@@ -49,6 +49,8 @@ CUSTOM_START,Inici personalitzat,Benutzerdefinierter Start,Custom start,Comienzo
 DELETE,Esborrar,Löschen,Delete,Borrar,Supprimer,Usuń,Deletar
 DELETE_CONFIRMATION,Segur que ho vols esborrar?,"Sind Sie sicher, dass Sie das löschen möchten?",Are you sure you want to delete it?,¿Seguro que lo quieres borrar?,Êtes-vous sûr de vouloir supprimer?,Jesteś pewny że chcesz to usunąć?,Você tem certeza que quer deletar?
 DESCRIPTION,,Beschreibung,Description,,Description,Opis,
+DEVICE_MAP,,,,,,,
+DEVICE_MAP_HINT,,,,,,,
 DEXTERITY,Destresa,Geschicklichkeit,Dexterity,Destreza,Dextérité,Zręczność,Destreza
 DISPLAY_ADVANCED_OPTIONS,Mostrar les opcions avançades,Erweiterte Optionen anzeigen,Display advanced options,Mostrar las opciones avanzadas,Afficher les options avancées,Wyświetl zaawansowane opcje,Mostrar opções avançadas
 DISPLAY_ONLY_PNG,,Es werden nur PNG Dateien angezeigt.,Only PNG are displayed.,,Seulement les PNG sont affichés.,Tylko PNG są wyświetlane,
@@ -500,6 +502,9 @@ Ustaw 0 aby wyłączyć.","Escolhe o menor tamanho de um conjunto de palavras as
 A massa da probabilidade é então redistribuída entre esse conjunto de palavras.
 Se deixar < 1, apenas os tokens mais prováveis com probabilidades que somam até top_p ou maior são mantidas para geração.
 Deixe em 0 para desabilitar."
+TORCH_DTYPE,,,,,,,
+TORCH_DTYPE_HINT,,,"An object that represents the data type of the Tensors used by the model.
+https://pytorch.org/docs/stable/tensor_attributes.html",,,,
 TRANSLATE_SCENARIO_INFO,Sembla que aquest escenari és en anglès. Vols que el joc el tradueixi al teu idioma?,"Dieses Szenario scheint Englisch zu sein. Möchten Sie, dass das Spiel dieses Szenario auf Ihre Sprache übersetzt?",This scenario seems to be in English. Do you want the game to translate the scenario to your language?,Parece que este escenario está en inglés. ¿Quieres que el juego lo traduzca a tu idioma?,Ce scénario semble être en anglais. Voulez-vous que le jeu traduise le scénario dans votre langue?,"Wygląda na to, że ten scenariusz jest po angielsku. Czy chcesz go przetłumaczyć na polski?",Esse cenário parece estar em inglês. Você quer que o jogo traduza automaticamente para sua língua?
 TYPE_OF_FILE,,Dateityp,Type of file,,Type de fichier,Typ pliku,
 UPDATE_CONTENT,,Inhalt aktualisieren,Update content,,Mettre à jour du contenu,Zaktualizuj zawartość,
