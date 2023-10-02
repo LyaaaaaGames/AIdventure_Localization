@@ -1,6 +1,8 @@
 id,ca,de,en,es,fr,pl,pt
 ADD,Afegir,hinzufügen,Add,Añadir,Ajouter,Dodaj,Adicionar
 ADVANCED_OPTIONS,Opcions avançades,Erweiterte Optionen,Advanced options,Opciones avanzadas,Options avancées,Opcje zaawansowane,Opções avançadas
+ALLOW_MODEL_DOWNLOAD,,Modele herunterladen erlauben,Allow downloading models,,Autoriser le téléchargement d'IA,,
+ALLOW_MODEL_DOWNLOAD_HINT,,"Falls diese Option ausgewählt wird, wird der Server versuchen eine KI herunterzuladen, falls sie fehlt.","If enabled, the server will try to download an AI if it's missing.",,"Si activé, le serveur essaiera de télécharger les IA manquantes.",,
 ALL_RIGHT_RESERVED,Tots els drets reservats,Alle Rechte vorbehalten,All rights reserved,Todos los derechos reservados,tous droits réservés,Wszelkie prawa zastrzeżone,Todos os direitos reservados
 ALREADY_INSTALLED,Ja he instal·lat el joc,Ich habe das Spiel schon installiert,I already installed the game,Ya he instalado el juego,J'ai déjà installé le jeu,Zainstalowałem już grę,Eu já instalei esse jogo
 AUTO_TRANSLATION_DISCLAIMER,"La traducció automàtica es fa servir per interactuar amb la IA en l'idioma seleccionat en comptes de l'anglès.
@@ -38,6 +40,7 @@ CONSOLE,,Konsole,Console,,Console,Konsola,
 CONSTITUTION,Constitució,Konstitution,Constitution,Constitución,Constitution,Konstytucja,Constituição
 CONTEXT_MAX_LENGTH,Longitud màxima del context,Maximale Kontextlänge,Context max length,Longitud máxima del contexto,Taille max du contexte,Maksymalna długość kontekstu,Tamanho máximo do contexto
 CONTEXT_MAX_LENGTH_HINT,"Quants caràcters, prèviament generats, hauria de recordar la IA?",Wie viele zuvor generierte Zeichen muss sich die KI merken?,How many previously generated characters the AI must remember.,¿Cuántos caracteres generados previamente debería recordar la IA?,Combien de caractères précédemment générés l'IA doit-elle se rappeler?,Jak wiele poprzednio wygenerowanych liter musi pamiętać AI.,Quantos caracteres gerados anteriormente a IA deve lembrar.
+CPU_MEMORY,,RAM Limit,RAM's limit,,Limite de RAM,,
 CRITICAL_FAIL_PREFIX,fracassa patèticament,auf erbärmliche Art und Weise,pathetically fail to,fracasa patéticamente,échoues pathétiquement à,żałośnie nie udało się,falha pateticamente em
 CRITICAL_SUCCESS_PREFIX,perfectament,perfekt,perfectly,perfectamente,réussis à la perfection à,perfekcyjnie,perfeitamente
 CUSTOM_MODEL,Model personalitzat,Benutzerdefiniertes Modell,Custom model,Modelo personalizado,Model personnalisé,Niestandardowy model,Modelo customizado
@@ -46,6 +49,8 @@ CUSTOM_START,Inici personalitzat,Benutzerdefinierter Start,Custom start,Comienzo
 DELETE,Esborrar,Löschen,Delete,Borrar,Supprimer,Usuń,Deletar
 DELETE_CONFIRMATION,Segur que ho vols esborrar?,"Sind Sie sicher, dass Sie das löschen möchten?",Are you sure you want to delete it?,¿Seguro que lo quieres borrar?,Êtes-vous sûr de vouloir supprimer?,Jesteś pewny że chcesz to usunąć?,Você tem certeza que quer deletar?
 DESCRIPTION,,Beschreibung,Description,,Description,Opis,
+DEVICE_MAP,,,,,,,
+DEVICE_MAP_HINT,,,,,,,
 DEXTERITY,Destresa,Geschicklichkeit,Dexterity,Destreza,Dextérité,Zręczność,Destreza
 DISPLAY_ADVANCED_OPTIONS,Mostrar les opcions avançades,Erweiterte Optionen anzeigen,Display advanced options,Mostrar las opciones avanzadas,Afficher les options avancées,Wyświetl zaawansowane opcje,Mostrar opções avançadas
 DISPLAY_ONLY_PNG,,Es werden nur PNG Dateien angezeigt.,Only PNG are displayed.,,Seulement les PNG sont affichés.,Tylko PNG są wyświetlane,
@@ -105,6 +110,7 @@ FORUM,Fòrum,Forum,Forum,Foro,Forum,Forum,Fórum
 FRIENDS_ONLY,,Nur Freunde,Friends only,,Amis seulement,Tylko znajomi,
 GENERATION_MAX_LENGTH,Longitud màxima de la generació,Maximal generierte länge,Generation's max length,Longitud máxima de la generación,Taille max de la génération,Maksymalna długość generacji,Tamanho máximo da geração
 GENERATION_MAX_LENGTH_HINT,Màxim de paraules a generar,Die maximal zu generierenden Wörter.,The maximum words to be generated.,Máximo de palabras a generar,Le nombre maximum de mots à générer.,Maksymalna ilość wyrazów do wygenerowania.,O máximo de palavras a serem geradas
+GPU_MEMORY,,VRAM Limit,VRAM's limit,,Limite de VRAM,,
 IMPORT,Importar,importieren,Import,Importar,Importer,Importuj,Importar
 INCOMPATIBLE_MEMORY_ACCEPT,Sí! Canviar l'opció,Ja! Änderung Übernehmen.,Yes! Change the option,¡Sí! Cambiar la opción,Oui! Changer l'option,Tak! Zmień tę opcję,Sim! Mude a opção
 INCOMPATIBLE_MEMORY_QUESTION,Vols canviar l'opció “Longitud de memòria màxima” per jugar en aquest escenari en les millors condicions?,"Möchten Sie die Option „Maximale Speicherlänge“ ändern, um dieses Szenario unter den besten Bedingungen zu spielen?","Do you want to change the ""Memory max length"" option to play this scenario in the best conditions?",¿Quieres cambiar la opción “Longitud de memoria máxima” para jugar en este escenario en las mejores condiciones?,"Voulez-vous changer l'option ""Taille max de la mémoire"" pour jouer ce scénario dans les meilleures conditions ?",Czy chcesz zmienić opcję „Maksymalna długość pamięci” aby zagrać w ten scenariusz w najlepszych warunkach?,Você quer mudar a opção “Tamanho máximo de memória” para jogar esse cenário nas melhores condições?
@@ -146,6 +152,17 @@ ITEM_URL,,Gegenstand-URL,Open item URL,,Ouvrir l'URL de l'objet,Otwórz adres UR
 I_ACCEPTED_TOS,,Ich habe die Nutzungsbedingungen akzeptiert.,I accepted the terms of use.,,J'ai accepté les conditions d'utilisation.,Zaakceptowałem warunki użytkowania,
 LANGUAGE,Idioma,Sprache,Language,Idioma,Langue,Język,Linguagem
 LAUNCH_INSTALLER,Iniciar l'instal·lador,Installationsprogramm ausführen,Launch the installer,Iniciar el instalador,Lancer l'installeur,Uruchom instalator,Iniciar o instalador
+LIMIT_MEMORY,,Speicher begrenzen,Limit memory usage,,Limiter la mémoire utilisée,,
+LIMIT_MEMORY_HINT,,"Den Speicher begrenzen wird den Server dazu zwingen, nie mehr als den angegebenen Speicher zu verwenden.
+Er könnte den Wert aber immer noch während der Textgenerierung überschreiten.
+Daher ist es ratsam den Speicherlimit niedriger anzusetzen (Beispiel: Falls der RAM auf 10000 Mb begrenzt werden soll, sollten eher 9500Mb angeben werden)
+Dasselbe gilt für das VRAM limit","Limiting the memory will force the server to never use more memory than specified for loading a model.
+It might still go over it while generating text.
+Therefore, if you want to limit the RAM usage to 10000 Mb, you should probably set it to 9500Mb.
+Same for the VRAM limit .",,"La limite de mémoire obligera le serveur à ne pas dépasser cette limite lors du chargement d'un IA.
+Le serveur peut cependant la dépasser lors de la génération de texte.
+Donc, si vous souhaitez ne pas dépaser 10000Mb, il est recommendé de limiter la mémoire à 9500Mb.
+De meme pour la VRAM.",,
 LINE_SEPARATION,Separació entre línies,Linientrennung,Line separation,Separación entre lineas,Séparation entre les lignes,Odległość między liniami,Separação de linha
 LOAD,Carregar,Laden,Load,Cargar,Charger,Wczytaj,Carregar
 LOREBOOK,Llibre del Coneixement,Geschichtsbuch,Lorebook,Libro del Conocimiento,Encyclopédie,Księga wiedzy,Enciclopédia
@@ -251,6 +268,15 @@ Ustaw na 0 aby wyłączyć.",Tamanho do token para impedir repetição de certas
 NO,No,Nein,No,No,Non,Nie,Não
 NORMAL_FAIL_PREFIX,falla,scheitern bei,fail to,falla,échoues à,nie udało się,falhou em
 NORMAL_SUCCESS_PREFIX,aconsegueix,schaffen es zu,succeed to,logra,réussis à,udało się,sucedeu em
+OFFLOAD_DICTIONNARY,,Wörterbuch entladen,Offload dictionnary,,Décharger le dictionnaire,,
+OFFLOAD_DICTIONNARY_HINT,,"Falls das Gewicht des CPU Status Wörterbuch + der größte Splitter des Checkpoints nicht passt, werden sie temporär auf die Festplatte entladen, um es zu vermeiden, den RAM auszuschöpfen","If the weight of the CPU state dictionnary + the biggest shard of the checkpoint does not fit,
+will temporarily offload the CPU state dictionnary to the hard drive to avoid getting out of CPU RAM.",,"Si le poids du CPU state dictionnary + la plus grosse partie du checkpoint ne rentre pas dans la RAM,
+alors le CPU state dictionnary sera temporairement déchargé sur le disque pour éviter saturer la RAM du CPU.",,
+OFFLOAD_MODEL,,Model entladen,Offload model,,Décharger le model,,
+OFFLOAD_MODEL_HINT,,"Falls ein Model nicht komplett in den VRAM passt, wird der Rest in die CPU (RAM) entladen oder in die Festplatte, falls zu wenig RAM vorhanden ist.","if a model doesn’t fully fit in VRAM, it will offload the rest on the CPU (RAM),
+or even the hard drive if you don’t have enough RAM.",,"Si une IA ne rentre pas entièrement dans la VRAM,
+alors le reste sera chargé sur le CPU (RAM), 
+ou meme le disque si vous n'avez pas assez de RAM.",,
 OK,D’acord,OK,Ok,Vale,Ok,Ok,Ok
 OPEN...,Obrir…,Öffnen...,Open...,Abrir…,Ouvrir...,Otwórz…,Abrir…
 OPTIONS_ADVANCED_OPTION_DISCLAIMER,"Només es recomana editar les opcions avançades si saps què estàs fent.
@@ -479,6 +505,11 @@ Ustaw 0 aby wyłączyć.","Escolhe o menor tamanho de um conjunto de palavras as
 A massa da probabilidade é então redistribuída entre esse conjunto de palavras.
 Se deixar < 1, apenas os tokens mais prováveis com probabilidades que somam até top_p ou maior são mantidas para geração.
 Deixe em 0 para desabilitar."
+TORCH_DTYPE,,,,,,,
+TORCH_DTYPE_HINT,,"
+Ein Objekt, welches den Datentypen der Tensors repräsentiert, das von den Modellen verwendet wird
+https://pytorch.org/docs/stable/tensor_attributes.html","An object that represents the data type of the Tensors used by the model.
+https://pytorch.org/docs/stable/tensor_attributes.html",,,,
 TRANSLATE_SCENARIO_INFO,Sembla que aquest escenari és en anglès. Vols que el joc el tradueixi al teu idioma?,"Dieses Szenario scheint Englisch zu sein. Möchten Sie, dass das Spiel dieses Szenario auf Ihre Sprache übersetzt?",This scenario seems to be in English. Do you want the game to translate the scenario to your language?,Parece que este escenario está en inglés. ¿Quieres que el juego lo traduzca a tu idioma?,Ce scénario semble être en anglais. Voulez-vous que le jeu traduise le scénario dans votre langue?,"Wygląda na to, że ten scenariusz jest po angielsku. Czy chcesz go przetłumaczyć na polski?",Esse cenário parece estar em inglês. Você quer que o jogo traduza automaticamente para sua língua?
 TYPE_OF_FILE,,Dateityp,Type of file,,Type de fichier,Typ pliku,
 UPDATE_CONTENT,,Inhalt aktualisieren,Update content,,Mettre à jour du contenu,Zaktualizuj zawartość,
@@ -527,7 +558,8 @@ Musisz również spełniać podane wymagania:
 - Napisz tytuł
 - Napisz opis
 - Wybierz przynajmniej jeden tag",
-WRONG_FONT_WARNING,,,"The font you are using might not correctly display the language you selected.
+WRONG_FONT_WARNING,,"Die ausgewählte Schriftart könnte eventuell mit der ausgewählten Sprache nicht korrekt angezeigt werden.
+Zur empfohlenen Schriftart wechseln?","The font you are using might not correctly display the language you selected.
 Do you want to use the recommended font?",,"La police que vous utilisez risque de ne pas pouvoir afficher la langue que vous avez sélectionnée.
 Voulez-vous utiliser la police recommandée?","Czcionka której używasz może nie być kompatybilna z językiem który wybrałeś.
 Czy chcesz użyć polecanej czcionki?",
