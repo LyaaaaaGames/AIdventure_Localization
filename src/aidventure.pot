@@ -1,0 +1,2512 @@
+# LANGUAGE translation for AIdventure for the following files:
+# res://src/interfaces/ai_info.gd
+# res://src/interfaces/ai_info.tscn
+# res://src/interfaces/ai_menu.gd
+# res://src/interfaces/ai_menu.tscn
+# res://src/interfaces/ai_options.gd
+# res://src/interfaces/ai_options.tscn
+# res://src/interfaces/edit_bar.gd
+# res://src/interfaces/edit_bar.tscn
+# res://src/interfaces/edit_workshop_item.gd
+# res://src/interfaces/edit_workshop_item.tscn
+# res://src/interfaces/input_bar.gd
+# res://src/interfaces/input_bar.tscn
+# res://src/interfaces/input_bar_text_edit.gd
+# res://src/interfaces/languages_button.gd
+# res://src/interfaces/languages_button.tscn
+# res://src/interfaces/list_own_workshop_items.gd
+# res://src/interfaces/list_own_workshop_items.tscn
+# res://src/interfaces/lorebook_info.gd
+# res://src/interfaces/lorebook_info.tscn
+# res://src/interfaces/lorebook_menu.gd
+# res://src/interfaces/lorebook_menu.tscn
+# res://src/interfaces/main_menu.gd
+# res://src/interfaces/main_menu.tscn
+# res://src/interfaces/options_menu.tscn
+# res://src/interfaces/output_display.gd
+# res://src/interfaces/output_display.tscn
+# res://src/interfaces/rotating_sprite.gd
+# res://src/interfaces/rotating_sprite.tscn
+# res://src/interfaces/scenario_info.gd
+# res://src/interfaces/scenario_info.tscn
+# res://src/interfaces/scenario_menu.gd
+# res://src/interfaces/scenario_menu.tscn
+# res://src/interfaces/splash_screen.gd
+# res://src/interfaces/splash_screen.tscn
+# res://src/interfaces/steam_workshop_menu.gd
+# res://src/interfaces/steam_workshop_menu.tscn
+# res://src/interfaces/tags_selector.gd
+# res://src/interfaces/tags_selector.tscn
+# res://src/interfaces/translator_manager.gd
+# res://src/interfaces/translator_manager.tscn
+# res://src/interfaces/translator_menu.gd
+# res://src/interfaces/translator_menu.tscn
+# res://src/interfaces/default_interfaces/default_botton_button_box.tscn
+# res://src/interfaces/default_interfaces/default_interface_background.tscn
+# res://src/interfaces/default_interfaces/default_interface_margin.tscn
+# res://src/game.gd
+# res://src/game.tscn
+# res://src/dialogs/asking_memory_size_pop_up.gd
+# res://src/dialogs/asking_memory_size_pop_up.tscn
+# res://src/dialogs/ask_custom_ai_name_popup.gd
+# res://src/dialogs/ask_custom_ai_name_popup.tscn
+# res://src/dialogs/character_creation_dialog.gd
+# res://src/dialogs/character_creation_dialog.tscn
+# res://src/dialogs/confirmation_dialog.gd
+# res://src/dialogs/confirmation_dialog.tscn
+# res://src/dialogs/custom_download_window.gd
+# res://src/dialogs/custom_download_window.tscn
+# res://src/dialogs/end_demo_popup.gd
+# res://src/dialogs/end_demo_popup.tscn
+# res://src/dialogs/error_popup.gd
+# res://src/dialogs/error_popup.tscn
+# res://src/dialogs/escape_menu.gd
+# res://src/dialogs/escape_menu.tscn
+# res://src/dialogs/incompatible_memory_dialog.gd
+# res://src/dialogs/incompatible_memory_dialog.tscn
+# res://src/dialogs/installation_popup.gd
+# res://src/dialogs/installation_popup.tscn
+# res://src/dialogs/intro_demo_popup.gd
+# res://src/dialogs/intro_demo_popup.tscn
+# res://src/dialogs/loading_server.gd
+# res://src/dialogs/loading_server.tscn
+# res://src/dialogs/load_menu.gd
+# res://src/dialogs/load_menu.tscn
+# res://src/dialogs/lore_book_popup.gd
+# res://src/dialogs/lore_book_popup.tscn
+# res://src/dialogs/memory_dialog.gd
+# res://src/dialogs/memory_dialog.tscn
+# res://src/dialogs/options_dialog.gd
+# res://src/dialogs/options_dialog.tscn
+# res://src/dialogs/story_editor.gd
+# res://src/dialogs/story_editor.tscn
+# res://src/dialogs/translate_scenario_pop_up.gd
+# res://src/dialogs/translate_scenario_pop_up.tscn
+# res://src/dialogs/update_workshop_dialog.tscn
+# res://src/dialogs/upload_workshop_dialog.tscn
+# res://src/dialogs/wait_dialog.gd
+# res://src/dialogs/wait_dialog.tscn
+# res://src/custom_nodes/advanced_list.gd
+# res://src/custom_nodes/ai_list.gd
+# res://src/custom_nodes/ai_list.tscn
+# res://src/custom_nodes/audio_button.gd
+# res://src/custom_nodes/audio_button.tscn
+# res://src/custom_nodes/audio_options_button.gd
+# res://src/custom_nodes/audio_options_button.tscn
+# res://src/custom_nodes/device_map_option_button.gd
+# res://src/custom_nodes/device_map_option_button.tscn
+# res://src/custom_nodes/dots_wait_animation.gd
+# res://src/custom_nodes/dots_wait_animation.tscn
+# res://src/custom_nodes/download_window.gd
+# res://src/custom_nodes/download_window.tscn
+# res://src/custom_nodes/edit_buttons.gd
+# res://src/custom_nodes/edit_buttons.tscn
+# res://src/custom_nodes/filters_inputs.gd
+# res://src/custom_nodes/filters_inputs.tscn
+# res://src/custom_nodes/generator_preset_options_button.gd
+# res://src/custom_nodes/generator_preset_options_button.tscn
+# res://src/custom_nodes/lorebook_list.gd
+# res://src/custom_nodes/lorebook_list.tscn
+# res://src/custom_nodes/notification.gd
+# res://src/custom_nodes/notification.tscn
+# res://src/custom_nodes/scenario_list.gd
+# res://src/custom_nodes/scenario_list.tscn
+# res://src/custom_nodes/story_element_info.gd
+# res://src/custom_nodes/story_element_info.tscn
+# res://src/custom_nodes/story_element_list.gd
+# res://src/custom_nodes/torch_dtype_option_button.gd
+# res://src/custom_nodes/torch_dtype_option_button.tscn
+# res://src/custom_nodes/ask_name_dialog/ask_lorebook_entry_name_dialog.gd
+# res://src/custom_nodes/ask_name_dialog/ask_lorebook_entry_name_dialog.tscn
+# res://src/custom_nodes/ask_name_dialog/ask_lorebook_name_dialog.gd
+# res://src/custom_nodes/ask_name_dialog/ask_lorebook_name_dialog.tscn
+# res://src/custom_nodes/ask_name_dialog/ask_name_dialog.gd
+# res://src/custom_nodes/ask_name_dialog/ask_name_dialog.tscn
+# res://src/custom_nodes/ask_name_dialog/ask_scenario_name_dialog.gd
+# res://src/custom_nodes/ask_name_dialog/ask_scenario_name_dialog.tscn
+# res://src/custom_nodes/ask_name_dialog/ask_story_element_name_dialog.gd
+# res://src/custom_nodes/ask_name_dialog/ask_story_element_name_dialog.tscn
+# res://src/classes/character.gd
+# res://src/classes/client.gd
+# res://src/classes/config.gd
+# res://src/classes/context.gd
+# res://src/classes/die.gd
+# res://src/classes/dir_utils.gd
+# res://src/classes/file_simple.gd
+# res://src/classes/game_settings.gd
+# res://src/classes/game_translator.gd
+# res://src/classes/language.gd
+# res://src/classes/logger.gd
+# res://src/classes/name.gd
+# res://src/classes/null_file_simple.gd
+# res://src/classes/null_language.gd
+# res://src/classes/parser.gd
+# res://src/classes/save.gd
+# res://src/classes/scenario_translator.gd
+# res://src/classes/server.gd
+# res://src/classes/translation_handler.gd
+# res://src/classes/story_elements/embedded_lorebook.gd
+# res://src/classes/story_elements/lorebook.gd
+# res://src/classes/story_elements/scenario.gd
+# res://src/classes/story_elements/story_element.gd
+# res://src/classes/story_elements/workshop_lorebook.gd
+# res://src/classes/story_elements/workshop_scenario.gd
+# res://src/classes/steam/steam_integration.gd
+# res://src/classes/steam/steam_integration_blank.gd
+# res://src/classes/steam/steam_workshop.gd
+# res://src/classes/steam/steam_workshop_item.gd
+# res://src/classes/ai/ai.gd
+# res://src/classes/ai/custom_ai.gd
+# res://src/classes/ai/generator.gd
+# res://src/classes/ai/generator_settings.gd
+# res://src/classes/ai/translator.gd
+# res://src/autoload/ai_autoload.gd
+# res://src/autoload/audio.gd
+# res://src/autoload/display.gd
+# res://src/autoload/features.gd
+# res://src/autoload/fonts.gd
+# res://src/autoload/global_variables.gd
+# res://src/autoload/icons.gd
+# res://src/autoload/installer.gd
+# res://src/autoload/languages.gd
+# res://src/autoload/notification_autoload.gd
+# res://src/autoload/steam_autoload.gd
+# res://src/autoload/tags.gd
+# res://src/autoload/thread_pool_autoload.gd
+# res://src/dialogs/credit.tscn
+# res://src/dialogs/merge_lorebook_dialog.gd
+# res://src/dialogs/merge_lorebook_dialog.tscn
+# res://src/dialogs/select_lorebook_dialog.gd
+# res://src/dialogs/select_lorebook_dialog.tscn
+# res://src/custom_nodes/advanced_tab_container.gd
+# res://src/custom_nodes/advanced_tab_container.tscn
+# res://src/custom_nodes/display_options_button.gd
+# res://src/custom_nodes/display_options_button.tscn
+# res://src/custom_nodes/font_options_button.gd
+# res://src/custom_nodes/font_options_button.tscn
+# res://src/custom_nodes/h_slider_with_counter.gd
+# res://src/custom_nodes/h_slider_with_counter.tscn
+# res://src/custom_nodes/load_generator.gd
+# res://src/custom_nodes/load_generator.tscn
+# res://src/custom_nodes/memory_sliders.gd
+# res://src/custom_nodes/memory_sliders.tscn
+# res://src/custom_nodes/options_buttons.gd
+# res://src/custom_nodes/options_buttons.tscn
+# res://src/custom_nodes/pov_options_button.gd
+# res://src/custom_nodes/pov_options_button.tscn
+# res://src/custom_nodes/published_workshop_item_list.gd
+# res://src/custom_nodes/published_workshop_item_list.tscn
+# res://src/custom_nodes/saves_list.gd
+# res://src/custom_nodes/saves_list.tscn
+# res://src/custom_nodes/server_log_display.gd
+# res://src/custom_nodes/server_log_display.tscn
+# res://src/custom_nodes/language_buttons/auto_translation_option_button.gd
+# res://src/custom_nodes/language_buttons/auto_translation_option_button.tscn
+# res://src/custom_nodes/language_buttons/languages_button.gd
+# res://src/custom_nodes/language_buttons/languages_button.tscn
+# res://src/custom_nodes/language_buttons/localization_option_button.gd
+# res://src/custom_nodes/language_buttons/localization_option_button.tscn
+# res://src/custom_nodes/language_buttons/translator_option_button.gd
+# res://src/custom_nodes/language_buttons/translator_option_button.tscn
+# res://src/custom_nodes/ask_name_dialog/ask_save_name_dialog.gd
+# res://src/custom_nodes/ask_name_dialog/ask_save_name_dialog.tscn
+# res://src/custom_nodes/ai_options_button/ai_option_button.gd
+# res://src/custom_nodes/ai_options_button/ai_option_button.tscn
+# res://src/custom_nodes/ai_options_button/generators_options_button.gd
+# res://src/custom_nodes/ai_options_button/generators_options_button.tscn
+# res://src/autoload/global_functions.gd
+# res://src/autoload/server_autoload.gd
+# res://src/autoload/strings.gd
+# res://src/classes/default_config.gd
+# res://src/classes/ai/ai_translator.gd
+# res://src/classes/ai/null_generator.gd
+# res://src/classes/fonts/custom_font.gd
+# res://src/classes/fonts/font_simple.gd
+# res://src/classes/story_elements/null_scenario.gd
+# res://src/classes/story_elements/save.gd
+# res://src/classes/translators/lorebook_translator.gd
+# res://src/classes/translators/scenario_translator.gd
+# res://src/classes/translators/story_element_translator.gd
+# res://src/classes/translators/translator.gd
+# res://src/dialogs/lorebook_info_popup_window.gd
+# res://src/dialogs/lorebook_info_popup_window.tscn
+# res://src/dialogs/server_off_warning.gd
+# res://src/dialogs/server_off_warning.tscn
+# res://src/dialogs/hardware_form/gpu_form.gd
+# res://src/dialogs/hardware_form/gpu_form.tscn
+# res://src/dialogs/hardware_form/hardware_form.gd
+# res://src/dialogs/hardware_form/hardware_form.tscn
+# res://src/dialogs/hardware_form/memory_form.gd
+# res://src/dialogs/hardware_form/memory_form.tscn
+# res://src/interfaces/character_menu.gd
+# res://src/interfaces/character_menu.tscn
+# res://src/interfaces/create_menu.gd
+# res://src/interfaces/create_menu.tscn
+# res://src/interfaces/end_demo.gd
+# res://src/interfaces/end_demo.tscn
+# res://src/interfaces/game.gd
+# res://src/interfaces/game.tscn
+# res://src/interfaces/game_top_bar_menu.gd
+# res://src/interfaces/game_top_bar_menu.tscn
+# res://src/interfaces/load_translator.gd
+# res://src/interfaces/load_translator.tscn
+# res://src/interfaces/options_menu.gd
+# res://src/interfaces/published_workshop_item_menu.gd
+# res://src/interfaces/published_workshop_item_menu.tscn
+# res://src/interfaces/server_menu.gd
+# res://src/interfaces/server_menu.tscn
+# res://src/interfaces/start_game_workflow.gd
+# res://src/interfaces/start_game_workflow.tscn
+# res://src/interfaces/workshop_menu.tscn
+# res://src/interfaces/options/preferences.gd
+# res://src/interfaces/options/preferences.tscn
+# res://src/interfaces/options/server.gd
+# res://src/interfaces/options/server.tscn
+#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AIdventure\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8-bit\n"
+
+#: src/interfaces/ai_info.gd
+#: src/interfaces/ai_info.tscn
+msgid "SFW_HINT"
+msgstr ""
+
+#: src/interfaces/ai_info.gd
+#: src/interfaces/ai_info.tscn
+msgid "NSFW_MODERATE_HINT"
+msgstr ""
+
+#: src/interfaces/ai_info.gd
+#: src/interfaces/ai_info.tscn
+msgid "NSFW_HINT"
+msgstr ""
+
+#: src/interfaces/ai_info.gd
+#: src/interfaces/ai_info.tscn
+#: src/interfaces/ai_menu.gd
+#: src/interfaces/ai_menu.tscn
+#: src/interfaces/edit_bar.gd
+#: src/interfaces/edit_bar.tscn
+#: src/interfaces/input_bar.gd
+#: src/interfaces/input_bar.tscn
+#: src/dialogs/story_editor.gd
+#: src/dialogs/story_editor.tscn
+#: src/custom_nodes/download_window.gd
+#: src/custom_nodes/download_window.tscn
+#: src/custom_nodes/filters_inputs.gd
+#: src/custom_nodes/filters_inputs.tscn
+#: src/custom_nodes/ask_name_dialog/ask_name_dialog.gd
+#: src/custom_nodes/ask_name_dialog/ask_name_dialog.tscn
+#: src/custom_nodes/h_slider_with_counter.gd
+#: src/custom_nodes/h_slider_with_counter.tscn
+msgid ""
+msgstr ""
+
+#: src/interfaces/ai_info.gd
+#: src/interfaces/ai_info.tscn
+msgid "?"
+msgstr ""
+
+#: src/interfaces/ai_info.tscn
+msgid "AI_SIZE"
+msgstr ""
+
+#: src/interfaces/ai_info.tscn
+msgid "SPACE_ON_DISK"
+msgstr ""
+
+#: src/interfaces/ai_info.tscn
+msgid "NUMBER_OF_FILES"
+msgstr ""
+
+#: src/interfaces/ai_info.tscn
+msgid "RAM_NEEDED"
+msgstr ""
+
+#: src/interfaces/ai_info.tscn
+msgid "VRAM_NEEDED"
+msgstr ""
+
+#: src/interfaces/ai_info.tscn
+#: src/custom_nodes/story_element_info.tscn
+msgid "LANGUAGE"
+msgstr ""
+
+#: src/interfaces/ai_info.tscn
+#: src/interfaces/edit_workshop_item.tscn
+msgid "DESCRIPTION"
+msgstr ""
+
+#: src/interfaces/ai_menu.tscn
+#: src/custom_nodes/filters_inputs.tscn
+msgid "FILTER_BY_NAME"
+msgstr ""
+
+#: src/interfaces/ai_menu.tscn
+msgid "AI_INSTALLED"
+msgstr ""
+
+#: src/interfaces/ai_menu.tscn
+msgid "NSFW_AI"
+msgstr ""
+
+#: src/interfaces/ai_menu.tscn
+msgid "CUSTOM_AI"
+msgstr ""
+
+#: src/interfaces/ai_menu.tscn
+#: src/custom_nodes/filters_inputs.tscn
+msgid "FILTER_BY_LANGUAGE"
+msgstr ""
+
+#: src/interfaces/ai_menu.tscn
+#: src/custom_nodes/filters_inputs.tscn
+msgid "RESET_FILTERS"
+msgstr ""
+
+#: src/interfaces/ai_menu.tscn
+msgid "ARTIFICIAL_INTELLIGENCES"
+msgstr ""
+
+#: src/interfaces/ai_menu.tscn
+msgid "DOWNLOAD_CUSTOM_AI"
+msgstr ""
+
+#: src/interfaces/ai_menu.tscn
+msgid "DOWNLOAD_AI"
+msgstr ""
+
+#: src/interfaces/ai_menu.tscn
+msgid "OPEN_AI_FOLDER"
+msgstr ""
+
+#: src/interfaces/ai_menu.tscn
+msgid "DELETE_AI"
+msgstr ""
+
+#: src/interfaces/ai_menu.tscn
+msgid "SAVE_SETTINGS"
+msgstr ""
+
+#: src/interfaces/ai_menu.tscn
+msgid "SAVE_SETTINGS_TO_ALL_AIS"
+msgstr ""
+
+#: src/interfaces/ai_menu.tscn
+msgid "RESET_AI_SETTINGS"
+msgstr ""
+
+#: src/interfaces/ai_menu.tscn
+msgid "RESET_ALL_AIS_SETTINGS"
+msgstr ""
+
+#: src/interfaces/ai_menu.tscn
+#: src/interfaces/lorebook_menu.tscn
+#: src/interfaces/steam_workshop_menu.tscn
+#: src/dialogs/ask_custom_ai_name_popup.tscn
+#: src/dialogs/load_menu.tscn
+#: src/dialogs/story_editor.tscn
+#: src/interfaces/character_menu.tscn
+msgid "CLOSE"
+msgstr ""
+
+#: src/interfaces/ai_options.tscn
+msgid "OPTIONS_AI_TAB"
+msgstr ""
+
+#: src/interfaces/ai_options.tscn
+msgid "GENERATION_MAX_LENGTH_HINT"
+msgstr ""
+
+#: src/interfaces/ai_options.tscn
+msgid "GENERATION_MAX_LENGTH"
+msgstr ""
+
+#: src/interfaces/ai_options.tscn
+msgid "RANDOMNESS_HINT"
+msgstr ""
+
+#: src/interfaces/ai_options.tscn
+msgid "RANDOMNESS"
+msgstr ""
+
+#: src/interfaces/ai_options.tscn
+msgid "REPETITION_PENALTY_HINT"
+msgstr ""
+
+#: src/interfaces/ai_options.tscn
+msgid "REPETITION_PENALTY"
+msgstr ""
+
+#: src/interfaces/ai_options.tscn
+msgid "MAX_TIME_HINT"
+msgstr ""
+
+#: src/interfaces/ai_options.tscn
+msgid "MAX_TIME"
+msgstr ""
+
+#: src/interfaces/ai_options.tscn
+msgid "CONTEXT_MAX_LENGTH_HINT"
+msgstr ""
+
+#: src/interfaces/ai_options.tscn
+msgid "CONTEXT_MAX_LENGTH"
+msgstr ""
+
+#: src/interfaces/ai_options.tscn
+msgid "MEMORY_MAX_LENGTH_HINT"
+msgstr ""
+
+#: src/interfaces/ai_options.tscn
+msgid "MEMORY_MAX_LENGTH"
+msgstr ""
+
+#: src/interfaces/ai_options.tscn
+msgid "OFFLOAD_MODEL_HINT"
+msgstr ""
+
+#: src/interfaces/ai_options.tscn
+msgid "OFFLOAD_MODEL"
+msgstr ""
+
+#: src/interfaces/ai_options.tscn
+msgid "LIMIT_MEMORY_HINT"
+msgstr ""
+
+#: src/interfaces/ai_options.tscn
+msgid "LIMIT_MEMORY"
+msgstr ""
+
+#: src/interfaces/ai_options.tscn
+#: src/custom_nodes/memory_sliders.tscn
+msgid "MAX_VRAM_HINT"
+msgstr ""
+
+#: src/interfaces/ai_options.tscn
+#: src/custom_nodes/memory_sliders.tscn
+msgid "MAX_VRAM"
+msgstr ""
+
+#: src/interfaces/ai_options.tscn
+#: src/custom_nodes/memory_sliders.tscn
+msgid "MAX_RAM_HINT"
+msgstr ""
+
+#: src/interfaces/ai_options.tscn
+#: src/custom_nodes/memory_sliders.tscn
+msgid "MAX_RAM"
+msgstr ""
+
+#: src/interfaces/ai_options.tscn
+msgid "DISPLAY_ADVANCED_OPTIONS"
+msgstr ""
+
+#: src/interfaces/ai_options.tscn
+msgid "ADVANCED_OPTIONS"
+msgstr ""
+
+#: src/interfaces/ai_options.tscn
+msgid "OPTIONS_ADVANCED_OPTION_DISCLAIMER"
+msgstr ""
+
+#: src/interfaces/ai_options.tscn
+msgid "LOW_RAM_HINT"
+msgstr ""
+
+#: src/interfaces/ai_options.tscn
+msgid "LOW_RAM_MODE"
+msgstr ""
+
+#: src/interfaces/ai_options.tscn
+msgid "DO_SAMPLE_HINT"
+msgstr ""
+
+#: src/interfaces/ai_options.tscn
+msgid "DO_SAMPLE"
+msgstr ""
+
+#: src/interfaces/ai_options.tscn
+msgid "TOP_K_HINT"
+msgstr ""
+
+#: src/interfaces/ai_options.tscn
+msgid "Top k"
+msgstr ""
+
+#: src/interfaces/ai_options.tscn
+msgid "TOP_P_HINT"
+msgstr ""
+
+#: src/interfaces/ai_options.tscn
+msgid "Top p"
+msgstr ""
+
+#: src/interfaces/ai_options.tscn
+msgid "NB_BEAMS"
+msgstr ""
+
+#: src/interfaces/ai_options.tscn
+msgid "NGRAM_SIZE_HINT"
+msgstr ""
+
+#: src/interfaces/ai_options.tscn
+msgid "No repeat ngram size"
+msgstr ""
+
+#: src/interfaces/ai_options.tscn
+msgid "OFFLOAD_DICTIONNARY_HINT"
+msgstr ""
+
+#: src/interfaces/ai_options.tscn
+msgid "OFFLOAD_DICTIONNARY"
+msgstr ""
+
+#: src/interfaces/ai_options.tscn
+msgid "DEVICE_MAP_HINT"
+msgstr ""
+
+#: src/interfaces/ai_options.tscn
+msgid "DEVICE_MAP"
+msgstr ""
+
+#: src/interfaces/ai_options.tscn
+msgid "TORCH_DTYPE_HINT"
+msgstr ""
+
+#: src/interfaces/ai_options.tscn
+msgid "TORCH_DTYPE"
+msgstr ""
+
+#: src/interfaces/edit_bar.tscn
+#: src/custom_nodes/ask_name_dialog/ask_name_dialog.tscn
+#: src/dialogs/select_lorebook_dialog.tscn
+msgid "Cancel"
+msgstr ""
+
+#: src/interfaces/edit_bar.tscn
+#: src/dialogs/hardware_form/hardware_form.tscn
+msgid "Previous"
+msgstr ""
+
+#: src/interfaces/edit_bar.tscn
+#: src/dialogs/hardware_form/hardware_form.tscn
+msgid "Next"
+msgstr ""
+
+#: src/interfaces/edit_bar.tscn
+msgid "Ask another generation"
+msgstr ""
+
+#: src/interfaces/edit_bar.tscn
+#: src/interfaces/character_menu.tscn
+msgid "Validate"
+msgstr ""
+
+#: src/interfaces/edit_workshop_item.tscn
+msgid "Title of workshop item"
+msgstr ""
+
+#: src/interfaces/edit_workshop_item.tscn
+msgid "OPEN..."
+msgstr ""
+
+#: src/interfaces/edit_workshop_item.tscn
+msgid "VISIBILITY"
+msgstr ""
+
+#: src/interfaces/edit_workshop_item.tscn
+msgid "DISPLAY_ONLY_PNG"
+msgstr ""
+
+#: src/interfaces/edit_workshop_item.tscn
+msgid "PREVIEW_IMAGE"
+msgstr ""
+
+#: src/interfaces/edit_workshop_item.tscn
+msgid "WORKSHOP_UPLOAD_BUTTON_HINT"
+msgstr ""
+
+#: src/interfaces/edit_workshop_item.tscn
+msgid "UPLOAD_TO_WORKSHOP"
+msgstr ""
+
+#: src/interfaces/edit_workshop_item.tscn
+msgid "I_ACCEPTED_TOS"
+msgstr ""
+
+#: src/interfaces/edit_workshop_item.tscn
+msgid "READ_TOS"
+msgstr ""
+
+#: src/interfaces/edit_workshop_item.tscn
+#: src/dialogs/story_editor.tscn
+msgid "*.json"
+msgstr ""
+
+#: src/interfaces/edit_workshop_item.tscn
+msgid "*.png"
+msgstr ""
+
+#: src/interfaces/edit_workshop_item.tscn
+msgid "*.jpg"
+msgstr ""
+
+#: src/interfaces/edit_workshop_item.tscn
+msgid "*.gif"
+msgstr ""
+
+#: src/interfaces/edit_workshop_item.tscn
+msgid "FAILED_UPLOAD_TO_WORKSHOP"
+msgstr ""
+
+#: src/interfaces/edit_workshop_item.tscn
+msgid "SUCCESS_UPLOAD_TO_WORKSHOP"
+msgstr ""
+
+#: src/interfaces/input_bar.tscn
+msgid "Undo"
+msgstr ""
+
+#: src/interfaces/input_bar.tscn
+msgid "Redo"
+msgstr ""
+
+#: src/interfaces/input_bar.tscn
+msgid "LOREBOOK"
+msgstr ""
+
+#: src/interfaces/input_bar.tscn
+msgid "Character"
+msgstr ""
+
+#: src/interfaces/input_bar.tscn
+msgid "INPUT_BAR_MEMORY_HINT"
+msgstr ""
+
+#: src/interfaces/input_bar.tscn
+#: src/dialogs/memory_dialog.tscn
+msgid "Memory"
+msgstr ""
+
+#: src/interfaces/input_bar.tscn
+msgid "INPUT_BAR_MODE_BUTTON_HINT"
+msgstr ""
+
+#: src/interfaces/input_bar.tscn
+#: src/autoload/strings.gd
+msgid "Story"
+msgstr ""
+
+#: src/interfaces/input_bar.tscn
+#: src/autoload/strings.gd
+msgid "The knight draws his sword and takes a step forward."
+msgstr ""
+
+#: src/interfaces/input_bar.tscn
+msgid "Generate"
+msgstr ""
+
+#: src/interfaces/lorebook_info.gd
+#: src/interfaces/lorebook_info.tscn
+msgid "Successfully exported the lorebook:"
+msgstr ""
+
+#: src/interfaces/lorebook_info.gd
+#: src/interfaces/lorebook_info.tscn
+msgid "Error, can\'t export the lorebook:"
+msgstr ""
+
+#: src/interfaces/lorebook_info.gd
+#: src/interfaces/lorebook_info.tscn
+msgid "ADD_ENTRY_SUCCESS"
+msgstr ""
+
+#: src/interfaces/lorebook_info.gd
+#: src/interfaces/lorebook_info.tscn
+msgid "ADD_ENTRY_FAILED"
+msgstr ""
+
+#: src/interfaces/lorebook_info.gd
+#: src/interfaces/lorebook_info.tscn
+msgid "DELETE_ENTRY_SUCCESS"
+msgstr ""
+
+#: src/interfaces/lorebook_info.gd
+#: src/interfaces/lorebook_info.tscn
+msgid "DELETE_ENTRY_FAILED"
+msgstr ""
+
+#: src/interfaces/lorebook_info.gd
+#: src/interfaces/lorebook_info.tscn
+msgid "RENAME_ENTRY_SUCCESS"
+msgstr ""
+
+#: src/interfaces/lorebook_info.gd
+#: src/interfaces/lorebook_info.tscn
+msgid "RENAME_ENTRY_FAILED"
+msgstr ""
+
+#: src/interfaces/lorebook_info.tscn
+msgid "Export"
+msgstr ""
+
+#: src/interfaces/lorebook_info.tscn
+msgid "Import"
+msgstr ""
+
+#: src/interfaces/lorebook_info.tscn
+msgid "Rename"
+msgstr ""
+
+#: src/interfaces/lorebook_info.tscn
+msgid "Add"
+msgstr ""
+
+#: src/interfaces/lorebook_info.tscn
+#: src/custom_nodes/edit_buttons.tscn
+msgid "Delete"
+msgstr ""
+
+#: src/interfaces/lorebook_menu.gd
+#: src/interfaces/lorebook_menu.tscn
+msgid "Successfully saved the lorebook:"
+msgstr ""
+
+#: src/interfaces/lorebook_menu.gd
+#: src/interfaces/lorebook_menu.tscn
+msgid "Error, can\'t save the lorebook:"
+msgstr ""
+
+#: src/interfaces/lorebook_menu.gd
+#: src/interfaces/lorebook_menu.tscn
+msgid "Successfully deleted the lorebook:"
+msgstr ""
+
+#: src/interfaces/lorebook_menu.gd
+#: src/interfaces/lorebook_menu.tscn
+msgid "Error, can\'t delete the lorebook:"
+msgstr ""
+
+#: src/interfaces/lorebook_menu.tscn
+msgid "LOREBOOKS"
+msgstr ""
+
+#: src/interfaces/lorebook_menu.tscn
+msgid "OPEN_LOREBOOK_FOLDER"
+msgstr ""
+
+#: src/interfaces/main_menu.gd
+#: src/interfaces/main_menu.tscn
+msgid "Buy the complete version to unlock."
+msgstr ""
+
+#: src/interfaces/main_menu.tscn
+msgid "PLAY"
+msgstr ""
+
+#: src/interfaces/main_menu.tscn
+msgid "CREATE"
+msgstr ""
+
+#: src/interfaces/main_menu.tscn
+msgid "COMING SOON"
+msgstr ""
+
+#: src/interfaces/main_menu.tscn
+msgid "STEAM_WORKSHOP"
+msgstr ""
+
+#: src/interfaces/main_menu.tscn
+msgid "OPTIONS"
+msgstr ""
+
+#: src/interfaces/main_menu.tscn
+msgid "COMMUNITY"
+msgstr ""
+
+#: src/interfaces/main_menu.tscn
+msgid "HELP"
+msgstr ""
+
+#: src/interfaces/main_menu.tscn
+msgid "CREDITS"
+msgstr ""
+
+#: src/interfaces/main_menu.tscn
+msgid "EXIT"
+msgstr ""
+
+#: src/interfaces/main_menu.tscn
+msgid "AIdventure "
+msgstr ""
+
+#: src/interfaces/main_menu.tscn
+msgid "Copyright (c) 2022-Present Lyaaaaa Games™"
+msgstr ""
+
+#: src/interfaces/output_display.tscn
+msgid "Double click to edit the story."
+msgstr ""
+
+#: src/interfaces/output_display.tscn
+msgid ""
+"Press enter to validate.\n"
+"Press escape to cancel.\n"
+"Press shift + enter to insert a new line."
+msgstr ""
+
+#: src/interfaces/scenario_info.tscn
+msgid "STORY"
+msgstr ""
+
+#: src/interfaces/scenario_info.tscn
+msgid "MEMORY"
+msgstr ""
+
+#: src/interfaces/scenario_menu.gd
+#: src/interfaces/scenario_menu.tscn
+msgid "SAVE_SCENARIO_SUCCESS"
+msgstr ""
+
+#: src/interfaces/scenario_menu.gd
+#: src/interfaces/scenario_menu.tscn
+msgid "SAVE_SCENARIO_FAILED"
+msgstr ""
+
+#: src/interfaces/scenario_menu.gd
+#: src/interfaces/scenario_menu.tscn
+msgid "DELETE_FILE_SUCCESS"
+msgstr ""
+
+#: src/interfaces/scenario_menu.gd
+#: src/interfaces/scenario_menu.tscn
+msgid "DELETE_FILE_FAILED"
+msgstr ""
+
+#: src/interfaces/scenario_menu.tscn
+msgid "SCENARIOS"
+msgstr ""
+
+#: src/interfaces/scenario_menu.tscn
+#: src/interfaces/translator_menu.tscn
+#: src/custom_nodes/options_buttons.tscn
+#: src/dialogs/lorebook_info_popup_window.tscn
+#: src/dialogs/server_off_warning.tscn
+#: src/interfaces/server_menu.tscn
+msgid "Close"
+msgstr ""
+
+#: src/interfaces/scenario_menu.tscn
+msgid "Open scenarios\' folder"
+msgstr ""
+
+#: src/interfaces/scenario_menu.tscn
+msgid "Custom start"
+msgstr ""
+
+#: src/interfaces/scenario_menu.tscn
+msgid "Play"
+msgstr ""
+
+#: src/interfaces/splash_screen.tscn
+msgid "Lyaaaaa Games™"
+msgstr ""
+
+#: src/interfaces/steam_workshop_menu.tscn
+msgid "Steam Workshop"
+msgstr ""
+
+#: src/interfaces/steam_workshop_menu.tscn
+#: src/dialogs/ask_custom_ai_name_popup.tscn
+msgid "DOWNLOAD"
+msgstr ""
+
+#: src/interfaces/steam_workshop_menu.tscn
+msgid "SHARE"
+msgstr ""
+
+#: src/interfaces/steam_workshop_menu.tscn
+#: src/dialogs/load_menu.tscn
+msgid "EDIT"
+msgstr ""
+
+#: src/interfaces/translator_menu.gd
+#: src/interfaces/translator_menu.tscn
+msgid "TRANSLATORS_DESCRIPTION"
+msgstr ""
+
+#: src/interfaces/translator_menu.tscn
+msgid "Delete AI"
+msgstr ""
+
+#: src/interfaces/translator_menu.tscn
+msgid "Open AI\'s folder"
+msgstr ""
+
+#: src/interfaces/translator_menu.tscn
+msgid "Download AI"
+msgstr ""
+
+#: src/dialogs/asking_memory_size_pop_up.tscn
+msgid "ASKING_MEMORY_POPUP_TITLE"
+msgstr ""
+
+#: src/dialogs/asking_memory_size_pop_up.tscn
+msgid "ASKING_MEMORY_POPUP_TEXT"
+msgstr ""
+
+#: src/dialogs/ask_custom_ai_name_popup.tscn
+msgid "ENTER_AI_NAME"
+msgstr ""
+
+#: src/dialogs/ask_custom_ai_name_popup.tscn
+msgid "CUSTOM_MODEL_DOWNLOAD_INSTRUCTION"
+msgstr ""
+
+#: src/dialogs/ask_custom_ai_name_popup.tscn
+msgid "CUSTOM_MODEL_DOWNLOAD_WARNING"
+msgstr ""
+
+#: src/dialogs/ask_custom_ai_name_popup.tscn
+msgid "MODEL_SELECTOR_BROWSE_MODEL"
+msgstr ""
+
+#: src/dialogs/confirmation_dialog.tscn
+#: src/dialogs/translate_scenario_pop_up.tscn
+msgid "NO"
+msgstr ""
+
+#: src/dialogs/confirmation_dialog.tscn
+#: src/dialogs/translate_scenario_pop_up.tscn
+msgid "YES"
+msgstr ""
+
+#: src/dialogs/custom_download_window.tscn
+#: src/custom_nodes/download_window.tscn
+msgid "DOWNLOAD_DIALOG_LABEL"
+msgstr ""
+
+#: src/dialogs/error_popup.tscn
+msgid "An error occured!"
+msgstr ""
+
+#: src/dialogs/error_popup.tscn
+msgid "ERROR_POPUP_TITLE"
+msgstr ""
+
+#: src/dialogs/error_popup.tscn
+msgid "ERROR_POPUP_REPORT"
+msgstr ""
+
+#: src/dialogs/error_popup.tscn
+msgid "Logs copied in the clipboard!"
+msgstr ""
+
+#: src/dialogs/error_popup.tscn
+msgid "ERROR_POPUP_CLIPBOARD"
+msgstr ""
+
+#: src/dialogs/error_popup.tscn
+msgid "FORUM"
+msgstr ""
+
+#: src/dialogs/error_popup.tscn
+msgid "MAIN_MENU"
+msgstr ""
+
+#: src/dialogs/escape_menu.tscn
+msgid "AIdventure"
+msgstr ""
+
+#: src/dialogs/escape_menu.tscn
+msgid "Resume"
+msgstr ""
+
+#: src/dialogs/escape_menu.tscn
+msgid "Options"
+msgstr ""
+
+#: src/dialogs/escape_menu.tscn
+#: src/interfaces/end_demo.tscn
+msgid "Return to main menu"
+msgstr ""
+
+#: src/dialogs/escape_menu.tscn
+msgid "Exit the game"
+msgstr ""
+
+#: src/dialogs/incompatible_memory_dialog.tscn
+msgid ""
+"The \"Memory max length\" defined in your option is too small for this scenario.\n"
+"Memory length required :"
+msgstr ""
+
+#: src/dialogs/incompatible_memory_dialog.tscn
+msgid "Do you want to change the \"Memory max length\" option to play this scenario in the best conditions?"
+msgstr ""
+
+#: src/dialogs/incompatible_memory_dialog.tscn
+#: src/interfaces/load_translator.tscn
+msgid "No"
+msgstr ""
+
+#: src/dialogs/incompatible_memory_dialog.tscn
+#: src/interfaces/load_translator.tscn
+msgid "Yes"
+msgstr ""
+
+#: src/dialogs/installation_popup.gd
+#: src/dialogs/installation_popup.tscn
+msgid "The game didn\'t find the installation. Please, run the installer and install the game."
+msgstr ""
+
+#: src/dialogs/installation_popup.gd
+#: src/dialogs/installation_popup.tscn
+msgid "Your installation is outdated. Please, run the installer and update."
+msgstr ""
+
+#: src/dialogs/installation_popup.gd
+#: src/dialogs/installation_popup.tscn
+msgid "Installer not found."
+msgstr ""
+
+#: src/dialogs/installation_popup.tscn
+msgid "Launch the installer"
+msgstr ""
+
+#: src/dialogs/installation_popup.tscn
+#: src/dialogs/hardware_form/hardware_form.tscn
+msgid "Skip"
+msgstr ""
+
+#: src/dialogs/installation_popup.tscn
+msgid "I already installed the game\n"
+msgstr ""
+
+#: src/dialogs/intro_demo_popup.tscn
+msgid "Thank you for downloading AIdventure\'s demo!"
+msgstr ""
+
+#: src/dialogs/intro_demo_popup.tscn
+msgid "The following features are disabled in the demo:"
+msgstr ""
+
+#: src/dialogs/intro_demo_popup.tscn
+msgid ""
+"The creation menu\n"
+"Custom scenarios\n"
+"Connecting to a remote server\n"
+"Steam Workshop menu"
+msgstr ""
+
+#: src/dialogs/intro_demo_popup.tscn
+msgid "You also have a limited number of AIs:"
+msgstr ""
+
+#: src/dialogs/intro_demo_popup.tscn
+msgid "The stories are limited to a maximum number of characters:"
+msgstr ""
+
+#: src/dialogs/intro_demo_popup.tscn
+msgid "Play the game"
+msgstr ""
+
+#: src/dialogs/intro_demo_popup.tscn
+#: src/interfaces/end_demo.tscn
+msgid "Join the community"
+msgstr ""
+
+#: src/dialogs/intro_demo_popup.tscn
+msgid "Buy the game"
+msgstr ""
+
+#: src/dialogs/load_menu.tscn
+msgid "LOAD"
+msgstr ""
+
+#: src/dialogs/load_menu.tscn
+msgid "RENAME"
+msgstr ""
+
+#: src/dialogs/load_menu.tscn
+#: src/dialogs/story_editor.tscn
+msgid "STORY_EDITOR_OPEN_STORY_FOLDER"
+msgstr ""
+
+#: src/dialogs/load_menu.tscn
+msgid "DELETE"
+msgstr ""
+
+#: src/dialogs/load_menu.tscn
+msgid ""
+"Are you sure you want to delete this save?\n"
+"There is no going back."
+msgstr ""
+
+#: src/dialogs/memory_dialog.tscn
+msgid "Write here what the AI must always remember."
+msgstr ""
+
+#: src/dialogs/story_editor.tscn
+msgid "STORY_EDITOR_OPEN_STORY"
+msgstr ""
+
+#: src/dialogs/story_editor.tscn
+msgid "STORY_EDITOR_CHARACTER_EDITOR"
+msgstr ""
+
+#: src/dialogs/story_editor.tscn
+msgid "SAVE"
+msgstr ""
+
+#: src/dialogs/story_editor.tscn
+msgid "SAVE_AS"
+msgstr ""
+
+#: src/dialogs/translate_scenario_pop_up.tscn
+msgid "TRANSLATE_SCENARIO_INFO"
+msgstr ""
+
+#: src/dialogs/wait_dialog.tscn
+msgid "PLEASE_WAIT"
+msgstr ""
+
+#: src/custom_nodes/download_window.tscn
+msgid "DOWNLOAD_WINDOW_TITLE"
+msgstr ""
+
+#: src/custom_nodes/edit_buttons.tscn
+msgid "Enable edition"
+msgstr ""
+
+#: src/custom_nodes/edit_buttons.tscn
+msgid "Show embedded lorebook"
+msgstr ""
+
+#: src/custom_nodes/edit_buttons.tscn
+msgid "Merge the entries of multiple lorebooks together."
+msgstr ""
+
+#: src/custom_nodes/edit_buttons.tscn
+msgid "Merge entries"
+msgstr ""
+
+#: src/custom_nodes/edit_buttons.tscn
+msgid "Translate"
+msgstr ""
+
+#: src/custom_nodes/edit_buttons.tscn
+#: src/custom_nodes/options_buttons.tscn
+msgid "Save"
+msgstr ""
+
+#: src/custom_nodes/edit_buttons.tscn
+msgid "Save as"
+msgstr ""
+
+#: src/custom_nodes/filters_inputs.tscn
+msgid "FILTER_BY_WORKSHOP"
+msgstr ""
+
+#: src/custom_nodes/generator_preset_options_button.gd
+#: src/custom_nodes/generator_preset_options_button.tscn
+msgid "Memory saving preset."
+msgstr ""
+
+#: src/custom_nodes/generator_preset_options_button.gd
+#: src/custom_nodes/generator_preset_options_button.tscn
+msgid "Memory saving preset for CPU only."
+msgstr ""
+
+#: src/custom_nodes/generator_preset_options_button.gd
+#: src/custom_nodes/generator_preset_options_button.tscn
+msgid "Performance preset."
+msgstr ""
+
+#: src/custom_nodes/generator_preset_options_button.gd
+#: src/custom_nodes/generator_preset_options_button.tscn
+msgid "Performance preset for CPU only."
+msgstr ""
+
+#: src/custom_nodes/notification.tscn
+msgid "AIDVENTURE_NOTIFICATION"
+msgstr ""
+
+#: src/custom_nodes/story_element_info.tscn
+msgid "TITLE"
+msgstr ""
+
+#: src/custom_nodes/story_element_info.tscn
+msgid "AUTHOR"
+msgstr ""
+
+#: src/custom_nodes/story_element_info.tscn
+msgid "WORKSHOP_ID"
+msgstr ""
+
+#: src/custom_nodes/story_element_info.tscn
+msgid "CATEGORY"
+msgstr ""
+
+#: src/custom_nodes/ask_name_dialog/ask_name_dialog.tscn
+msgid "Enter a name."
+msgstr ""
+
+#: src/custom_nodes/ask_name_dialog/ask_name_dialog.tscn
+msgid "Cool name"
+msgstr ""
+
+#: src/custom_nodes/ask_name_dialog/ask_name_dialog.tscn
+msgid "This name is already taken. Please, choose another one."
+msgstr ""
+
+#: src/custom_nodes/ask_name_dialog/ask_name_dialog.tscn
+#: src/dialogs/select_lorebook_dialog.tscn
+#: src/dialogs/hardware_form/hardware_form.tscn
+msgid "Ok"
+msgstr ""
+
+#: src/classes/client.gd
+msgid "Closed the connection with the server."
+msgstr ""
+
+#: src/classes/client.gd
+msgid "Failed to connect to the server."
+msgstr ""
+
+#: src/classes/client.gd
+msgid "Connection established with the server."
+msgstr ""
+
+#: src/classes/client.gd
+msgid "Text generated."
+msgstr ""
+
+#: src/classes/client.gd
+msgid "Generator loaded."
+msgstr ""
+
+#: src/classes/client.gd
+msgid "Failed loading Generator"
+msgstr ""
+
+#: src/classes/client.gd
+msgid "Translators loaded."
+msgstr ""
+
+#: src/classes/ai/custom_ai.gd
+msgid "CUSTOM_MODEL_HINT"
+msgstr ""
+
+#: src/autoload/ai_autoload.gd
+msgid "DELETE_AI_SUCCESS"
+msgstr ""
+
+#: src/autoload/ai_autoload.gd
+msgid "DELETE_AI_FAILED"
+msgstr ""
+
+#: src/autoload/ai_autoload.gd
+msgid "CUSTOM_AI_ALREADY_INSTALLED"
+msgstr ""
+
+#: src/autoload/ai_autoload.gd
+msgid "AI_DOWNLOAD_FINISHED"
+msgstr ""
+
+#: src/autoload/ai_autoload.gd
+msgid "AI_DOWNLOAD_FAILED"
+msgstr ""
+
+#: src/dialogs/credit.tscn
+msgid ""
+"Developer and project manager\n"
+"Lyaaaaaaaaaaaaaaa"
+msgstr ""
+
+#: src/dialogs/credit.tscn
+msgid ""
+"Translation\n"
+"German: Nyghtfall\n"
+"French: Lord_Sieben & Lyaaaaaaaaaaaaaaa\n"
+"Portuguese: ZariTen\n"
+"Spanish & Catalan: atumsk#0069\n"
+"Polish: BOBZONEG#1820"
+msgstr ""
+
+#: src/dialogs/credit.tscn
+msgid ""
+"Theme by\n"
+"https://azagaya.itch.io/"
+msgstr ""
+
+#: src/dialogs/credit.tscn
+msgid ""
+"Server Ressources\n"
+"Mamba: BSD 3-Clause. Copyright 2019 QuantStack and the Mamba contributors.\n"
+"Transformers: State-of-the-Art Natural Language Processing (Apache-2.0 License)\n"
+"Thomas Wolf, Lysandre Debut, Victor Sanh, Julien Chaumond, Clement Delangue, Anthony Moi, Pierric Cistac, Tim Rault, Remi Louf, Morgan Funtowicz, Joe Davison, Sam Shleifer, Patrick von Platen, Clara Ma, Yacine Jernite, Julien Plu, Canwen Xu, Teven Le Scao, Sylvain Gugger, Mariama Drame, Quentin Lhoest, Alexander Rush"
+msgstr ""
+
+#: src/dialogs/credit.tscn
+msgid ""
+"Godot addons\n"
+"Godothreadpool (MIT License):\n"
+"Marcos Zolnowski\n"
+"Godot Logging Util (MIT License):\n"
+"Ivanskodje Godotengine\n"
+"Godot Unit Test (MIT License):\n"
+"Copyright (c) 2018 Tom \"Butch\" Wesley\n"
+"Sound Manager (MIT License):\n"
+"Copyright (c) 2021-present Nathan Hoad"
+msgstr ""
+
+#: src/dialogs/credit.tscn
+msgid ""
+"Special thanks to:\n"
+"Patman124 for splitting the big GPT-J-6B models."
+msgstr ""
+
+#: src/dialogs/credit.tscn
+msgid ""
+"Models disclaimer:\n"
+"All the models used in AIdventure have been modified.\n"
+"They have been split into smaller parts to optimize the performances."
+msgstr ""
+
+#: src/dialogs/credit.tscn
+msgid ""
+"GPT-Neo:\n"
+"Copyright (c) 2020 EleutherAI\n"
+"\n"
+"Permission is hereby granted, free of charge, to any person obtaining a copy\n"
+"of this software and associated documentation files (the \"Software\"), to deal\n"
+"in the Software without restriction, including without limitation the rights\n"
+"to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n"
+"copies of the Software, and to permit persons to whom the Software is\n"
+"furnished to do so, subject to the following conditions:\n"
+"\n"
+"The above copyright notice and this permission notice shall be included in all\n"
+"copies or substantial portions of the Software.\n"
+"\n"
+"THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n"
+"IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n"
+"FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n"
+"AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n"
+"LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n"
+"OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\n"
+"SOFTWARE."
+msgstr ""
+
+#: src/dialogs/credit.tscn
+msgid ""
+"GPT2 models:\n"
+"Software Copyright (c) 2019 OpenAI\n"
+"\n"
+"We don’t claim ownership of the content you create with GPT-2, so it is yours to do with as you please.\n"
+"We only ask that you use GPT-2 responsibly and clearly indicate your content was created using GPT-2.\n"
+"\n"
+"Permission is hereby granted, free of charge, to any person obtaining a copy of this software and\n"
+"associated documentation files (the \"Software\"), to deal in the Software without restriction,\n"
+"including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense,\n"
+"and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so,\n"
+"subject to the following conditions:\n"
+"\n"
+"The above copyright notice and this permission notice shall be included\n"
+"in all copies or substantial portions of the Software.\n"
+"The above copyright notice and this permission notice need not be included\n"
+"with content created by the Software.\n"
+"\n"
+"THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,\n"
+"INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n"
+"FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS\n"
+"BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\n"
+"TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE\n"
+"OR OTHER DEALINGS IN THE SOFTWARE."
+msgstr ""
+
+#: src/dialogs/credit.tscn
+msgid ""
+"Helsinki-NLP - opus-mt models:\n"
+"Copyright (c) 2004-2020 Joerg Tiedemann\n"
+"\n"
+"Permission is hereby granted, free of charge, to any person obtaining a copy\n"
+"of this software and associated documentation files (the \"Software\"), to deal\n"
+"in the Software without restriction, including without limitation the rights\n"
+"to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n"
+"copies of the Software, and to permit persons to whom the Software is\n"
+"furnished to do so, subject to the following conditions:\n"
+"\n"
+"The above copyright notice and this permission notice shall be included in all\n"
+"copies or substantial portions of the Software.\n"
+"\n"
+"THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n"
+"IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n"
+"FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n"
+"AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n"
+"LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n"
+"OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\n"
+"SOFTWARE."
+msgstr ""
+
+#: src/dialogs/credit.tscn
+msgid ""
+"KoboldAI\'s GPT-Neo 2.7B - Shinen/Picard:\n"
+"MIT License\n"
+"\n"
+"Copyright (c) 2021 Black, Sid and Leo, Gao and Wang, Phil and Leahy, Connor and Biderman, Stella\n"
+"\n"
+"Permission is hereby granted, free of charge, to any person obtaining a copy\n"
+"of this software and associated documentation files (the \"Software\"), to deal\n"
+"in the Software without restriction, including without limitation the rights\n"
+"to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n"
+"copies of the Software, and to permit persons to whom the Software is\n"
+"furnished to do so, subject to the following conditions:\n"
+"\n"
+"The above copyright notice and this permission notice shall be included in all\n"
+"copies or substantial portions of the Software.\n"
+"\n"
+"THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n"
+"IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n"
+"FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n"
+"AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n"
+"LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n"
+"OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\n"
+"SOFTWARE."
+msgstr ""
+
+#: src/dialogs/credit.tscn
+msgid ""
+"KoboldAI\'s GPT-J-6B-Skein:\n"
+"Apache License\n"
+"Version 2.0, January 2004\n"
+"http://www.apache.org/licenses/\n"
+"\n"
+"   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n"
+"\n"
+"   1. Definitions.\n"
+"\n"
+"      \"License\" shall mean the terms and conditions for use, reproduction,\n"
+"      and distribution as defined by Sections 1 through 9 of this document.\n"
+"\n"
+"      \"Licensor\" shall mean the copyright owner or entity authorized by\n"
+"      the copyright owner that is granting the License.\n"
+"\n"
+"      \"Legal Entity\" shall mean the union of the acting entity and all\n"
+"      other entities that control, are controlled by, or are under common\n"
+"      control with that entity. For the purposes of this definition,\n"
+"      \"control\" means (i) the power, direct or indirect, to cause the\n"
+"      direction or management of such entity, whether by contract or\n"
+"      otherwise, or (ii) ownership of fifty percent (50%) or more of the\n"
+"      outstanding shares, or (iii) beneficial ownership of such entity.\n"
+"\n"
+"      \"You\" (or \"Your\") shall mean an individual or Legal Entity\n"
+"      exercising permissions granted by this License.\n"
+"\n"
+"      \"Source\" form shall mean the preferred form for making modifications,\n"
+"      including but not limited to software source code, documentation\n"
+"      source, and configuration files.\n"
+"\n"
+"      \"Object\" form shall mean any form resulting from mechanical\n"
+"      transformation or position of a Source form, including but\n"
+"      not limited to compiled object code, generated documentation,\n"
+"      and conversions to other media types.\n"
+"\n"
+"      \"Work\" shall mean the work of authorship, whether in Source or\n"
+"      Object form, made available under the License, as indicated by a\n"
+"      copyright notice that is included in or attached to the work\n"
+"      (an example is provided in the Appendix below).\n"
+"\n"
+"      \"Derivative Works\" shall mean any work, whether in Source or Object\n"
+"      form, that is based on (or derived from) the Work and for which the\n"
+"      editorial revisions, annotations, elaborations, or other modifications\n"
+"      represent, as a whole, an original work of authorship. For the purposes\n"
+"      of this License, Derivative Works shall not include works that remain\n"
+"      separable from, or merely link (or bind by name) to the interfaces of,\n"
+"      the Work and Derivative Works thereof.\n"
+"\n"
+"      \"Contribution\" shall mean any work of authorship, including\n"
+"      the original version of the Work and any modifications or additions\n"
+"      to that Work or Derivative Works thereof, that is intentionally\n"
+"      submitted to Licensor for inclusion in the Work by the copyright owner\n"
+"      or by an individual or Legal Entity authorized to submit on behalf of\n"
+"      the copyright owner. For the purposes of this definition, \"submitted\"\n"
+"      means any form of electronic, verbal, or written communication sent\n"
+"      to the Licensor or its representatives, including but not limited to\n"
+"      communication on electronic mailing lists, source code control systems,\n"
+"      and issue tracking systems that are managed by, or on behalf of, the\n"
+"      Licensor for the purpose of discussing and improving the Work, but\n"
+"      excluding communication that is conspicuously marked or otherwise\n"
+"      designated in writing by the copyright owner as \"Not a Contribution.\"\n"
+"\n"
+"      \"Contributor\" shall mean Licensor and any individual or Legal Entity\n"
+"      on behalf of whom a Contribution has been received by Licensor and\n"
+"      subsequently incorporated within the Work.\n"
+"\n"
+"   2. Grant of Copyright License. Subject to the terms and conditions of\n"
+"      this License, each Contributor hereby grants to You a perpetual,\n"
+"      worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n"
+"      copyright license to reproduce, prepare Derivative Works of,\n"
+"      publicly display, publicly perform, sublicense, and distribute the\n"
+"      Work and such Derivative Works in Source or Object form.\n"
+"\n"
+"   3. Grant of Patent License. Subject to the terms and conditions of\n"
+"      this License, each Contributor hereby grants to You a perpetual,\n"
+"      worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n"
+"      (except as stated in this section) patent license to make, have made,\n"
+"      use, offer to sell, sell, import, and otherwise transfer the Work,\n"
+"      where such license applies only to those patent claims licensable\n"
+"      by such Contributor that are necessarily infringed by their\n"
+"      Contribution(s) alone or by combination of their Contribution(s)\n"
+"      with the Work to which such Contribution(s) was submitted. If You\n"
+"      institute patent litigation against any entity (including a\n"
+"      cross-claim or counterclaim in a lawsuit) alleging that the Work\n"
+"      or a Contribution incorporated within the Work constitutes direct\n"
+"      or contributory patent infringement, then any patent licenses\n"
+"      granted to You under this License for that Work shall terminate\n"
+"      as of the date such litigation is filed.\n"
+"\n"
+"   4. Redistribution. You may reproduce and distribute copies of the\n"
+"      Work or Derivative Works thereof in any medium, with or without\n"
+"      modifications, and in Source or Object form, provided that You\n"
+"      meet the following conditions:\n"
+"\n"
+"      (a) You must give any other recipients of the Work or\n"
+"          Derivative Works a copy of this License; and\n"
+"\n"
+"      (b) You must cause any modified files to carry prominent notices\n"
+"          stating that You changed the files; and\n"
+"\n"
+"      (c) You must retain, in the Source form of any Derivative Works\n"
+"          that You distribute, all copyright, patent, trademark, and\n"
+"          attribution notices from the Source form of the Work,\n"
+"          excluding those notices that do not pertain to any part of\n"
+"          the Derivative Works; and\n"
+"\n"
+"      (d) If the Work includes a \"NOTICE\" text file as part of its\n"
+"          distribution, then any Derivative Works that You distribute must\n"
+"          include a readable copy of the attribution notices contained\n"
+"          within such NOTICE file, excluding those notices that do not\n"
+"          pertain to any part of the Derivative Works, in at least one\n"
+"          of the following places: within a NOTICE text file distributed\n"
+"          as part of the Derivative Works; within the Source form or\n"
+"          documentation, if provided along with the Derivative Works; or,\n"
+"          within a display generated by the Derivative Works, if and\n"
+"          wherever such third-party notices normally appear. The contents\n"
+"          of the NOTICE file are for informational purposes only and\n"
+"          do not modify the License. You may add Your own attribution\n"
+"          notices within Derivative Works that You distribute, alongside\n"
+"          or as an addendum to the NOTICE text from the Work, provided\n"
+"          that such additional attribution notices cannot be construed\n"
+"          as modifying the License.\n"
+"\n"
+"      You may add Your own copyright statement to Your modifications and\n"
+"      may provide additional or different license terms and conditions\n"
+"      for use, reproduction, or distribution of Your modifications, or\n"
+"      for any such Derivative Works as a whole, provided Your use,\n"
+"      reproduction, and distribution of the Work otherwise complies with\n"
+"      the conditions stated in this License.\n"
+"\n"
+"   5. Submission of Contributions. Unless You explicitly state otherwise,\n"
+"      any Contribution intentionally submitted for inclusion in the Work\n"
+"      by You to the Licensor shall be under the terms and conditions of\n"
+"      this License, without any additional terms or conditions.\n"
+"      Notwithstanding the above, nothing herein shall supersede or modify\n"
+"      the terms of any separate license agreement you may have executed\n"
+"      with Licensor regarding such Contributions.\n"
+"\n"
+"   6. Trademarks. This License does not grant permission to use the trade\n"
+"      names, trademarks, service marks, or product names of the Licensor,\n"
+"      except as required for reasonable and customary use in describing the\n"
+"      origin of the Work and reproducing the content of the NOTICE file.\n"
+"\n"
+"   7. Disclaimer of Warranty. Unless required by applicable law or\n"
+"      agreed to in writing, Licensor provides the Work (and each\n"
+"      Contributor provides its Contributions) on an \"AS IS\" BASIS,\n"
+"      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or\n"
+"      implied, including, without limitation, any warranties or conditions\n"
+"      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A\n"
+"      PARTICULAR PURPOSE. You are solely responsible for determining the\n"
+"      appropriateness of using or redistributing the Work and assume any\n"
+"      risks associated with Your exercise of permissions under this License.\n"
+"\n"
+"   8. Limitation of Liability. In no event and under no legal theory,\n"
+"      whether in tort (including negligence), contract, or otherwise,\n"
+"      unless required by applicable law (such as deliberate and grossly\n"
+"      negligent acts) or agreed to in writing, shall any Contributor be\n"
+"      liable to You for damages, including any direct, indirect, special,\n"
+"      incidental, or consequential damages of any character arising as a\n"
+"      result of this License or out of the use or inability to use the\n"
+"      Work (including but not limited to damages for loss of goodwill,\n"
+"      work stoppage, computer failure or malfunction, or any and all\n"
+"      other commercial damages or losses), even if such Contributor\n"
+"      has been advised of the possibility of such damages.\n"
+"\n"
+"   9. Accepting Warranty or Additional Liability. While redistributing\n"
+"      the Work or Derivative Works thereof, You may choose to offer,\n"
+"      and charge a fee for, acceptance of support, warranty, indemnity,\n"
+"      or other liability obligations and/or rights consistent with this\n"
+"      License. However, in accepting such obligations, You may act only\n"
+"      on Your own behalf and on Your sole responsibility, not on behalf\n"
+"      of any other Contributor, and only if You agree to indemnify,\n"
+"      defend, and hold each Contributor harmless for any liability\n"
+"      incurred by, or claims asserted against, such Contributor by reason\n"
+"      of your accepting any such warranty or additional liability.\n"
+"\n"
+"   END OF TERMS AND CONDITIONS\n"
+"\n"
+"   APPENDIX: How to apply the Apache License to your work.\n"
+"\n"
+"      To apply the Apache License to your work, attach the following\n"
+"      boilerplate notice, with the fields enclosed by brackets \"[]\"\n"
+"      replaced with your own identifying information. (Don\'t include\n"
+"      the brackets!)  The text should be enclosed in the appropriate\n"
+"      comment syntax for the file format. We also recommend that a\n"
+"      file or class name and description of purpose be included on the\n"
+"      same \"printed page\" as the copyright notice for easier\n"
+"      identification within third-party archives.\n"
+"\n"
+"   Copyright [2021] Wang, Ben\n"
+"\n"
+"   Licensed under the Apache License, Version 2.0 (the \"License\");\n"
+"   you may not use this file except in compliance with the License.\n"
+"   You may obtain a copy of the License at\n"
+"\n"
+"       http://www.apache.org/licenses/LICENSE-2.0\n"
+"\n"
+"   Unless required by applicable law or agreed to in writing, software\n"
+"   distributed under the License is distributed on an \"AS IS\" BASIS,\n"
+"   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n"
+"   See the License for the specific language governing permissions and\n"
+"   limitations under the License."
+msgstr ""
+
+#: src/dialogs/credit.tscn
+msgid ""
+"KoboldAI\'s GPT-J-6B-Adventure:\n"
+"VE-Forbryderne / KoboldAI"
+msgstr ""
+
+#: src/dialogs/credit.tscn
+msgid ""
+"KoboldAI\'s GPT-Neo-2.7B-Horni and GPT-Neo-2.7B-Horni-LN :\n"
+"Finetuneanon"
+msgstr ""
+
+#: src/dialogs/credit.tscn
+msgid ""
+"GPT4All: Training an Assistant-style Chatbot with Large Scale Data Distillation from GPT-3.5-Turbo\n"
+"Apache License\n"
+"Version 2.0, January 2004\n"
+"http://www.apache.org/licenses/\n"
+"\n"
+"   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n"
+"\n"
+"   1. Definitions.\n"
+"\n"
+"      \"License\" shall mean the terms and conditions for use, reproduction,\n"
+"      and distribution as defined by Sections 1 through 9 of this document.\n"
+"\n"
+"      \"Licensor\" shall mean the copyright owner or entity authorized by\n"
+"      the copyright owner that is granting the License.\n"
+"\n"
+"      \"Legal Entity\" shall mean the union of the acting entity and all\n"
+"      other entities that control, are controlled by, or are under common\n"
+"      control with that entity. For the purposes of this definition,\n"
+"      \"control\" means (i) the power, direct or indirect, to cause the\n"
+"      direction or management of such entity, whether by contract or\n"
+"      otherwise, or (ii) ownership of fifty percent (50%) or more of the\n"
+"      outstanding shares, or (iii) beneficial ownership of such entity.\n"
+"\n"
+"      \"You\" (or \"Your\") shall mean an individual or Legal Entity\n"
+"      exercising permissions granted by this License.\n"
+"\n"
+"      \"Source\" form shall mean the preferred form for making modifications,\n"
+"      including but not limited to software source code, documentation\n"
+"      source, and configuration files.\n"
+"\n"
+"      \"Object\" form shall mean any form resulting from mechanical\n"
+"      transformation or position of a Source form, including but\n"
+"      not limited to compiled object code, generated documentation,\n"
+"      and conversions to other media types.\n"
+"\n"
+"      \"Work\" shall mean the work of authorship, whether in Source or\n"
+"      Object form, made available under the License, as indicated by a\n"
+"      copyright notice that is included in or attached to the work\n"
+"      (an example is provided in the Appendix below).\n"
+"\n"
+"      \"Derivative Works\" shall mean any work, whether in Source or Object\n"
+"      form, that is based on (or derived from) the Work and for which the\n"
+"      editorial revisions, annotations, elaborations, or other modifications\n"
+"      represent, as a whole, an original work of authorship. For the purposes\n"
+"      of this License, Derivative Works shall not include works that remain\n"
+"      separable from, or merely link (or bind by name) to the interfaces of,\n"
+"      the Work and Derivative Works thereof.\n"
+"\n"
+"      \"Contribution\" shall mean any work of authorship, including\n"
+"      the original version of the Work and any modifications or additions\n"
+"      to that Work or Derivative Works thereof, that is intentionally\n"
+"      submitted to Licensor for inclusion in the Work by the copyright owner\n"
+"      or by an individual or Legal Entity authorized to submit on behalf of\n"
+"      the copyright owner. For the purposes of this definition, \"submitted\"\n"
+"      means any form of electronic, verbal, or written communication sent\n"
+"      to the Licensor or its representatives, including but not limited to\n"
+"      communication on electronic mailing lists, source code control systems,\n"
+"      and issue tracking systems that are managed by, or on behalf of, the\n"
+"      Licensor for the purpose of discussing and improving the Work, but\n"
+"      excluding communication that is conspicuously marked or otherwise\n"
+"      designated in writing by the copyright owner as \"Not a Contribution.\"\n"
+"\n"
+"      \"Contributor\" shall mean Licensor and any individual or Legal Entity\n"
+"      on behalf of whom a Contribution has been received by Licensor and\n"
+"      subsequently incorporated within the Work.\n"
+"\n"
+"   2. Grant of Copyright License. Subject to the terms and conditions of\n"
+"      this License, each Contributor hereby grants to You a perpetual,\n"
+"      worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n"
+"      copyright license to reproduce, prepare Derivative Works of,\n"
+"      publicly display, publicly perform, sublicense, and distribute the\n"
+"      Work and such Derivative Works in Source or Object form.\n"
+"\n"
+"   3. Grant of Patent License. Subject to the terms and conditions of\n"
+"      this License, each Contributor hereby grants to You a perpetual,\n"
+"      worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n"
+"      (except as stated in this section) patent license to make, have made,\n"
+"      use, offer to sell, sell, import, and otherwise transfer the Work,\n"
+"      where such license applies only to those patent claims licensable\n"
+"      by such Contributor that are necessarily infringed by their\n"
+"      Contribution(s) alone or by combination of their Contribution(s)\n"
+"      with the Work to which such Contribution(s) was submitted. If You\n"
+"      institute patent litigation against any entity (including a\n"
+"      cross-claim or counterclaim in a lawsuit) alleging that the Work\n"
+"      or a Contribution incorporated within the Work constitutes direct\n"
+"      or contributory patent infringement, then any patent licenses\n"
+"      granted to You under this License for that Work shall terminate\n"
+"      as of the date such litigation is filed.\n"
+"\n"
+"   4. Redistribution. You may reproduce and distribute copies of the\n"
+"      Work or Derivative Works thereof in any medium, with or without\n"
+"      modifications, and in Source or Object form, provided that You\n"
+"      meet the following conditions:\n"
+"\n"
+"      (a) You must give any other recipients of the Work or\n"
+"          Derivative Works a copy of this License; and\n"
+"\n"
+"      (b) You must cause any modified files to carry prominent notices\n"
+"          stating that You changed the files; and\n"
+"\n"
+"      (c) You must retain, in the Source form of any Derivative Works\n"
+"          that You distribute, all copyright, patent, trademark, and\n"
+"          attribution notices from the Source form of the Work,\n"
+"          excluding those notices that do not pertain to any part of\n"
+"          the Derivative Works; and\n"
+"\n"
+"      (d) If the Work includes a \"NOTICE\" text file as part of its\n"
+"          distribution, then any Derivative Works that You distribute must\n"
+"          include a readable copy of the attribution notices contained\n"
+"          within such NOTICE file, excluding those notices that do not\n"
+"          pertain to any part of the Derivative Works, in at least one\n"
+"          of the following places: within a NOTICE text file distributed\n"
+"          as part of the Derivative Works; within the Source form or\n"
+"          documentation, if provided along with the Derivative Works; or,\n"
+"          within a display generated by the Derivative Works, if and\n"
+"          wherever such third-party notices normally appear. The contents\n"
+"          of the NOTICE file are for informational purposes only and\n"
+"          do not modify the License. You may add Your own attribution\n"
+"          notices within Derivative Works that You distribute, alongside\n"
+"          or as an addendum to the NOTICE text from the Work, provided\n"
+"          that such additional attribution notices cannot be construed\n"
+"          as modifying the License.\n"
+"\n"
+"      You may add Your own copyright statement to Your modifications and\n"
+"      may provide additional or different license terms and conditions\n"
+"      for use, reproduction, or distribution of Your modifications, or\n"
+"      for any such Derivative Works as a whole, provided Your use,\n"
+"      reproduction, and distribution of the Work otherwise complies with\n"
+"      the conditions stated in this License.\n"
+"\n"
+"   5. Submission of Contributions. Unless You explicitly state otherwise,\n"
+"      any Contribution intentionally submitted for inclusion in the Work\n"
+"      by You to the Licensor shall be under the terms and conditions of\n"
+"      this License, without any additional terms or conditions.\n"
+"      Notwithstanding the above, nothing herein shall supersede or modify\n"
+"      the terms of any separate license agreement you may have executed\n"
+"      with Licensor regarding such Contributions.\n"
+"\n"
+"   6. Trademarks. This License does not grant permission to use the trade\n"
+"      names, trademarks, service marks, or product names of the Licensor,\n"
+"      except as required for reasonable and customary use in describing the\n"
+"      origin of the Work and reproducing the content of the NOTICE file.\n"
+"\n"
+"   7. Disclaimer of Warranty. Unless required by applicable law or\n"
+"      agreed to in writing, Licensor provides the Work (and each\n"
+"      Contributor provides its Contributions) on an \"AS IS\" BASIS,\n"
+"      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or\n"
+"      implied, including, without limitation, any warranties or conditions\n"
+"      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A\n"
+"      PARTICULAR PURPOSE. You are solely responsible for determining the\n"
+"      appropriateness of using or redistributing the Work and assume any\n"
+"      risks associated with Your exercise of permissions under this License.\n"
+"\n"
+"   8. Limitation of Liability. In no event and under no legal theory,\n"
+"      whether in tort (including negligence), contract, or otherwise,\n"
+"      unless required by applicable law (such as deliberate and grossly\n"
+"      negligent acts) or agreed to in writing, shall any Contributor be\n"
+"      liable to You for damages, including any direct, indirect, special,\n"
+"      incidental, or consequential damages of any character arising as a\n"
+"      result of this License or out of the use or inability to use the\n"
+"      Work (including but not limited to damages for loss of goodwill,\n"
+"      work stoppage, computer failure or malfunction, or any and all\n"
+"      other commercial damages or losses), even if such Contributor\n"
+"      has been advised of the possibility of such damages.\n"
+"\n"
+"   9. Accepting Warranty or Additional Liability. While redistributing\n"
+"      the Work or Derivative Works thereof, You may choose to offer,\n"
+"      and charge a fee for, acceptance of support, warranty, indemnity,\n"
+"      or other liability obligations and/or rights consistent with this\n"
+"      License. However, in accepting such obligations, You may act only\n"
+"      on Your own behalf and on Your sole responsibility, not on behalf\n"
+"      of any other Contributor, and only if You agree to indemnify,\n"
+"      defend, and hold each Contributor harmless for any liability\n"
+"      incurred by, or claims asserted against, such Contributor by reason\n"
+"      of your accepting any such warranty or additional liability.\n"
+"\n"
+"   END OF TERMS AND CONDITIONS\n"
+"\n"
+"   APPENDIX: How to apply the Apache License to your work.\n"
+"\n"
+"      To apply the Apache License to your work, attach the following\n"
+"      boilerplate notice, with the fields enclosed by brackets \"[]\"\n"
+"      replaced with your own identifying information. (Don\'t include\n"
+"      the brackets!)  The text should be enclosed in the appropriate\n"
+"      comment syntax for the file format. We also recommend that a\n"
+"      file or class name and description of purpose be included on the\n"
+"      same \"printed page\" as the copyright notice for easier\n"
+"      identification within third-party archives.\n"
+"\n"
+"   Copyright [2023] Yuvanesh Anand and Zach Nussbaum and Brandon Duderstadt and Benjamin Schmidt and Andriy Mulyar\n"
+"\n"
+"   Licensed under the Apache License, Version 2.0 (the \"License\");\n"
+"   you may not use this file except in compliance with the License.\n"
+"   You may obtain a copy of the License at\n"
+"\n"
+"       http://www.apache.org/licenses/LICENSE-2.0\n"
+"\n"
+"   Unless required by applicable law or agreed to in writing, software\n"
+"   distributed under the License is distributed on an \"AS IS\" BASIS,\n"
+"   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n"
+"   See the License for the specific language governing permissions and\n"
+"   limitations under the License."
+msgstr ""
+
+#: src/dialogs/merge_lorebook_dialog.tscn
+msgid ""
+"If enabled, the source lorebook will overwrite conflicting entries.\n"
+"If disabled, no entry will be erased but the conflicting entries will be renamed."
+msgstr ""
+
+#: src/dialogs/merge_lorebook_dialog.tscn
+msgid "Allow overwriting"
+msgstr ""
+
+#: src/dialogs/select_lorebook_dialog.tscn
+msgid "Select a lorebook to import."
+msgstr ""
+
+#: src/custom_nodes/display_options_button.gd
+#: src/custom_nodes/display_options_button.tscn
+msgid "Windowed"
+msgstr ""
+
+#: src/custom_nodes/display_options_button.gd
+#: src/custom_nodes/display_options_button.tscn
+msgid "Fullscreen"
+msgstr ""
+
+#: src/custom_nodes/display_options_button.gd
+#: src/custom_nodes/display_options_button.tscn
+msgid "Borderless"
+msgstr ""
+
+#: src/custom_nodes/h_slider_with_counter.tscn
+msgid "50"
+msgstr ""
+
+#: src/custom_nodes/load_generator.tscn
+msgid "Select an AI for your game."
+msgstr ""
+
+#: src/custom_nodes/load_generator.tscn
+msgid "Load AI"
+msgstr ""
+
+#: src/custom_nodes/load_generator.tscn
+msgid "Manage AIs"
+msgstr ""
+
+#: src/custom_nodes/options_buttons.tscn
+msgid "Reset"
+msgstr ""
+
+#: src/custom_nodes/pov_options_button.gd
+#: src/custom_nodes/pov_options_button.tscn
+msgid "First person"
+msgstr ""
+
+#: src/custom_nodes/pov_options_button.gd
+#: src/custom_nodes/pov_options_button.tscn
+msgid "Second person"
+msgstr ""
+
+#: src/custom_nodes/server_log_display.tscn
+msgid "Copy logs to clipboard"
+msgstr ""
+
+#: src/autoload/strings.gd
+msgid "Select a language"
+msgstr ""
+
+#: src/autoload/strings.gd
+msgid "Failed loading translator."
+msgstr ""
+
+#: src/autoload/strings.gd
+msgid "Translation in progress."
+msgstr ""
+
+#: src/autoload/strings.gd
+msgid "Scenario\'s translation over."
+msgstr ""
+
+#: src/autoload/strings.gd
+msgid "Lorebook\'s translation over."
+msgstr ""
+
+#: src/autoload/strings.gd
+msgid "Memory\'s translation in progress."
+msgstr ""
+
+#: src/autoload/strings.gd
+msgid "Story\'s translation in progress."
+msgstr ""
+
+#: src/autoload/strings.gd
+msgid "Lorebook\'s translation in progress."
+msgstr ""
+
+#: src/autoload/strings.gd
+msgid "empty your bucket of water on the knight\'s head."
+msgstr ""
+
+#: src/autoload/strings.gd
+msgid "conceal the stolen ring in your pocket."
+msgstr ""
+
+#: src/autoload/strings.gd
+msgid "Sir, is that your mule or your mother?"
+msgstr ""
+
+#: src/autoload/strings.gd
+msgid "Do"
+msgstr ""
+
+#: src/autoload/strings.gd
+msgid "Say"
+msgstr ""
+
+#: src/autoload/strings.gd
+msgid "Try"
+msgstr ""
+
+#: src/autoload/strings.gd
+msgid "Failed sending data to the server."
+msgstr ""
+
+#: src/autoload/strings.gd
+msgid "Couldn\'t save game."
+msgstr ""
+
+#: src/autoload/strings.gd
+msgid "Couldn\'t save the lorebook"
+msgstr ""
+
+#: src/autoload/strings.gd
+msgid "The server is off."
+msgstr ""
+
+#: src/autoload/strings.gd
+msgctxt "The first person pronoun. It is placed before the user\'s input."
+msgid "I"
+msgstr ""
+
+#: src/autoload/strings.gd
+msgctxt "The second person pronoun. It is placed before the user\'s input."
+msgid "You"
+msgstr ""
+
+#: src/autoload/strings.gd
+msgctxt "Conjugate say for I. E.g: I say. (Don\'t add uppercase)"
+msgid "say"
+msgstr ""
+
+#: src/autoload/strings.gd
+msgctxt "Conjugate say for You. E.g: You say. (Don\'t add uppercase)"
+msgid "say"
+msgstr ""
+
+#: src/autoload/strings.gd
+msgctxt "Conjugate for I. E.g: I succeed to. (Don\'t add uppercase)"
+msgid "succeed to"
+msgstr ""
+
+#: src/autoload/strings.gd
+msgctxt "Conjugate for You. E.g: You succeed to. (Don\'t add uppercase)"
+msgid "succeed to"
+msgstr ""
+
+#: src/autoload/strings.gd
+msgctxt "E.g: You satisfyingly punch the man. (Don\'t add uppercase)"
+msgid "satisfyingly"
+msgstr ""
+
+#: src/autoload/strings.gd
+msgctxt "E.g: You competently punch the man. (Don\'t add uppercase)"
+msgid "competently"
+msgstr ""
+
+#: src/autoload/strings.gd
+msgctxt "E.g: You perfectly punch the man. (Don\'t add uppercase)"
+msgid "perfectly"
+msgstr ""
+
+#: src/autoload/strings.gd
+msgctxt "E.g: You fail to punch the man (Don\'t add uppercase)"
+msgid "fail to"
+msgstr ""
+
+#: src/autoload/strings.gd
+msgctxt "E.g: You pathetically fail to punch the man (Don\'t add uppercase)"
+msgid "pathetically fail to"
+msgstr ""
+
+#: src/dialogs/lorebook_info_popup_window.tscn
+msgid "Save changes"
+msgstr ""
+
+#: src/dialogs/server_off_warning.tscn
+msgid ""
+"To generate text the server has to be running.\n"
+"To translate text, you need to enable automatic translation."
+msgstr ""
+
+#: src/dialogs/server_off_warning.tscn
+msgid "Open server\'s menu"
+msgstr ""
+
+#: src/dialogs/hardware_form/gpu_form.tscn
+msgid ""
+"This game uses CUDA to run AIs on your GPU.\n"
+"Do you have a Nvidia Graphical Card ?"
+msgstr ""
+
+#: src/dialogs/hardware_form/gpu_form.tscn
+msgid "Yes, I have a Nvidia card"
+msgstr ""
+
+#: src/dialogs/hardware_form/gpu_form.tscn
+msgid "No, I don\'t have a Nvidia card"
+msgstr ""
+
+#: src/dialogs/hardware_form/gpu_form.tscn
+msgid "I don\'t know"
+msgstr ""
+
+#: src/dialogs/hardware_form/gpu_form.tscn
+msgid "The list of the GPU compatible with CUDA"
+msgstr ""
+
+#: src/dialogs/hardware_form/gpu_form.tscn
+msgid "See supported cards"
+msgstr ""
+
+#: src/dialogs/hardware_form/hardware_form.gd
+#: src/dialogs/hardware_form/hardware_form.tscn
+msgid "Successfully adapted settings to your hardware."
+msgstr ""
+
+#: src/dialogs/hardware_form/hardware_form.gd
+#: src/dialogs/hardware_form/hardware_form.tscn
+msgid "Failed to adapt settings to your hardware."
+msgstr ""
+
+#: src/dialogs/hardware_form/hardware_form.tscn
+msgid ""
+"AIdventure uses Artificial Intelligences (AIs). It\'s a tricky technology and can behave differently depending of your hardware.\n"
+"\n"
+"The game will try to adapt to your hardware as best as it can.\n"
+"This window will ask you multiple information to improve the automatic setup."
+msgstr ""
+
+#: src/dialogs/hardware_form/hardware_form.tscn
+msgid ""
+"Thank you for your time.\n"
+"You can exit by click on OK."
+msgstr ""
+
+#: src/dialogs/hardware_form/memory_form.tscn
+msgid ""
+"Please, specify how much memory you want to allow AIdventure to use.\n"
+"You should always leave 2-4 GB of memory free for the OS and other applications."
+msgstr ""
+
+#: src/dialogs/hardware_form/memory_form.tscn
+msgid ""
+"You can choose to not limit memory.\n"
+"But you risk running out of memory."
+msgstr ""
+
+#: src/dialogs/hardware_form/memory_form.tscn
+msgid "Don\'t limit memory"
+msgstr ""
+
+#: src/dialogs/hardware_form/memory_form.tscn
+msgid "I don\'t know how much memory I have"
+msgstr ""
+
+#: src/interfaces/character_menu.tscn
+msgid "Character menu"
+msgstr ""
+
+#: src/interfaces/character_menu.tscn
+msgid "Strength"
+msgstr ""
+
+#: src/interfaces/character_menu.tscn
+msgid "Reroll"
+msgstr ""
+
+#: src/interfaces/character_menu.tscn
+msgid "Constitution"
+msgstr ""
+
+#: src/interfaces/character_menu.tscn
+msgid "Dexterity"
+msgstr ""
+
+#: src/interfaces/character_menu.tscn
+msgid "Charisma"
+msgstr ""
+
+#: src/interfaces/character_menu.tscn
+msgid "Intelligence"
+msgstr ""
+
+#: src/interfaces/character_menu.tscn
+msgid "Wisdom"
+msgstr ""
+
+#: src/interfaces/character_menu.tscn
+msgid "Luck"
+msgstr ""
+
+#: src/interfaces/character_menu.tscn
+msgid "Name"
+msgstr ""
+
+#: src/interfaces/character_menu.tscn
+msgid "Jan"
+msgstr ""
+
+#: src/interfaces/character_menu.tscn
+msgid "Randomize"
+msgstr ""
+
+#: src/interfaces/character_menu.tscn
+msgid "How does it work?\n"
+msgstr ""
+
+#: src/interfaces/character_menu.tscn
+msgid ""
+"To generate an attribute, the game rolls 3 dice of 6 and multiplies the result by 5.\n"
+"Therefore, an attribute can be between 15-90.\n"
+"When you try an action you must roll on 100. The result is a success if you roll under your attribute score.\n"
+"The closer to 1, the better the result. 1 is a critical success."
+msgstr ""
+
+#: src/interfaces/character_menu.tscn
+msgid "Randomize everything."
+msgstr ""
+
+#: src/interfaces/character_menu.tscn
+msgid "Roll the dice"
+msgstr ""
+
+#: src/interfaces/end_demo.tscn
+msgid ""
+"Thank you for playing AIdventure\'s demo!\n"
+"You reached the limit.\n"
+"Buy the game to continue this adventure.\n"
+msgstr ""
+
+#: src/interfaces/end_demo.tscn
+msgid "Buy"
+msgstr ""
+
+#: src/interfaces/game_top_bar_menu.tscn
+msgid "Menu"
+msgstr ""
+
+#: src/interfaces/game_top_bar_menu.tscn
+msgid "Server"
+msgstr ""
+
+#: src/interfaces/load_translator.tscn
+msgid "Do you want to use the automatic translation ?"
+msgstr ""
+
+#: src/interfaces/load_translator.tscn
+msgid "Select the language for the automatic translation"
+msgstr ""
+
+#: src/interfaces/load_translator.tscn
+msgid "Load translators"
+msgstr ""
+
+#: src/interfaces/load_translator.tscn
+msgid "Manage translators"
+msgstr ""
+
+#: src/interfaces/load_translator.tscn
+msgid "Disable automatic translation"
+msgstr ""
+
+#: src/interfaces/published_workshop_item_menu.tscn
+msgid "Your items"
+msgstr ""
+
+#: src/interfaces/published_workshop_item_menu.tscn
+msgid "Open item on Steam"
+msgstr ""
+
+#: src/interfaces/server_menu.gd
+#: src/interfaces/server_menu.tscn
+msgid "Running"
+msgstr ""
+
+#: src/interfaces/server_menu.gd
+#: src/interfaces/server_menu.tscn
+msgid "Turned off"
+msgstr ""
+
+#: src/interfaces/server_menu.gd
+#: src/interfaces/server_menu.tscn
+msgid "Error"
+msgstr ""
+
+#: src/interfaces/server_menu.tscn
+msgid "Server control center"
+msgstr ""
+
+#: src/interfaces/server_menu.tscn
+msgid "Server status:"
+msgstr ""
+
+#: src/interfaces/server_menu.tscn
+msgid "Start the server"
+msgstr ""
+
+#: src/interfaces/server_menu.tscn
+msgid "Stop the server"
+msgstr ""
+
+#: src/interfaces/server_menu.tscn
+msgid "The server is starting"
+msgstr ""
+
+#: src/interfaces/server_menu.tscn
+msgid "Load Generator"
+msgstr ""
+
+#: src/interfaces/server_menu.tscn
+msgid "To load translators, you need to enable automatic translation"
+msgstr ""
+
+#: src/interfaces/server_menu.tscn
+msgid "Enable automatic translation"
+msgstr ""
+
+#: src/interfaces/server_menu.tscn
+msgid "Load Translators"
+msgstr ""
+
+#: src/interfaces/start_game_workflow.tscn
+msgid "The server is starting."
+msgstr ""
+
+#: src/interfaces/start_game_workflow.tscn
+msgid "Please, wait."
+msgstr ""
+
+#: src/interfaces/start_game_workflow.tscn
+msgid "What do you want to do?"
+msgstr ""
+
+#: src/interfaces/start_game_workflow.tscn
+msgid "New story"
+msgstr ""
+
+#: src/interfaces/start_game_workflow.tscn
+msgid "Load a story"
+msgstr ""
+
+#: src/interfaces/start_game_workflow.tscn
+msgid "Select a save to load."
+msgstr ""
+
+#: src/interfaces/start_game_workflow.tscn
+msgid "Load"
+msgstr ""
+
+#: src/interfaces/start_game_workflow.tscn
+msgid "Return"
+msgstr ""
+
+#: src/interfaces/options/preferences.tscn
+msgid "Display mode"
+msgstr ""
+
+#: src/interfaces/options/preferences.tscn
+msgid "Language of the interface"
+msgstr ""
+
+#: src/interfaces/options/preferences.tscn
+msgid "Default AI"
+msgstr ""
+
+#: src/interfaces/options/preferences.tscn
+msgid ""
+"Delete the last sentence if the AI didn\'t \'finish\' it by a punctuation (, ; : ! ? .).\n"
+"It might delete the whole output if \"max length\" is too small!"
+msgstr ""
+
+#: src/interfaces/options/preferences.tscn
+msgid "Remove unfinished sentences"
+msgstr ""
+
+#: src/interfaces/options/preferences.tscn
+msgid "OPTIONS_HIDE_TOP_BAR_HINT"
+msgstr ""
+
+#: src/interfaces/options/preferences.tscn
+msgid "Hide top bar"
+msgstr ""
+
+#: src/interfaces/options/preferences.tscn
+msgid "OPTIONS_POV_HINT"
+msgstr ""
+
+#: src/interfaces/options/preferences.tscn
+msgid "Point of view"
+msgstr ""
+
+#: src/interfaces/options/preferences.tscn
+msgid "OPTIONS_FONT_HINT"
+msgstr ""
+
+#: src/interfaces/options/preferences.tscn
+msgid "Application\'s Font"
+msgstr ""
+
+#: src/interfaces/options/preferences.tscn
+msgid "How many seconds before the notification disappears."
+msgstr ""
+
+#: src/interfaces/options/preferences.tscn
+msgid "Notification\'s duration"
+msgstr ""
+
+#: src/interfaces/options/preferences.tscn
+msgid "Story reader preferences"
+msgstr ""
+
+#: src/interfaces/options/preferences.tscn
+msgid "Font"
+msgstr ""
+
+#: src/interfaces/options/preferences.tscn
+msgid "Font size"
+msgstr ""
+
+#: src/interfaces/options/preferences.tscn
+msgid "The space left between two lines."
+msgstr ""
+
+#: src/interfaces/options/preferences.tscn
+msgid "Line spacing"
+msgstr ""
+
+#: src/interfaces/options/preferences.tscn
+msgid "Font color"
+msgstr ""
+
+#: src/interfaces/options/preferences.tscn
+msgid "Selection color\n"
+msgstr ""
+
+#: src/interfaces/options/preferences.tscn
+msgid "Selection color"
+msgstr ""
+
+#: src/interfaces/options/preferences.tscn
+msgid "Story reader preview"
+msgstr ""
+
+#: src/interfaces/options/preferences.tscn
+msgid "This is a sample text."
+msgstr ""
+
+#: src/interfaces/options/server.tscn
+msgid "If you don\'t know what you are doing, don\'t change anything here."
+msgstr ""
+
+#: src/interfaces/options/server.tscn
+msgid ""
+"The seconds to wait before trying to connect to the server.\n"
+"It only works for local server."
+msgstr ""
+
+#: src/interfaces/options/server.tscn
+msgid "Connection delay"
+msgstr ""
+
+#: src/interfaces/options/server.tscn
+msgid "If enabled, the server will try to download an AI if it\'s missing.\n"
+msgstr ""
+
+#: src/interfaces/options/server.tscn
+msgid "Allow downloading AI"
+msgstr ""
+
+#: src/interfaces/options/server.tscn
+msgid "Connect to a remote server"
+msgstr ""
+
+#: src/interfaces/options/server.tscn
+msgid "For now the communication with the server isn\'t secure. Use this for local networks only."
+msgstr ""
+
+#: src/interfaces/options/server.tscn
+msgid "Server\'s IP"
+msgstr ""
+
+#: src/interfaces/options/server.tscn
+msgid "Server\'s port"
+msgstr ""
