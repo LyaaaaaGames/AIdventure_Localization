@@ -206,76 +206,76 @@ msgid "?"
 msgstr ""
 
 #: src/interfaces/ai_info.tscn
-msgid "AI_SIZE"
-msgstr ""
+msgid "Size"
+msgstr "Taille"
 
 #: src/interfaces/ai_info.tscn
-msgid "SPACE_ON_DISK"
-msgstr ""
+msgid "Space on disk"
+msgstr "Espace sur le disque"
 
 #: src/interfaces/ai_info.tscn
-msgid "NUMBER_OF_FILES"
-msgstr ""
+msgid "Number of files"
+msgstr "Nombre de fichiers"
 
 #: src/interfaces/ai_info.tscn
-msgid "RAM_NEEDED"
-msgstr ""
+msgid "RAM needed"
+msgstr "Ram nécessaire"
 
 #: src/interfaces/ai_info.tscn
-msgid "VRAM_NEEDED"
-msgstr ""
+msgid "VRAM needed"
+msgstr "VRAM nécessaire"
 
 #: src/interfaces/ai_info.tscn src/custom_nodes/story_element_info.tscn
-msgid "LANGUAGE"
-msgstr ""
+msgid "Language"
+msgstr "Langue"
 
-#: src/interfaces/ai_info.tscn src/interfaces/edit_workshop_item.tscn
-msgid "DESCRIPTION"
-msgstr ""
-
-#: src/interfaces/ai_menu.tscn src/custom_nodes/filters_inputs.tscn
-msgid "FILTER_BY_NAME"
-msgstr ""
-
-#: src/interfaces/ai_menu.tscn
-msgid "AI_INSTALLED"
-msgstr ""
-
-#: src/interfaces/ai_menu.tscn
-msgid "NSFW_AI"
-msgstr ""
-
-#: src/interfaces/ai_menu.tscn
-msgid "CUSTOM_AI"
-msgstr ""
+#: src/interfaces/ai_info.tscn
+msgid "Description"
+msgstr "Description"
 
 #: src/interfaces/ai_menu.tscn src/custom_nodes/filters_inputs.tscn
-msgid "FILTER_BY_LANGUAGE"
-msgstr ""
+msgid "Filter by name"
+msgstr "Filtrer par nom"
+
+#: src/interfaces/ai_menu.tscn
+msgid "Installed AI"
+msgstr "IA installée"
+
+#: src/interfaces/ai_menu.tscn
+msgid "NSFW AI"
+msgstr "IA NSFW"
+
+#: src/interfaces/ai_menu.tscn
+msgid "Custom AI"
+msgstr "IA personnalisée"
 
 #: src/interfaces/ai_menu.tscn src/custom_nodes/filters_inputs.tscn
-msgid "RESET_FILTERS"
-msgstr ""
+msgid "Filter by language"
+msgstr "Filtrer par langue"
+
+#: src/interfaces/ai_menu.tscn src/custom_nodes/filters_inputs.tscn
+msgid "Reset filters"
+msgstr "réinitialiser les filtres"
 
 #: src/interfaces/ai_menu.tscn
-msgid "ARTIFICIAL_INTELLIGENCES"
-msgstr ""
+msgid "Artificial intelligences"
+msgstr "Intelligence artificielle"
 
 #: src/interfaces/ai_menu.tscn
-msgid "DOWNLOAD_CUSTOM_AI"
-msgstr ""
+msgid "Download custom AI"
+msgstr "Télécharger une IA personnalisée"
+
+#: src/interfaces/ai_menu.tscn src/interfaces/translator_menu.tscn
+msgid "Download AI"
+msgstr "Téléchargé l'IA"
 
 #: src/interfaces/ai_menu.tscn
-msgid "DOWNLOAD_AI"
-msgstr ""
+msgid "Open AIs' folder"
+msgstr "Ouvrir le dossier des IA"
 
-#: src/interfaces/ai_menu.tscn
-msgid "OPEN_AI_FOLDER"
-msgstr ""
-
-#: src/interfaces/ai_menu.tscn
-msgid "DELETE_AI"
-msgstr ""
+#: src/interfaces/ai_menu.tscn src/interfaces/translator_menu.tscn
+msgid "Delete AI"
+msgstr "Supprimer l'IA"
 
 #: src/interfaces/ai_menu.tscn
 msgid "SAVE_SETTINGS"
@@ -294,10 +294,11 @@ msgid "RESET_ALL_AIS_SETTINGS"
 msgstr ""
 
 #: src/interfaces/ai_menu.tscn src/interfaces/lorebook_menu.tscn
-#: src/interfaces/steam_workshop_menu.tscn
-#: src/dialogs/ask_custom_ai_name_popup.tscn src/dialogs/load_menu.tscn
-#: src/dialogs/story_editor.tscn src/interfaces/character_menu.tscn
-msgid "CLOSE"
+#: src/interfaces/scenario_menu.tscn src/interfaces/translator_menu.tscn
+#: src/dialogs/ask_custom_ai_name_popup.tscn
+#: src/custom_nodes/options_buttons.tscn src/dialogs/server_off_warning.tscn
+#: src/interfaces/server_menu.tscn
+msgid "Close"
 msgstr "Fermer"
 
 #: src/interfaces/ai_options.tscn
@@ -305,51 +306,67 @@ msgid "OPTIONS_AI_TAB"
 msgstr ""
 
 #: src/interfaces/ai_options.tscn
-msgid "GENERATION_MAX_LENGTH_HINT"
+msgid "The maximum words to be generated."
+msgstr "Le nombre maximum de mots à générer."
+
+#: src/interfaces/ai_options.tscn
+msgid "Generation's max length"
+msgstr "Taille max de la génération"
+
+#: src/interfaces/ai_options.tscn
+msgid ""
+"Make the generated text more or less coherent. Commonly named "
+"\"Temperature\", 0 means no randomness."
 msgstr ""
 
 #: src/interfaces/ai_options.tscn
-msgid "GENERATION_MAX_LENGTH"
+msgid "Randomness"
 msgstr ""
 
 #: src/interfaces/ai_options.tscn
-msgid "RANDOMNESS_HINT"
+msgid ""
+"If greater than 1.0, penalizes repetition in a text to avoid infinite "
+"loops.\n"
+"1 means no penalty."
 msgstr ""
 
 #: src/interfaces/ai_options.tscn
-msgid "RANDOMNESS"
+msgid "Repetition penalty"
 msgstr ""
 
 #: src/interfaces/ai_options.tscn
-msgid "REPETITION_PENALTY_HINT"
+msgid ""
+"The maximum amount of time you allow the AI to generate text, in seconds."
 msgstr ""
 
 #: src/interfaces/ai_options.tscn
-msgid "REPETITION_PENALTY"
+msgid "Generation's max time"
 msgstr ""
 
 #: src/interfaces/ai_options.tscn
-msgid "MAX_TIME_HINT"
+msgid "How many of the story's last characters the AI must remember."
 msgstr ""
 
 #: src/interfaces/ai_options.tscn
-msgid "MAX_TIME"
+msgid "Context's max length"
 msgstr ""
 
 #: src/interfaces/ai_options.tscn
-msgid "CONTEXT_MAX_LENGTH_HINT"
+msgid "How many characters the memory can hold."
 msgstr ""
 
 #: src/interfaces/ai_options.tscn
-msgid "CONTEXT_MAX_LENGTH"
+msgid "Memory's max length"
 msgstr ""
 
 #: src/interfaces/ai_options.tscn
-msgid "MEMORY_MAX_LENGTH_HINT"
+msgid ""
+"If a model doesn’t fully fit in VRAM, it will offload the rest on the CPU "
+"(RAM), or even the hard drive if you don’t have enough RAM."
 msgstr ""
 
 #: src/interfaces/ai_options.tscn
-msgid "MEMORY_MAX_LENGTH"
+msgid "Offload model"
 msgstr ""
 
 #: src/interfaces/ai_options.tscn
@@ -357,7 +374,17 @@ msgid "OFFLOAD_MODEL_HINT"
 msgstr ""
 
 #: src/interfaces/ai_options.tscn
-msgid "OFFLOAD_MODEL"
+msgid ""
+"Limiting the memory will force the server to never use more memory than "
+"specified for loading a model.\n"
+"It might still go over it while generating text.\n"
+"Therefore, if you want to limit the RAM usage to 10000 Mb, you should "
+"probably set it to 9500Mb.\n"
+"Same for the VRAM limit."
+msgstr ""
+
+#: src/interfaces/ai_options.tscn
+msgid "Limit memory usage"
 msgstr ""
 
 #: src/interfaces/ai_options.tscn
@@ -365,35 +392,28 @@ msgid "LIMIT_MEMORY_HINT"
 msgstr ""
 
 #: src/interfaces/ai_options.tscn
-msgid "LIMIT_MEMORY"
-msgstr ""
-
-#: src/interfaces/ai_options.tscn src/custom_nodes/memory_sliders.tscn
-msgid "MAX_VRAM_HINT"
-msgstr ""
-
-#: src/interfaces/ai_options.tscn src/custom_nodes/memory_sliders.tscn
-msgid "MAX_VRAM"
-msgstr ""
-
-#: src/interfaces/ai_options.tscn src/custom_nodes/memory_sliders.tscn
-msgid "MAX_RAM_HINT"
-msgstr ""
-
-#: src/interfaces/ai_options.tscn src/custom_nodes/memory_sliders.tscn
-msgid "MAX_RAM"
+msgid "Display advanced options"
 msgstr ""
 
 #: src/interfaces/ai_options.tscn
-msgid "DISPLAY_ADVANCED_OPTIONS"
+msgid "Advanced options"
 msgstr ""
 
 #: src/interfaces/ai_options.tscn
-msgid "ADVANCED_OPTIONS"
+msgid ""
+"It is recommended to only edit the advanced options if you know what you are "
+"doing.\n"
+"If you happen to \"break\" the generation, just press the \"reset\" button."
 msgstr ""
 
 #: src/interfaces/ai_options.tscn
-msgid "OPTIONS_ADVANCED_OPTION_DISCLAIMER"
+msgid ""
+"This is an experimental feature.\n"
+"It reduces by ~2 the memory needed by the server."
+msgstr ""
+
+#: src/interfaces/ai_options.tscn
+msgid "Low RAM mode"
 msgstr ""
 
 #: src/interfaces/ai_options.tscn
@@ -401,7 +421,13 @@ msgid "LOW_RAM_HINT"
 msgstr ""
 
 #: src/interfaces/ai_options.tscn
-msgid "LOW_RAM_MODE"
+msgid ""
+"Enable randomly picking the next word.\n"
+"It limits the repetition."
+msgstr ""
+
+#: src/interfaces/ai_options.tscn
+msgid "Do sample"
 msgstr ""
 
 #: src/interfaces/ai_options.tscn
@@ -409,11 +435,11 @@ msgid "DO_SAMPLE_HINT"
 msgstr ""
 
 #: src/interfaces/ai_options.tscn
-msgid "DO_SAMPLE"
-msgstr ""
-
-#: src/interfaces/ai_options.tscn
-msgid "TOP_K_HINT"
+msgid ""
+"The K most likely next words are filtered and the probability mass is "
+"redistributed\n"
+"among only those K next words.\n"
+"Set to 0 to disable it."
 msgstr ""
 
 #: src/interfaces/ai_options.tscn
@@ -421,7 +447,13 @@ msgid "Top k"
 msgstr ""
 
 #: src/interfaces/ai_options.tscn
-msgid "TOP_P_HINT"
+msgid ""
+"Chooses from the smallest possible set of words whose cumulative probability "
+"exceeds the probability p.\n"
+"The probability mass is then redistributed among this set of words.\n"
+"If set to < 1, only the most probable tokens with probabilities that\n"
+"add up to top_p or higher are kept for generation.\n"
+"Set to 0 to disable it."
 msgstr ""
 
 #: src/interfaces/ai_options.tscn
@@ -429,11 +461,19 @@ msgid "Top p"
 msgstr ""
 
 #: src/interfaces/ai_options.tscn
-msgid "NB_BEAMS"
+msgid ""
+"If greater than 1, executes beam search for cleaner text.\n"
+"1 means no beam search."
 msgstr ""
 
 #: src/interfaces/ai_options.tscn
-msgid "NGRAM_SIZE_HINT"
+msgid "Number of beams"
+msgstr ""
+
+#: src/interfaces/ai_options.tscn
+msgid ""
+"Token length to avoid repeating given phrases.\n"
+"Set to 0 to disable it."
 msgstr ""
 
 #: src/interfaces/ai_options.tscn
@@ -441,27 +481,37 @@ msgid "No repeat ngram size"
 msgstr ""
 
 #: src/interfaces/ai_options.tscn
+msgid ""
+"If the weight of the CPU state dictionnary + the biggest shard of the "
+"checkpoint does not fit,\n"
+"will temporarily offload the CPU state dictionary to the hard drive to avoid "
+"getting out of CPU RAM."
+msgstr ""
+
+#: src/interfaces/ai_options.tscn
+msgid "Offload dictionary"
+msgstr ""
+
+#: src/interfaces/ai_options.tscn
 msgid "OFFLOAD_DICTIONNARY_HINT"
 msgstr ""
 
 #: src/interfaces/ai_options.tscn
-msgid "OFFLOAD_DICTIONNARY"
+msgid "Change how the AI is dispatched on the GPU and CPU."
 msgstr ""
 
 #: src/interfaces/ai_options.tscn
-msgid "DEVICE_MAP_HINT"
+msgid "Device map"
 msgstr ""
 
 #: src/interfaces/ai_options.tscn
-msgid "DEVICE_MAP"
+msgid ""
+"A torch.dtype is an object that represents the data type of a torch.Tensor. "
+"PyTorch has twelve different data types."
 msgstr ""
 
 #: src/interfaces/ai_options.tscn
-msgid "TORCH_DTYPE_HINT"
-msgstr ""
-
-#: src/interfaces/ai_options.tscn
-msgid "TORCH_DTYPE"
+msgid "Torch Dtype"
 msgstr ""
 
 #: src/interfaces/edit_bar.tscn
@@ -486,66 +536,6 @@ msgstr ""
 msgid "Validate"
 msgstr ""
 
-#: src/interfaces/edit_workshop_item.tscn
-msgid "Title of workshop item"
-msgstr ""
-
-#: src/interfaces/edit_workshop_item.tscn
-msgid "OPEN..."
-msgstr ""
-
-#: src/interfaces/edit_workshop_item.tscn
-msgid "VISIBILITY"
-msgstr ""
-
-#: src/interfaces/edit_workshop_item.tscn
-msgid "DISPLAY_ONLY_PNG"
-msgstr ""
-
-#: src/interfaces/edit_workshop_item.tscn
-msgid "PREVIEW_IMAGE"
-msgstr ""
-
-#: src/interfaces/edit_workshop_item.tscn
-msgid "WORKSHOP_UPLOAD_BUTTON_HINT"
-msgstr ""
-
-#: src/interfaces/edit_workshop_item.tscn
-msgid "UPLOAD_TO_WORKSHOP"
-msgstr ""
-
-#: src/interfaces/edit_workshop_item.tscn
-msgid "I_ACCEPTED_TOS"
-msgstr ""
-
-#: src/interfaces/edit_workshop_item.tscn
-msgid "READ_TOS"
-msgstr ""
-
-#: src/interfaces/edit_workshop_item.tscn src/dialogs/story_editor.tscn
-msgid "*.json"
-msgstr ""
-
-#: src/interfaces/edit_workshop_item.tscn
-msgid "*.png"
-msgstr ""
-
-#: src/interfaces/edit_workshop_item.tscn
-msgid "*.jpg"
-msgstr ""
-
-#: src/interfaces/edit_workshop_item.tscn
-msgid "*.gif"
-msgstr ""
-
-#: src/interfaces/edit_workshop_item.tscn
-msgid "FAILED_UPLOAD_TO_WORKSHOP"
-msgstr ""
-
-#: src/interfaces/edit_workshop_item.tscn
-msgid "SUCCESS_UPLOAD_TO_WORKSHOP"
-msgstr ""
-
 #: src/interfaces/input_bar.tscn
 msgid "Undo"
 msgstr ""
@@ -555,7 +545,7 @@ msgid "Redo"
 msgstr ""
 
 #: src/interfaces/input_bar.tscn
-msgid "LOREBOOK"
+msgid "Lorebook"
 msgstr ""
 
 #: src/interfaces/input_bar.tscn
@@ -563,18 +553,20 @@ msgid "Character"
 msgstr ""
 
 #: src/interfaces/input_bar.tscn
-msgid "INPUT_BAR_MEMORY_HINT"
+msgid "Click to modify memory."
 msgstr ""
 
-#: src/interfaces/input_bar.tscn src/dialogs/memory_dialog.tscn
+#: src/interfaces/input_bar.tscn src/interfaces/scenario_info.tscn
+#: src/dialogs/memory_dialog.tscn
 msgid "Memory"
 msgstr ""
 
 #: src/interfaces/input_bar.tscn
-msgid "INPUT_BAR_MODE_BUTTON_HINT"
+msgid "Click to switch of mode."
 msgstr ""
 
-#: src/interfaces/input_bar.tscn src/autoload/strings.gd
+#: src/interfaces/input_bar.tscn src/interfaces/scenario_info.tscn
+#: src/autoload/strings.gd
 msgid "Story"
 msgstr ""
 
@@ -655,52 +647,52 @@ msgid "Error, can't delete the lorebook:"
 msgstr ""
 
 #: src/interfaces/lorebook_menu.tscn
-msgid "LOREBOOKS"
+msgid "Lorebooks"
 msgstr ""
 
 #: src/interfaces/lorebook_menu.tscn
-msgid "OPEN_LOREBOOK_FOLDER"
+msgid "Open Lorebooks' folder."
 msgstr ""
 
 #: src/interfaces/main_menu.gd src/interfaces/main_menu.tscn
 msgid "Buy the complete version to unlock."
 msgstr ""
 
-#: src/interfaces/main_menu.tscn
-msgid "PLAY"
-msgstr "Jouer"
+#: src/interfaces/main_menu.tscn src/interfaces/scenario_menu.tscn
+msgid "Play"
+msgstr ""
 
 #: src/interfaces/main_menu.tscn
-msgid "CREATE"
-msgstr "Créer"
+msgid "Create"
+msgstr ""
 
 #: src/interfaces/main_menu.tscn
 msgid "COMING SOON"
 msgstr ""
 
 #: src/interfaces/main_menu.tscn
-msgid "STEAM_WORKSHOP"
+msgid "Steam Workshop"
+msgstr ""
+
+#: src/interfaces/main_menu.tscn src/dialogs/escape_menu.tscn
+msgid "Options"
 msgstr ""
 
 #: src/interfaces/main_menu.tscn
-msgid "OPTIONS"
+msgid "Community"
 msgstr ""
 
 #: src/interfaces/main_menu.tscn
-msgid "COMMUNITY"
+msgid "Help"
 msgstr ""
 
 #: src/interfaces/main_menu.tscn
-msgid "HELP"
+msgid "Credits"
 msgstr ""
 
 #: src/interfaces/main_menu.tscn
-msgid "CREDITS"
+msgid "Exit"
 msgstr ""
-
-#: src/interfaces/main_menu.tscn
-msgid "EXIT"
-msgstr "Quitter"
 
 #: src/interfaces/main_menu.tscn
 msgid "AIdventure "
@@ -721,14 +713,6 @@ msgid ""
 "Press shift + enter to insert a new line."
 msgstr ""
 
-#: src/interfaces/scenario_info.tscn
-msgid "STORY"
-msgstr ""
-
-#: src/interfaces/scenario_info.tscn
-msgid "MEMORY"
-msgstr ""
-
 #: src/interfaces/scenario_menu.gd src/interfaces/scenario_menu.tscn
 msgid "SAVE_SCENARIO_SUCCESS"
 msgstr ""
@@ -746,14 +730,7 @@ msgid "DELETE_FILE_FAILED"
 msgstr ""
 
 #: src/interfaces/scenario_menu.tscn
-msgid "SCENARIOS"
-msgstr ""
-
-#: src/interfaces/scenario_menu.tscn src/interfaces/translator_menu.tscn
-#: src/custom_nodes/options_buttons.tscn
-#: src/dialogs/lorebook_info_popup_window.tscn
-#: src/dialogs/server_off_warning.tscn src/interfaces/server_menu.tscn
-msgid "Close"
+msgid "Scenarios"
 msgstr ""
 
 #: src/interfaces/scenario_menu.tscn
@@ -764,29 +741,8 @@ msgstr ""
 msgid "Custom start"
 msgstr ""
 
-#: src/interfaces/scenario_menu.tscn
-msgid "Play"
-msgstr ""
-
 #: src/interfaces/splash_screen.tscn
 msgid "Lyaaaaa Games™"
-msgstr ""
-
-#: src/interfaces/steam_workshop_menu.tscn
-msgid "Steam Workshop"
-msgstr ""
-
-#: src/interfaces/steam_workshop_menu.tscn
-#: src/dialogs/ask_custom_ai_name_popup.tscn
-msgid "DOWNLOAD"
-msgstr ""
-
-#: src/interfaces/steam_workshop_menu.tscn
-msgid "SHARE"
-msgstr ""
-
-#: src/interfaces/steam_workshop_menu.tscn src/dialogs/load_menu.tscn
-msgid "EDIT"
 msgstr ""
 
 #: src/interfaces/translator_menu.gd src/interfaces/translator_menu.tscn
@@ -794,23 +750,11 @@ msgid "TRANSLATORS_DESCRIPTION"
 msgstr ""
 
 #: src/interfaces/translator_menu.tscn
-msgid "Delete AI"
-msgstr ""
-
-#: src/interfaces/translator_menu.tscn
 msgid "Open AI's folder"
 msgstr ""
 
-#: src/interfaces/translator_menu.tscn
-msgid "Download AI"
-msgstr ""
-
 #: src/dialogs/asking_memory_size_pop_up.tscn
-msgid "ASKING_MEMORY_POPUP_TITLE"
-msgstr ""
-
-#: src/dialogs/asking_memory_size_pop_up.tscn
-msgid "ASKING_MEMORY_POPUP_TEXT"
+msgid "How much memory do you want to allocate to the server?"
 msgstr ""
 
 #: src/dialogs/ask_custom_ai_name_popup.tscn
@@ -818,25 +762,36 @@ msgid "ENTER_AI_NAME"
 msgstr ""
 
 #: src/dialogs/ask_custom_ai_name_popup.tscn
-msgid "CUSTOM_MODEL_DOWNLOAD_INSTRUCTION"
+msgid ""
+"Enter the name of the AI from huggingface.co.\n"
+"E.g: For https://huggingface.co/sshleifer/tiny-gpt2 enter sshleifer/tiny-gpt2"
 msgstr ""
 
 #: src/dialogs/ask_custom_ai_name_popup.tscn
-msgid "CUSTOM_MODEL_DOWNLOAD_WARNING"
+msgid "enter the name of the AI"
 msgstr ""
 
 #: src/dialogs/ask_custom_ai_name_popup.tscn
-msgid "MODEL_SELECTOR_BROWSE_MODEL"
+msgid ""
+"Customs AIs aren't tested. They might not work or be too big for your PC."
+msgstr ""
+
+#: src/dialogs/ask_custom_ai_name_popup.tscn
+msgid "Browse for AIs"
+msgstr ""
+
+#: src/dialogs/ask_custom_ai_name_popup.tscn
+msgid "Download"
 msgstr ""
 
 #: src/dialogs/confirmation_dialog.tscn
-#: src/dialogs/translate_scenario_pop_up.tscn
-msgid "NO"
+msgid "no"
 msgstr ""
 
 #: src/dialogs/confirmation_dialog.tscn
-#: src/dialogs/translate_scenario_pop_up.tscn
-msgid "YES"
+#: src/dialogs/incompatible_memory_dialog.tscn
+#: src/interfaces/load_translator.tscn
+msgid "Yes"
 msgstr ""
 
 #: src/dialogs/custom_download_window.tscn
@@ -880,10 +835,6 @@ msgstr ""
 msgid "Resume"
 msgstr ""
 
-#: src/dialogs/escape_menu.tscn
-msgid "Options"
-msgstr ""
-
 #: src/dialogs/escape_menu.tscn src/interfaces/end_demo.tscn
 msgid "Return to main menu"
 msgstr ""
@@ -908,11 +859,6 @@ msgstr ""
 #: src/dialogs/incompatible_memory_dialog.tscn
 #: src/interfaces/load_translator.tscn
 msgid "No"
-msgstr ""
-
-#: src/dialogs/incompatible_memory_dialog.tscn
-#: src/interfaces/load_translator.tscn
-msgid "Yes"
 msgstr ""
 
 #: src/dialogs/installation_popup.gd src/dialogs/installation_popup.tscn
@@ -983,16 +929,24 @@ msgid "LOAD"
 msgstr "Charger"
 
 #: src/dialogs/load_menu.tscn
+msgid "EDIT"
+msgstr ""
+
+#: src/dialogs/load_menu.tscn
 msgid "RENAME"
 msgstr "Renommer"
 
-#: src/dialogs/load_menu.tscn src/dialogs/story_editor.tscn
+#: src/dialogs/load_menu.tscn
 msgid "STORY_EDITOR_OPEN_STORY_FOLDER"
 msgstr ""
 
 #: src/dialogs/load_menu.tscn
 msgid "DELETE"
 msgstr "Supprimer"
+
+#: src/dialogs/load_menu.tscn src/interfaces/character_menu.tscn
+msgid "CLOSE"
+msgstr "Fermer"
 
 #: src/dialogs/load_menu.tscn
 msgid ""
@@ -1002,26 +956,6 @@ msgstr ""
 
 #: src/dialogs/memory_dialog.tscn
 msgid "Write here what the AI must always remember."
-msgstr ""
-
-#: src/dialogs/story_editor.tscn
-msgid "STORY_EDITOR_OPEN_STORY"
-msgstr ""
-
-#: src/dialogs/story_editor.tscn
-msgid "STORY_EDITOR_CHARACTER_EDITOR"
-msgstr ""
-
-#: src/dialogs/story_editor.tscn
-msgid "SAVE"
-msgstr "Sauvegarder"
-
-#: src/dialogs/story_editor.tscn
-msgid "SAVE_AS"
-msgstr "Sauvegarder sous"
-
-#: src/dialogs/translate_scenario_pop_up.tscn
-msgid "TRANSLATE_SCENARIO_INFO"
 msgstr ""
 
 #: src/dialogs/wait_dialog.tscn
@@ -1061,8 +995,8 @@ msgid "Save as"
 msgstr ""
 
 #: src/custom_nodes/filters_inputs.tscn
-msgid "FILTER_BY_WORKSHOP"
-msgstr "Filtrer par Workshop"
+msgid "Filter by workshop"
+msgstr ""
 
 #: src/custom_nodes/generator_preset_options_button.gd
 #: src/custom_nodes/generator_preset_options_button.tscn
@@ -1089,19 +1023,19 @@ msgid "AIDVENTURE_NOTIFICATION"
 msgstr ""
 
 #: src/custom_nodes/story_element_info.tscn
-msgid "TITLE"
-msgstr "Titre"
+msgid "Title"
+msgstr ""
 
 #: src/custom_nodes/story_element_info.tscn
-msgid "AUTHOR"
-msgstr "Auteur"
+msgid "Author"
+msgstr ""
 
 #: src/custom_nodes/story_element_info.tscn
 msgid "WORKSHOP_ID"
 msgstr ""
 
 #: src/custom_nodes/story_element_info.tscn
-msgid "CATEGORY"
+msgid "Category"
 msgstr ""
 
 #: src/custom_nodes/ask_name_dialog/ask_name_dialog.tscn
@@ -1855,11 +1789,31 @@ msgid "Select an AI for your game."
 msgstr ""
 
 #: src/custom_nodes/load_generator.tscn
+msgid "Buy the game to unlock more powerful AIs"
+msgstr ""
+
+#: src/custom_nodes/load_generator.tscn
 msgid "Load AI"
 msgstr ""
 
 #: src/custom_nodes/load_generator.tscn
 msgid "Manage AIs"
+msgstr ""
+
+#: src/custom_nodes/memory_sliders.tscn
+msgid "The maximum GPU memory allowed to be used by the Generator."
+msgstr ""
+
+#: src/custom_nodes/memory_sliders.tscn
+msgid "Max VRAM"
+msgstr ""
+
+#: src/custom_nodes/memory_sliders.tscn
+msgid "The maximum memory allowed to be used by the Generator."
+msgstr ""
+
+#: src/custom_nodes/memory_sliders.tscn
+msgid "Max RAM"
 msgstr ""
 
 #: src/custom_nodes/options_buttons.tscn
@@ -1949,6 +1903,10 @@ msgid "Couldn't save the lorebook"
 msgstr ""
 
 #: src/autoload/strings.gd
+msgid "Successfully saved the lorebook"
+msgstr ""
+
+#: src/autoload/strings.gd
 msgid "The server is off."
 msgstr ""
 
@@ -2005,6 +1963,41 @@ msgstr ""
 #: src/autoload/strings.gd
 msgctxt "E.g: You pathetically fail to punch the man (Don't add uppercase)"
 msgid "pathetically fail to"
+msgstr ""
+
+#: src/autoload/strings.gd
+msgid "Visible to everyone."
+msgstr ""
+
+#: src/autoload/strings.gd
+msgid "Visible to friends only."
+msgstr ""
+
+#: src/autoload/strings.gd
+msgid "Only visible to the creator."
+msgstr ""
+
+#: src/autoload/strings.gd
+msgid ""
+"Visible to everyone, but will not be returned in any global queries.\n"
+"Will also not be returned in any user lists unless the caller is the creator "
+"or a subscriber."
+msgstr ""
+
+#: src/autoload/strings.gd
+msgid "Couldn't edit the Workshop item."
+msgstr ""
+
+#: src/autoload/strings.gd
+msgid "Couldn't upload to the Workshop."
+msgstr ""
+
+#: src/autoload/strings.gd
+msgid "Successfully uploaded to the Workshop."
+msgstr ""
+
+#: src/autoload/strings.gd
+msgid "Successfully updated the Workshop item."
 msgstr ""
 
 #: src/dialogs/lorebook_info_popup_window.tscn
@@ -2147,12 +2140,10 @@ msgstr ""
 
 #: src/interfaces/character_menu.tscn
 msgid ""
-"To generate an attribute, the game rolls 3 dice of 6 and multiplies the "
-"result by 5.\n"
-"Therefore, an attribute can be between 15-90.\n"
-"When you try an action you must roll on 100. The result is a success if you "
-"roll under your attribute score.\n"
-"The closer to 1, the better the result. 1 is a critical success."
+"Attributes are between 15 and 90.\n"
+"When you try an action, you must do a score above your value.\n"
+"If you have 50 in strength and use it to try an action. You have 50% chances "
+"of success."
 msgstr ""
 
 #: src/interfaces/character_menu.tscn
@@ -2200,14 +2191,6 @@ msgstr ""
 
 #: src/interfaces/load_translator.tscn
 msgid "Disable automatic translation"
-msgstr ""
-
-#: src/interfaces/published_workshop_item_menu.tscn
-msgid "Your items"
-msgstr ""
-
-#: src/interfaces/published_workshop_item_menu.tscn
-msgid "Open item on Steam"
 msgstr ""
 
 #: src/interfaces/server_menu.gd src/interfaces/server_menu.tscn
@@ -2314,7 +2297,9 @@ msgid "Remove unfinished sentences"
 msgstr ""
 
 #: src/interfaces/options/preferences.tscn
-msgid "OPTIONS_HIDE_TOP_BAR_HINT"
+msgid ""
+"It will hide the top bar in the game.\n"
+"You can still access the menu by pressing the ESC key."
 msgstr ""
 
 #: src/interfaces/options/preferences.tscn
@@ -2322,7 +2307,7 @@ msgid "Hide top bar"
 msgstr ""
 
 #: src/interfaces/options/preferences.tscn
-msgid "OPTIONS_POV_HINT"
+msgid "It will use \"You\" or \"I\" in your inputs."
 msgstr ""
 
 #: src/interfaces/options/preferences.tscn
@@ -2330,7 +2315,12 @@ msgid "Point of view"
 msgstr ""
 
 #: src/interfaces/options/preferences.tscn
-msgid "OPTIONS_FONT_HINT"
+msgid ""
+"You can add custom fonts to the list.\n"
+"- Create a \"fonts\" folder in the game folder\n"
+"- Download fonts online (https://www.dafont.com/)\n"
+"- Add the \".ttf\" file in the fonts folder\n"
+"- Reload."
 msgstr ""
 
 #: src/interfaces/options/preferences.tscn
@@ -2424,6 +2414,30 @@ msgstr ""
 #: src/interfaces/options/server.tscn
 msgid "Server's port"
 msgstr ""
+
+#~ msgid "PLAY"
+#~ msgstr "Jouer"
+
+#~ msgid "CREATE"
+#~ msgstr "Créer"
+
+#~ msgid "EXIT"
+#~ msgstr "Quitter"
+
+#~ msgid "SAVE"
+#~ msgstr "Sauvegarder"
+
+#~ msgid "SAVE_AS"
+#~ msgstr "Sauvegarder sous"
+
+#~ msgid "FILTER_BY_WORKSHOP"
+#~ msgstr "Filtrer par Workshop"
+
+#~ msgid "TITLE"
+#~ msgstr "Titre"
+
+#~ msgid "AUTHOR"
+#~ msgstr "Auteur"
 
 #~ msgid "ADD"
 #~ msgstr "Ajouter"
