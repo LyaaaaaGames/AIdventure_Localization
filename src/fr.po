@@ -190,20 +190,8 @@ msgstr ""
 "X-Generator: Poedit 3.4.2\n"
 
 #: src/interfaces/ai_info.gd src/interfaces/ai_info.tscn
-msgid "SFW_HINT"
-msgstr ""
-
-#: src/interfaces/ai_info.gd src/interfaces/ai_info.tscn
-msgid "NSFW_MODERATE_HINT"
-msgstr ""
-
-#: src/interfaces/ai_info.gd src/interfaces/ai_info.tscn
-msgid "NSFW_HINT"
-msgstr ""
-
-#: src/interfaces/ai_info.gd src/interfaces/ai_info.tscn
 msgid "?"
-msgstr ""
+msgstr "?"
 
 #: src/interfaces/ai_info.tscn
 msgid "Size"
@@ -255,7 +243,7 @@ msgstr "Filtrer par langue"
 
 #: src/interfaces/ai_menu.tscn src/custom_nodes/filters_inputs.tscn
 msgid "Reset filters"
-msgstr "réinitialiser les filtres"
+msgstr "Réinitialiser les filtres"
 
 #: src/interfaces/ai_menu.tscn
 msgid "Artificial intelligences"
@@ -278,32 +266,32 @@ msgid "Delete AI"
 msgstr "Supprimer l'IA"
 
 #: src/interfaces/ai_menu.tscn
-msgid "SAVE_SETTINGS"
-msgstr ""
+msgid "Save settings"
+msgstr "Sauvegarder les paramètres"
 
 #: src/interfaces/ai_menu.tscn
-msgid "SAVE_SETTINGS_TO_ALL_AIS"
-msgstr ""
+msgid "Save settings to all AIs"
+msgstr "Écraser les paramètres de tous les IA"
 
 #: src/interfaces/ai_menu.tscn
-msgid "RESET_AI_SETTINGS"
-msgstr ""
+msgid "Reset AI's settings"
+msgstr "Réinitialiser les paramètres de cet IA"
 
 #: src/interfaces/ai_menu.tscn
-msgid "RESET_ALL_AIS_SETTINGS"
-msgstr ""
+msgid "Reset all AIs settings"
+msgstr "Réinitialiser les paramètres de tous les IA"
 
 #: src/interfaces/ai_menu.tscn src/interfaces/lorebook_menu.tscn
 #: src/interfaces/scenario_menu.tscn src/interfaces/translator_menu.tscn
 #: src/dialogs/ask_custom_ai_name_popup.tscn
 #: src/custom_nodes/options_buttons.tscn src/dialogs/server_off_warning.tscn
-#: src/interfaces/server_menu.tscn
+#: src/interfaces/character_menu.tscn src/interfaces/server_menu.tscn
 msgid "Close"
 msgstr "Fermer"
 
 #: src/interfaces/ai_options.tscn
-msgid "OPTIONS_AI_TAB"
-msgstr ""
+msgid "AI settings"
+msgstr "Paramètres d'IA"
 
 #: src/interfaces/ai_options.tscn
 msgid "The maximum words to be generated."
@@ -318,10 +306,12 @@ msgid ""
 "Make the generated text more or less coherent. Commonly named "
 "\"Temperature\", 0 means no randomness."
 msgstr ""
+"Rends plus ou moins cohérent le texte généré. Aussi appelée \"Température\", "
+"0 signifie pas d'aléatoire."
 
 #: src/interfaces/ai_options.tscn
 msgid "Randomness"
-msgstr ""
+msgstr "Aléatoire"
 
 #: src/interfaces/ai_options.tscn
 msgid ""
@@ -329,49 +319,55 @@ msgid ""
 "loops.\n"
 "1 means no penalty."
 msgstr ""
+"S'il est supérieur à 1,0, pénalise la répétition dans un texte pour éviter "
+"les boucles infinies.\n"
+"1 signifie pas de pénalité."
 
 #: src/interfaces/ai_options.tscn
 msgid "Repetition penalty"
-msgstr ""
+msgstr "Pénalité de répétition"
 
 #: src/interfaces/ai_options.tscn
 msgid ""
 "The maximum amount of time you allow the AI to generate text, in seconds."
 msgstr ""
+"Le temps maximum que vous laissez à l'IA pour générer du texte, en secondes."
 
 #: src/interfaces/ai_options.tscn
 msgid "Generation's max time"
-msgstr ""
+msgstr "Temps max de génération"
 
 #: src/interfaces/ai_options.tscn
+msgctxt "characters like in a text. Not an individual."
 msgid "How many of the story's last characters the AI must remember."
 msgstr ""
+"De combien de caractères précédemment générés l'IA doit-elle se rappeler."
 
 #: src/interfaces/ai_options.tscn
 msgid "Context's max length"
-msgstr ""
+msgstr "Taille max du contexte"
 
 #: src/interfaces/ai_options.tscn
+msgctxt "characters like in a text. Not an individual."
 msgid "How many characters the memory can hold."
-msgstr ""
+msgstr "Combien de caractères la mémoire peut contenir."
 
 #: src/interfaces/ai_options.tscn
 msgid "Memory's max length"
-msgstr ""
+msgstr "Taille max de la mémoire"
 
 #: src/interfaces/ai_options.tscn
 msgid ""
 "If a model doesn’t fully fit in VRAM, it will offload the rest on the CPU "
 "(RAM), or even the hard drive if you don’t have enough RAM."
 msgstr ""
+"Si une IA ne rentre pas entièrement dans la VRAM, alors le reste sera chargé "
+"sur le CPU (RAM).\n"
+"Ou le disque si vous n'avez pas assez de RAM."
 
 #: src/interfaces/ai_options.tscn
 msgid "Offload model"
-msgstr ""
-
-#: src/interfaces/ai_options.tscn
-msgid "OFFLOAD_MODEL_HINT"
-msgstr ""
+msgstr "Décharger le model"
 
 #: src/interfaces/ai_options.tscn
 msgid ""
@@ -382,22 +378,24 @@ msgid ""
 "probably set it to 9500Mb.\n"
 "Same for the VRAM limit."
 msgstr ""
+"La limite de mémoire obligera le serveur à ne pas dépasser cette limite lors "
+"du chargement d'un IA.\n"
+"Le serveur peut cependant la dépasser lors de la génération de texte.\n"
+"Donc, si vous souhaitez ne pas dépaser 10000Mb, il est recommendé de limiter "
+"la mémoire à 9500Mb.\n"
+"De meme pour la VRAM."
 
 #: src/interfaces/ai_options.tscn
 msgid "Limit memory usage"
-msgstr ""
-
-#: src/interfaces/ai_options.tscn
-msgid "LIMIT_MEMORY_HINT"
-msgstr ""
+msgstr "Limiter la mémoire utilisée"
 
 #: src/interfaces/ai_options.tscn
 msgid "Display advanced options"
-msgstr ""
+msgstr "Afficher les options avancées"
 
 #: src/interfaces/ai_options.tscn
 msgid "Advanced options"
-msgstr ""
+msgstr "Options avancées"
 
 #: src/interfaces/ai_options.tscn
 msgid ""
@@ -405,34 +403,34 @@ msgid ""
 "doing.\n"
 "If you happen to \"break\" the generation, just press the \"reset\" button."
 msgstr ""
+"Il est recommandé de ne modifier les options avancées que si vous savez ce "
+"que vous faites.\n"
+"Si vous arrivez à \"casser\" la génération, appuyez simplement sur le bouton "
+"\"réinitialiser\"."
 
 #: src/interfaces/ai_options.tscn
 msgid ""
 "This is an experimental feature.\n"
 "It reduces by ~2 the memory needed by the server."
 msgstr ""
+"C'est une fonctionnalité expérimentale.\n"
+"Elle réduit de ~2 la mémoire nécessaire au serveur."
 
 #: src/interfaces/ai_options.tscn
 msgid "Low RAM mode"
-msgstr ""
-
-#: src/interfaces/ai_options.tscn
-msgid "LOW_RAM_HINT"
-msgstr ""
+msgstr "Mode économie de RAM"
 
 #: src/interfaces/ai_options.tscn
 msgid ""
 "Enable randomly picking the next word.\n"
 "It limits the repetition."
 msgstr ""
+"Permet de choisir au hasard le mot suivant.\n"
+"Ça limite la répétition."
 
 #: src/interfaces/ai_options.tscn
 msgid "Do sample"
-msgstr ""
-
-#: src/interfaces/ai_options.tscn
-msgid "DO_SAMPLE_HINT"
-msgstr ""
+msgstr "Échantillonage"
 
 #: src/interfaces/ai_options.tscn
 msgid ""
@@ -441,10 +439,14 @@ msgid ""
 "among only those K next words.\n"
 "Set to 0 to disable it."
 msgstr ""
+"Les mots suivants K les plus probables sont filtrés\n"
+"et la masse de probabilité est redistribuée\n"
+"parmi les seuls K mots suivants.\n"
+"Mettre à 0 pour le désactiver."
 
 #: src/interfaces/ai_options.tscn
 msgid "Top k"
-msgstr ""
+msgstr "Top k"
 
 #: src/interfaces/ai_options.tscn
 msgid ""
@@ -455,30 +457,44 @@ msgid ""
 "add up to top_p or higher are kept for generation.\n"
 "Set to 0 to disable it."
 msgstr ""
+"Choisit les plus petit ensemble possible de mots dont le cumul\n"
+"de probabilité dépasse la probabilité p.\n"
+"La masse de probabilité est ensuite redistribuée parmi cet ensemble de "
+"mots.\n"
+"Si la valeur est < 1, seuls les jetons les plus probables avec des\n"
+"probabilités qui s'additionnent jusqu’à top_p ou plus sont conservées pour "
+"la génération.\n"
+"Mettre à 0 pour le désactiver."
 
 #: src/interfaces/ai_options.tscn
 msgid "Top p"
-msgstr ""
+msgstr "Top p"
 
 #: src/interfaces/ai_options.tscn
 msgid ""
 "If greater than 1, executes beam search for cleaner text.\n"
 "1 means no beam search."
 msgstr ""
+"S'il est supérieur à 1, exécute la recherche de faisceau pour un texte plus "
+"propre.\n"
+"1 signifie pas de recherche de faisceau."
 
 #: src/interfaces/ai_options.tscn
 msgid "Number of beams"
-msgstr ""
+msgstr "Nombre de faisceaux"
 
 #: src/interfaces/ai_options.tscn
 msgid ""
 "Token length to avoid repeating given phrases.\n"
 "Set to 0 to disable it."
 msgstr ""
+"S'il est supérieur à 1, exécute la recherche de faisceau pour un texte plus "
+"propre.\n"
+"1 signifie pas de recherche de faisceau."
 
 #: src/interfaces/ai_options.tscn
 msgid "No repeat ngram size"
-msgstr ""
+msgstr "No repeat ngram size"
 
 #: src/interfaces/ai_options.tscn
 msgid ""
@@ -487,224 +503,175 @@ msgid ""
 "will temporarily offload the CPU state dictionary to the hard drive to avoid "
 "getting out of CPU RAM."
 msgstr ""
+"Si le poids du CPU state dictionnary + la plus grosse partie du checkpoint "
+"ne rentre pas dans la RAM,\n"
+"alors le CPU state dictionnary sera temporairement déchargé sur le disque "
+"pour éviter saturer la RAM du CPU."
 
 #: src/interfaces/ai_options.tscn
 msgid "Offload dictionary"
-msgstr ""
-
-#: src/interfaces/ai_options.tscn
-msgid "OFFLOAD_DICTIONNARY_HINT"
-msgstr ""
+msgstr "Décharger le dictionnaire"
 
 #: src/interfaces/ai_options.tscn
 msgid "Change how the AI is dispatched on the GPU and CPU."
-msgstr ""
+msgstr "Change la manière dont l'IA est répartie sur le GPU et le CPU."
 
 #: src/interfaces/ai_options.tscn
 msgid "Device map"
-msgstr ""
+msgstr "Carte matérielle"
 
 #: src/interfaces/ai_options.tscn
 msgid ""
 "A torch.dtype is an object that represents the data type of a torch.Tensor. "
 "PyTorch has twelve different data types."
 msgstr ""
+"Un torch.dtype est un objet qui représente le type de données d'un Torch."
+"Tensor. PyTorch dispose de douze types de données différents."
 
 #: src/interfaces/ai_options.tscn
 msgid "Torch Dtype"
-msgstr ""
+msgstr "Torch Dtype"
 
 #: src/interfaces/edit_bar.tscn
 #: src/custom_nodes/ask_name_dialog/ask_name_dialog.tscn
 #: src/dialogs/select_lorebook_dialog.tscn
 msgid "Cancel"
-msgstr ""
+msgstr "Annuler"
 
 #: src/interfaces/edit_bar.tscn src/dialogs/hardware_form/hardware_form.tscn
 msgid "Previous"
-msgstr ""
+msgstr "Précédent"
 
 #: src/interfaces/edit_bar.tscn src/dialogs/hardware_form/hardware_form.tscn
 msgid "Next"
-msgstr ""
+msgstr "Suivant"
 
 #: src/interfaces/edit_bar.tscn
 msgid "Ask another generation"
-msgstr ""
+msgstr "Générer une autre réponse"
 
 #: src/interfaces/edit_bar.tscn src/interfaces/character_menu.tscn
 msgid "Validate"
-msgstr ""
+msgstr "Valider"
 
 #: src/interfaces/input_bar.tscn
 msgid "Undo"
-msgstr ""
+msgstr "Undo"
 
 #: src/interfaces/input_bar.tscn
 msgid "Redo"
-msgstr ""
+msgstr "Redo"
 
 #: src/interfaces/input_bar.tscn
 msgid "Lorebook"
-msgstr ""
+msgstr "Encyclopédie"
 
 #: src/interfaces/input_bar.tscn
+msgctxt "characters like an individual. Not like characters in a word."
 msgid "Character"
-msgstr ""
+msgstr "Personnage"
 
 #: src/interfaces/input_bar.tscn
 msgid "Click to modify memory."
-msgstr ""
+msgstr "Cliquez pour modifier la mémoire."
 
 #: src/interfaces/input_bar.tscn src/interfaces/scenario_info.tscn
 #: src/dialogs/memory_dialog.tscn
 msgid "Memory"
-msgstr ""
+msgstr "Mémoire"
 
 #: src/interfaces/input_bar.tscn
 msgid "Click to switch of mode."
-msgstr ""
+msgstr "Cliquez pour changer de mode."
 
 #: src/interfaces/input_bar.tscn src/interfaces/scenario_info.tscn
 #: src/autoload/strings.gd
 msgid "Story"
-msgstr ""
+msgstr "Histoire"
 
 #: src/interfaces/input_bar.tscn src/autoload/strings.gd
 msgid "The knight draws his sword and takes a step forward."
-msgstr ""
+msgstr "Le chevalier dégaine son épée et fait un pas en avant."
 
 #: src/interfaces/input_bar.tscn
 msgid "Generate"
-msgstr ""
-
-#: src/interfaces/lorebook_info.gd src/interfaces/lorebook_info.tscn
-msgid "Successfully exported the lorebook:"
-msgstr ""
-
-#: src/interfaces/lorebook_info.gd src/interfaces/lorebook_info.tscn
-msgid "Error, can't export the lorebook:"
-msgstr ""
-
-#: src/interfaces/lorebook_info.gd src/interfaces/lorebook_info.tscn
-msgid "ADD_ENTRY_SUCCESS"
-msgstr ""
-
-#: src/interfaces/lorebook_info.gd src/interfaces/lorebook_info.tscn
-msgid "ADD_ENTRY_FAILED"
-msgstr ""
-
-#: src/interfaces/lorebook_info.gd src/interfaces/lorebook_info.tscn
-msgid "DELETE_ENTRY_SUCCESS"
-msgstr ""
-
-#: src/interfaces/lorebook_info.gd src/interfaces/lorebook_info.tscn
-msgid "DELETE_ENTRY_FAILED"
-msgstr ""
-
-#: src/interfaces/lorebook_info.gd src/interfaces/lorebook_info.tscn
-msgid "RENAME_ENTRY_SUCCESS"
-msgstr ""
-
-#: src/interfaces/lorebook_info.gd src/interfaces/lorebook_info.tscn
-msgid "RENAME_ENTRY_FAILED"
-msgstr ""
+msgstr "Générer"
 
 #: src/interfaces/lorebook_info.tscn
 msgid "Export"
-msgstr ""
+msgstr "Exporter"
 
 #: src/interfaces/lorebook_info.tscn
 msgid "Import"
-msgstr ""
+msgstr "Importer"
 
 #: src/interfaces/lorebook_info.tscn
 msgid "Rename"
-msgstr ""
+msgstr "Renommer"
 
 #: src/interfaces/lorebook_info.tscn
 msgid "Add"
-msgstr ""
+msgstr "Ajouter"
 
 #: src/interfaces/lorebook_info.tscn src/custom_nodes/edit_buttons.tscn
 msgid "Delete"
-msgstr ""
-
-#: src/interfaces/lorebook_menu.gd src/interfaces/lorebook_menu.tscn
-msgid "Successfully saved the lorebook:"
-msgstr ""
-
-#: src/interfaces/lorebook_menu.gd src/interfaces/lorebook_menu.tscn
-msgid "Error, can't save the lorebook:"
-msgstr ""
-
-#: src/interfaces/lorebook_menu.gd src/interfaces/lorebook_menu.tscn
-msgid "Successfully deleted the lorebook:"
-msgstr ""
-
-#: src/interfaces/lorebook_menu.gd src/interfaces/lorebook_menu.tscn
-msgid "Error, can't delete the lorebook:"
-msgstr ""
+msgstr "Supprimer"
 
 #: src/interfaces/lorebook_menu.tscn
 msgid "Lorebooks"
-msgstr ""
+msgstr "Encyclopédie"
 
 #: src/interfaces/lorebook_menu.tscn
 msgid "Open Lorebooks' folder."
-msgstr ""
+msgstr "Ouvrir le dossier des encyclopédies."
 
 #: src/interfaces/main_menu.gd src/interfaces/main_menu.tscn
 msgid "Buy the complete version to unlock."
-msgstr ""
+msgstr "Acheter la version complète pour débloquer."
 
 #: src/interfaces/main_menu.tscn src/interfaces/scenario_menu.tscn
 msgid "Play"
-msgstr ""
+msgstr "Jouer"
 
 #: src/interfaces/main_menu.tscn
 msgid "Create"
-msgstr ""
-
-#: src/interfaces/main_menu.tscn
-msgid "COMING SOON"
-msgstr ""
+msgstr "Créer"
 
 #: src/interfaces/main_menu.tscn
 msgid "Steam Workshop"
-msgstr ""
+msgstr "Workshop Steam"
 
 #: src/interfaces/main_menu.tscn src/dialogs/escape_menu.tscn
 msgid "Options"
-msgstr ""
+msgstr "Options"
 
 #: src/interfaces/main_menu.tscn
 msgid "Community"
-msgstr ""
+msgstr "communauté"
 
 #: src/interfaces/main_menu.tscn
 msgid "Help"
-msgstr ""
+msgstr "Aide"
 
 #: src/interfaces/main_menu.tscn
 msgid "Credits"
-msgstr ""
+msgstr "Crédits"
 
 #: src/interfaces/main_menu.tscn
 msgid "Exit"
-msgstr ""
+msgstr "Quitter"
 
 #: src/interfaces/main_menu.tscn
 msgid "AIdventure "
-msgstr ""
+msgstr "AIdventure"
 
 #: src/interfaces/main_menu.tscn
 msgid "Copyright (c) 2022-Present Lyaaaaa Games™"
-msgstr ""
+msgstr "Copyright (c) 2022-Present Lyaaaaa Games™"
 
 #: src/interfaces/output_display.tscn
 msgid "Double click to edit the story."
-msgstr ""
+msgstr "Double cliquez pour éditer l'histoire."
 
 #: src/interfaces/output_display.tscn
 msgid ""
@@ -712,136 +679,113 @@ msgid ""
 "Press escape to cancel.\n"
 "Press shift + enter to insert a new line."
 msgstr ""
-
-#: src/interfaces/scenario_menu.gd src/interfaces/scenario_menu.tscn
-msgid "SAVE_SCENARIO_SUCCESS"
-msgstr ""
-
-#: src/interfaces/scenario_menu.gd src/interfaces/scenario_menu.tscn
-msgid "SAVE_SCENARIO_FAILED"
-msgstr ""
-
-#: src/interfaces/scenario_menu.gd src/interfaces/scenario_menu.tscn
-msgid "DELETE_FILE_SUCCESS"
-msgstr ""
-
-#: src/interfaces/scenario_menu.gd src/interfaces/scenario_menu.tscn
-msgid "DELETE_FILE_FAILED"
-msgstr ""
+"Appuyez sur Entrée pour valider.\n"
+"Appuyez sur Échap pour annuler.\n"
+"Appuyez sur Maj + Entrée pour insérer une nouvelle ligne."
 
 #: src/interfaces/scenario_menu.tscn
 msgid "Scenarios"
-msgstr ""
+msgstr "Scénarios"
 
 #: src/interfaces/scenario_menu.tscn
 msgid "Open scenarios' folder"
-msgstr ""
+msgstr "Ouvrir le dossier des scénarios"
 
 #: src/interfaces/scenario_menu.tscn
 msgid "Custom start"
-msgstr ""
+msgstr "Départ personnalisé"
 
 #: src/interfaces/splash_screen.tscn
 msgid "Lyaaaaa Games™"
-msgstr ""
-
-#: src/interfaces/translator_menu.gd src/interfaces/translator_menu.tscn
-msgid "TRANSLATORS_DESCRIPTION"
-msgstr ""
+msgstr "Lyaaaaa Games™"
 
 #: src/interfaces/translator_menu.tscn
 msgid "Open AI's folder"
-msgstr ""
+msgstr "Ouvrir le dossier des IA"
 
 #: src/dialogs/asking_memory_size_pop_up.tscn
 msgid "How much memory do you want to allocate to the server?"
-msgstr ""
-
-#: src/dialogs/ask_custom_ai_name_popup.tscn
-msgid "ENTER_AI_NAME"
-msgstr ""
+msgstr "Quelle quantité de mémoire souhaitez-vous allouer au serveur ?"
 
 #: src/dialogs/ask_custom_ai_name_popup.tscn
 msgid ""
 "Enter the name of the AI from huggingface.co.\n"
 "E.g: For https://huggingface.co/sshleifer/tiny-gpt2 enter sshleifer/tiny-gpt2"
 msgstr ""
+"Entrez le nom de l’IA de huggingface.co.\n"
+"par ex : Pour https://huggingface.co/sshleifer/tiny-gpt2 entrez sshleifer/"
+"tiny-gpt2"
 
 #: src/dialogs/ask_custom_ai_name_popup.tscn
 msgid "enter the name of the AI"
-msgstr ""
+msgstr "entrer le nom de l'IA"
 
 #: src/dialogs/ask_custom_ai_name_popup.tscn
 msgid ""
 "Customs AIs aren't tested. They might not work or be too big for your PC."
 msgstr ""
+"Les IA personnalisées ne sont pas testées. Elles pourraient ne pas "
+"fonctionner ou être trop grandes pour votre PC."
 
 #: src/dialogs/ask_custom_ai_name_popup.tscn
 msgid "Browse for AIs"
-msgstr ""
+msgstr "Rechercher des IA"
 
 #: src/dialogs/ask_custom_ai_name_popup.tscn
 msgid "Download"
-msgstr ""
+msgstr "Télécharger"
 
 #: src/dialogs/confirmation_dialog.tscn
-msgid "no"
-msgstr ""
+#: src/dialogs/incompatible_memory_dialog.tscn
+#: src/interfaces/load_translator.tscn
+msgid "No"
+msgstr "Non"
 
 #: src/dialogs/confirmation_dialog.tscn
 #: src/dialogs/incompatible_memory_dialog.tscn
 #: src/interfaces/load_translator.tscn
 msgid "Yes"
-msgstr ""
-
-#: src/dialogs/custom_download_window.tscn
-#: src/custom_nodes/download_window.tscn
-msgid "DOWNLOAD_DIALOG_LABEL"
-msgstr ""
+msgstr "Oui"
 
 #: src/dialogs/error_popup.tscn
 msgid "An error occured!"
-msgstr ""
+msgstr "Une erreur est survenue !"
 
 #: src/dialogs/error_popup.tscn
-msgid "ERROR_POPUP_TITLE"
-msgstr ""
-
-#: src/dialogs/error_popup.tscn
-msgid "ERROR_POPUP_REPORT"
-msgstr ""
+msgid "Report the error on Discord or the forum\n"
+msgstr "Signaler l'erreur sur Discord ou le forum\n"
 
 #: src/dialogs/error_popup.tscn
 msgid "Logs copied in the clipboard!"
-msgstr ""
+msgstr "Logs copiés dans le presse-papiers !"
 
 #: src/dialogs/error_popup.tscn
-msgid "ERROR_POPUP_CLIPBOARD"
-msgstr ""
+msgid "Copy logs to clipboard\n"
+msgstr "Copier les logs dans le presse-papiers\n"
 
 #: src/dialogs/error_popup.tscn
-msgid "FORUM"
-msgstr ""
+msgid "Forum"
+msgstr "Forum"
 
 #: src/dialogs/error_popup.tscn
-msgid "MAIN_MENU"
-msgstr ""
+msgid "Main menu"
+msgstr "Menu principal"
 
 #: src/dialogs/escape_menu.tscn
 msgid "AIdventure"
-msgstr ""
+msgstr "AIdventure"
 
 #: src/dialogs/escape_menu.tscn
 msgid "Resume"
-msgstr ""
+msgstr "Continuer"
 
 #: src/dialogs/escape_menu.tscn src/interfaces/end_demo.tscn
 msgid "Return to main menu"
-msgstr ""
+msgstr "Retourner au menu principal"
 
 #: src/dialogs/escape_menu.tscn
 msgid "Exit the game"
-msgstr ""
+msgstr "Quitter le jeu"
 
 #: src/dialogs/incompatible_memory_dialog.tscn
 msgid ""
@@ -849,52 +793,56 @@ msgid ""
 "scenario.\n"
 "Memory length required :"
 msgstr ""
+"La \"Taille max de la mémoire\" définie dans les options est trop petite "
+"pour ce scénario.\n"
+"Longueur de mémoire requise : "
 
 #: src/dialogs/incompatible_memory_dialog.tscn
 msgid ""
 "Do you want to change the \"Memory max length\" option to play this scenario "
 "in the best conditions?"
 msgstr ""
-
-#: src/dialogs/incompatible_memory_dialog.tscn
-#: src/interfaces/load_translator.tscn
-msgid "No"
-msgstr ""
+"Voulez-vous changer l'option \"Taille max de la mémoire\" pour jouer ce "
+"scénario dans les meilleures conditions ?"
 
 #: src/dialogs/installation_popup.gd src/dialogs/installation_popup.tscn
 msgid ""
 "The game didn't find the installation. Please, run the installer and install "
 "the game."
 msgstr ""
+"Le jeu n’a pas trouvé l'installation. Veuillez lancer l'installateur et "
+"installer le jeu."
 
 #: src/dialogs/installation_popup.gd src/dialogs/installation_popup.tscn
 msgid "Your installation is outdated. Please, run the installer and update."
 msgstr ""
+"Votre installation est obsolète. Veuillez exécuter l'installateur et mettre "
+"à jour."
 
 #: src/dialogs/installation_popup.gd src/dialogs/installation_popup.tscn
 msgid "Installer not found."
-msgstr ""
+msgstr "Installateur introuvable."
 
 #: src/dialogs/installation_popup.tscn
 msgid "Launch the installer"
-msgstr ""
+msgstr "Lancer l'installeur"
 
 #: src/dialogs/installation_popup.tscn
 #: src/dialogs/hardware_form/hardware_form.tscn
 msgid "Skip"
-msgstr ""
+msgstr "Passer"
 
 #: src/dialogs/installation_popup.tscn
 msgid "I already installed the game\n"
-msgstr ""
+msgstr "J'ai déjà installé le jeu\n"
 
 #: src/dialogs/intro_demo_popup.tscn
 msgid "Thank you for downloading AIdventure's demo!"
-msgstr ""
+msgstr "Merci pour le d'avoir téléchargé de la démo d'AIdventure !"
 
 #: src/dialogs/intro_demo_popup.tscn
 msgid "The following features are disabled in the demo:"
-msgstr ""
+msgstr "Les fonctions suivantes sont désactivées dans la démo :"
 
 #: src/dialogs/intro_demo_popup.tscn
 msgid ""
@@ -903,852 +851,166 @@ msgid ""
 "Connecting to a remote server\n"
 "Steam Workshop menu"
 msgstr ""
+"Le menu de création\n"
+"Les scénarios personnalisés\n"
+"La connexion à un serveur distant\n"
+"Le Workshop Steam."
 
 #: src/dialogs/intro_demo_popup.tscn
 msgid "You also have a limited number of AIs:"
-msgstr ""
+msgstr "Vous avez également un nombre limité d’IA :"
 
 #: src/dialogs/intro_demo_popup.tscn
+msgctxt "characters like in a text. Not an individual."
 msgid "The stories are limited to a maximum number of characters:"
-msgstr ""
+msgstr "Les histoires sont limitées à un nombre maximum de caractères :"
 
 #: src/dialogs/intro_demo_popup.tscn
 msgid "Play the game"
-msgstr ""
+msgstr "Jouer au jeu"
 
 #: src/dialogs/intro_demo_popup.tscn src/interfaces/end_demo.tscn
 msgid "Join the community"
-msgstr ""
+msgstr "Rejoindre la communauté"
 
 #: src/dialogs/intro_demo_popup.tscn
 msgid "Buy the game"
-msgstr ""
-
-#: src/dialogs/load_menu.tscn
-msgid "LOAD"
-msgstr "Charger"
-
-#: src/dialogs/load_menu.tscn
-msgid "EDIT"
-msgstr ""
-
-#: src/dialogs/load_menu.tscn
-msgid "RENAME"
-msgstr "Renommer"
-
-#: src/dialogs/load_menu.tscn
-msgid "STORY_EDITOR_OPEN_STORY_FOLDER"
-msgstr ""
-
-#: src/dialogs/load_menu.tscn
-msgid "DELETE"
-msgstr "Supprimer"
-
-#: src/dialogs/load_menu.tscn src/interfaces/character_menu.tscn
-msgid "CLOSE"
-msgstr "Fermer"
-
-#: src/dialogs/load_menu.tscn
-msgid ""
-"Are you sure you want to delete this save?\n"
-"There is no going back."
-msgstr ""
+msgstr "Acheter le jeu"
 
 #: src/dialogs/memory_dialog.tscn
 msgid "Write here what the AI must always remember."
-msgstr ""
+msgstr "Écrivez ici ce dont l'IA doit toujours se souvenir."
 
 #: src/dialogs/wait_dialog.tscn
-msgid "PLEASE_WAIT"
-msgstr ""
+msgid "Please, wait"
+msgstr "SVP, attendez"
 
 #: src/custom_nodes/download_window.tscn
-msgid "DOWNLOAD_WINDOW_TITLE"
-msgstr ""
+msgid "AI downloading"
+msgstr "IA en cours de téléchargement"
+
+#: src/custom_nodes/download_window.tscn
+#: src/dialogs/custom_ai_download_window.tscn
+msgid "Please wait until the download is done."
+msgstr "Veuillez attendre que le téléchargement soit terminé."
 
 #: src/custom_nodes/edit_buttons.tscn
 msgid "Enable edition"
-msgstr ""
+msgstr "Activer les modifications"
 
 #: src/custom_nodes/edit_buttons.tscn
 msgid "Show embedded lorebook"
-msgstr ""
+msgstr "Voir l'encyclopédie intégrée"
 
 #: src/custom_nodes/edit_buttons.tscn
 msgid "Merge the entries of multiple lorebooks together."
-msgstr ""
+msgstr "Fusionner les entrées de plusieurs encyclopédies ensemble."
 
 #: src/custom_nodes/edit_buttons.tscn
 msgid "Merge entries"
-msgstr ""
+msgstr "Fusionner les entrées"
 
 #: src/custom_nodes/edit_buttons.tscn
 msgid "Translate"
-msgstr ""
+msgstr "Traduire"
 
 #: src/custom_nodes/edit_buttons.tscn src/custom_nodes/options_buttons.tscn
 msgid "Save"
-msgstr ""
+msgstr "Sauvegarder"
 
 #: src/custom_nodes/edit_buttons.tscn
 msgid "Save as"
-msgstr ""
+msgstr "Sauvegarder sous"
 
 #: src/custom_nodes/filters_inputs.tscn
 msgid "Filter by workshop"
-msgstr ""
+msgstr "Filtrer par Workshop"
 
 #: src/custom_nodes/generator_preset_options_button.gd
 #: src/custom_nodes/generator_preset_options_button.tscn
 msgid "Memory saving preset."
-msgstr ""
+msgstr "Préréglage d'économie de mémoire"
 
 #: src/custom_nodes/generator_preset_options_button.gd
 #: src/custom_nodes/generator_preset_options_button.tscn
 msgid "Memory saving preset for CPU only."
-msgstr ""
+msgstr "Préréglage d'économie de mémoire avec CPU seulement"
 
 #: src/custom_nodes/generator_preset_options_button.gd
 #: src/custom_nodes/generator_preset_options_button.tscn
 msgid "Performance preset."
-msgstr ""
+msgstr "Préréglage pour performance."
 
 #: src/custom_nodes/generator_preset_options_button.gd
 #: src/custom_nodes/generator_preset_options_button.tscn
 msgid "Performance preset for CPU only."
-msgstr ""
+msgstr "Préréglage pour performance avec CPU seulement."
 
 #: src/custom_nodes/notification.tscn
-msgid "AIDVENTURE_NOTIFICATION"
-msgstr ""
+msgid "AIdventure notification"
+msgstr "Notification d'AIdventure"
 
 #: src/custom_nodes/story_element_info.tscn
 msgid "Title"
-msgstr ""
+msgstr "Titre"
 
 #: src/custom_nodes/story_element_info.tscn
 msgid "Author"
-msgstr ""
+msgstr "Auteur"
 
 #: src/custom_nodes/story_element_info.tscn
-msgid "WORKSHOP_ID"
-msgstr ""
+msgid "Steam Workshop ID"
+msgstr "ID du Workshop Steam"
 
 #: src/custom_nodes/story_element_info.tscn
 msgid "Category"
-msgstr ""
+msgstr "Catégorie"
 
 #: src/custom_nodes/ask_name_dialog/ask_name_dialog.tscn
 msgid "Enter a name."
-msgstr ""
+msgstr "entrer un nom."
 
 #: src/custom_nodes/ask_name_dialog/ask_name_dialog.tscn
 msgid "Cool name"
-msgstr ""
+msgstr "Super nom"
 
 #: src/custom_nodes/ask_name_dialog/ask_name_dialog.tscn
 msgid "This name is already taken. Please, choose another one."
-msgstr ""
+msgstr "Ce nom est déjà pris. Veuillez en choisir un autre."
 
 #: src/custom_nodes/ask_name_dialog/ask_name_dialog.tscn
 #: src/dialogs/select_lorebook_dialog.tscn
 #: src/dialogs/hardware_form/hardware_form.tscn
 msgid "Ok"
-msgstr ""
+msgstr "Ok"
 
 #: src/classes/client.gd
 msgid "Closed the connection with the server."
-msgstr ""
+msgstr "Connexion avec le serveur fermée."
 
 #: src/classes/client.gd
 msgid "Failed to connect to the server."
-msgstr ""
+msgstr "La connexion avec le serveur a échouée."
 
 #: src/classes/client.gd
 msgid "Connection established with the server."
-msgstr ""
+msgstr "Connexion avec le serveur établie."
 
 #: src/classes/client.gd
 msgid "Text generated."
-msgstr ""
+msgstr "Texte généré."
 
 #: src/classes/client.gd
 msgid "Generator loaded."
-msgstr ""
+msgstr "Générateur chargé."
 
 #: src/classes/client.gd
-msgid "Failed loading Generator"
-msgstr ""
+msgid "Failed loading Generator."
+msgstr "Le chargement du générateur a échoué."
 
 #: src/classes/client.gd
 msgid "Translators loaded."
-msgstr ""
-
-#: src/classes/ai/custom_ai.gd
-msgid "CUSTOM_MODEL_HINT"
-msgstr ""
-
-#: src/autoload/ai_autoload.gd
-msgid "DELETE_AI_SUCCESS"
-msgstr ""
-
-#: src/autoload/ai_autoload.gd
-msgid "DELETE_AI_FAILED"
-msgstr ""
-
-#: src/autoload/ai_autoload.gd
-msgid "CUSTOM_AI_ALREADY_INSTALLED"
-msgstr ""
-
-#: src/autoload/ai_autoload.gd
-msgid "AI_DOWNLOAD_FINISHED"
-msgstr ""
-
-#: src/autoload/ai_autoload.gd
-msgid "AI_DOWNLOAD_FAILED"
-msgstr ""
-
-#: src/dialogs/credit.tscn
-msgid ""
-"Developer and project manager\n"
-"Lyaaaaaaaaaaaaaaa"
-msgstr ""
-
-#: src/dialogs/credit.tscn
-msgid ""
-"Translation\n"
-"German: Nyghtfall\n"
-"French: Lord_Sieben & Lyaaaaaaaaaaaaaaa\n"
-"Portuguese: ZariTen\n"
-"Spanish & Catalan: atumsk#0069\n"
-"Polish: BOBZONEG#1820"
-msgstr ""
-
-#: src/dialogs/credit.tscn
-msgid ""
-"Theme by\n"
-"https://azagaya.itch.io/"
-msgstr ""
-
-#: src/dialogs/credit.tscn
-msgid ""
-"Server Ressources\n"
-"Mamba: BSD 3-Clause. Copyright 2019 QuantStack and the Mamba contributors.\n"
-"Transformers: State-of-the-Art Natural Language Processing (Apache-2.0 "
-"License)\n"
-"Thomas Wolf, Lysandre Debut, Victor Sanh, Julien Chaumond, Clement Delangue, "
-"Anthony Moi, Pierric Cistac, Tim Rault, Remi Louf, Morgan Funtowicz, Joe "
-"Davison, Sam Shleifer, Patrick von Platen, Clara Ma, Yacine Jernite, Julien "
-"Plu, Canwen Xu, Teven Le Scao, Sylvain Gugger, Mariama Drame, Quentin "
-"Lhoest, Alexander Rush"
-msgstr ""
-
-#: src/dialogs/credit.tscn
-msgid ""
-"Godot addons\n"
-"Godothreadpool (MIT License):\n"
-"Marcos Zolnowski\n"
-"Godot Logging Util (MIT License):\n"
-"Ivanskodje Godotengine\n"
-"Godot Unit Test (MIT License):\n"
-"Copyright (c) 2018 Tom \"Butch\" Wesley\n"
-"Sound Manager (MIT License):\n"
-"Copyright (c) 2021-present Nathan Hoad"
-msgstr ""
-
-#: src/dialogs/credit.tscn
-msgid ""
-"Special thanks to:\n"
-"Patman124 for splitting the big GPT-J-6B models."
-msgstr ""
-
-#: src/dialogs/credit.tscn
-msgid ""
-"Models disclaimer:\n"
-"All the models used in AIdventure have been modified.\n"
-"They have been split into smaller parts to optimize the performances."
-msgstr ""
-
-#: src/dialogs/credit.tscn
-msgid ""
-"GPT-Neo:\n"
-"Copyright (c) 2020 EleutherAI\n"
-"\n"
-"Permission is hereby granted, free of charge, to any person obtaining a "
-"copy\n"
-"of this software and associated documentation files (the \"Software\"), to "
-"deal\n"
-"in the Software without restriction, including without limitation the "
-"rights\n"
-"to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n"
-"copies of the Software, and to permit persons to whom the Software is\n"
-"furnished to do so, subject to the following conditions:\n"
-"\n"
-"The above copyright notice and this permission notice shall be included in "
-"all\n"
-"copies or substantial portions of the Software.\n"
-"\n"
-"THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS "
-"OR\n"
-"IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n"
-"FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n"
-"AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n"
-"LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING "
-"FROM,\n"
-"OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN "
-"THE\n"
-"SOFTWARE."
-msgstr ""
-
-#: src/dialogs/credit.tscn
-msgid ""
-"GPT2 models:\n"
-"Software Copyright (c) 2019 OpenAI\n"
-"\n"
-"We don’t claim ownership of the content you create with GPT-2, so it is "
-"yours to do with as you please.\n"
-"We only ask that you use GPT-2 responsibly and clearly indicate your content "
-"was created using GPT-2.\n"
-"\n"
-"Permission is hereby granted, free of charge, to any person obtaining a copy "
-"of this software and\n"
-"associated documentation files (the \"Software\"), to deal in the Software "
-"without restriction,\n"
-"including without limitation the rights to use, copy, modify, merge, "
-"publish, distribute, sublicense,\n"
-"and/or sell copies of the Software, and to permit persons to whom the "
-"Software is furnished to do so,\n"
-"subject to the following conditions:\n"
-"\n"
-"The above copyright notice and this permission notice shall be included\n"
-"in all copies or substantial portions of the Software.\n"
-"The above copyright notice and this permission notice need not be included\n"
-"with content created by the Software.\n"
-"\n"
-"THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR "
-"IMPLIED,\n"
-"INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n"
-"FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE "
-"AUTHORS OR COPYRIGHT HOLDERS\n"
-"BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF "
-"CONTRACT,\n"
-"TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE "
-"OR THE USE\n"
-"OR OTHER DEALINGS IN THE SOFTWARE."
-msgstr ""
-
-#: src/dialogs/credit.tscn
-msgid ""
-"Helsinki-NLP - opus-mt models:\n"
-"Copyright (c) 2004-2020 Joerg Tiedemann\n"
-"\n"
-"Permission is hereby granted, free of charge, to any person obtaining a "
-"copy\n"
-"of this software and associated documentation files (the \"Software\"), to "
-"deal\n"
-"in the Software without restriction, including without limitation the "
-"rights\n"
-"to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n"
-"copies of the Software, and to permit persons to whom the Software is\n"
-"furnished to do so, subject to the following conditions:\n"
-"\n"
-"The above copyright notice and this permission notice shall be included in "
-"all\n"
-"copies or substantial portions of the Software.\n"
-"\n"
-"THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS "
-"OR\n"
-"IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n"
-"FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n"
-"AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n"
-"LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING "
-"FROM,\n"
-"OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN "
-"THE\n"
-"SOFTWARE."
-msgstr ""
-
-#: src/dialogs/credit.tscn
-msgid ""
-"KoboldAI's GPT-Neo 2.7B - Shinen/Picard:\n"
-"MIT License\n"
-"\n"
-"Copyright (c) 2021 Black, Sid and Leo, Gao and Wang, Phil and Leahy, Connor "
-"and Biderman, Stella\n"
-"\n"
-"Permission is hereby granted, free of charge, to any person obtaining a "
-"copy\n"
-"of this software and associated documentation files (the \"Software\"), to "
-"deal\n"
-"in the Software without restriction, including without limitation the "
-"rights\n"
-"to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n"
-"copies of the Software, and to permit persons to whom the Software is\n"
-"furnished to do so, subject to the following conditions:\n"
-"\n"
-"The above copyright notice and this permission notice shall be included in "
-"all\n"
-"copies or substantial portions of the Software.\n"
-"\n"
-"THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS "
-"OR\n"
-"IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n"
-"FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n"
-"AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n"
-"LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING "
-"FROM,\n"
-"OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN "
-"THE\n"
-"SOFTWARE."
-msgstr ""
-
-#: src/dialogs/credit.tscn
-msgid ""
-"KoboldAI's GPT-J-6B-Skein:\n"
-"Apache License\n"
-"Version 2.0, January 2004\n"
-"http://www.apache.org/licenses/\n"
-"\n"
-"   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n"
-"\n"
-"   1. Definitions.\n"
-"\n"
-"      \"License\" shall mean the terms and conditions for use, "
-"reproduction,\n"
-"      and distribution as defined by Sections 1 through 9 of this document.\n"
-"\n"
-"      \"Licensor\" shall mean the copyright owner or entity authorized by\n"
-"      the copyright owner that is granting the License.\n"
-"\n"
-"      \"Legal Entity\" shall mean the union of the acting entity and all\n"
-"      other entities that control, are controlled by, or are under common\n"
-"      control with that entity. For the purposes of this definition,\n"
-"      \"control\" means (i) the power, direct or indirect, to cause the\n"
-"      direction or management of such entity, whether by contract or\n"
-"      otherwise, or (ii) ownership of fifty percent (50%) or more of the\n"
-"      outstanding shares, or (iii) beneficial ownership of such entity.\n"
-"\n"
-"      \"You\" (or \"Your\") shall mean an individual or Legal Entity\n"
-"      exercising permissions granted by this License.\n"
-"\n"
-"      \"Source\" form shall mean the preferred form for making "
-"modifications,\n"
-"      including but not limited to software source code, documentation\n"
-"      source, and configuration files.\n"
-"\n"
-"      \"Object\" form shall mean any form resulting from mechanical\n"
-"      transformation or position of a Source form, including but\n"
-"      not limited to compiled object code, generated documentation,\n"
-"      and conversions to other media types.\n"
-"\n"
-"      \"Work\" shall mean the work of authorship, whether in Source or\n"
-"      Object form, made available under the License, as indicated by a\n"
-"      copyright notice that is included in or attached to the work\n"
-"      (an example is provided in the Appendix below).\n"
-"\n"
-"      \"Derivative Works\" shall mean any work, whether in Source or Object\n"
-"      form, that is based on (or derived from) the Work and for which the\n"
-"      editorial revisions, annotations, elaborations, or other "
-"modifications\n"
-"      represent, as a whole, an original work of authorship. For the "
-"purposes\n"
-"      of this License, Derivative Works shall not include works that remain\n"
-"      separable from, or merely link (or bind by name) to the interfaces "
-"of,\n"
-"      the Work and Derivative Works thereof.\n"
-"\n"
-"      \"Contribution\" shall mean any work of authorship, including\n"
-"      the original version of the Work and any modifications or additions\n"
-"      to that Work or Derivative Works thereof, that is intentionally\n"
-"      submitted to Licensor for inclusion in the Work by the copyright "
-"owner\n"
-"      or by an individual or Legal Entity authorized to submit on behalf of\n"
-"      the copyright owner. For the purposes of this definition, "
-"\"submitted\"\n"
-"      means any form of electronic, verbal, or written communication sent\n"
-"      to the Licensor or its representatives, including but not limited to\n"
-"      communication on electronic mailing lists, source code control "
-"systems,\n"
-"      and issue tracking systems that are managed by, or on behalf of, the\n"
-"      Licensor for the purpose of discussing and improving the Work, but\n"
-"      excluding communication that is conspicuously marked or otherwise\n"
-"      designated in writing by the copyright owner as \"Not a Contribution."
-"\"\n"
-"\n"
-"      \"Contributor\" shall mean Licensor and any individual or Legal "
-"Entity\n"
-"      on behalf of whom a Contribution has been received by Licensor and\n"
-"      subsequently incorporated within the Work.\n"
-"\n"
-"   2. Grant of Copyright License. Subject to the terms and conditions of\n"
-"      this License, each Contributor hereby grants to You a perpetual,\n"
-"      worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n"
-"      copyright license to reproduce, prepare Derivative Works of,\n"
-"      publicly display, publicly perform, sublicense, and distribute the\n"
-"      Work and such Derivative Works in Source or Object form.\n"
-"\n"
-"   3. Grant of Patent License. Subject to the terms and conditions of\n"
-"      this License, each Contributor hereby grants to You a perpetual,\n"
-"      worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n"
-"      (except as stated in this section) patent license to make, have made,\n"
-"      use, offer to sell, sell, import, and otherwise transfer the Work,\n"
-"      where such license applies only to those patent claims licensable\n"
-"      by such Contributor that are necessarily infringed by their\n"
-"      Contribution(s) alone or by combination of their Contribution(s)\n"
-"      with the Work to which such Contribution(s) was submitted. If You\n"
-"      institute patent litigation against any entity (including a\n"
-"      cross-claim or counterclaim in a lawsuit) alleging that the Work\n"
-"      or a Contribution incorporated within the Work constitutes direct\n"
-"      or contributory patent infringement, then any patent licenses\n"
-"      granted to You under this License for that Work shall terminate\n"
-"      as of the date such litigation is filed.\n"
-"\n"
-"   4. Redistribution. You may reproduce and distribute copies of the\n"
-"      Work or Derivative Works thereof in any medium, with or without\n"
-"      modifications, and in Source or Object form, provided that You\n"
-"      meet the following conditions:\n"
-"\n"
-"      (a) You must give any other recipients of the Work or\n"
-"          Derivative Works a copy of this License; and\n"
-"\n"
-"      (b) You must cause any modified files to carry prominent notices\n"
-"          stating that You changed the files; and\n"
-"\n"
-"      (c) You must retain, in the Source form of any Derivative Works\n"
-"          that You distribute, all copyright, patent, trademark, and\n"
-"          attribution notices from the Source form of the Work,\n"
-"          excluding those notices that do not pertain to any part of\n"
-"          the Derivative Works; and\n"
-"\n"
-"      (d) If the Work includes a \"NOTICE\" text file as part of its\n"
-"          distribution, then any Derivative Works that You distribute must\n"
-"          include a readable copy of the attribution notices contained\n"
-"          within such NOTICE file, excluding those notices that do not\n"
-"          pertain to any part of the Derivative Works, in at least one\n"
-"          of the following places: within a NOTICE text file distributed\n"
-"          as part of the Derivative Works; within the Source form or\n"
-"          documentation, if provided along with the Derivative Works; or,\n"
-"          within a display generated by the Derivative Works, if and\n"
-"          wherever such third-party notices normally appear. The contents\n"
-"          of the NOTICE file are for informational purposes only and\n"
-"          do not modify the License. You may add Your own attribution\n"
-"          notices within Derivative Works that You distribute, alongside\n"
-"          or as an addendum to the NOTICE text from the Work, provided\n"
-"          that such additional attribution notices cannot be construed\n"
-"          as modifying the License.\n"
-"\n"
-"      You may add Your own copyright statement to Your modifications and\n"
-"      may provide additional or different license terms and conditions\n"
-"      for use, reproduction, or distribution of Your modifications, or\n"
-"      for any such Derivative Works as a whole, provided Your use,\n"
-"      reproduction, and distribution of the Work otherwise complies with\n"
-"      the conditions stated in this License.\n"
-"\n"
-"   5. Submission of Contributions. Unless You explicitly state otherwise,\n"
-"      any Contribution intentionally submitted for inclusion in the Work\n"
-"      by You to the Licensor shall be under the terms and conditions of\n"
-"      this License, without any additional terms or conditions.\n"
-"      Notwithstanding the above, nothing herein shall supersede or modify\n"
-"      the terms of any separate license agreement you may have executed\n"
-"      with Licensor regarding such Contributions.\n"
-"\n"
-"   6. Trademarks. This License does not grant permission to use the trade\n"
-"      names, trademarks, service marks, or product names of the Licensor,\n"
-"      except as required for reasonable and customary use in describing the\n"
-"      origin of the Work and reproducing the content of the NOTICE file.\n"
-"\n"
-"   7. Disclaimer of Warranty. Unless required by applicable law or\n"
-"      agreed to in writing, Licensor provides the Work (and each\n"
-"      Contributor provides its Contributions) on an \"AS IS\" BASIS,\n"
-"      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or\n"
-"      implied, including, without limitation, any warranties or conditions\n"
-"      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A\n"
-"      PARTICULAR PURPOSE. You are solely responsible for determining the\n"
-"      appropriateness of using or redistributing the Work and assume any\n"
-"      risks associated with Your exercise of permissions under this "
-"License.\n"
-"\n"
-"   8. Limitation of Liability. In no event and under no legal theory,\n"
-"      whether in tort (including negligence), contract, or otherwise,\n"
-"      unless required by applicable law (such as deliberate and grossly\n"
-"      negligent acts) or agreed to in writing, shall any Contributor be\n"
-"      liable to You for damages, including any direct, indirect, special,\n"
-"      incidental, or consequential damages of any character arising as a\n"
-"      result of this License or out of the use or inability to use the\n"
-"      Work (including but not limited to damages for loss of goodwill,\n"
-"      work stoppage, computer failure or malfunction, or any and all\n"
-"      other commercial damages or losses), even if such Contributor\n"
-"      has been advised of the possibility of such damages.\n"
-"\n"
-"   9. Accepting Warranty or Additional Liability. While redistributing\n"
-"      the Work or Derivative Works thereof, You may choose to offer,\n"
-"      and charge a fee for, acceptance of support, warranty, indemnity,\n"
-"      or other liability obligations and/or rights consistent with this\n"
-"      License. However, in accepting such obligations, You may act only\n"
-"      on Your own behalf and on Your sole responsibility, not on behalf\n"
-"      of any other Contributor, and only if You agree to indemnify,\n"
-"      defend, and hold each Contributor harmless for any liability\n"
-"      incurred by, or claims asserted against, such Contributor by reason\n"
-"      of your accepting any such warranty or additional liability.\n"
-"\n"
-"   END OF TERMS AND CONDITIONS\n"
-"\n"
-"   APPENDIX: How to apply the Apache License to your work.\n"
-"\n"
-"      To apply the Apache License to your work, attach the following\n"
-"      boilerplate notice, with the fields enclosed by brackets \"[]\"\n"
-"      replaced with your own identifying information. (Don't include\n"
-"      the brackets!)  The text should be enclosed in the appropriate\n"
-"      comment syntax for the file format. We also recommend that a\n"
-"      file or class name and description of purpose be included on the\n"
-"      same \"printed page\" as the copyright notice for easier\n"
-"      identification within third-party archives.\n"
-"\n"
-"   Copyright [2021] Wang, Ben\n"
-"\n"
-"   Licensed under the Apache License, Version 2.0 (the \"License\");\n"
-"   you may not use this file except in compliance with the License.\n"
-"   You may obtain a copy of the License at\n"
-"\n"
-"       http://www.apache.org/licenses/LICENSE-2.0\n"
-"\n"
-"   Unless required by applicable law or agreed to in writing, software\n"
-"   distributed under the License is distributed on an \"AS IS\" BASIS,\n"
-"   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n"
-"   See the License for the specific language governing permissions and\n"
-"   limitations under the License."
-msgstr ""
-
-#: src/dialogs/credit.tscn
-msgid ""
-"KoboldAI's GPT-J-6B-Adventure:\n"
-"VE-Forbryderne / KoboldAI"
-msgstr ""
-
-#: src/dialogs/credit.tscn
-msgid ""
-"KoboldAI's GPT-Neo-2.7B-Horni and GPT-Neo-2.7B-Horni-LN :\n"
-"Finetuneanon"
-msgstr ""
-
-#: src/dialogs/credit.tscn
-msgid ""
-"GPT4All: Training an Assistant-style Chatbot with Large Scale Data "
-"Distillation from GPT-3.5-Turbo\n"
-"Apache License\n"
-"Version 2.0, January 2004\n"
-"http://www.apache.org/licenses/\n"
-"\n"
-"   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n"
-"\n"
-"   1. Definitions.\n"
-"\n"
-"      \"License\" shall mean the terms and conditions for use, "
-"reproduction,\n"
-"      and distribution as defined by Sections 1 through 9 of this document.\n"
-"\n"
-"      \"Licensor\" shall mean the copyright owner or entity authorized by\n"
-"      the copyright owner that is granting the License.\n"
-"\n"
-"      \"Legal Entity\" shall mean the union of the acting entity and all\n"
-"      other entities that control, are controlled by, or are under common\n"
-"      control with that entity. For the purposes of this definition,\n"
-"      \"control\" means (i) the power, direct or indirect, to cause the\n"
-"      direction or management of such entity, whether by contract or\n"
-"      otherwise, or (ii) ownership of fifty percent (50%) or more of the\n"
-"      outstanding shares, or (iii) beneficial ownership of such entity.\n"
-"\n"
-"      \"You\" (or \"Your\") shall mean an individual or Legal Entity\n"
-"      exercising permissions granted by this License.\n"
-"\n"
-"      \"Source\" form shall mean the preferred form for making "
-"modifications,\n"
-"      including but not limited to software source code, documentation\n"
-"      source, and configuration files.\n"
-"\n"
-"      \"Object\" form shall mean any form resulting from mechanical\n"
-"      transformation or position of a Source form, including but\n"
-"      not limited to compiled object code, generated documentation,\n"
-"      and conversions to other media types.\n"
-"\n"
-"      \"Work\" shall mean the work of authorship, whether in Source or\n"
-"      Object form, made available under the License, as indicated by a\n"
-"      copyright notice that is included in or attached to the work\n"
-"      (an example is provided in the Appendix below).\n"
-"\n"
-"      \"Derivative Works\" shall mean any work, whether in Source or Object\n"
-"      form, that is based on (or derived from) the Work and for which the\n"
-"      editorial revisions, annotations, elaborations, or other "
-"modifications\n"
-"      represent, as a whole, an original work of authorship. For the "
-"purposes\n"
-"      of this License, Derivative Works shall not include works that remain\n"
-"      separable from, or merely link (or bind by name) to the interfaces "
-"of,\n"
-"      the Work and Derivative Works thereof.\n"
-"\n"
-"      \"Contribution\" shall mean any work of authorship, including\n"
-"      the original version of the Work and any modifications or additions\n"
-"      to that Work or Derivative Works thereof, that is intentionally\n"
-"      submitted to Licensor for inclusion in the Work by the copyright "
-"owner\n"
-"      or by an individual or Legal Entity authorized to submit on behalf of\n"
-"      the copyright owner. For the purposes of this definition, "
-"\"submitted\"\n"
-"      means any form of electronic, verbal, or written communication sent\n"
-"      to the Licensor or its representatives, including but not limited to\n"
-"      communication on electronic mailing lists, source code control "
-"systems,\n"
-"      and issue tracking systems that are managed by, or on behalf of, the\n"
-"      Licensor for the purpose of discussing and improving the Work, but\n"
-"      excluding communication that is conspicuously marked or otherwise\n"
-"      designated in writing by the copyright owner as \"Not a Contribution."
-"\"\n"
-"\n"
-"      \"Contributor\" shall mean Licensor and any individual or Legal "
-"Entity\n"
-"      on behalf of whom a Contribution has been received by Licensor and\n"
-"      subsequently incorporated within the Work.\n"
-"\n"
-"   2. Grant of Copyright License. Subject to the terms and conditions of\n"
-"      this License, each Contributor hereby grants to You a perpetual,\n"
-"      worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n"
-"      copyright license to reproduce, prepare Derivative Works of,\n"
-"      publicly display, publicly perform, sublicense, and distribute the\n"
-"      Work and such Derivative Works in Source or Object form.\n"
-"\n"
-"   3. Grant of Patent License. Subject to the terms and conditions of\n"
-"      this License, each Contributor hereby grants to You a perpetual,\n"
-"      worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n"
-"      (except as stated in this section) patent license to make, have made,\n"
-"      use, offer to sell, sell, import, and otherwise transfer the Work,\n"
-"      where such license applies only to those patent claims licensable\n"
-"      by such Contributor that are necessarily infringed by their\n"
-"      Contribution(s) alone or by combination of their Contribution(s)\n"
-"      with the Work to which such Contribution(s) was submitted. If You\n"
-"      institute patent litigation against any entity (including a\n"
-"      cross-claim or counterclaim in a lawsuit) alleging that the Work\n"
-"      or a Contribution incorporated within the Work constitutes direct\n"
-"      or contributory patent infringement, then any patent licenses\n"
-"      granted to You under this License for that Work shall terminate\n"
-"      as of the date such litigation is filed.\n"
-"\n"
-"   4. Redistribution. You may reproduce and distribute copies of the\n"
-"      Work or Derivative Works thereof in any medium, with or without\n"
-"      modifications, and in Source or Object form, provided that You\n"
-"      meet the following conditions:\n"
-"\n"
-"      (a) You must give any other recipients of the Work or\n"
-"          Derivative Works a copy of this License; and\n"
-"\n"
-"      (b) You must cause any modified files to carry prominent notices\n"
-"          stating that You changed the files; and\n"
-"\n"
-"      (c) You must retain, in the Source form of any Derivative Works\n"
-"          that You distribute, all copyright, patent, trademark, and\n"
-"          attribution notices from the Source form of the Work,\n"
-"          excluding those notices that do not pertain to any part of\n"
-"          the Derivative Works; and\n"
-"\n"
-"      (d) If the Work includes a \"NOTICE\" text file as part of its\n"
-"          distribution, then any Derivative Works that You distribute must\n"
-"          include a readable copy of the attribution notices contained\n"
-"          within such NOTICE file, excluding those notices that do not\n"
-"          pertain to any part of the Derivative Works, in at least one\n"
-"          of the following places: within a NOTICE text file distributed\n"
-"          as part of the Derivative Works; within the Source form or\n"
-"          documentation, if provided along with the Derivative Works; or,\n"
-"          within a display generated by the Derivative Works, if and\n"
-"          wherever such third-party notices normally appear. The contents\n"
-"          of the NOTICE file are for informational purposes only and\n"
-"          do not modify the License. You may add Your own attribution\n"
-"          notices within Derivative Works that You distribute, alongside\n"
-"          or as an addendum to the NOTICE text from the Work, provided\n"
-"          that such additional attribution notices cannot be construed\n"
-"          as modifying the License.\n"
-"\n"
-"      You may add Your own copyright statement to Your modifications and\n"
-"      may provide additional or different license terms and conditions\n"
-"      for use, reproduction, or distribution of Your modifications, or\n"
-"      for any such Derivative Works as a whole, provided Your use,\n"
-"      reproduction, and distribution of the Work otherwise complies with\n"
-"      the conditions stated in this License.\n"
-"\n"
-"   5. Submission of Contributions. Unless You explicitly state otherwise,\n"
-"      any Contribution intentionally submitted for inclusion in the Work\n"
-"      by You to the Licensor shall be under the terms and conditions of\n"
-"      this License, without any additional terms or conditions.\n"
-"      Notwithstanding the above, nothing herein shall supersede or modify\n"
-"      the terms of any separate license agreement you may have executed\n"
-"      with Licensor regarding such Contributions.\n"
-"\n"
-"   6. Trademarks. This License does not grant permission to use the trade\n"
-"      names, trademarks, service marks, or product names of the Licensor,\n"
-"      except as required for reasonable and customary use in describing the\n"
-"      origin of the Work and reproducing the content of the NOTICE file.\n"
-"\n"
-"   7. Disclaimer of Warranty. Unless required by applicable law or\n"
-"      agreed to in writing, Licensor provides the Work (and each\n"
-"      Contributor provides its Contributions) on an \"AS IS\" BASIS,\n"
-"      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or\n"
-"      implied, including, without limitation, any warranties or conditions\n"
-"      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A\n"
-"      PARTICULAR PURPOSE. You are solely responsible for determining the\n"
-"      appropriateness of using or redistributing the Work and assume any\n"
-"      risks associated with Your exercise of permissions under this "
-"License.\n"
-"\n"
-"   8. Limitation of Liability. In no event and under no legal theory,\n"
-"      whether in tort (including negligence), contract, or otherwise,\n"
-"      unless required by applicable law (such as deliberate and grossly\n"
-"      negligent acts) or agreed to in writing, shall any Contributor be\n"
-"      liable to You for damages, including any direct, indirect, special,\n"
-"      incidental, or consequential damages of any character arising as a\n"
-"      result of this License or out of the use or inability to use the\n"
-"      Work (including but not limited to damages for loss of goodwill,\n"
-"      work stoppage, computer failure or malfunction, or any and all\n"
-"      other commercial damages or losses), even if such Contributor\n"
-"      has been advised of the possibility of such damages.\n"
-"\n"
-"   9. Accepting Warranty or Additional Liability. While redistributing\n"
-"      the Work or Derivative Works thereof, You may choose to offer,\n"
-"      and charge a fee for, acceptance of support, warranty, indemnity,\n"
-"      or other liability obligations and/or rights consistent with this\n"
-"      License. However, in accepting such obligations, You may act only\n"
-"      on Your own behalf and on Your sole responsibility, not on behalf\n"
-"      of any other Contributor, and only if You agree to indemnify,\n"
-"      defend, and hold each Contributor harmless for any liability\n"
-"      incurred by, or claims asserted against, such Contributor by reason\n"
-"      of your accepting any such warranty or additional liability.\n"
-"\n"
-"   END OF TERMS AND CONDITIONS\n"
-"\n"
-"   APPENDIX: How to apply the Apache License to your work.\n"
-"\n"
-"      To apply the Apache License to your work, attach the following\n"
-"      boilerplate notice, with the fields enclosed by brackets \"[]\"\n"
-"      replaced with your own identifying information. (Don't include\n"
-"      the brackets!)  The text should be enclosed in the appropriate\n"
-"      comment syntax for the file format. We also recommend that a\n"
-"      file or class name and description of purpose be included on the\n"
-"      same \"printed page\" as the copyright notice for easier\n"
-"      identification within third-party archives.\n"
-"\n"
-"   Copyright [2023] Yuvanesh Anand and Zach Nussbaum and Brandon Duderstadt "
-"and Benjamin Schmidt and Andriy Mulyar\n"
-"\n"
-"   Licensed under the Apache License, Version 2.0 (the \"License\");\n"
-"   you may not use this file except in compliance with the License.\n"
-"   You may obtain a copy of the License at\n"
-"\n"
-"       http://www.apache.org/licenses/LICENSE-2.0\n"
-"\n"
-"   Unless required by applicable law or agreed to in writing, software\n"
-"   distributed under the License is distributed on an \"AS IS\" BASIS,\n"
-"   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n"
-"   See the License for the specific language governing permissions and\n"
-"   limitations under the License."
-msgstr ""
+msgstr "Traducteur chargé."
 
 #: src/dialogs/merge_lorebook_dialog.tscn
 msgid ""
@@ -1756,226 +1018,280 @@ msgid ""
 "If disabled, no entry will be erased but the conflicting entries will be "
 "renamed."
 msgstr ""
+"Si cette option est activée, l'encyclopédie source écrasera les entrées en "
+"conflit.\n"
+"Si elle est désactivée, aucune entrée ne sera effacée, mais les entrées en "
+"conflit seront renommées."
 
 #: src/dialogs/merge_lorebook_dialog.tscn
 msgid "Allow overwriting"
-msgstr ""
+msgstr "Autoriser l’écrasement"
 
 #: src/dialogs/select_lorebook_dialog.tscn
 msgid "Select a lorebook to import."
-msgstr ""
+msgstr "Sélectionnez un lorebook à importer."
 
 #: src/custom_nodes/display_options_button.gd
 #: src/custom_nodes/display_options_button.tscn
 msgid "Windowed"
-msgstr ""
+msgstr "Fenêtré"
 
 #: src/custom_nodes/display_options_button.gd
 #: src/custom_nodes/display_options_button.tscn
 msgid "Fullscreen"
-msgstr ""
+msgstr "Plein écran"
 
 #: src/custom_nodes/display_options_button.gd
 #: src/custom_nodes/display_options_button.tscn
 msgid "Borderless"
-msgstr ""
+msgstr "Plein écran fenêtré"
 
 #: src/custom_nodes/h_slider_with_counter.tscn
 msgid "50"
-msgstr ""
+msgstr "50"
 
 #: src/custom_nodes/load_generator.tscn
 msgid "Select an AI for your game."
-msgstr ""
+msgstr "Sélectionnez une IA pour votre jeu."
 
 #: src/custom_nodes/load_generator.tscn
 msgid "Buy the game to unlock more powerful AIs"
-msgstr ""
+msgstr "Acheter le jeu pour débloquer des IA plus puissantes"
 
 #: src/custom_nodes/load_generator.tscn
 msgid "Load AI"
-msgstr ""
+msgstr "Charger l'IA"
 
 #: src/custom_nodes/load_generator.tscn
 msgid "Manage AIs"
-msgstr ""
+msgstr "Gérer les IA"
 
 #: src/custom_nodes/memory_sliders.tscn
 msgid "The maximum GPU memory allowed to be used by the Generator."
-msgstr ""
+msgstr "La mémoire GPU maximale autorisée pour le générateur."
 
 #: src/custom_nodes/memory_sliders.tscn
 msgid "Max VRAM"
-msgstr ""
+msgstr "VRAM max"
 
 #: src/custom_nodes/memory_sliders.tscn
 msgid "The maximum memory allowed to be used by the Generator."
-msgstr ""
+msgstr "La mémoire maximale autorisée pour le générateur."
 
 #: src/custom_nodes/memory_sliders.tscn
 msgid "Max RAM"
-msgstr ""
+msgstr "RAM max"
 
 #: src/custom_nodes/options_buttons.tscn
 msgid "Reset"
-msgstr ""
+msgstr "Réinitialiser"
 
 #: src/custom_nodes/pov_options_button.gd
 #: src/custom_nodes/pov_options_button.tscn
 msgid "First person"
-msgstr ""
+msgstr "Première personne"
 
 #: src/custom_nodes/pov_options_button.gd
 #: src/custom_nodes/pov_options_button.tscn
 msgid "Second person"
-msgstr ""
+msgstr "Seconde personne"
 
 #: src/custom_nodes/server_log_display.tscn
 msgid "Copy logs to clipboard"
-msgstr ""
+msgstr "Copier les logs dans le presse-papiers"
 
 #: src/autoload/strings.gd
-msgid "Select a language"
-msgstr ""
+msgid "Select a language."
+msgstr "Sélectionner une langue"
 
 #: src/autoload/strings.gd
 msgid "Failed loading translator."
-msgstr ""
+msgstr "Le chargement du traducteur a échoué."
 
 #: src/autoload/strings.gd
 msgid "Translation in progress."
-msgstr ""
+msgstr "Traduction en cours."
 
 #: src/autoload/strings.gd
 msgid "Scenario's translation over."
-msgstr ""
+msgstr "La traduction du scénario est terminée."
 
 #: src/autoload/strings.gd
 msgid "Lorebook's translation over."
-msgstr ""
+msgstr "La traduction de l'encyclopédie est terminée."
 
 #: src/autoload/strings.gd
 msgid "Memory's translation in progress."
-msgstr ""
+msgstr "Traduction de la mémoire en cours."
 
 #: src/autoload/strings.gd
 msgid "Story's translation in progress."
-msgstr ""
+msgstr "Traduction de l'histoire en cours."
 
 #: src/autoload/strings.gd
 msgid "Lorebook's translation in progress."
-msgstr ""
+msgstr "Traduction de l'encyclopédie en cours."
+
+#: src/autoload/strings.gd
+msgid "Scenario saved."
+msgstr "Scénario sauvegardé."
+
+#: src/autoload/strings.gd
+msgid "Error, can't save scenario."
+msgstr "Erreur, impossible de sauvegarder le scénario."
 
 #: src/autoload/strings.gd
 msgid "empty your bucket of water on the knight's head."
-msgstr ""
+msgstr "videz votre seau d'eau sur la tête du chevalier."
 
 #: src/autoload/strings.gd
 msgid "conceal the stolen ring in your pocket."
-msgstr ""
+msgstr "cachez la bague volée dans votre poche."
 
 #: src/autoload/strings.gd
 msgid "Sir, is that your mule or your mother?"
-msgstr ""
+msgstr "Sire, est-ce votre mule ou votre génitrice?"
 
 #: src/autoload/strings.gd
 msgid "Do"
-msgstr ""
+msgstr "Faire"
 
 #: src/autoload/strings.gd
 msgid "Say"
-msgstr ""
+msgstr "Dire"
 
 #: src/autoload/strings.gd
 msgid "Try"
-msgstr ""
+msgstr "Essayer"
 
 #: src/autoload/strings.gd
 msgid "Failed sending data to the server."
-msgstr ""
+msgstr "Échec de l'envoi de données au serveur."
 
 #: src/autoload/strings.gd
 msgid "Couldn't save game."
-msgstr ""
+msgstr "Impossible de sauvegarder la partie"
 
 #: src/autoload/strings.gd
-msgid "Couldn't save the lorebook"
-msgstr ""
+msgid "Successfully saved the lorebook."
+msgstr "Sauvegarde de l'encyclopédie réussie."
 
 #: src/autoload/strings.gd
-msgid "Successfully saved the lorebook"
-msgstr ""
+msgid "Error, can't save the lorebook."
+msgstr "Erreur, impossible de sauvegarder l'encyclopédie."
+
+#: src/autoload/strings.gd
+msgid "Added the following entry."
+msgstr "Entrée suivante ajoutée."
+
+#: src/autoload/strings.gd
+msgid "Error, can't add the entry."
+msgstr "Erreur, impossible d'ajouter l'entrée."
+
+#: src/autoload/strings.gd
+msgid "Deleted the entry."
+msgstr "Entrée supprimée."
+
+#: src/autoload/strings.gd
+msgid "Error, can't delete entry."
+msgstr "Erreur, impossible de supprimer l'entrée."
+
+#: src/autoload/strings.gd
+msgid "Renamed the entry."
+msgstr "Entrée renommé."
+
+#: src/autoload/strings.gd
+msgid "Error, can't rename the entry."
+msgstr "Erreur, impossible de renommé l'entrée."
+
+#: src/autoload/strings.gd
+msgid "Successfully exported the lorebook."
+msgstr "Encyclopédie exportée."
+
+#: src/autoload/strings.gd
+msgid "Error, can't export the lorebook."
+msgstr "Erreur, impossible d'exporter l'encyclopédie."
 
 #: src/autoload/strings.gd
 msgid "The server is off."
-msgstr ""
+msgstr "Le serveur est éteint."
 
 #: src/autoload/strings.gd
 msgctxt "The first person pronoun. It is placed before the user's input."
 msgid "I"
-msgstr ""
+msgstr "Je"
 
 #: src/autoload/strings.gd
 msgctxt "The second person pronoun. It is placed before the user's input."
 msgid "You"
-msgstr ""
+msgstr "Tu"
 
 #: src/autoload/strings.gd
 msgctxt "Conjugate say for I. E.g: I say. (Don't add uppercase)"
 msgid "say"
-msgstr ""
+msgstr "dis"
 
 #: src/autoload/strings.gd
 msgctxt "Conjugate say for You. E.g: You say. (Don't add uppercase)"
 msgid "say"
-msgstr ""
+msgstr "dis"
 
 #: src/autoload/strings.gd
 msgctxt "Conjugate for I. E.g: I succeed to. (Don't add uppercase)"
 msgid "succeed to"
-msgstr ""
+msgstr "réussis à"
 
 #: src/autoload/strings.gd
 msgctxt "Conjugate for You. E.g: You succeed to. (Don't add uppercase)"
 msgid "succeed to"
-msgstr ""
+msgstr "réussis à"
 
 #: src/autoload/strings.gd
 msgctxt "E.g: You satisfyingly punch the man. (Don't add uppercase)"
 msgid "satisfyingly"
-msgstr ""
+msgstr "de façon satisfaisante"
 
 #: src/autoload/strings.gd
 msgctxt "E.g: You competently punch the man. (Don't add uppercase)"
 msgid "competently"
-msgstr ""
+msgstr "avec compétence"
 
 #: src/autoload/strings.gd
 msgctxt "E.g: You perfectly punch the man. (Don't add uppercase)"
 msgid "perfectly"
-msgstr ""
+msgstr "parfaitement"
 
 #: src/autoload/strings.gd
 msgctxt "E.g: You fail to punch the man (Don't add uppercase)"
 msgid "fail to"
-msgstr ""
+msgstr "échoues à"
+
+#: src/autoload/strings.gd
+msgctxt "E.g: I fail to punch the man (Don't add uppercase)"
+msgid "fail to"
+msgstr "échoue à"
+
+#: src/autoload/strings.gd
+msgctxt "E.g: I pathetically fail to punch the man (Don't add uppercase)"
+msgid "pathetically fail to"
+msgstr "échoue pathétiquement à"
 
 #: src/autoload/strings.gd
 msgctxt "E.g: You pathetically fail to punch the man (Don't add uppercase)"
 msgid "pathetically fail to"
-msgstr ""
+msgstr "échoues pathétiquement à"
 
 #: src/autoload/strings.gd
 msgid "Visible to everyone."
-msgstr ""
+msgstr "Visible pour tous."
 
 #: src/autoload/strings.gd
 msgid "Visible to friends only."
-msgstr ""
+msgstr "Visible pour les amis seulement."
 
 #: src/autoload/strings.gd
 msgid "Only visible to the creator."
-msgstr ""
+msgstr "Visible pour l'auteur seulement."
 
 #: src/autoload/strings.gd
 msgid ""
@@ -1983,72 +1299,135 @@ msgid ""
 "Will also not be returned in any user lists unless the caller is the creator "
 "or a subscriber."
 msgstr ""
+"Visible par tous, mais ne sera dans aucune requête globale.\n"
+"Ne sera également pas retourné dans les listes d’utilisateurs, sauf si "
+"l’appelant est le créateur ou un abonné."
 
 #: src/autoload/strings.gd
 msgid "Couldn't edit the Workshop item."
-msgstr ""
+msgstr "Impossible de modifier l’élément du Workshop."
 
 #: src/autoload/strings.gd
 msgid "Couldn't upload to the Workshop."
-msgstr ""
+msgstr "Impossible d'envoyer l’élément vers le Workshop."
 
 #: src/autoload/strings.gd
 msgid "Successfully uploaded to the Workshop."
-msgstr ""
+msgstr "Élément envoyé vers le Workshop."
 
 #: src/autoload/strings.gd
 msgid "Successfully updated the Workshop item."
+msgstr "Élément mis à jour sur le Workshop."
+
+#: src/autoload/strings.gd
+msgid "File deleted."
+msgstr "Fichier supprimé."
+
+#: src/autoload/strings.gd
+msgid "Error, can't delete file."
+msgstr "Erreur, impossible de supprimer le fichier."
+
+#: src/autoload/strings.gd
+msgid "AI deleted."
+msgstr "IA supprimée."
+
+#: src/autoload/strings.gd
+msgid "Error, can't delete AI."
+msgstr "Erreur, impossible de supprimé l'IA."
+
+#: src/autoload/strings.gd
+msgid "AI added to download's queue."
+msgstr "IA ajouté à la file d'attente de téléchargement."
+
+#: src/autoload/strings.gd
+msgid "This custom AI is already installed."
+msgstr "Cette IA personnalisée est déjà installée."
+
+#: src/autoload/strings.gd
+msgid "AI downloaded."
+msgstr "IA téléchargée."
+
+#: src/autoload/strings.gd
+msgid "Error, can't download AI."
+msgstr "Erreur, impossible de télécharger l'IA."
+
+#: src/autoload/strings.gd
+msgid "This AI is safe for work."
+msgstr "Cette IA est sûr pour le travail."
+
+#: src/autoload/strings.gd
+msgid ""
+"This AI is moderately safe. It might still generate 'light' erotic content "
+"by itself!"
 msgstr ""
+"Cette IA est modérément sûre. Elle pourrait quand même générer du contenu "
+"érotique 'léger' par elle-même!"
+
+#: src/autoload/strings.gd
+msgid "This AI isn't safe for work! It will generate erotic content by itself!"
+msgstr ""
+"Cette IA n’est sûr pour le travail! Elle va générer du contenu érotique par "
+"elle-même!"
+
+#: src/autoload/strings.gd
+msgid "This is a custom AI. It hasn't been tested and might not work."
+msgstr ""
+"Il s’agit d’une IA personnalisée. Elle n’a pas été testée et pourrait ne pas "
+"fonctionner."
 
 #: src/dialogs/lorebook_info_popup_window.tscn
 msgid "Save changes"
-msgstr ""
+msgstr "Sauvegarder les changements"
 
 #: src/dialogs/server_off_warning.tscn
 msgid ""
 "To generate text the server has to be running.\n"
 "To translate text, you need to enable automatic translation."
 msgstr ""
+"Pour générer du texte, le serveur doit être en cours d’exécution.\n"
+"Pour traduire du texte, vous devez activer la traduction automatique."
 
 #: src/dialogs/server_off_warning.tscn
 msgid "Open server's menu"
-msgstr ""
+msgstr "Ouvrir le menu du serveur"
 
 #: src/dialogs/hardware_form/gpu_form.tscn
 msgid ""
 "This game uses CUDA to run AIs on your GPU.\n"
 "Do you have a Nvidia Graphical Card ?"
 msgstr ""
+"Ce jeu utilise CUDA pour exécuter des IA sur votre GPU.\n"
+"Avez-vous une carte graphique Nvidia ?"
 
 #: src/dialogs/hardware_form/gpu_form.tscn
 msgid "Yes, I have a Nvidia card"
-msgstr ""
+msgstr "Oui, j'ai une carte Nvidia"
 
 #: src/dialogs/hardware_form/gpu_form.tscn
 msgid "No, I don't have a Nvidia card"
-msgstr ""
+msgstr "No, je n'ai pas de carte Nvidia"
 
 #: src/dialogs/hardware_form/gpu_form.tscn
 msgid "I don't know"
-msgstr ""
+msgstr "Je ne sais pas"
 
 #: src/dialogs/hardware_form/gpu_form.tscn
 msgid "The list of the GPU compatible with CUDA"
-msgstr ""
+msgstr "La liste des GPU compatibles avec CUDA"
 
 #: src/dialogs/hardware_form/gpu_form.tscn
 msgid "See supported cards"
-msgstr ""
+msgstr "Voir les cartes compatibles"
 
 #: src/dialogs/hardware_form/hardware_form.gd
 #: src/dialogs/hardware_form/hardware_form.tscn
 msgid "Successfully adapted settings to your hardware."
-msgstr ""
+msgstr "Adaptation réussie des paramètres à votre matériel."
 
 #: src/dialogs/hardware_form/hardware_form.gd
 #: src/dialogs/hardware_form/hardware_form.tscn
 msgid "Failed to adapt settings to your hardware."
-msgstr ""
+msgstr "Impossible d'adaptater les paramètres à votre matériel."
 
 #: src/dialogs/hardware_form/hardware_form.tscn
 msgid ""
@@ -2058,12 +1437,21 @@ msgid ""
 "The game will try to adapt to your hardware as best as it can.\n"
 "This window will ask you multiple information to improve the automatic setup."
 msgstr ""
+"AIdventure utilise des intelligences artificielles (IA). C’est une "
+"technologie délicate et peut se comporter différemment selon votre "
+"matériel.\n"
+"\n"
+"Le jeu va essayer de s’adapter à votre matériel du mieux qu’il peut.\n"
+"Cette fenêtre vous demandera plusieurs informations pour améliorer la "
+"configuration automatique."
 
 #: src/dialogs/hardware_form/hardware_form.tscn
 msgid ""
 "Thank you for your time.\n"
 "You can exit by click on OK."
 msgstr ""
+"Merci pour votre temps.\n"
+"Vous pouvez quitter en cliquant sur OK."
 
 #: src/dialogs/hardware_form/memory_form.tscn
 msgid ""
@@ -2071,72 +1459,79 @@ msgid ""
 "You should always leave 2-4 GB of memory free for the OS and other "
 "applications."
 msgstr ""
+"Veuillez spécifier la quantité de mémoire que vous souhaitez autoriser "
+"AIdventure à utiliser.\n"
+"Vous devez toujours laisser 2-4 Go de mémoire libre pour le système "
+"d’exploitation et d’autres applications."
 
 #: src/dialogs/hardware_form/memory_form.tscn
 msgid ""
 "You can choose to not limit memory.\n"
 "But you risk running out of memory."
 msgstr ""
+"Vous pouvez choisir de ne pas limiter la mémoire.\n"
+"Mais vous risquez de manquer de mémoire."
 
 #: src/dialogs/hardware_form/memory_form.tscn
 msgid "Don't limit memory"
-msgstr ""
+msgstr "Ne pas limiter la mémoire"
 
 #: src/dialogs/hardware_form/memory_form.tscn
 msgid "I don't know how much memory I have"
-msgstr ""
+msgstr "Je ne sais pas combien de mémoire j’ai"
 
 #: src/interfaces/character_menu.tscn
+msgctxt "character like an individual. Not like characters in a word."
 msgid "Character menu"
-msgstr ""
+msgstr "Menu du personnage"
 
 #: src/interfaces/character_menu.tscn
 msgid "Strength"
-msgstr ""
+msgstr "Force"
 
 #: src/interfaces/character_menu.tscn
 msgid "Reroll"
-msgstr ""
+msgstr "Relancer"
 
 #: src/interfaces/character_menu.tscn
 msgid "Constitution"
-msgstr ""
+msgstr "Constitution"
 
 #: src/interfaces/character_menu.tscn
 msgid "Dexterity"
-msgstr ""
+msgstr "Dextérité"
 
 #: src/interfaces/character_menu.tscn
 msgid "Charisma"
-msgstr ""
+msgstr "Charisme"
 
 #: src/interfaces/character_menu.tscn
 msgid "Intelligence"
-msgstr ""
+msgstr "Intelligence"
 
 #: src/interfaces/character_menu.tscn
 msgid "Wisdom"
-msgstr ""
+msgstr "Sagesse"
 
 #: src/interfaces/character_menu.tscn
 msgid "Luck"
-msgstr ""
+msgstr "Chance"
 
 #: src/interfaces/character_menu.tscn
 msgid "Name"
-msgstr ""
+msgstr "Nom"
 
 #: src/interfaces/character_menu.tscn
-msgid "Jan"
-msgstr ""
+msgid "Arthur"
+msgstr "Arthur"
 
 #: src/interfaces/character_menu.tscn
 msgid "Randomize"
-msgstr ""
+msgstr "Générer aléatoirement"
 
 #: src/interfaces/character_menu.tscn
-msgid "How does it work?\n"
-msgstr ""
+msgid "How does it work?"
+msgstr "Comment ça marche?"
 
 #: src/interfaces/character_menu.tscn
 msgid ""
@@ -2145,145 +1540,155 @@ msgid ""
 "If you have 50 in strength and use it to try an action. You have 50% chances "
 "of success."
 msgstr ""
+"Les attributs sont compris entre 15 et 90.\n"
+"Lorsque vous essayez une action, vous devez faire un score au-dessus de "
+"votre valeur.\n"
+"Si vous avez 50 de force et que vous l’utilisez pour essayer une action. "
+"Vous avez 50% de chances de succès."
 
 #: src/interfaces/character_menu.tscn
 msgid "Randomize everything."
-msgstr ""
+msgstr "Tout générer aléatoirement"
 
 #: src/interfaces/character_menu.tscn
 msgid "Roll the dice"
-msgstr ""
+msgstr "Lancer les dés"
 
 #: src/interfaces/end_demo.tscn
 msgid ""
 "Thank you for playing AIdventure's demo!\n"
 "You reached the limit.\n"
-"Buy the game to continue this adventure.\n"
+"Buy the game to continue this adventure."
 msgstr ""
+"Merci d’avoir joué à la démo d’AIdventure !\n"
+"Vous avez atteint la limite.\n"
+"Achetez le jeu pour continuer cette aventure."
 
 #: src/interfaces/end_demo.tscn
 msgid "Buy"
-msgstr ""
+msgstr "Acheter"
 
 #: src/interfaces/game_top_bar_menu.tscn
 msgid "Menu"
-msgstr ""
+msgstr "Menu"
 
 #: src/interfaces/game_top_bar_menu.tscn
 msgid "Server"
-msgstr ""
+msgstr "Serveur"
 
 #: src/interfaces/load_translator.tscn
 msgid "Do you want to use the automatic translation ?"
-msgstr ""
+msgstr "Voulez vous utiliser la traduction automatique ?"
 
 #: src/interfaces/load_translator.tscn
 msgid "Select the language for the automatic translation"
-msgstr ""
+msgstr "Sélectionnez la langue pour la traduction automatique"
 
 #: src/interfaces/load_translator.tscn
 msgid "Load translators"
-msgstr ""
+msgstr "Charger les traducteurs"
 
 #: src/interfaces/load_translator.tscn
 msgid "Manage translators"
-msgstr ""
+msgstr "Gérer les traducteurs"
 
 #: src/interfaces/load_translator.tscn
 msgid "Disable automatic translation"
-msgstr ""
+msgstr "Désactiver la traduction automatique"
 
 #: src/interfaces/server_menu.gd src/interfaces/server_menu.tscn
+msgctxt "Running like in 'The server is running'"
 msgid "Running"
-msgstr ""
+msgstr "En cours de fonctionnement"
 
 #: src/interfaces/server_menu.gd src/interfaces/server_menu.tscn
 msgid "Turned off"
-msgstr ""
+msgstr "Éteint"
 
 #: src/interfaces/server_menu.gd src/interfaces/server_menu.tscn
 msgid "Error"
-msgstr ""
+msgstr "Erreur"
 
 #: src/interfaces/server_menu.tscn
 msgid "Server control center"
-msgstr ""
+msgstr "Centre de contrôle du serveur"
 
 #: src/interfaces/server_menu.tscn
 msgid "Server status:"
-msgstr ""
+msgstr "État du serveur:"
 
 #: src/interfaces/server_menu.tscn
 msgid "Start the server"
-msgstr ""
+msgstr "Démarrer le serveur"
 
 #: src/interfaces/server_menu.tscn
 msgid "Stop the server"
-msgstr ""
+msgstr "Arrêter le serveur"
 
 #: src/interfaces/server_menu.tscn
 msgid "The server is starting"
-msgstr ""
+msgstr "Le serveur est en cours de lancement."
 
 #: src/interfaces/server_menu.tscn
 msgid "Load Generator"
-msgstr ""
+msgstr "Charger le générateur"
 
 #: src/interfaces/server_menu.tscn
 msgid "To load translators, you need to enable automatic translation"
 msgstr ""
+"Pour charger les traducteurs, vous devez activer la traduction automatique"
 
 #: src/interfaces/server_menu.tscn
 msgid "Enable automatic translation"
-msgstr ""
+msgstr "Activer la traduction automatique"
 
 #: src/interfaces/server_menu.tscn
 msgid "Load Translators"
-msgstr ""
+msgstr "Charger les traducteurs"
 
 #: src/interfaces/start_game_workflow.tscn
 msgid "The server is starting."
-msgstr ""
+msgstr "Le serveur est en cours de lancement."
 
 #: src/interfaces/start_game_workflow.tscn
 msgid "Please, wait."
-msgstr ""
+msgstr "SVP, attendez"
 
 #: src/interfaces/start_game_workflow.tscn
 msgid "What do you want to do?"
-msgstr ""
+msgstr "Que voulez vous faire?"
 
 #: src/interfaces/start_game_workflow.tscn
 msgid "New story"
-msgstr ""
+msgstr "Nouvelle histoire"
 
 #: src/interfaces/start_game_workflow.tscn
 msgid "Load a story"
-msgstr ""
+msgstr "Charger une histoire"
 
 #: src/interfaces/start_game_workflow.tscn
 msgid "Select a save to load."
-msgstr ""
+msgstr "Sélectionnez une sauvegarde à charger."
 
 #: src/interfaces/start_game_workflow.tscn
 msgid "Load"
-msgstr ""
+msgstr "Charger"
 
 #: src/interfaces/start_game_workflow.tscn
 msgid "Return"
-msgstr ""
+msgstr "Retour"
 
 #: src/interfaces/options/preferences.tscn
 msgid "Display mode"
-msgstr ""
+msgstr "Mode d'affichage"
 
 #: src/interfaces/options/preferences.tscn
 msgid "Language of the interface"
-msgstr ""
+msgstr "Langue de l'interface"
 
 #: src/interfaces/options/preferences.tscn
 msgid "Default AI"
-msgstr ""
+msgstr "IA par défaut"
 
 #: src/interfaces/options/preferences.tscn
 msgid ""
@@ -2291,28 +1696,34 @@ msgid ""
 "(, ; : ! ? .).\n"
 "It might delete the whole output if \"max length\" is too small!"
 msgstr ""
+"Supprimez la dernière phrase si l’IA ne l’a pas terminée par une ponctuation "
+"(, ; : ! ? .).\n"
+"Il pourrait supprimer toute la sortie si \"longueur maximale\" est trop "
+"petite!"
 
 #: src/interfaces/options/preferences.tscn
 msgid "Remove unfinished sentences"
-msgstr ""
+msgstr "Supprimer les phrases incomplètes"
 
 #: src/interfaces/options/preferences.tscn
 msgid ""
 "It will hide the top bar in the game.\n"
 "You can still access the menu by pressing the ESC key."
 msgstr ""
+"Cacher la barre supérieure dans le jeu.\n"
+"Vous pouvez toujours accéder au menu en appuyant sur la touche ESC."
 
 #: src/interfaces/options/preferences.tscn
 msgid "Hide top bar"
-msgstr ""
+msgstr "Cacher la barre supérieure dans le jeu."
 
 #: src/interfaces/options/preferences.tscn
 msgid "It will use \"You\" or \"I\" in your inputs."
-msgstr ""
+msgstr "Utilisera \"Vous\" ou \"je\" dans vos entrées."
 
 #: src/interfaces/options/preferences.tscn
 msgid "Point of view"
-msgstr ""
+msgstr "Point de vue"
 
 #: src/interfaces/options/preferences.tscn
 msgid ""
@@ -2322,98 +1733,138 @@ msgid ""
 "- Add the \".ttf\" file in the fonts folder\n"
 "- Reload."
 msgstr ""
+"Vous pouvez ajouter des polices personnalisées à la liste.\n"
+"- Créer un dossier \"fonts\" dans le dossier du jeu\n"
+"- Télécharger des polices en ligne (https://www.dafont.com/)\n"
+"- Ajouter le fichier \".ttf\" dans le dossier fonts\n"
+"- Recharger."
 
 #: src/interfaces/options/preferences.tscn
 msgid "Application's Font"
-msgstr ""
+msgstr "Police de l'application"
 
 #: src/interfaces/options/preferences.tscn
 msgid "How many seconds before the notification disappears."
-msgstr ""
+msgstr "Combien de secondes avant que la notification disparaisse."
 
 #: src/interfaces/options/preferences.tscn
 msgid "Notification's duration"
-msgstr ""
+msgstr "Durée des notifications"
 
 #: src/interfaces/options/preferences.tscn
 msgid "Story reader preferences"
-msgstr ""
+msgstr "Préférences du lecteur"
 
 #: src/interfaces/options/preferences.tscn
 msgid "Font"
-msgstr ""
+msgstr "Police"
 
 #: src/interfaces/options/preferences.tscn
 msgid "Font size"
-msgstr ""
+msgstr "Taille de la police"
 
 #: src/interfaces/options/preferences.tscn
 msgid "The space left between two lines."
-msgstr ""
+msgstr "L'espace entre deux ligne"
 
 #: src/interfaces/options/preferences.tscn
 msgid "Line spacing"
-msgstr ""
+msgstr "Interligne"
 
 #: src/interfaces/options/preferences.tscn
 msgid "Font color"
-msgstr ""
-
-#: src/interfaces/options/preferences.tscn
-msgid "Selection color\n"
-msgstr ""
+msgstr "Couleur de la police"
 
 #: src/interfaces/options/preferences.tscn
 msgid "Selection color"
-msgstr ""
+msgstr "Couleur de la sélection"
 
 #: src/interfaces/options/preferences.tscn
 msgid "Story reader preview"
-msgstr ""
+msgstr "Aperçu du lecteur"
 
 #: src/interfaces/options/preferences.tscn
 msgid "This is a sample text."
-msgstr ""
+msgstr "Ceci est un exemple de texte."
 
 #: src/interfaces/options/server.tscn
 msgid "If you don't know what you are doing, don't change anything here."
-msgstr ""
+msgstr "Si vous ne savez pas ce que vous faites, ne changez rien ici."
 
 #: src/interfaces/options/server.tscn
 msgid ""
 "The seconds to wait before trying to connect to the server.\n"
 "It only works for local server."
 msgstr ""
+"Les secondes à attendre avant d’essayer de se connecter au serveur.\n"
+"Ne fonctionne que pour le serveur local."
 
 #: src/interfaces/options/server.tscn
 msgid "Connection delay"
-msgstr ""
+msgstr "délai de connexion"
 
 #: src/interfaces/options/server.tscn
 msgid "If enabled, the server will try to download an AI if it's missing.\n"
 msgstr ""
+"Si cette option est activée, le serveur tentera de télécharger l'IA si elle "
+"est manquante.\n"
 
 #: src/interfaces/options/server.tscn
 msgid "Allow downloading AI"
-msgstr ""
+msgstr "Autoriser le téléchargement de l’IA"
 
 #: src/interfaces/options/server.tscn
 msgid "Connect to a remote server"
-msgstr ""
+msgstr "Se connecter à un serveur distant"
 
 #: src/interfaces/options/server.tscn
 msgid ""
 "For now the communication with the server isn't secure. Use this for local "
 "networks only."
 msgstr ""
+"Pour l’instant, la communication avec le serveur n’est pas sécurisée. "
+"Utilisez-la uniquement pour les réseaux locaux."
 
 #: src/interfaces/options/server.tscn
 msgid "Server's IP"
-msgstr ""
+msgstr "IP du serveur"
 
 #: src/interfaces/options/server.tscn
 msgid "Server's port"
-msgstr ""
+msgstr "Port du serveur"
+
+#~ msgid "Jan"
+#~ msgstr "Arthur"
+
+#~ msgid "Selection color\n"
+#~ msgstr "Couleur de la sélection\n"
+
+#~ msgid "Successfully saved the lorebook:"
+#~ msgstr "Sauvegarde de l'encyclopédie réussie :"
+
+#~ msgid "Error, can't save the lorebook:"
+#~ msgstr "Erreur, impossible de sauvegarder l'encyclopédie:"
+
+#~ msgid "Successfully deleted the lorebook:"
+#~ msgstr "Suppression de l'encyclopédie réussie :"
+
+#~ msgid "Error, can't delete the lorebook:"
+#~ msgstr "Erreur, impossible de supprimer l'encyclopédie :"
+
+#~ msgid "no"
+#~ msgstr "Non"
+
+#~ msgid "LOAD"
+#~ msgstr "Charger"
+
+#~ msgid "RENAME"
+#~ msgstr "Renommer"
+
+#~ msgid "DELETE"
+#~ msgstr "Supprimer"
+
+#~ msgid "CLOSE"
+#~ msgstr "Fermer"
 
 #~ msgid "PLAY"
 #~ msgstr "Jouer"
