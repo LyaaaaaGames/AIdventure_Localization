@@ -173,7 +173,6 @@
 # res://src/autoload/steam_autoload.gd
 # res://src/autoload/tags.gd
 # res://src/autoload/thread_pool_autoload.gd
-# res://src/dialogs/credit.tscn
 # res://src/dialogs/merge_lorebook_dialog.gd
 # res://src/dialogs/merge_lorebook_dialog.tscn
 # res://src/dialogs/select_lorebook_dialog.gd
@@ -262,6 +261,8 @@
 # res://src/interfaces/options/preferences.tscn
 # res://src/interfaces/options/server.gd
 # res://src/interfaces/options/server.tscn
+# res://src/dialogs/custom_ai_download_window.gd
+# res://src/dialogs/custom_ai_download_window.tscn
 #
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -272,21 +273,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8-bit\n"
-
-#: src/interfaces/ai_info.gd
-#: src/interfaces/ai_info.tscn
-msgid "SFW_HINT"
-msgstr ""
-
-#: src/interfaces/ai_info.gd
-#: src/interfaces/ai_info.tscn
-msgid "NSFW_MODERATE_HINT"
-msgstr ""
-
-#: src/interfaces/ai_info.gd
-#: src/interfaces/ai_info.tscn
-msgid "NSFW_HINT"
-msgstr ""
 
 #: src/interfaces/ai_info.gd
 #: src/interfaces/ai_info.tscn
@@ -391,19 +377,19 @@ msgid "Delete AI"
 msgstr ""
 
 #: src/interfaces/ai_menu.tscn
-msgid "SAVE_SETTINGS"
+msgid "Save settings"
 msgstr ""
 
 #: src/interfaces/ai_menu.tscn
-msgid "SAVE_SETTINGS_TO_ALL_AIS"
+msgid "Save settings to all AIs"
 msgstr ""
 
 #: src/interfaces/ai_menu.tscn
-msgid "RESET_AI_SETTINGS"
+msgid "Reset AI\'s settings"
 msgstr ""
 
 #: src/interfaces/ai_menu.tscn
-msgid "RESET_ALL_AIS_SETTINGS"
+msgid "Reset all AIs settings"
 msgstr ""
 
 #: src/interfaces/ai_menu.tscn
@@ -413,12 +399,13 @@ msgstr ""
 #: src/dialogs/ask_custom_ai_name_popup.tscn
 #: src/custom_nodes/options_buttons.tscn
 #: src/dialogs/server_off_warning.tscn
+#: src/interfaces/character_menu.tscn
 #: src/interfaces/server_menu.tscn
 msgid "Close"
 msgstr ""
 
 #: src/interfaces/ai_options.tscn
-msgid "OPTIONS_AI_TAB"
+msgid "AI settings"
 msgstr ""
 
 #: src/interfaces/ai_options.tscn
@@ -456,6 +443,7 @@ msgid "Generation\'s max time"
 msgstr ""
 
 #: src/interfaces/ai_options.tscn
+msgctxt "characters like in a text. Not an individual."
 msgid "How many of the story\'s last characters the AI must remember."
 msgstr ""
 
@@ -464,6 +452,7 @@ msgid "Context\'s max length"
 msgstr ""
 
 #: src/interfaces/ai_options.tscn
+msgctxt "characters like in a text. Not an individual."
 msgid "How many characters the memory can hold."
 msgstr ""
 
@@ -480,10 +469,6 @@ msgid "Offload model"
 msgstr ""
 
 #: src/interfaces/ai_options.tscn
-msgid "OFFLOAD_MODEL_HINT"
-msgstr ""
-
-#: src/interfaces/ai_options.tscn
 msgid ""
 "Limiting the memory will force the server to never use more memory than specified for loading a model.\n"
 "It might still go over it while generating text.\n"
@@ -493,10 +478,6 @@ msgstr ""
 
 #: src/interfaces/ai_options.tscn
 msgid "Limit memory usage"
-msgstr ""
-
-#: src/interfaces/ai_options.tscn
-msgid "LIMIT_MEMORY_HINT"
 msgstr ""
 
 #: src/interfaces/ai_options.tscn
@@ -524,10 +505,6 @@ msgid "Low RAM mode"
 msgstr ""
 
 #: src/interfaces/ai_options.tscn
-msgid "LOW_RAM_HINT"
-msgstr ""
-
-#: src/interfaces/ai_options.tscn
 msgid ""
 "Enable randomly picking the next word.\n"
 "It limits the repetition."
@@ -535,10 +512,6 @@ msgstr ""
 
 #: src/interfaces/ai_options.tscn
 msgid "Do sample"
-msgstr ""
-
-#: src/interfaces/ai_options.tscn
-msgid "DO_SAMPLE_HINT"
 msgstr ""
 
 #: src/interfaces/ai_options.tscn
@@ -596,10 +569,6 @@ msgid "Offload dictionary"
 msgstr ""
 
 #: src/interfaces/ai_options.tscn
-msgid "OFFLOAD_DICTIONNARY_HINT"
-msgstr ""
-
-#: src/interfaces/ai_options.tscn
 msgid "Change how the AI is dispatched on the GPU and CPU."
 msgstr ""
 
@@ -653,6 +622,7 @@ msgid "Lorebook"
 msgstr ""
 
 #: src/interfaces/input_bar.tscn
+msgctxt "characters like an individual. Not like characters in a word."
 msgid "Character"
 msgstr ""
 
@@ -685,46 +655,6 @@ msgstr ""
 msgid "Generate"
 msgstr ""
 
-#: src/interfaces/lorebook_info.gd
-#: src/interfaces/lorebook_info.tscn
-msgid "Successfully exported the lorebook:"
-msgstr ""
-
-#: src/interfaces/lorebook_info.gd
-#: src/interfaces/lorebook_info.tscn
-msgid "Error, can\'t export the lorebook:"
-msgstr ""
-
-#: src/interfaces/lorebook_info.gd
-#: src/interfaces/lorebook_info.tscn
-msgid "ADD_ENTRY_SUCCESS"
-msgstr ""
-
-#: src/interfaces/lorebook_info.gd
-#: src/interfaces/lorebook_info.tscn
-msgid "ADD_ENTRY_FAILED"
-msgstr ""
-
-#: src/interfaces/lorebook_info.gd
-#: src/interfaces/lorebook_info.tscn
-msgid "DELETE_ENTRY_SUCCESS"
-msgstr ""
-
-#: src/interfaces/lorebook_info.gd
-#: src/interfaces/lorebook_info.tscn
-msgid "DELETE_ENTRY_FAILED"
-msgstr ""
-
-#: src/interfaces/lorebook_info.gd
-#: src/interfaces/lorebook_info.tscn
-msgid "RENAME_ENTRY_SUCCESS"
-msgstr ""
-
-#: src/interfaces/lorebook_info.gd
-#: src/interfaces/lorebook_info.tscn
-msgid "RENAME_ENTRY_FAILED"
-msgstr ""
-
 #: src/interfaces/lorebook_info.tscn
 msgid "Export"
 msgstr ""
@@ -744,26 +674,6 @@ msgstr ""
 #: src/interfaces/lorebook_info.tscn
 #: src/custom_nodes/edit_buttons.tscn
 msgid "Delete"
-msgstr ""
-
-#: src/interfaces/lorebook_menu.gd
-#: src/interfaces/lorebook_menu.tscn
-msgid "Successfully saved the lorebook:"
-msgstr ""
-
-#: src/interfaces/lorebook_menu.gd
-#: src/interfaces/lorebook_menu.tscn
-msgid "Error, can\'t save the lorebook:"
-msgstr ""
-
-#: src/interfaces/lorebook_menu.gd
-#: src/interfaces/lorebook_menu.tscn
-msgid "Successfully deleted the lorebook:"
-msgstr ""
-
-#: src/interfaces/lorebook_menu.gd
-#: src/interfaces/lorebook_menu.tscn
-msgid "Error, can\'t delete the lorebook:"
 msgstr ""
 
 #: src/interfaces/lorebook_menu.tscn
@@ -786,10 +696,6 @@ msgstr ""
 
 #: src/interfaces/main_menu.tscn
 msgid "Create"
-msgstr ""
-
-#: src/interfaces/main_menu.tscn
-msgid "COMING SOON"
 msgstr ""
 
 #: src/interfaces/main_menu.tscn
@@ -836,26 +742,6 @@ msgid ""
 "Press shift + enter to insert a new line."
 msgstr ""
 
-#: src/interfaces/scenario_menu.gd
-#: src/interfaces/scenario_menu.tscn
-msgid "SAVE_SCENARIO_SUCCESS"
-msgstr ""
-
-#: src/interfaces/scenario_menu.gd
-#: src/interfaces/scenario_menu.tscn
-msgid "SAVE_SCENARIO_FAILED"
-msgstr ""
-
-#: src/interfaces/scenario_menu.gd
-#: src/interfaces/scenario_menu.tscn
-msgid "DELETE_FILE_SUCCESS"
-msgstr ""
-
-#: src/interfaces/scenario_menu.gd
-#: src/interfaces/scenario_menu.tscn
-msgid "DELETE_FILE_FAILED"
-msgstr ""
-
 #: src/interfaces/scenario_menu.tscn
 msgid "Scenarios"
 msgstr ""
@@ -872,21 +758,12 @@ msgstr ""
 msgid "Lyaaaaa Games™"
 msgstr ""
 
-#: src/interfaces/translator_menu.gd
-#: src/interfaces/translator_menu.tscn
-msgid "TRANSLATORS_DESCRIPTION"
-msgstr ""
-
 #: src/interfaces/translator_menu.tscn
 msgid "Open AI\'s folder"
 msgstr ""
 
 #: src/dialogs/asking_memory_size_pop_up.tscn
 msgid "How much memory do you want to allocate to the server?"
-msgstr ""
-
-#: src/dialogs/ask_custom_ai_name_popup.tscn
-msgid "ENTER_AI_NAME"
 msgstr ""
 
 #: src/dialogs/ask_custom_ai_name_popup.tscn
@@ -912,7 +789,9 @@ msgid "Download"
 msgstr ""
 
 #: src/dialogs/confirmation_dialog.tscn
-msgid "no"
+#: src/dialogs/incompatible_memory_dialog.tscn
+#: src/interfaces/load_translator.tscn
+msgid "No"
 msgstr ""
 
 #: src/dialogs/confirmation_dialog.tscn
@@ -921,21 +800,12 @@ msgstr ""
 msgid "Yes"
 msgstr ""
 
-#: src/dialogs/custom_download_window.tscn
-#: src/custom_nodes/download_window.tscn
-msgid "DOWNLOAD_DIALOG_LABEL"
-msgstr ""
-
 #: src/dialogs/error_popup.tscn
 msgid "An error occured!"
 msgstr ""
 
 #: src/dialogs/error_popup.tscn
-msgid "ERROR_POPUP_TITLE"
-msgstr ""
-
-#: src/dialogs/error_popup.tscn
-msgid "ERROR_POPUP_REPORT"
+msgid "Report the error on Discord or the forum\n"
 msgstr ""
 
 #: src/dialogs/error_popup.tscn
@@ -943,15 +813,15 @@ msgid "Logs copied in the clipboard!"
 msgstr ""
 
 #: src/dialogs/error_popup.tscn
-msgid "ERROR_POPUP_CLIPBOARD"
+msgid "Copy logs to clipboard\n"
 msgstr ""
 
 #: src/dialogs/error_popup.tscn
-msgid "FORUM"
+msgid "Forum"
 msgstr ""
 
 #: src/dialogs/error_popup.tscn
-msgid "MAIN_MENU"
+msgid "Main menu"
 msgstr ""
 
 #: src/dialogs/escape_menu.tscn
@@ -979,11 +849,6 @@ msgstr ""
 
 #: src/dialogs/incompatible_memory_dialog.tscn
 msgid "Do you want to change the \"Memory max length\" option to play this scenario in the best conditions?"
-msgstr ""
-
-#: src/dialogs/incompatible_memory_dialog.tscn
-#: src/interfaces/load_translator.tscn
-msgid "No"
 msgstr ""
 
 #: src/dialogs/installation_popup.gd
@@ -1035,6 +900,7 @@ msgid "You also have a limited number of AIs:"
 msgstr ""
 
 #: src/dialogs/intro_demo_popup.tscn
+msgctxt "characters like in a text. Not an individual."
 msgid "The stories are limited to a maximum number of characters:"
 msgstr ""
 
@@ -1051,47 +917,21 @@ msgstr ""
 msgid "Buy the game"
 msgstr ""
 
-#: src/dialogs/load_menu.tscn
-msgid "LOAD"
-msgstr ""
-
-#: src/dialogs/load_menu.tscn
-msgid "EDIT"
-msgstr ""
-
-#: src/dialogs/load_menu.tscn
-msgid "RENAME"
-msgstr ""
-
-#: src/dialogs/load_menu.tscn
-msgid "STORY_EDITOR_OPEN_STORY_FOLDER"
-msgstr ""
-
-#: src/dialogs/load_menu.tscn
-msgid "DELETE"
-msgstr ""
-
-#: src/dialogs/load_menu.tscn
-#: src/interfaces/character_menu.tscn
-msgid "CLOSE"
-msgstr ""
-
-#: src/dialogs/load_menu.tscn
-msgid ""
-"Are you sure you want to delete this save?\n"
-"There is no going back."
-msgstr ""
-
 #: src/dialogs/memory_dialog.tscn
 msgid "Write here what the AI must always remember."
 msgstr ""
 
 #: src/dialogs/wait_dialog.tscn
-msgid "PLEASE_WAIT"
+msgid "Please, wait"
 msgstr ""
 
 #: src/custom_nodes/download_window.tscn
-msgid "DOWNLOAD_WINDOW_TITLE"
+msgid "AI downloading"
+msgstr ""
+
+#: src/custom_nodes/download_window.tscn
+#: src/dialogs/custom_ai_download_window.tscn
+msgid "Please wait until the download is done."
 msgstr ""
 
 #: src/custom_nodes/edit_buttons.tscn
@@ -1148,7 +988,7 @@ msgid "Performance preset for CPU only."
 msgstr ""
 
 #: src/custom_nodes/notification.tscn
-msgid "AIDVENTURE_NOTIFICATION"
+msgid "AIdventure notification"
 msgstr ""
 
 #: src/custom_nodes/story_element_info.tscn
@@ -1160,7 +1000,7 @@ msgid "Author"
 msgstr ""
 
 #: src/custom_nodes/story_element_info.tscn
-msgid "WORKSHOP_ID"
+msgid "Steam Workshop ID"
 msgstr ""
 
 #: src/custom_nodes/story_element_info.tscn
@@ -1206,616 +1046,11 @@ msgid "Generator loaded."
 msgstr ""
 
 #: src/classes/client.gd
-msgid "Failed loading Generator"
+msgid "Failed loading Generator."
 msgstr ""
 
 #: src/classes/client.gd
 msgid "Translators loaded."
-msgstr ""
-
-#: src/classes/ai/custom_ai.gd
-msgid "CUSTOM_MODEL_HINT"
-msgstr ""
-
-#: src/autoload/ai_autoload.gd
-msgid "DELETE_AI_SUCCESS"
-msgstr ""
-
-#: src/autoload/ai_autoload.gd
-msgid "DELETE_AI_FAILED"
-msgstr ""
-
-#: src/autoload/ai_autoload.gd
-msgid "CUSTOM_AI_ALREADY_INSTALLED"
-msgstr ""
-
-#: src/autoload/ai_autoload.gd
-msgid "AI_DOWNLOAD_FINISHED"
-msgstr ""
-
-#: src/autoload/ai_autoload.gd
-msgid "AI_DOWNLOAD_FAILED"
-msgstr ""
-
-#: src/dialogs/credit.tscn
-msgid ""
-"Developer and project manager\n"
-"Lyaaaaaaaaaaaaaaa"
-msgstr ""
-
-#: src/dialogs/credit.tscn
-msgid ""
-"Translation\n"
-"German: Nyghtfall\n"
-"French: Lord_Sieben & Lyaaaaaaaaaaaaaaa\n"
-"Portuguese: ZariTen\n"
-"Spanish & Catalan: atumsk#0069\n"
-"Polish: BOBZONEG#1820"
-msgstr ""
-
-#: src/dialogs/credit.tscn
-msgid ""
-"Theme by\n"
-"https://azagaya.itch.io/"
-msgstr ""
-
-#: src/dialogs/credit.tscn
-msgid ""
-"Server Ressources\n"
-"Mamba: BSD 3-Clause. Copyright 2019 QuantStack and the Mamba contributors.\n"
-"Transformers: State-of-the-Art Natural Language Processing (Apache-2.0 License)\n"
-"Thomas Wolf, Lysandre Debut, Victor Sanh, Julien Chaumond, Clement Delangue, Anthony Moi, Pierric Cistac, Tim Rault, Remi Louf, Morgan Funtowicz, Joe Davison, Sam Shleifer, Patrick von Platen, Clara Ma, Yacine Jernite, Julien Plu, Canwen Xu, Teven Le Scao, Sylvain Gugger, Mariama Drame, Quentin Lhoest, Alexander Rush"
-msgstr ""
-
-#: src/dialogs/credit.tscn
-msgid ""
-"Godot addons\n"
-"Godothreadpool (MIT License):\n"
-"Marcos Zolnowski\n"
-"Godot Logging Util (MIT License):\n"
-"Ivanskodje Godotengine\n"
-"Godot Unit Test (MIT License):\n"
-"Copyright (c) 2018 Tom \"Butch\" Wesley\n"
-"Sound Manager (MIT License):\n"
-"Copyright (c) 2021-present Nathan Hoad"
-msgstr ""
-
-#: src/dialogs/credit.tscn
-msgid ""
-"Special thanks to:\n"
-"Patman124 for splitting the big GPT-J-6B models."
-msgstr ""
-
-#: src/dialogs/credit.tscn
-msgid ""
-"Models disclaimer:\n"
-"All the models used in AIdventure have been modified.\n"
-"They have been split into smaller parts to optimize the performances."
-msgstr ""
-
-#: src/dialogs/credit.tscn
-msgid ""
-"GPT-Neo:\n"
-"Copyright (c) 2020 EleutherAI\n"
-"\n"
-"Permission is hereby granted, free of charge, to any person obtaining a copy\n"
-"of this software and associated documentation files (the \"Software\"), to deal\n"
-"in the Software without restriction, including without limitation the rights\n"
-"to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n"
-"copies of the Software, and to permit persons to whom the Software is\n"
-"furnished to do so, subject to the following conditions:\n"
-"\n"
-"The above copyright notice and this permission notice shall be included in all\n"
-"copies or substantial portions of the Software.\n"
-"\n"
-"THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n"
-"IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n"
-"FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n"
-"AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n"
-"LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n"
-"OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\n"
-"SOFTWARE."
-msgstr ""
-
-#: src/dialogs/credit.tscn
-msgid ""
-"GPT2 models:\n"
-"Software Copyright (c) 2019 OpenAI\n"
-"\n"
-"We don’t claim ownership of the content you create with GPT-2, so it is yours to do with as you please.\n"
-"We only ask that you use GPT-2 responsibly and clearly indicate your content was created using GPT-2.\n"
-"\n"
-"Permission is hereby granted, free of charge, to any person obtaining a copy of this software and\n"
-"associated documentation files (the \"Software\"), to deal in the Software without restriction,\n"
-"including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense,\n"
-"and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so,\n"
-"subject to the following conditions:\n"
-"\n"
-"The above copyright notice and this permission notice shall be included\n"
-"in all copies or substantial portions of the Software.\n"
-"The above copyright notice and this permission notice need not be included\n"
-"with content created by the Software.\n"
-"\n"
-"THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,\n"
-"INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n"
-"FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS\n"
-"BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\n"
-"TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE\n"
-"OR OTHER DEALINGS IN THE SOFTWARE."
-msgstr ""
-
-#: src/dialogs/credit.tscn
-msgid ""
-"Helsinki-NLP - opus-mt models:\n"
-"Copyright (c) 2004-2020 Joerg Tiedemann\n"
-"\n"
-"Permission is hereby granted, free of charge, to any person obtaining a copy\n"
-"of this software and associated documentation files (the \"Software\"), to deal\n"
-"in the Software without restriction, including without limitation the rights\n"
-"to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n"
-"copies of the Software, and to permit persons to whom the Software is\n"
-"furnished to do so, subject to the following conditions:\n"
-"\n"
-"The above copyright notice and this permission notice shall be included in all\n"
-"copies or substantial portions of the Software.\n"
-"\n"
-"THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n"
-"IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n"
-"FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n"
-"AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n"
-"LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n"
-"OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\n"
-"SOFTWARE."
-msgstr ""
-
-#: src/dialogs/credit.tscn
-msgid ""
-"KoboldAI\'s GPT-Neo 2.7B - Shinen/Picard:\n"
-"MIT License\n"
-"\n"
-"Copyright (c) 2021 Black, Sid and Leo, Gao and Wang, Phil and Leahy, Connor and Biderman, Stella\n"
-"\n"
-"Permission is hereby granted, free of charge, to any person obtaining a copy\n"
-"of this software and associated documentation files (the \"Software\"), to deal\n"
-"in the Software without restriction, including without limitation the rights\n"
-"to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n"
-"copies of the Software, and to permit persons to whom the Software is\n"
-"furnished to do so, subject to the following conditions:\n"
-"\n"
-"The above copyright notice and this permission notice shall be included in all\n"
-"copies or substantial portions of the Software.\n"
-"\n"
-"THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n"
-"IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n"
-"FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n"
-"AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n"
-"LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n"
-"OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\n"
-"SOFTWARE."
-msgstr ""
-
-#: src/dialogs/credit.tscn
-msgid ""
-"KoboldAI\'s GPT-J-6B-Skein:\n"
-"Apache License\n"
-"Version 2.0, January 2004\n"
-"http://www.apache.org/licenses/\n"
-"\n"
-"   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n"
-"\n"
-"   1. Definitions.\n"
-"\n"
-"      \"License\" shall mean the terms and conditions for use, reproduction,\n"
-"      and distribution as defined by Sections 1 through 9 of this document.\n"
-"\n"
-"      \"Licensor\" shall mean the copyright owner or entity authorized by\n"
-"      the copyright owner that is granting the License.\n"
-"\n"
-"      \"Legal Entity\" shall mean the union of the acting entity and all\n"
-"      other entities that control, are controlled by, or are under common\n"
-"      control with that entity. For the purposes of this definition,\n"
-"      \"control\" means (i) the power, direct or indirect, to cause the\n"
-"      direction or management of such entity, whether by contract or\n"
-"      otherwise, or (ii) ownership of fifty percent (50%) or more of the\n"
-"      outstanding shares, or (iii) beneficial ownership of such entity.\n"
-"\n"
-"      \"You\" (or \"Your\") shall mean an individual or Legal Entity\n"
-"      exercising permissions granted by this License.\n"
-"\n"
-"      \"Source\" form shall mean the preferred form for making modifications,\n"
-"      including but not limited to software source code, documentation\n"
-"      source, and configuration files.\n"
-"\n"
-"      \"Object\" form shall mean any form resulting from mechanical\n"
-"      transformation or position of a Source form, including but\n"
-"      not limited to compiled object code, generated documentation,\n"
-"      and conversions to other media types.\n"
-"\n"
-"      \"Work\" shall mean the work of authorship, whether in Source or\n"
-"      Object form, made available under the License, as indicated by a\n"
-"      copyright notice that is included in or attached to the work\n"
-"      (an example is provided in the Appendix below).\n"
-"\n"
-"      \"Derivative Works\" shall mean any work, whether in Source or Object\n"
-"      form, that is based on (or derived from) the Work and for which the\n"
-"      editorial revisions, annotations, elaborations, or other modifications\n"
-"      represent, as a whole, an original work of authorship. For the purposes\n"
-"      of this License, Derivative Works shall not include works that remain\n"
-"      separable from, or merely link (or bind by name) to the interfaces of,\n"
-"      the Work and Derivative Works thereof.\n"
-"\n"
-"      \"Contribution\" shall mean any work of authorship, including\n"
-"      the original version of the Work and any modifications or additions\n"
-"      to that Work or Derivative Works thereof, that is intentionally\n"
-"      submitted to Licensor for inclusion in the Work by the copyright owner\n"
-"      or by an individual or Legal Entity authorized to submit on behalf of\n"
-"      the copyright owner. For the purposes of this definition, \"submitted\"\n"
-"      means any form of electronic, verbal, or written communication sent\n"
-"      to the Licensor or its representatives, including but not limited to\n"
-"      communication on electronic mailing lists, source code control systems,\n"
-"      and issue tracking systems that are managed by, or on behalf of, the\n"
-"      Licensor for the purpose of discussing and improving the Work, but\n"
-"      excluding communication that is conspicuously marked or otherwise\n"
-"      designated in writing by the copyright owner as \"Not a Contribution.\"\n"
-"\n"
-"      \"Contributor\" shall mean Licensor and any individual or Legal Entity\n"
-"      on behalf of whom a Contribution has been received by Licensor and\n"
-"      subsequently incorporated within the Work.\n"
-"\n"
-"   2. Grant of Copyright License. Subject to the terms and conditions of\n"
-"      this License, each Contributor hereby grants to You a perpetual,\n"
-"      worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n"
-"      copyright license to reproduce, prepare Derivative Works of,\n"
-"      publicly display, publicly perform, sublicense, and distribute the\n"
-"      Work and such Derivative Works in Source or Object form.\n"
-"\n"
-"   3. Grant of Patent License. Subject to the terms and conditions of\n"
-"      this License, each Contributor hereby grants to You a perpetual,\n"
-"      worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n"
-"      (except as stated in this section) patent license to make, have made,\n"
-"      use, offer to sell, sell, import, and otherwise transfer the Work,\n"
-"      where such license applies only to those patent claims licensable\n"
-"      by such Contributor that are necessarily infringed by their\n"
-"      Contribution(s) alone or by combination of their Contribution(s)\n"
-"      with the Work to which such Contribution(s) was submitted. If You\n"
-"      institute patent litigation against any entity (including a\n"
-"      cross-claim or counterclaim in a lawsuit) alleging that the Work\n"
-"      or a Contribution incorporated within the Work constitutes direct\n"
-"      or contributory patent infringement, then any patent licenses\n"
-"      granted to You under this License for that Work shall terminate\n"
-"      as of the date such litigation is filed.\n"
-"\n"
-"   4. Redistribution. You may reproduce and distribute copies of the\n"
-"      Work or Derivative Works thereof in any medium, with or without\n"
-"      modifications, and in Source or Object form, provided that You\n"
-"      meet the following conditions:\n"
-"\n"
-"      (a) You must give any other recipients of the Work or\n"
-"          Derivative Works a copy of this License; and\n"
-"\n"
-"      (b) You must cause any modified files to carry prominent notices\n"
-"          stating that You changed the files; and\n"
-"\n"
-"      (c) You must retain, in the Source form of any Derivative Works\n"
-"          that You distribute, all copyright, patent, trademark, and\n"
-"          attribution notices from the Source form of the Work,\n"
-"          excluding those notices that do not pertain to any part of\n"
-"          the Derivative Works; and\n"
-"\n"
-"      (d) If the Work includes a \"NOTICE\" text file as part of its\n"
-"          distribution, then any Derivative Works that You distribute must\n"
-"          include a readable copy of the attribution notices contained\n"
-"          within such NOTICE file, excluding those notices that do not\n"
-"          pertain to any part of the Derivative Works, in at least one\n"
-"          of the following places: within a NOTICE text file distributed\n"
-"          as part of the Derivative Works; within the Source form or\n"
-"          documentation, if provided along with the Derivative Works; or,\n"
-"          within a display generated by the Derivative Works, if and\n"
-"          wherever such third-party notices normally appear. The contents\n"
-"          of the NOTICE file are for informational purposes only and\n"
-"          do not modify the License. You may add Your own attribution\n"
-"          notices within Derivative Works that You distribute, alongside\n"
-"          or as an addendum to the NOTICE text from the Work, provided\n"
-"          that such additional attribution notices cannot be construed\n"
-"          as modifying the License.\n"
-"\n"
-"      You may add Your own copyright statement to Your modifications and\n"
-"      may provide additional or different license terms and conditions\n"
-"      for use, reproduction, or distribution of Your modifications, or\n"
-"      for any such Derivative Works as a whole, provided Your use,\n"
-"      reproduction, and distribution of the Work otherwise complies with\n"
-"      the conditions stated in this License.\n"
-"\n"
-"   5. Submission of Contributions. Unless You explicitly state otherwise,\n"
-"      any Contribution intentionally submitted for inclusion in the Work\n"
-"      by You to the Licensor shall be under the terms and conditions of\n"
-"      this License, without any additional terms or conditions.\n"
-"      Notwithstanding the above, nothing herein shall supersede or modify\n"
-"      the terms of any separate license agreement you may have executed\n"
-"      with Licensor regarding such Contributions.\n"
-"\n"
-"   6. Trademarks. This License does not grant permission to use the trade\n"
-"      names, trademarks, service marks, or product names of the Licensor,\n"
-"      except as required for reasonable and customary use in describing the\n"
-"      origin of the Work and reproducing the content of the NOTICE file.\n"
-"\n"
-"   7. Disclaimer of Warranty. Unless required by applicable law or\n"
-"      agreed to in writing, Licensor provides the Work (and each\n"
-"      Contributor provides its Contributions) on an \"AS IS\" BASIS,\n"
-"      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or\n"
-"      implied, including, without limitation, any warranties or conditions\n"
-"      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A\n"
-"      PARTICULAR PURPOSE. You are solely responsible for determining the\n"
-"      appropriateness of using or redistributing the Work and assume any\n"
-"      risks associated with Your exercise of permissions under this License.\n"
-"\n"
-"   8. Limitation of Liability. In no event and under no legal theory,\n"
-"      whether in tort (including negligence), contract, or otherwise,\n"
-"      unless required by applicable law (such as deliberate and grossly\n"
-"      negligent acts) or agreed to in writing, shall any Contributor be\n"
-"      liable to You for damages, including any direct, indirect, special,\n"
-"      incidental, or consequential damages of any character arising as a\n"
-"      result of this License or out of the use or inability to use the\n"
-"      Work (including but not limited to damages for loss of goodwill,\n"
-"      work stoppage, computer failure or malfunction, or any and all\n"
-"      other commercial damages or losses), even if such Contributor\n"
-"      has been advised of the possibility of such damages.\n"
-"\n"
-"   9. Accepting Warranty or Additional Liability. While redistributing\n"
-"      the Work or Derivative Works thereof, You may choose to offer,\n"
-"      and charge a fee for, acceptance of support, warranty, indemnity,\n"
-"      or other liability obligations and/or rights consistent with this\n"
-"      License. However, in accepting such obligations, You may act only\n"
-"      on Your own behalf and on Your sole responsibility, not on behalf\n"
-"      of any other Contributor, and only if You agree to indemnify,\n"
-"      defend, and hold each Contributor harmless for any liability\n"
-"      incurred by, or claims asserted against, such Contributor by reason\n"
-"      of your accepting any such warranty or additional liability.\n"
-"\n"
-"   END OF TERMS AND CONDITIONS\n"
-"\n"
-"   APPENDIX: How to apply the Apache License to your work.\n"
-"\n"
-"      To apply the Apache License to your work, attach the following\n"
-"      boilerplate notice, with the fields enclosed by brackets \"[]\"\n"
-"      replaced with your own identifying information. (Don\'t include\n"
-"      the brackets!)  The text should be enclosed in the appropriate\n"
-"      comment syntax for the file format. We also recommend that a\n"
-"      file or class name and description of purpose be included on the\n"
-"      same \"printed page\" as the copyright notice for easier\n"
-"      identification within third-party archives.\n"
-"\n"
-"   Copyright [2021] Wang, Ben\n"
-"\n"
-"   Licensed under the Apache License, Version 2.0 (the \"License\");\n"
-"   you may not use this file except in compliance with the License.\n"
-"   You may obtain a copy of the License at\n"
-"\n"
-"       http://www.apache.org/licenses/LICENSE-2.0\n"
-"\n"
-"   Unless required by applicable law or agreed to in writing, software\n"
-"   distributed under the License is distributed on an \"AS IS\" BASIS,\n"
-"   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n"
-"   See the License for the specific language governing permissions and\n"
-"   limitations under the License."
-msgstr ""
-
-#: src/dialogs/credit.tscn
-msgid ""
-"KoboldAI\'s GPT-J-6B-Adventure:\n"
-"VE-Forbryderne / KoboldAI"
-msgstr ""
-
-#: src/dialogs/credit.tscn
-msgid ""
-"KoboldAI\'s GPT-Neo-2.7B-Horni and GPT-Neo-2.7B-Horni-LN :\n"
-"Finetuneanon"
-msgstr ""
-
-#: src/dialogs/credit.tscn
-msgid ""
-"GPT4All: Training an Assistant-style Chatbot with Large Scale Data Distillation from GPT-3.5-Turbo\n"
-"Apache License\n"
-"Version 2.0, January 2004\n"
-"http://www.apache.org/licenses/\n"
-"\n"
-"   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n"
-"\n"
-"   1. Definitions.\n"
-"\n"
-"      \"License\" shall mean the terms and conditions for use, reproduction,\n"
-"      and distribution as defined by Sections 1 through 9 of this document.\n"
-"\n"
-"      \"Licensor\" shall mean the copyright owner or entity authorized by\n"
-"      the copyright owner that is granting the License.\n"
-"\n"
-"      \"Legal Entity\" shall mean the union of the acting entity and all\n"
-"      other entities that control, are controlled by, or are under common\n"
-"      control with that entity. For the purposes of this definition,\n"
-"      \"control\" means (i) the power, direct or indirect, to cause the\n"
-"      direction or management of such entity, whether by contract or\n"
-"      otherwise, or (ii) ownership of fifty percent (50%) or more of the\n"
-"      outstanding shares, or (iii) beneficial ownership of such entity.\n"
-"\n"
-"      \"You\" (or \"Your\") shall mean an individual or Legal Entity\n"
-"      exercising permissions granted by this License.\n"
-"\n"
-"      \"Source\" form shall mean the preferred form for making modifications,\n"
-"      including but not limited to software source code, documentation\n"
-"      source, and configuration files.\n"
-"\n"
-"      \"Object\" form shall mean any form resulting from mechanical\n"
-"      transformation or position of a Source form, including but\n"
-"      not limited to compiled object code, generated documentation,\n"
-"      and conversions to other media types.\n"
-"\n"
-"      \"Work\" shall mean the work of authorship, whether in Source or\n"
-"      Object form, made available under the License, as indicated by a\n"
-"      copyright notice that is included in or attached to the work\n"
-"      (an example is provided in the Appendix below).\n"
-"\n"
-"      \"Derivative Works\" shall mean any work, whether in Source or Object\n"
-"      form, that is based on (or derived from) the Work and for which the\n"
-"      editorial revisions, annotations, elaborations, or other modifications\n"
-"      represent, as a whole, an original work of authorship. For the purposes\n"
-"      of this License, Derivative Works shall not include works that remain\n"
-"      separable from, or merely link (or bind by name) to the interfaces of,\n"
-"      the Work and Derivative Works thereof.\n"
-"\n"
-"      \"Contribution\" shall mean any work of authorship, including\n"
-"      the original version of the Work and any modifications or additions\n"
-"      to that Work or Derivative Works thereof, that is intentionally\n"
-"      submitted to Licensor for inclusion in the Work by the copyright owner\n"
-"      or by an individual or Legal Entity authorized to submit on behalf of\n"
-"      the copyright owner. For the purposes of this definition, \"submitted\"\n"
-"      means any form of electronic, verbal, or written communication sent\n"
-"      to the Licensor or its representatives, including but not limited to\n"
-"      communication on electronic mailing lists, source code control systems,\n"
-"      and issue tracking systems that are managed by, or on behalf of, the\n"
-"      Licensor for the purpose of discussing and improving the Work, but\n"
-"      excluding communication that is conspicuously marked or otherwise\n"
-"      designated in writing by the copyright owner as \"Not a Contribution.\"\n"
-"\n"
-"      \"Contributor\" shall mean Licensor and any individual or Legal Entity\n"
-"      on behalf of whom a Contribution has been received by Licensor and\n"
-"      subsequently incorporated within the Work.\n"
-"\n"
-"   2. Grant of Copyright License. Subject to the terms and conditions of\n"
-"      this License, each Contributor hereby grants to You a perpetual,\n"
-"      worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n"
-"      copyright license to reproduce, prepare Derivative Works of,\n"
-"      publicly display, publicly perform, sublicense, and distribute the\n"
-"      Work and such Derivative Works in Source or Object form.\n"
-"\n"
-"   3. Grant of Patent License. Subject to the terms and conditions of\n"
-"      this License, each Contributor hereby grants to You a perpetual,\n"
-"      worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n"
-"      (except as stated in this section) patent license to make, have made,\n"
-"      use, offer to sell, sell, import, and otherwise transfer the Work,\n"
-"      where such license applies only to those patent claims licensable\n"
-"      by such Contributor that are necessarily infringed by their\n"
-"      Contribution(s) alone or by combination of their Contribution(s)\n"
-"      with the Work to which such Contribution(s) was submitted. If You\n"
-"      institute patent litigation against any entity (including a\n"
-"      cross-claim or counterclaim in a lawsuit) alleging that the Work\n"
-"      or a Contribution incorporated within the Work constitutes direct\n"
-"      or contributory patent infringement, then any patent licenses\n"
-"      granted to You under this License for that Work shall terminate\n"
-"      as of the date such litigation is filed.\n"
-"\n"
-"   4. Redistribution. You may reproduce and distribute copies of the\n"
-"      Work or Derivative Works thereof in any medium, with or without\n"
-"      modifications, and in Source or Object form, provided that You\n"
-"      meet the following conditions:\n"
-"\n"
-"      (a) You must give any other recipients of the Work or\n"
-"          Derivative Works a copy of this License; and\n"
-"\n"
-"      (b) You must cause any modified files to carry prominent notices\n"
-"          stating that You changed the files; and\n"
-"\n"
-"      (c) You must retain, in the Source form of any Derivative Works\n"
-"          that You distribute, all copyright, patent, trademark, and\n"
-"          attribution notices from the Source form of the Work,\n"
-"          excluding those notices that do not pertain to any part of\n"
-"          the Derivative Works; and\n"
-"\n"
-"      (d) If the Work includes a \"NOTICE\" text file as part of its\n"
-"          distribution, then any Derivative Works that You distribute must\n"
-"          include a readable copy of the attribution notices contained\n"
-"          within such NOTICE file, excluding those notices that do not\n"
-"          pertain to any part of the Derivative Works, in at least one\n"
-"          of the following places: within a NOTICE text file distributed\n"
-"          as part of the Derivative Works; within the Source form or\n"
-"          documentation, if provided along with the Derivative Works; or,\n"
-"          within a display generated by the Derivative Works, if and\n"
-"          wherever such third-party notices normally appear. The contents\n"
-"          of the NOTICE file are for informational purposes only and\n"
-"          do not modify the License. You may add Your own attribution\n"
-"          notices within Derivative Works that You distribute, alongside\n"
-"          or as an addendum to the NOTICE text from the Work, provided\n"
-"          that such additional attribution notices cannot be construed\n"
-"          as modifying the License.\n"
-"\n"
-"      You may add Your own copyright statement to Your modifications and\n"
-"      may provide additional or different license terms and conditions\n"
-"      for use, reproduction, or distribution of Your modifications, or\n"
-"      for any such Derivative Works as a whole, provided Your use,\n"
-"      reproduction, and distribution of the Work otherwise complies with\n"
-"      the conditions stated in this License.\n"
-"\n"
-"   5. Submission of Contributions. Unless You explicitly state otherwise,\n"
-"      any Contribution intentionally submitted for inclusion in the Work\n"
-"      by You to the Licensor shall be under the terms and conditions of\n"
-"      this License, without any additional terms or conditions.\n"
-"      Notwithstanding the above, nothing herein shall supersede or modify\n"
-"      the terms of any separate license agreement you may have executed\n"
-"      with Licensor regarding such Contributions.\n"
-"\n"
-"   6. Trademarks. This License does not grant permission to use the trade\n"
-"      names, trademarks, service marks, or product names of the Licensor,\n"
-"      except as required for reasonable and customary use in describing the\n"
-"      origin of the Work and reproducing the content of the NOTICE file.\n"
-"\n"
-"   7. Disclaimer of Warranty. Unless required by applicable law or\n"
-"      agreed to in writing, Licensor provides the Work (and each\n"
-"      Contributor provides its Contributions) on an \"AS IS\" BASIS,\n"
-"      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or\n"
-"      implied, including, without limitation, any warranties or conditions\n"
-"      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A\n"
-"      PARTICULAR PURPOSE. You are solely responsible for determining the\n"
-"      appropriateness of using or redistributing the Work and assume any\n"
-"      risks associated with Your exercise of permissions under this License.\n"
-"\n"
-"   8. Limitation of Liability. In no event and under no legal theory,\n"
-"      whether in tort (including negligence), contract, or otherwise,\n"
-"      unless required by applicable law (such as deliberate and grossly\n"
-"      negligent acts) or agreed to in writing, shall any Contributor be\n"
-"      liable to You for damages, including any direct, indirect, special,\n"
-"      incidental, or consequential damages of any character arising as a\n"
-"      result of this License or out of the use or inability to use the\n"
-"      Work (including but not limited to damages for loss of goodwill,\n"
-"      work stoppage, computer failure or malfunction, or any and all\n"
-"      other commercial damages or losses), even if such Contributor\n"
-"      has been advised of the possibility of such damages.\n"
-"\n"
-"   9. Accepting Warranty or Additional Liability. While redistributing\n"
-"      the Work or Derivative Works thereof, You may choose to offer,\n"
-"      and charge a fee for, acceptance of support, warranty, indemnity,\n"
-"      or other liability obligations and/or rights consistent with this\n"
-"      License. However, in accepting such obligations, You may act only\n"
-"      on Your own behalf and on Your sole responsibility, not on behalf\n"
-"      of any other Contributor, and only if You agree to indemnify,\n"
-"      defend, and hold each Contributor harmless for any liability\n"
-"      incurred by, or claims asserted against, such Contributor by reason\n"
-"      of your accepting any such warranty or additional liability.\n"
-"\n"
-"   END OF TERMS AND CONDITIONS\n"
-"\n"
-"   APPENDIX: How to apply the Apache License to your work.\n"
-"\n"
-"      To apply the Apache License to your work, attach the following\n"
-"      boilerplate notice, with the fields enclosed by brackets \"[]\"\n"
-"      replaced with your own identifying information. (Don\'t include\n"
-"      the brackets!)  The text should be enclosed in the appropriate\n"
-"      comment syntax for the file format. We also recommend that a\n"
-"      file or class name and description of purpose be included on the\n"
-"      same \"printed page\" as the copyright notice for easier\n"
-"      identification within third-party archives.\n"
-"\n"
-"   Copyright [2023] Yuvanesh Anand and Zach Nussbaum and Brandon Duderstadt and Benjamin Schmidt and Andriy Mulyar\n"
-"\n"
-"   Licensed under the Apache License, Version 2.0 (the \"License\");\n"
-"   you may not use this file except in compliance with the License.\n"
-"   You may obtain a copy of the License at\n"
-"\n"
-"       http://www.apache.org/licenses/LICENSE-2.0\n"
-"\n"
-"   Unless required by applicable law or agreed to in writing, software\n"
-"   distributed under the License is distributed on an \"AS IS\" BASIS,\n"
-"   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n"
-"   See the License for the specific language governing permissions and\n"
-"   limitations under the License."
 msgstr ""
 
 #: src/dialogs/merge_lorebook_dialog.tscn
@@ -1902,7 +1137,7 @@ msgid "Copy logs to clipboard"
 msgstr ""
 
 #: src/autoload/strings.gd
-msgid "Select a language"
+msgid "Select a language."
 msgstr ""
 
 #: src/autoload/strings.gd
@@ -1931,6 +1166,14 @@ msgstr ""
 
 #: src/autoload/strings.gd
 msgid "Lorebook\'s translation in progress."
+msgstr ""
+
+#: src/autoload/strings.gd
+msgid "Scenario saved."
+msgstr ""
+
+#: src/autoload/strings.gd
+msgid "Error, can\'t save scenario."
 msgstr ""
 
 #: src/autoload/strings.gd
@@ -1966,11 +1209,43 @@ msgid "Couldn\'t save game."
 msgstr ""
 
 #: src/autoload/strings.gd
-msgid "Couldn\'t save the lorebook"
+msgid "Successfully saved the lorebook."
 msgstr ""
 
 #: src/autoload/strings.gd
-msgid "Successfully saved the lorebook"
+msgid "Error, can\'t save the lorebook."
+msgstr ""
+
+#: src/autoload/strings.gd
+msgid "Added the following entry."
+msgstr ""
+
+#: src/autoload/strings.gd
+msgid "Error, can\'t add the entry."
+msgstr ""
+
+#: src/autoload/strings.gd
+msgid "Deleted the entry."
+msgstr ""
+
+#: src/autoload/strings.gd
+msgid "Error, can\'t delete entry."
+msgstr ""
+
+#: src/autoload/strings.gd
+msgid "Renamed the entry."
+msgstr ""
+
+#: src/autoload/strings.gd
+msgid "Error, can\'t rename the entry."
+msgstr ""
+
+#: src/autoload/strings.gd
+msgid "Successfully exported the lorebook."
+msgstr ""
+
+#: src/autoload/strings.gd
+msgid "Error, can\'t export the lorebook."
 msgstr ""
 
 #: src/autoload/strings.gd
@@ -2028,6 +1303,16 @@ msgid "fail to"
 msgstr ""
 
 #: src/autoload/strings.gd
+msgctxt "E.g: I fail to punch the man (Don\'t add uppercase)"
+msgid "fail to"
+msgstr ""
+
+#: src/autoload/strings.gd
+msgctxt "E.g: I pathetically fail to punch the man (Don\'t add uppercase)"
+msgid "pathetically fail to"
+msgstr ""
+
+#: src/autoload/strings.gd
 msgctxt "E.g: You pathetically fail to punch the man (Don\'t add uppercase)"
 msgid "pathetically fail to"
 msgstr ""
@@ -2064,6 +1349,54 @@ msgstr ""
 
 #: src/autoload/strings.gd
 msgid "Successfully updated the Workshop item."
+msgstr ""
+
+#: src/autoload/strings.gd
+msgid "File deleted."
+msgstr ""
+
+#: src/autoload/strings.gd
+msgid "Error, can\'t delete file."
+msgstr ""
+
+#: src/autoload/strings.gd
+msgid "AI deleted."
+msgstr ""
+
+#: src/autoload/strings.gd
+msgid "Error, can\'t delete AI."
+msgstr ""
+
+#: src/autoload/strings.gd
+msgid "AI added to download\'s queue."
+msgstr ""
+
+#: src/autoload/strings.gd
+msgid "This custom AI is already installed."
+msgstr ""
+
+#: src/autoload/strings.gd
+msgid "AI downloaded."
+msgstr ""
+
+#: src/autoload/strings.gd
+msgid "Error, can\'t download AI."
+msgstr ""
+
+#: src/autoload/strings.gd
+msgid "This AI is safe for work."
+msgstr ""
+
+#: src/autoload/strings.gd
+msgid "This AI is moderately safe. It might still generate \'light\' erotic content by itself!"
+msgstr ""
+
+#: src/autoload/strings.gd
+msgid "This AI isn\'t safe for work! It will generate erotic content by itself!"
+msgstr ""
+
+#: src/autoload/strings.gd
+msgid "This is a custom AI. It hasn\'t been tested and might not work."
 msgstr ""
 
 #: src/dialogs/lorebook_info_popup_window.tscn
@@ -2151,6 +1484,7 @@ msgid "I don\'t know how much memory I have"
 msgstr ""
 
 #: src/interfaces/character_menu.tscn
+msgctxt "character like an individual. Not like characters in a word."
 msgid "Character menu"
 msgstr ""
 
@@ -2191,7 +1525,7 @@ msgid "Name"
 msgstr ""
 
 #: src/interfaces/character_menu.tscn
-msgid "Jan"
+msgid "Arthur"
 msgstr ""
 
 #: src/interfaces/character_menu.tscn
@@ -2199,7 +1533,7 @@ msgid "Randomize"
 msgstr ""
 
 #: src/interfaces/character_menu.tscn
-msgid "How does it work?\n"
+msgid "How does it work?"
 msgstr ""
 
 #: src/interfaces/character_menu.tscn
@@ -2221,7 +1555,7 @@ msgstr ""
 msgid ""
 "Thank you for playing AIdventure\'s demo!\n"
 "You reached the limit.\n"
-"Buy the game to continue this adventure.\n"
+"Buy the game to continue this adventure."
 msgstr ""
 
 #: src/interfaces/end_demo.tscn
@@ -2258,6 +1592,7 @@ msgstr ""
 
 #: src/interfaces/server_menu.gd
 #: src/interfaces/server_menu.tscn
+msgctxt "Running like in 'The server is running'"
 msgid "Running"
 msgstr ""
 
@@ -2422,10 +1757,6 @@ msgstr ""
 
 #: src/interfaces/options/preferences.tscn
 msgid "Font color"
-msgstr ""
-
-#: src/interfaces/options/preferences.tscn
-msgid "Selection color\n"
 msgstr ""
 
 #: src/interfaces/options/preferences.tscn
