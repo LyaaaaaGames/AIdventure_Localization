@@ -26,6 +26,7 @@ Multiple softwares exists but I will suggest PoEdit because it's free and open s
   1. If a file already exist, open the corresponding file `e.g: fr.po` for French.
 3. Poedit will suggest you to create a new translation file, do it.
 4. You can now translate AIdventure :).
+5. When done, send me the `.po` file.
 
 ## How to propose your modifications?
 1. Fork my project
