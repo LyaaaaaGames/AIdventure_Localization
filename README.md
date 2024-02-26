@@ -1,17 +1,6 @@
 # AIdventure_Localization
 the localization of AIdventure.
 
-## Supported languages
-
-| Language   | Code   |
-|------------|--------|
-| English    | en     |
-| French     | fr     |
-| German     | de     |
-| Portuguese | pt     |
-| Spanish    | es     |
-| Catalan    | ca     |
-| Polish     | pl     |
 
 ## If you want to help translate the game, see the following docs
 
