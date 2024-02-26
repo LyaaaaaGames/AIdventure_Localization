@@ -1,6 +1,11 @@
 # AIdventure_Localization
 the localization of AIdventure.
 
+# Supported languages
+
+- English
+- French
+
 
 ## If you want to help translate the game, see the following docs
 
