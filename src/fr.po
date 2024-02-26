@@ -647,7 +647,7 @@ msgstr "Options"
 
 #: src/interfaces/main_menu.tscn
 msgid "Community"
-msgstr "communauté"
+msgstr "Communauté"
 
 #: src/interfaces/main_menu.tscn
 msgid "Help"
@@ -661,8 +661,8 @@ msgstr "Crédits"
 msgid "Exit"
 msgstr "Quitter"
 
-#: src/interfaces/main_menu.tscn
-msgid "AIdventure "
+#: src/interfaces/main_menu.tscn src/dialogs/escape_menu.tscn
+msgid "AIdventure"
 msgstr "AIdventure"
 
 #: src/interfaces/main_menu.tscn
@@ -772,10 +772,6 @@ msgid "Main menu"
 msgstr "Menu principal"
 
 #: src/dialogs/escape_menu.tscn
-msgid "AIdventure"
-msgstr "AIdventure"
-
-#: src/dialogs/escape_menu.tscn
 msgid "Resume"
 msgstr "Continuer"
 
@@ -795,7 +791,7 @@ msgid ""
 msgstr ""
 "La \"Taille max de la mémoire\" définie dans les options est trop petite "
 "pour ce scénario.\n"
-"Longueur de mémoire requise : "
+"Longueur de mémoire requise :"
 
 #: src/dialogs/incompatible_memory_dialog.tscn
 msgid ""
@@ -854,7 +850,7 @@ msgstr ""
 "Le menu de création\n"
 "Les scénarios personnalisés\n"
 "La connexion à un serveur distant\n"
-"Le Workshop Steam."
+"Le Workshop Steam"
 
 #: src/dialogs/intro_demo_popup.tscn
 msgid "You also have a limited number of AIs:"
@@ -929,12 +925,12 @@ msgstr "Filtrer par Workshop"
 #: src/custom_nodes/generator_preset_options_button.gd
 #: src/custom_nodes/generator_preset_options_button.tscn
 msgid "Memory saving preset."
-msgstr "Préréglage d'économie de mémoire"
+msgstr "Préréglage d'économie de mémoire."
 
 #: src/custom_nodes/generator_preset_options_button.gd
 #: src/custom_nodes/generator_preset_options_button.tscn
 msgid "Memory saving preset for CPU only."
-msgstr "Préréglage d'économie de mémoire avec CPU seulement"
+msgstr "Préréglage d'économie de mémoire avec CPU seulement."
 
 #: src/custom_nodes/generator_preset_options_button.gd
 #: src/custom_nodes/generator_preset_options_button.tscn
@@ -968,7 +964,7 @@ msgstr "Catégorie"
 
 #: src/custom_nodes/ask_name_dialog/ask_name_dialog.tscn
 msgid "Enter a name."
-msgstr "entrer un nom."
+msgstr "Entrer un nom."
 
 #: src/custom_nodes/ask_name_dialog/ask_name_dialog.tscn
 msgid "Cool name"
@@ -1102,7 +1098,7 @@ msgstr "Copier les logs dans le presse-papiers"
 
 #: src/autoload/strings.gd
 msgid "Select a language."
-msgstr "Sélectionner une langue"
+msgstr "Sélectionner une langue."
 
 #: src/autoload/strings.gd
 msgid "Failed loading translator."
@@ -1170,7 +1166,7 @@ msgstr "Échec de l'envoi de données au serveur."
 
 #: src/autoload/strings.gd
 msgid "Couldn't save game."
-msgstr "Impossible de sauvegarder la partie"
+msgstr "Impossible de sauvegarder la partie."
 
 #: src/autoload/strings.gd
 msgid "Successfully saved the lorebook."
@@ -1548,7 +1544,7 @@ msgstr ""
 
 #: src/interfaces/character_menu.tscn
 msgid "Randomize everything."
-msgstr "Tout générer aléatoirement"
+msgstr "Tout générer aléatoirement."
 
 #: src/interfaces/character_menu.tscn
 msgid "Roll the dice"
@@ -1627,7 +1623,7 @@ msgstr "Arrêter le serveur"
 
 #: src/interfaces/server_menu.tscn
 msgid "The server is starting"
-msgstr "Le serveur est en cours de lancement."
+msgstr "Le serveur est en cours de lancement"
 
 #: src/interfaces/server_menu.tscn
 msgid "Load Generator"
@@ -1652,7 +1648,7 @@ msgstr "Le serveur est en cours de lancement."
 
 #: src/interfaces/start_game_workflow.tscn
 msgid "Please, wait."
-msgstr "SVP, attendez"
+msgstr "SVP, attendez."
 
 #: src/interfaces/start_game_workflow.tscn
 msgid "What do you want to do?"
@@ -1715,7 +1711,7 @@ msgstr ""
 
 #: src/interfaces/options/preferences.tscn
 msgid "Hide top bar"
-msgstr "Cacher la barre supérieure dans le jeu."
+msgstr "Cacher la barre supérieure dans le jeu"
 
 #: src/interfaces/options/preferences.tscn
 msgid "It will use \"You\" or \"I\" in your inputs."
@@ -1765,7 +1761,7 @@ msgstr "Taille de la police"
 
 #: src/interfaces/options/preferences.tscn
 msgid "The space left between two lines."
-msgstr "L'espace entre deux ligne"
+msgstr "L'espace entre deux ligne."
 
 #: src/interfaces/options/preferences.tscn
 msgid "Line spacing"
@@ -1801,7 +1797,7 @@ msgstr ""
 
 #: src/interfaces/options/server.tscn
 msgid "Connection delay"
-msgstr "délai de connexion"
+msgstr "Délai de connexion"
 
 #: src/interfaces/options/server.tscn
 msgid "If enabled, the server will try to download an AI if it's missing.\n"
@@ -1832,6 +1828,9 @@ msgstr "IP du serveur"
 #: src/interfaces/options/server.tscn
 msgid "Server's port"
 msgstr "Port du serveur"
+
+#~ msgid "AIdventure "
+#~ msgstr "AIdventure"
 
 #~ msgid "Jan"
 #~ msgstr "Arthur"
