@@ -724,7 +724,7 @@ msgid "Exit"
 msgstr ""
 
 #: src/interfaces/main_menu.tscn
-msgid "AIdventure "
+msgid "AIdventure"
 msgstr ""
 
 #: src/interfaces/main_menu.tscn
