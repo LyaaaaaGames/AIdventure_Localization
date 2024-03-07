@@ -5,6 +5,8 @@ the localization of AIdventure.
 
 - English
 - French
+- Russian
+- Turkish
 
 
 ## If you want to help translate the game, see the following docs
