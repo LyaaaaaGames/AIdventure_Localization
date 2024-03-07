@@ -1,0 +1,1911 @@
+# LANGUAGE translation for AIdventure for the following files:
+# res://src/interfaces/ai_info.gd
+# res://src/interfaces/ai_info.tscn
+# res://src/interfaces/ai_menu.gd
+# res://src/interfaces/ai_menu.tscn
+# res://src/interfaces/ai_options.gd
+# res://src/interfaces/ai_options.tscn
+# res://src/interfaces/edit_bar.gd
+# res://src/interfaces/edit_bar.tscn
+# res://src/interfaces/edit_workshop_item.gd
+# res://src/interfaces/edit_workshop_item.tscn
+# res://src/interfaces/input_bar.gd
+# res://src/interfaces/input_bar.tscn
+# res://src/interfaces/input_bar_text_edit.gd
+# res://src/interfaces/languages_button.gd
+# res://src/interfaces/languages_button.tscn
+# res://src/interfaces/list_own_workshop_items.gd
+# res://src/interfaces/list_own_workshop_items.tscn
+# res://src/interfaces/lorebook_info.gd
+# res://src/interfaces/lorebook_info.tscn
+# res://src/interfaces/lorebook_menu.gd
+# res://src/interfaces/lorebook_menu.tscn
+# res://src/interfaces/main_menu.gd
+# res://src/interfaces/main_menu.tscn
+# res://src/interfaces/options_menu.tscn
+# res://src/interfaces/output_display.gd
+# res://src/interfaces/output_display.tscn
+# res://src/interfaces/rotating_sprite.gd
+# res://src/interfaces/rotating_sprite.tscn
+# res://src/interfaces/scenario_info.gd
+# res://src/interfaces/scenario_info.tscn
+# res://src/interfaces/scenario_menu.gd
+# res://src/interfaces/scenario_menu.tscn
+# res://src/interfaces/splash_screen.gd
+# res://src/interfaces/splash_screen.tscn
+# res://src/interfaces/steam_workshop_menu.gd
+# res://src/interfaces/steam_workshop_menu.tscn
+# res://src/interfaces/tags_selector.gd
+# res://src/interfaces/tags_selector.tscn
+# res://src/interfaces/translator_manager.gd
+# res://src/interfaces/translator_manager.tscn
+# res://src/interfaces/translator_menu.gd
+# res://src/interfaces/translator_menu.tscn
+# res://src/interfaces/default_interfaces/default_botton_button_box.tscn
+# res://src/interfaces/default_interfaces/default_interface_background.tscn
+# res://src/interfaces/default_interfaces/default_interface_margin.tscn
+# res://src/game.gd
+# res://src/game.tscn
+# res://src/dialogs/asking_memory_size_pop_up.gd
+# res://src/dialogs/asking_memory_size_pop_up.tscn
+# res://src/dialogs/ask_custom_ai_name_popup.gd
+# res://src/dialogs/ask_custom_ai_name_popup.tscn
+# res://src/dialogs/character_creation_dialog.gd
+# res://src/dialogs/character_creation_dialog.tscn
+# res://src/dialogs/confirmation_dialog.gd
+# res://src/dialogs/confirmation_dialog.tscn
+# res://src/dialogs/custom_download_window.gd
+# res://src/dialogs/custom_download_window.tscn
+# res://src/dialogs/end_demo_popup.gd
+# res://src/dialogs/end_demo_popup.tscn
+# res://src/dialogs/error_popup.gd
+# res://src/dialogs/error_popup.tscn
+# res://src/dialogs/escape_menu.gd
+# res://src/dialogs/escape_menu.tscn
+# res://src/dialogs/incompatible_memory_dialog.gd
+# res://src/dialogs/incompatible_memory_dialog.tscn
+# res://src/dialogs/installation_popup.gd
+# res://src/dialogs/installation_popup.tscn
+# res://src/dialogs/intro_demo_popup.gd
+# res://src/dialogs/intro_demo_popup.tscn
+# res://src/dialogs/loading_server.gd
+# res://src/dialogs/loading_server.tscn
+# res://src/dialogs/load_menu.gd
+# res://src/dialogs/load_menu.tscn
+# res://src/dialogs/lore_book_popup.gd
+# res://src/dialogs/lore_book_popup.tscn
+# res://src/dialogs/memory_dialog.gd
+# res://src/dialogs/memory_dialog.tscn
+# res://src/dialogs/options_dialog.gd
+# res://src/dialogs/options_dialog.tscn
+# res://src/dialogs/story_editor.gd
+# res://src/dialogs/story_editor.tscn
+# res://src/dialogs/translate_scenario_pop_up.gd
+# res://src/dialogs/translate_scenario_pop_up.tscn
+# res://src/dialogs/update_workshop_dialog.tscn
+# res://src/dialogs/upload_workshop_dialog.tscn
+# res://src/dialogs/wait_dialog.gd
+# res://src/dialogs/wait_dialog.tscn
+# res://src/custom_nodes/advanced_list.gd
+# res://src/custom_nodes/ai_list.gd
+# res://src/custom_nodes/ai_list.tscn
+# res://src/custom_nodes/audio_button.gd
+# res://src/custom_nodes/audio_button.tscn
+# res://src/custom_nodes/audio_options_button.gd
+# res://src/custom_nodes/audio_options_button.tscn
+# res://src/custom_nodes/device_map_option_button.gd
+# res://src/custom_nodes/device_map_option_button.tscn
+# res://src/custom_nodes/dots_wait_animation.gd
+# res://src/custom_nodes/dots_wait_animation.tscn
+# res://src/custom_nodes/download_window.gd
+# res://src/custom_nodes/download_window.tscn
+# res://src/custom_nodes/edit_buttons.gd
+# res://src/custom_nodes/edit_buttons.tscn
+# res://src/custom_nodes/filters_inputs.gd
+# res://src/custom_nodes/filters_inputs.tscn
+# res://src/custom_nodes/generator_preset_options_button.gd
+# res://src/custom_nodes/generator_preset_options_button.tscn
+# res://src/custom_nodes/lorebook_list.gd
+# res://src/custom_nodes/lorebook_list.tscn
+# res://src/custom_nodes/notification.gd
+# res://src/custom_nodes/notification.tscn
+# res://src/custom_nodes/scenario_list.gd
+# res://src/custom_nodes/scenario_list.tscn
+# res://src/custom_nodes/story_element_info.gd
+# res://src/custom_nodes/story_element_info.tscn
+# res://src/custom_nodes/story_element_list.gd
+# res://src/custom_nodes/torch_dtype_option_button.gd
+# res://src/custom_nodes/torch_dtype_option_button.tscn
+# res://src/custom_nodes/ask_name_dialog/ask_lorebook_entry_name_dialog.gd
+# res://src/custom_nodes/ask_name_dialog/ask_lorebook_entry_name_dialog.tscn
+# res://src/custom_nodes/ask_name_dialog/ask_lorebook_name_dialog.gd
+# res://src/custom_nodes/ask_name_dialog/ask_lorebook_name_dialog.tscn
+# res://src/custom_nodes/ask_name_dialog/ask_name_dialog.gd
+# res://src/custom_nodes/ask_name_dialog/ask_name_dialog.tscn
+# res://src/custom_nodes/ask_name_dialog/ask_scenario_name_dialog.gd
+# res://src/custom_nodes/ask_name_dialog/ask_scenario_name_dialog.tscn
+# res://src/custom_nodes/ask_name_dialog/ask_story_element_name_dialog.gd
+# res://src/custom_nodes/ask_name_dialog/ask_story_element_name_dialog.tscn
+# res://src/classes/character.gd
+# res://src/classes/client.gd
+# res://src/classes/config.gd
+# res://src/classes/context.gd
+# res://src/classes/die.gd
+# res://src/classes/dir_utils.gd
+# res://src/classes/file_simple.gd
+# res://src/classes/game_settings.gd
+# res://src/classes/game_translator.gd
+# res://src/classes/language.gd
+# res://src/classes/logger.gd
+# res://src/classes/name.gd
+# res://src/classes/null_file_simple.gd
+# res://src/classes/null_language.gd
+# res://src/classes/parser.gd
+# res://src/classes/save.gd
+# res://src/classes/scenario_translator.gd
+# res://src/classes/server.gd
+# res://src/classes/translation_handler.gd
+# res://src/classes/story_elements/embedded_lorebook.gd
+# res://src/classes/story_elements/lorebook.gd
+# res://src/classes/story_elements/scenario.gd
+# res://src/classes/story_elements/story_element.gd
+# res://src/classes/story_elements/workshop_lorebook.gd
+# res://src/classes/story_elements/workshop_scenario.gd
+# res://src/classes/steam/steam_integration.gd
+# res://src/classes/steam/steam_integration_blank.gd
+# res://src/classes/steam/steam_workshop.gd
+# res://src/classes/steam/steam_workshop_item.gd
+# res://src/classes/ai/ai.gd
+# res://src/classes/ai/custom_ai.gd
+# res://src/classes/ai/generator.gd
+# res://src/classes/ai/generator_settings.gd
+# res://src/classes/ai/translator.gd
+# res://src/autoload/ai_autoload.gd
+# res://src/autoload/audio.gd
+# res://src/autoload/display.gd
+# res://src/autoload/features.gd
+# res://src/autoload/fonts.gd
+# res://src/autoload/global_variables.gd
+# res://src/autoload/icons.gd
+# res://src/autoload/installer.gd
+# res://src/autoload/languages.gd
+# res://src/autoload/notification_autoload.gd
+# res://src/autoload/steam_autoload.gd
+# res://src/autoload/tags.gd
+# res://src/autoload/thread_pool_autoload.gd
+# res://src/dialogs/merge_lorebook_dialog.gd
+# res://src/dialogs/merge_lorebook_dialog.tscn
+# res://src/dialogs/select_lorebook_dialog.gd
+# res://src/dialogs/select_lorebook_dialog.tscn
+# res://src/custom_nodes/advanced_tab_container.gd
+# res://src/custom_nodes/advanced_tab_container.tscn
+# res://src/custom_nodes/display_options_button.gd
+# res://src/custom_nodes/display_options_button.tscn
+# res://src/custom_nodes/font_options_button.gd
+# res://src/custom_nodes/font_options_button.tscn
+# res://src/custom_nodes/h_slider_with_counter.gd
+# res://src/custom_nodes/h_slider_with_counter.tscn
+# res://src/custom_nodes/load_generator.gd
+# res://src/custom_nodes/load_generator.tscn
+# res://src/custom_nodes/memory_sliders.gd
+# res://src/custom_nodes/memory_sliders.tscn
+# res://src/custom_nodes/options_buttons.gd
+# res://src/custom_nodes/options_buttons.tscn
+# res://src/custom_nodes/pov_options_button.gd
+# res://src/custom_nodes/pov_options_button.tscn
+# res://src/custom_nodes/published_workshop_item_list.gd
+# res://src/custom_nodes/published_workshop_item_list.tscn
+# res://src/custom_nodes/saves_list.gd
+# res://src/custom_nodes/saves_list.tscn
+# res://src/custom_nodes/server_log_display.gd
+# res://src/custom_nodes/server_log_display.tscn
+# res://src/custom_nodes/language_buttons/auto_translation_option_button.gd
+# res://src/custom_nodes/language_buttons/auto_translation_option_button.tscn
+# res://src/custom_nodes/language_buttons/languages_button.gd
+# res://src/custom_nodes/language_buttons/languages_button.tscn
+# res://src/custom_nodes/language_buttons/localization_option_button.gd
+# res://src/custom_nodes/language_buttons/localization_option_button.tscn
+# res://src/custom_nodes/language_buttons/translator_option_button.gd
+# res://src/custom_nodes/language_buttons/translator_option_button.tscn
+# res://src/custom_nodes/ask_name_dialog/ask_save_name_dialog.gd
+# res://src/custom_nodes/ask_name_dialog/ask_save_name_dialog.tscn
+# res://src/custom_nodes/ai_options_button/ai_option_button.gd
+# res://src/custom_nodes/ai_options_button/ai_option_button.tscn
+# res://src/custom_nodes/ai_options_button/generators_options_button.gd
+# res://src/custom_nodes/ai_options_button/generators_options_button.tscn
+# res://src/autoload/global_functions.gd
+# res://src/autoload/server_autoload.gd
+# res://src/autoload/strings.gd
+# res://src/classes/default_config.gd
+# res://src/classes/ai/ai_translator.gd
+# res://src/classes/ai/null_generator.gd
+# res://src/classes/fonts/custom_font.gd
+# res://src/classes/fonts/font_simple.gd
+# res://src/classes/story_elements/null_scenario.gd
+# res://src/classes/story_elements/save.gd
+# res://src/classes/translators/lorebook_translator.gd
+# res://src/classes/translators/scenario_translator.gd
+# res://src/classes/translators/story_element_translator.gd
+# res://src/classes/translators/translator.gd
+# res://src/dialogs/lorebook_info_popup_window.gd
+# res://src/dialogs/lorebook_info_popup_window.tscn
+# res://src/dialogs/server_off_warning.gd
+# res://src/dialogs/server_off_warning.tscn
+# res://src/dialogs/hardware_form/gpu_form.gd
+# res://src/dialogs/hardware_form/gpu_form.tscn
+# res://src/dialogs/hardware_form/hardware_form.gd
+# res://src/dialogs/hardware_form/hardware_form.tscn
+# res://src/dialogs/hardware_form/memory_form.gd
+# res://src/dialogs/hardware_form/memory_form.tscn
+# res://src/interfaces/character_menu.gd
+# res://src/interfaces/character_menu.tscn
+# res://src/interfaces/create_menu.gd
+# res://src/interfaces/create_menu.tscn
+# res://src/interfaces/end_demo.gd
+# res://src/interfaces/end_demo.tscn
+# res://src/interfaces/game.gd
+# res://src/interfaces/game.tscn
+# res://src/interfaces/game_top_bar_menu.gd
+# res://src/interfaces/game_top_bar_menu.tscn
+# res://src/interfaces/load_translator.gd
+# res://src/interfaces/load_translator.tscn
+# res://src/interfaces/options_menu.gd
+# res://src/interfaces/published_workshop_item_menu.gd
+# res://src/interfaces/published_workshop_item_menu.tscn
+# res://src/interfaces/server_menu.gd
+# res://src/interfaces/server_menu.tscn
+# res://src/interfaces/start_game_workflow.gd
+# res://src/interfaces/start_game_workflow.tscn
+# res://src/interfaces/workshop_menu.tscn
+# res://src/interfaces/options/preferences.gd
+# res://src/interfaces/options/preferences.tscn
+# res://src/interfaces/options/server.gd
+# res://src/interfaces/options/server.tscn
+# res://src/dialogs/custom_ai_download_window.gd
+# res://src/dialogs/custom_ai_download_window.tscn
+#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AIdventure\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Lyaaaaa <lyaaaaa@lyaaaaagames.com>\n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.2\n"
+
+#: src/interfaces/ai_info.gd src/interfaces/ai_info.tscn
+msgid "?"
+msgstr "?"
+
+#: src/interfaces/ai_info.tscn
+msgid "Size"
+msgstr "Размер"
+
+#: src/interfaces/ai_info.tscn
+msgid "Space on disk"
+msgstr "Место на диске"
+
+#: src/interfaces/ai_info.tscn
+msgid "Number of files"
+msgstr "Количество файлов"
+
+#: src/interfaces/ai_info.tscn
+msgid "RAM needed"
+msgstr "Требуемое кол-во оперативной памяти"
+
+#: src/interfaces/ai_info.tscn
+msgid "VRAM needed"
+msgstr "Требуемое кол-во видеопамяти"
+
+#: src/interfaces/ai_info.tscn src/custom_nodes/story_element_info.tscn
+msgid "Language"
+msgstr "Язык"
+
+#: src/interfaces/ai_info.tscn
+msgid "Description"
+msgstr "Описание"
+
+#: src/interfaces/ai_menu.tscn src/custom_nodes/filters_inputs.tscn
+msgid "Filter by name"
+msgstr "Фильтр по имени"
+
+#: src/interfaces/ai_menu.tscn
+msgid "Installed AI"
+msgstr "Установленный ИИ"
+
+#: src/interfaces/ai_menu.tscn
+msgid "NSFW AI"
+msgstr "NSFW ИИ"
+
+#: src/interfaces/ai_menu.tscn
+msgid "Custom AI"
+msgstr "Пользовательский ИИ"
+
+#: src/interfaces/ai_menu.tscn src/custom_nodes/filters_inputs.tscn
+msgid "Filter by language"
+msgstr "Фильтр по языку"
+
+#: src/interfaces/ai_menu.tscn src/custom_nodes/filters_inputs.tscn
+msgid "Reset filters"
+msgstr "Сбросить фильтры"
+
+#: src/interfaces/ai_menu.tscn
+msgid "Artificial intelligences"
+msgstr "Искусственный интеллект"
+
+#: src/interfaces/ai_menu.tscn
+msgid "Download custom AI"
+msgstr "Скачать пользовательский ИИ"
+
+#: src/interfaces/ai_menu.tscn src/interfaces/translator_menu.tscn
+msgid "Download AI"
+msgstr "Скачать ИИ"
+
+#: src/interfaces/ai_menu.tscn
+msgid "Open AIs' folder"
+msgstr "Открыть папку с ИИ"
+
+#: src/interfaces/ai_menu.tscn src/interfaces/translator_menu.tscn
+msgid "Delete AI"
+msgstr "Удалить ИИ"
+
+#: src/interfaces/ai_menu.tscn
+msgid "Save settings"
+msgstr "Сохранить настройки"
+
+#: src/interfaces/ai_menu.tscn
+msgid "Save settings to all AIs"
+msgstr "Сохранить настройки для всех ИИ"
+
+#: src/interfaces/ai_menu.tscn
+msgid "Reset AI's settings"
+msgstr "Сбросить настройки ИИ"
+
+#: src/interfaces/ai_menu.tscn
+msgid "Reset all AIs settings"
+msgstr "Сбросить настройки для всех ИИ"
+
+#: src/interfaces/ai_menu.tscn src/interfaces/lorebook_menu.tscn
+#: src/interfaces/scenario_menu.tscn src/interfaces/translator_menu.tscn
+#: src/dialogs/ask_custom_ai_name_popup.tscn
+#: src/custom_nodes/options_buttons.tscn src/dialogs/server_off_warning.tscn
+#: src/interfaces/character_menu.tscn src/interfaces/server_menu.tscn
+msgid "Close"
+msgstr "Закрыть"
+
+#: src/interfaces/ai_options.tscn
+msgid "AI settings"
+msgstr "Настройки ИИ"
+
+#: src/interfaces/ai_options.tscn
+msgid "The maximum words to be generated."
+msgstr "Максимальное количество слов для генерации."
+
+#: src/interfaces/ai_options.tscn
+msgid "Generation's max length"
+msgstr "Максимальная длина генерации"
+
+#: src/interfaces/ai_options.tscn
+msgid ""
+"Make the generated text more or less coherent. Commonly named "
+"\"Temperature\", 0 means no randomness."
+msgstr ""
+"Делает генерируемый текст более менее последовательным. Обычно называется "
+"\"Температурой\", 0 значит никакой случайности в тексте."
+
+#: src/interfaces/ai_options.tscn
+msgid "Randomness"
+msgstr "Случайность"
+
+#: src/interfaces/ai_options.tscn
+msgid ""
+"If greater than 1.0, penalizes repetition in a text to avoid infinite "
+"loops.\n"
+"1 means no penalty."
+msgstr ""
+"Больше чем 1.0, предупреждает повторение в тексте, чтобы избежать "
+"бесконечное повторение.\n"
+"1 значит без предупреждений."
+
+#: src/interfaces/ai_options.tscn
+msgid "Repetition penalty"
+msgstr "Предупреждаемость повторений"
+
+#: src/interfaces/ai_options.tscn
+msgid ""
+"The maximum amount of time you allow the AI to generate text, in seconds."
+msgstr ""
+"Максимальное количество времени разрешенное ИИ для генерации текста, в "
+"секундах."
+
+#: src/interfaces/ai_options.tscn
+msgid "Generation's max time"
+msgstr "Максимальное время для генерации"
+
+#: src/interfaces/ai_options.tscn
+msgctxt "characters like in a text. Not an individual."
+msgid "How many of the story's last characters the AI must remember."
+msgstr "Сколько последних символов из истории ИИ должен запомнить."
+
+#: src/interfaces/ai_options.tscn
+msgid "Context's max length"
+msgstr "Максимальная длина контекста"
+
+#: src/interfaces/ai_options.tscn
+msgctxt "characters like in a text. Not an individual."
+msgid "How many characters the memory can hold."
+msgstr "Сколько символов может удерживаться в памяти."
+
+#: src/interfaces/ai_options.tscn
+msgid "Memory's max length"
+msgstr "Максимальная длина памяти"
+
+#: src/interfaces/ai_options.tscn
+msgid ""
+"If a model doesn’t fully fit in VRAM, it will offload the rest on the CPU "
+"(RAM), or even the hard drive if you don’t have enough RAM."
+msgstr ""
+"Если модель не полностью помещается во VRAM, она разгрузит остальную часть "
+"ЦП (ОЗУ) или даже жесткого диска, если у вас недостаточно оперативной памяти."
+
+#: src/interfaces/ai_options.tscn
+msgid "Offload model"
+msgstr "Разгрузить модель"
+
+#: src/interfaces/ai_options.tscn
+msgid ""
+"Limiting the memory will force the server to never use more memory than "
+"specified for loading a model.\n"
+"It might still go over it while generating text.\n"
+"Therefore, if you want to limit the RAM usage to 10000 Mb, you should "
+"probably set it to 9500Mb.\n"
+"Same for the VRAM limit."
+msgstr ""
+"Ограничение памяти заставить сервер не использовать больше памяти чем "
+"указано для загрузки модели.\n"
+"Он всё равно может выйти за ограничение при генерации текста.\n"
+"В таком случае если вы хотите ограничить использование оперативной памяти до "
+"10000 Мб, стоит поставить ограничение на 9500 Мб.\n"
+"Так же и с ограничением для видеопамяти."
+
+#: src/interfaces/ai_options.tscn
+msgid "Limit memory usage"
+msgstr "Ограничить использование памяти"
+
+#: src/interfaces/ai_options.tscn
+msgid "Display advanced options"
+msgstr "Отображать дополнительные настройки"
+
+#: src/interfaces/ai_options.tscn
+msgid "Advanced options"
+msgstr "Дополнительные настройки"
+
+#: src/interfaces/ai_options.tscn
+msgid ""
+"It is recommended to only edit the advanced options if you know what you are "
+"doing.\n"
+"If you happen to \"break\" the generation, just press the \"reset\" button."
+msgstr ""
+"Рекомендуется изменять дополнительные настройки только в том случае, если вы "
+"знаете, что делаете.\n"
+"Если вы случайно \"сломаете\" генерацию, просто нажмите кнопку \"сброса\"."
+
+#: src/interfaces/ai_options.tscn
+msgid ""
+"This is an experimental feature.\n"
+"It reduces by ~2 the memory needed by the server."
+msgstr ""
+"Это экспериментальная функция.\n"
+"Она уменьшает количество памяти, нужное серверу на ~2."
+
+#: src/interfaces/ai_options.tscn
+msgid "Low RAM mode"
+msgstr "Режим низкой оперативной памяти"
+
+#: src/interfaces/ai_options.tscn
+msgid ""
+"Enable randomly picking the next word.\n"
+"It limits the repetition."
+msgstr ""
+"Разрешает случайный выбор следующих слов.\n"
+"Ограничивает повторение."
+
+#: src/interfaces/ai_options.tscn
+msgid "Do sample"
+msgstr "Do sample"
+
+#: src/interfaces/ai_options.tscn
+msgid ""
+"The K most likely next words are filtered and the probability mass is "
+"redistributed\n"
+"among only those K next words.\n"
+"Set to 0 to disable it."
+msgstr ""
+"K наиболее вероятных следующих слов фильтруются и масса вероятности "
+"перераспределяется.\n"
+"среди только этих K следующих слов.\n"
+"Установите на 0, чтобы отключить."
+
+#: src/interfaces/ai_options.tscn
+msgid "Top k"
+msgstr "Топ К"
+
+#: src/interfaces/ai_options.tscn
+msgid ""
+"Chooses from the smallest possible set of words whose cumulative probability "
+"exceeds the probability p.\n"
+"The probability mass is then redistributed among this set of words.\n"
+"If set to < 1, only the most probable tokens with probabilities that\n"
+"add up to top_p or higher are kept for generation.\n"
+"Set to 0 to disable it."
+msgstr ""
+"Выбирает из наименьшего возможного набора слов, совокупная вероятность "
+"которых превышает вероятность p.\n"
+"Затем вероятностная масса перераспределяется между этим набором слов.\n"
+"Если установлено значение < 1, будут использоваться только наиболее "
+"вероятные токены с вероятностью,\n"
+"добавить до top_p или выше, сохраняются для генерации.\n"
+"Установите на 0, чтобы отключить."
+
+#: src/interfaces/ai_options.tscn
+msgid "Top p"
+msgstr "Топ р"
+
+#: src/interfaces/ai_options.tscn
+msgid ""
+"If greater than 1, executes beam search for cleaner text.\n"
+"1 means no beam search."
+msgstr ""
+"Если выше 1, производит лучевой поиск для чистого текста.\n"
+"1 значит нет лучевому поиску."
+
+#: src/interfaces/ai_options.tscn
+msgid "Number of beams"
+msgstr "Количество лучей"
+
+#: src/interfaces/ai_options.tscn
+msgid ""
+"Token length to avoid repeating given phrases.\n"
+"Set to 0 to disable it."
+msgstr ""
+"Длина токена для избежания повторения заданных фраз.\n"
+"Установите на 0, чтобы отключить."
+
+#: src/interfaces/ai_options.tscn
+msgid "No repeat ngram size"
+msgstr "No repeat ngram size"
+
+#: src/interfaces/ai_options.tscn
+msgid ""
+"If the weight of the CPU state dictionnary + the biggest shard of the "
+"checkpoint does not fit,\n"
+"will temporarily offload the CPU state dictionary to the hard drive to avoid "
+"getting out of CPU RAM."
+msgstr ""
+"Если вес словаря состояний ЦП + самый большой шард контрольной точки не "
+"помещается,\n"
+"временно выгрузит словарь состояния ЦП на жесткий диск, чтобы не исчерпать "
+"ОЗУ ЦП."
+
+#: src/interfaces/ai_options.tscn
+msgid "Offload dictionary"
+msgstr "Разгрузить словарь"
+
+#: src/interfaces/ai_options.tscn
+msgid "Change how the AI is dispatched on the GPU and CPU."
+msgstr "Измените способ распределения ИИ на GPU и CPU."
+
+#: src/interfaces/ai_options.tscn
+msgid "Device map"
+msgstr "Device map"
+
+#: src/interfaces/ai_options.tscn
+msgid ""
+"A torch.dtype is an object that represents the data type of a torch.Tensor. "
+"PyTorch has twelve different data types."
+msgstr ""
+"Torch.dtype это объект, представляющий тип данных torch.Tensor. PyTorch "
+"имеет двенадцать различных типов данных."
+
+#: src/interfaces/ai_options.tscn
+msgid "Torch Dtype"
+msgstr "Torch Dtype"
+
+#: src/interfaces/edit_bar.tscn
+#: src/custom_nodes/ask_name_dialog/ask_name_dialog.tscn
+#: src/dialogs/select_lorebook_dialog.tscn
+msgid "Cancel"
+msgstr "Отмена"
+
+#: src/interfaces/edit_bar.tscn src/dialogs/hardware_form/hardware_form.tscn
+msgid "Previous"
+msgstr "Назад"
+
+#: src/interfaces/edit_bar.tscn src/dialogs/hardware_form/hardware_form.tscn
+msgid "Next"
+msgstr "Вперед"
+
+#: src/interfaces/edit_bar.tscn
+msgid "Ask another generation"
+msgstr "Попросить другую генерацию"
+
+#: src/interfaces/edit_bar.tscn src/interfaces/character_menu.tscn
+msgid "Validate"
+msgstr "Подтвердить"
+
+#: src/interfaces/input_bar.tscn
+msgid "Undo"
+msgstr "Отменить"
+
+#: src/interfaces/input_bar.tscn
+msgid "Redo"
+msgstr "Повторить"
+
+#: src/interfaces/input_bar.tscn
+msgid "Lorebook"
+msgstr "Энциклопедия"
+
+#: src/interfaces/input_bar.tscn
+msgctxt "characters like an individual. Not like characters in a word."
+msgid "Character"
+msgstr "Персонаж"
+
+#: src/interfaces/input_bar.tscn
+msgid "Click to modify memory."
+msgstr "Нажмите, чтобы модифицировать память."
+
+#: src/interfaces/input_bar.tscn src/interfaces/scenario_info.tscn
+#: src/dialogs/memory_dialog.tscn
+msgid "Memory"
+msgstr "Память"
+
+#: src/interfaces/input_bar.tscn
+msgid "Click to switch of mode."
+msgstr "Нажмите, чтобы переключить режим."
+
+#: src/interfaces/input_bar.tscn src/interfaces/scenario_info.tscn
+#: src/autoload/strings.gd
+msgid "Story"
+msgstr "История"
+
+#: src/interfaces/input_bar.tscn src/autoload/strings.gd
+msgid "The knight draws his sword and takes a step forward."
+msgstr "Рыцарь обнажает меч и делает шаг вперед."
+
+#: src/interfaces/input_bar.tscn
+msgid "Generate"
+msgstr "Сгенерировать"
+
+#: src/interfaces/lorebook_info.tscn
+msgid "Export"
+msgstr "Экспорт"
+
+#: src/interfaces/lorebook_info.tscn
+msgid "Import"
+msgstr "Импорт"
+
+#: src/interfaces/lorebook_info.tscn
+msgid "Rename"
+msgstr "Переименовать"
+
+#: src/interfaces/lorebook_info.tscn
+msgid "Add"
+msgstr "Добавить"
+
+#: src/interfaces/lorebook_info.tscn src/custom_nodes/edit_buttons.tscn
+msgid "Delete"
+msgstr "Удалить"
+
+#: src/interfaces/lorebook_menu.tscn
+msgid "Lorebooks"
+msgstr "Энциклопедии"
+
+#: src/interfaces/lorebook_menu.tscn
+msgid "Open Lorebooks' folder."
+msgstr "Открыть папку с энциклопедиями."
+
+#: src/interfaces/main_menu.gd src/interfaces/main_menu.tscn
+msgid "Buy the complete version to unlock."
+msgstr "Купите полную версию, чтобы открыть."
+
+#: src/interfaces/main_menu.tscn src/interfaces/scenario_menu.tscn
+msgid "Play"
+msgstr "Играть"
+
+#: src/interfaces/main_menu.tscn
+msgid "Create"
+msgstr "Создать"
+
+#: src/interfaces/main_menu.tscn
+msgid "Steam Workshop"
+msgstr "Мастерская Steam"
+
+#: src/interfaces/main_menu.tscn src/dialogs/escape_menu.tscn
+msgid "Options"
+msgstr "Настройки"
+
+#: src/interfaces/main_menu.tscn
+msgid "Community"
+msgstr "Сообщество"
+
+#: src/interfaces/main_menu.tscn
+msgid "Help"
+msgstr "Помощь"
+
+#: src/interfaces/main_menu.tscn
+msgid "Credits"
+msgstr "Создатели"
+
+#: src/interfaces/main_menu.tscn
+msgid "Exit"
+msgstr "Выход"
+
+#: src/interfaces/main_menu.tscn
+msgid "AIdventure "
+msgstr "АИдвенчура "
+
+#: src/interfaces/main_menu.tscn
+msgid "Copyright (c) 2022-Present Lyaaaaa Games™"
+msgstr "Копирайт (c) 2022-Сегодня Lyaaaaa Games™"
+
+#: src/interfaces/output_display.tscn
+msgid "Double click to edit the story."
+msgstr "Сделайте двойной клик для того, чтобы изменить историю."
+
+#: src/interfaces/output_display.tscn
+msgid ""
+"Press enter to validate.\n"
+"Press escape to cancel.\n"
+"Press shift + enter to insert a new line."
+msgstr ""
+"Нажмите Enter, чтобы подтвердить.\n"
+"Нажмтие ESC, чтобы отменить.\n"
+"Нажмите Shift + Enter, чтобы добавить новую строку."
+
+#: src/interfaces/scenario_menu.tscn
+msgid "Scenarios"
+msgstr "Сценарии"
+
+#: src/interfaces/scenario_menu.tscn
+msgid "Open scenarios' folder"
+msgstr "Открыть папку с сценариями"
+
+#: src/interfaces/scenario_menu.tscn
+msgid "Custom start"
+msgstr "Пользовательский старт"
+
+#: src/interfaces/splash_screen.tscn
+msgid "Lyaaaaa Games™"
+msgstr "Lyaaaaa Games™"
+
+#: src/interfaces/translator_menu.tscn
+msgid "Open AI's folder"
+msgstr "Открыть папку с ИИ"
+
+#: src/dialogs/asking_memory_size_pop_up.tscn
+msgid "How much memory do you want to allocate to the server?"
+msgstr "Сколько памяти вы хотите выделить на сервер?"
+
+#: src/dialogs/ask_custom_ai_name_popup.tscn
+msgid ""
+"Enter the name of the AI from huggingface.co.\n"
+"E.g: For https://huggingface.co/sshleifer/tiny-gpt2 enter sshleifer/tiny-gpt2"
+msgstr ""
+"Введите имя ИИ с huggingface.co\n"
+"Например: Для https://huggingface.co/sshleifer/tiny-gpt2 введите sshleifer/"
+"tiny-gpt2"
+
+#: src/dialogs/ask_custom_ai_name_popup.tscn
+msgid "enter the name of the AI"
+msgstr "введите имя ИИ"
+
+#: src/dialogs/ask_custom_ai_name_popup.tscn
+msgid ""
+"Customs AIs aren't tested. They might not work or be too big for your PC."
+msgstr ""
+"Пользовательские ИИ не тестированы. Они могут не работать или быть слишком "
+"большие для вашего ПК."
+
+#: src/dialogs/ask_custom_ai_name_popup.tscn
+msgid "Browse for AIs"
+msgstr "Просмотреть ИИ"
+
+#: src/dialogs/ask_custom_ai_name_popup.tscn
+msgid "Download"
+msgstr "Скачать"
+
+#: src/dialogs/confirmation_dialog.tscn
+#: src/dialogs/incompatible_memory_dialog.tscn
+#: src/interfaces/load_translator.tscn
+msgid "No"
+msgstr "Нет"
+
+#: src/dialogs/confirmation_dialog.tscn
+#: src/dialogs/incompatible_memory_dialog.tscn
+#: src/interfaces/load_translator.tscn
+msgid "Yes"
+msgstr "Да"
+
+#: src/dialogs/error_popup.tscn
+msgid "An error occured!"
+msgstr "Произошла ошибка!"
+
+#: src/dialogs/error_popup.tscn
+msgid "Report the error on Discord or the forum\n"
+msgstr "Отправьте ошибку в Discord или на форум\n"
+
+#: src/dialogs/error_popup.tscn
+msgid "Logs copied in the clipboard!"
+msgstr "Логи скопированы!"
+
+#: src/dialogs/error_popup.tscn
+msgid "Copy logs to clipboard\n"
+msgstr "Скопировать логи\n"
+
+#: src/dialogs/error_popup.tscn
+msgid "Forum"
+msgstr "Форум"
+
+#: src/dialogs/error_popup.tscn
+msgid "Main menu"
+msgstr "Главное меню"
+
+#: src/dialogs/escape_menu.tscn
+msgid "AIdventure"
+msgstr "АИдвенчура"
+
+#: src/dialogs/escape_menu.tscn
+msgid "Resume"
+msgstr "Продолжить"
+
+#: src/dialogs/escape_menu.tscn src/interfaces/end_demo.tscn
+msgid "Return to main menu"
+msgstr "Вернуться в главное меню"
+
+#: src/dialogs/escape_menu.tscn
+msgid "Exit the game"
+msgstr "Выйти из игры"
+
+#: src/dialogs/incompatible_memory_dialog.tscn
+msgid ""
+"The \"Memory max length\" defined in your option is too small for this "
+"scenario.\n"
+"Memory length required :"
+msgstr ""
+"Ваша настройка \"Максимальная длина памяти\" слишком мала для данного "
+"сценария.\n"
+"Нужная длина памяти :"
+
+#: src/dialogs/incompatible_memory_dialog.tscn
+msgid ""
+"Do you want to change the \"Memory max length\" option to play this scenario "
+"in the best conditions?"
+msgstr ""
+"Вы хотите изменить настройку \"Максимальная длина памяти\" чтобы сыграть "
+"этот сценарий в лучших условиях?"
+
+#: src/dialogs/installation_popup.gd src/dialogs/installation_popup.tscn
+msgid ""
+"The game didn't find the installation. Please, run the installer and install "
+"the game."
+msgstr ""
+"Игра не нашла установку. Пожалуйста, запустите установщик и установите игру."
+
+#: src/dialogs/installation_popup.gd src/dialogs/installation_popup.tscn
+msgid "Your installation is outdated. Please, run the installer and update."
+msgstr ""
+"Ваша установка устарела. Пожалуйста, запустите установщик и обновитесь."
+
+#: src/dialogs/installation_popup.gd src/dialogs/installation_popup.tscn
+msgid "Installer not found."
+msgstr "Установщек не найден."
+
+#: src/dialogs/installation_popup.tscn
+msgid "Launch the installer"
+msgstr "Запустить установщик"
+
+#: src/dialogs/installation_popup.tscn
+#: src/dialogs/hardware_form/hardware_form.tscn
+msgid "Skip"
+msgstr "Пропустить"
+
+#: src/dialogs/installation_popup.tscn
+msgid "I already installed the game\n"
+msgstr "Я уже установил игру\n"
+
+#: src/dialogs/intro_demo_popup.tscn
+msgid "Thank you for downloading AIdventure's demo!"
+msgstr "Спасибо за скачивание демо АИдвенчуры!"
+
+#: src/dialogs/intro_demo_popup.tscn
+msgid "The following features are disabled in the demo:"
+msgstr "На данный момент в демо отключены:"
+
+#: src/dialogs/intro_demo_popup.tscn
+msgid ""
+"The creation menu\n"
+"Custom scenarios\n"
+"Connecting to a remote server\n"
+"Steam Workshop menu"
+msgstr ""
+"Меню создания\n"
+"Пользовательские сценарии\n"
+"Подключение к удаленному серверу\n"
+"Меню Steam Мастерской"
+
+#: src/dialogs/intro_demo_popup.tscn
+msgid "You also have a limited number of AIs:"
+msgstr "У вас так же ограниченное количество ИИ:"
+
+#: src/dialogs/intro_demo_popup.tscn
+msgctxt "characters like in a text. Not an individual."
+msgid "The stories are limited to a maximum number of characters:"
+msgstr "Истории лимитированы определенному количеству символов:"
+
+#: src/dialogs/intro_demo_popup.tscn
+msgid "Play the game"
+msgstr "Начать игру"
+
+#: src/dialogs/intro_demo_popup.tscn src/interfaces/end_demo.tscn
+msgid "Join the community"
+msgstr "Присоединиться к сообществу"
+
+#: src/dialogs/intro_demo_popup.tscn
+msgid "Buy the game"
+msgstr "Купить игру"
+
+#: src/dialogs/memory_dialog.tscn
+msgid "Write here what the AI must always remember."
+msgstr "Напишите здесь что ИИ должен помнить всегда."
+
+#: src/dialogs/wait_dialog.tscn
+msgid "Please, wait"
+msgstr "Пожалуйста, подождите"
+
+#: src/custom_nodes/download_window.tscn
+msgid "AI downloading"
+msgstr "ИИ скачивается"
+
+#: src/custom_nodes/download_window.tscn
+#: src/dialogs/custom_ai_download_window.tscn
+msgid "Please wait until the download is done."
+msgstr "Пожалуйста, дождитесь окончания скачивания."
+
+#: src/custom_nodes/edit_buttons.tscn
+msgid "Enable edition"
+msgstr "Включить редактирование"
+
+#: src/custom_nodes/edit_buttons.tscn
+msgid "Show embedded lorebook"
+msgstr "Показать встроенный энциклопедию"
+
+#: src/custom_nodes/edit_buttons.tscn
+msgid "Merge the entries of multiple lorebooks together."
+msgstr "Объединить записи нескольких энциклопедий."
+
+#: src/custom_nodes/edit_buttons.tscn
+msgid "Merge entries"
+msgstr "Объединить записи"
+
+#: src/custom_nodes/edit_buttons.tscn
+msgid "Translate"
+msgstr "Перевести"
+
+#: src/custom_nodes/edit_buttons.tscn src/custom_nodes/options_buttons.tscn
+msgid "Save"
+msgstr "Сохранить"
+
+#: src/custom_nodes/edit_buttons.tscn
+msgid "Save as"
+msgstr "Сохранить как"
+
+#: src/custom_nodes/filters_inputs.tscn
+msgid "Filter by workshop"
+msgstr "Фильтр мастерской"
+
+#: src/custom_nodes/generator_preset_options_button.gd
+#: src/custom_nodes/generator_preset_options_button.tscn
+msgid "Memory saving preset."
+msgstr "Пресет настройки памяти."
+
+#: src/custom_nodes/generator_preset_options_button.gd
+#: src/custom_nodes/generator_preset_options_button.tscn
+msgid "Memory saving preset for CPU only."
+msgstr "Пресет настройки памяти только для CPU."
+
+#: src/custom_nodes/generator_preset_options_button.gd
+#: src/custom_nodes/generator_preset_options_button.tscn
+msgid "Performance preset."
+msgstr "Пресет производительности."
+
+#: src/custom_nodes/generator_preset_options_button.gd
+#: src/custom_nodes/generator_preset_options_button.tscn
+msgid "Performance preset for CPU only."
+msgstr "Пресет производительности только для CPU."
+
+#: src/custom_nodes/notification.tscn
+msgid "AIdventure notification"
+msgstr "АИдвенчура уведомление"
+
+#: src/custom_nodes/story_element_info.tscn
+msgid "Title"
+msgstr "Название"
+
+#: src/custom_nodes/story_element_info.tscn
+msgid "Author"
+msgstr "Автор"
+
+#: src/custom_nodes/story_element_info.tscn
+msgid "Steam Workshop ID"
+msgstr "ID мастерской Steam"
+
+#: src/custom_nodes/story_element_info.tscn
+msgid "Category"
+msgstr "Категория"
+
+#: src/custom_nodes/ask_name_dialog/ask_name_dialog.tscn
+msgid "Enter a name."
+msgstr "Введите имя."
+
+#: src/custom_nodes/ask_name_dialog/ask_name_dialog.tscn
+msgid "Cool name"
+msgstr "Крутое имя"
+
+#: src/custom_nodes/ask_name_dialog/ask_name_dialog.tscn
+msgid "This name is already taken. Please, choose another one."
+msgstr "Это имя уже занято. Пожалуйста, выберите другое имя."
+
+#: src/custom_nodes/ask_name_dialog/ask_name_dialog.tscn
+#: src/dialogs/select_lorebook_dialog.tscn
+#: src/dialogs/hardware_form/hardware_form.tscn
+msgid "Ok"
+msgstr "Ок"
+
+#: src/classes/client.gd
+msgid "Closed the connection with the server."
+msgstr "Закрыто подключение с сервером."
+
+#: src/classes/client.gd
+msgid "Failed to connect to the server."
+msgstr "Не удалось подключиться к серверу."
+
+#: src/classes/client.gd
+msgid "Connection established with the server."
+msgstr "Установлено подключение к серверу."
+
+#: src/classes/client.gd
+msgid "Text generated."
+msgstr "Текст сгенерирован."
+
+#: src/classes/client.gd
+msgid "Generator loaded."
+msgstr "Генератор загружен."
+
+#: src/classes/client.gd
+msgid "Failed loading Generator."
+msgstr "Ошибка при загрузке Генератора."
+
+#: src/classes/client.gd
+msgid "Translators loaded."
+msgstr "Переводчики загружены."
+
+#: src/dialogs/merge_lorebook_dialog.tscn
+msgid ""
+"If enabled, the source lorebook will overwrite conflicting entries.\n"
+"If disabled, no entry will be erased but the conflicting entries will be "
+"renamed."
+msgstr ""
+"Если включено, источник из энциклопедии перезапишет конфликтующие записи.\n"
+"Если выключено, записи не будут удалены, но конфликтующие записи будут "
+"переименованы."
+
+#: src/dialogs/merge_lorebook_dialog.tscn
+msgid "Allow overwriting"
+msgstr "Разрешить перезапись"
+
+#: src/dialogs/select_lorebook_dialog.tscn
+msgid "Select a lorebook to import."
+msgstr "Выбрать энциклопедию для импорта."
+
+#: src/custom_nodes/display_options_button.gd
+#: src/custom_nodes/display_options_button.tscn
+msgid "Windowed"
+msgstr "В окне"
+
+#: src/custom_nodes/display_options_button.gd
+#: src/custom_nodes/display_options_button.tscn
+msgid "Fullscreen"
+msgstr "Полный экран"
+
+#: src/custom_nodes/display_options_button.gd
+#: src/custom_nodes/display_options_button.tscn
+msgid "Borderless"
+msgstr "Без рамок"
+
+#: src/custom_nodes/h_slider_with_counter.tscn
+msgid "50"
+msgstr "50"
+
+#: src/custom_nodes/load_generator.tscn
+msgid "Select an AI for your game."
+msgstr "Выбрать ИИ для вашей игры."
+
+#: src/custom_nodes/load_generator.tscn
+msgid "Buy the game to unlock more powerful AIs"
+msgstr "Купите игру, чтобы открыть более мощные ИИ"
+
+#: src/custom_nodes/load_generator.tscn
+msgid "Load AI"
+msgstr "Загрузить ИИ"
+
+#: src/custom_nodes/load_generator.tscn
+msgid "Manage AIs"
+msgstr "Управлять ИИ"
+
+#: src/custom_nodes/memory_sliders.tscn
+msgid "The maximum GPU memory allowed to be used by the Generator."
+msgstr "Максимальная память GPU, разрешенная для использования Генератором."
+
+#: src/custom_nodes/memory_sliders.tscn
+msgid "Max VRAM"
+msgstr "Максимальное количество видеопамяти"
+
+#: src/custom_nodes/memory_sliders.tscn
+msgid "The maximum memory allowed to be used by the Generator."
+msgstr ""
+"Максимальное количество памяти, разрешенное для использования Генератором."
+
+#: src/custom_nodes/memory_sliders.tscn
+msgid "Max RAM"
+msgstr "Максимальная оперативная память"
+
+#: src/custom_nodes/options_buttons.tscn
+msgid "Reset"
+msgstr "Сброс"
+
+#: src/custom_nodes/pov_options_button.gd
+#: src/custom_nodes/pov_options_button.tscn
+msgid "First person"
+msgstr "От первого лица"
+
+#: src/custom_nodes/pov_options_button.gd
+#: src/custom_nodes/pov_options_button.tscn
+msgid "Second person"
+msgstr "От второго лица"
+
+#: src/custom_nodes/server_log_display.tscn
+msgid "Copy logs to clipboard"
+msgstr "Скопировать логи"
+
+#: src/autoload/strings.gd
+msgid "Select a language."
+msgstr "Выберите язык."
+
+#: src/autoload/strings.gd
+msgid "Failed loading translator."
+msgstr "Ошибка при загрузке переводчика."
+
+#: src/autoload/strings.gd
+msgid "Translation in progress."
+msgstr "Перевод в прогрессе."
+
+#: src/autoload/strings.gd
+msgid "Scenario's translation over."
+msgstr "Перевод сценария закончен."
+
+#: src/autoload/strings.gd
+msgid "Lorebook's translation over."
+msgstr "Перевод энциклопедий закончен."
+
+#: src/autoload/strings.gd
+msgid "Memory's translation in progress."
+msgstr "Перевод памяти в прогрессе."
+
+#: src/autoload/strings.gd
+msgid "Story's translation in progress."
+msgstr "Перевод истории в прогрессе."
+
+#: src/autoload/strings.gd
+msgid "Lorebook's translation in progress."
+msgstr "Перевод энциклопедии в прогрессе."
+
+#: src/autoload/strings.gd
+msgid "Scenario saved."
+msgstr "Сценарий сохранен."
+
+#: src/autoload/strings.gd
+msgid "Error, can't save scenario."
+msgstr "Ошибка, нельзя сохранить сценарий."
+
+#: src/autoload/strings.gd
+msgid "empty your bucket of water on the knight's head."
+msgstr "вылить ведро воды на голову рыцаря."
+
+#: src/autoload/strings.gd
+msgid "conceal the stolen ring in your pocket."
+msgstr "спрятать украденное кольцо в кармане."
+
+#: src/autoload/strings.gd
+msgid "Sir, is that your mule or your mother?"
+msgstr "Сэр, это ваш мул или ваша мать?"
+
+#: src/autoload/strings.gd
+msgid "Do"
+msgstr "Сделать"
+
+#: src/autoload/strings.gd
+msgid "Say"
+msgstr "Сказать"
+
+#: src/autoload/strings.gd
+msgid "Try"
+msgstr "Попытаться"
+
+#: src/autoload/strings.gd
+msgid "Failed sending data to the server."
+msgstr "Не удалось отправить данные на сервер."
+
+#: src/autoload/strings.gd
+msgid "Couldn't save game."
+msgstr "Не удалось сохранить игру."
+
+#: src/autoload/strings.gd
+msgid "Successfully saved the lorebook."
+msgstr "Успешно сохранено в энциклопедию."
+
+#: src/autoload/strings.gd
+msgid "Error, can't save the lorebook."
+msgstr "Ошибка, невозможно сохранить энциклопедию."
+
+#: src/autoload/strings.gd
+msgid "Added the following entry."
+msgstr "Добавлена следущая запись."
+
+#: src/autoload/strings.gd
+msgid "Error, can't add the entry."
+msgstr "Ошибка, невозможно добавить запись."
+
+#: src/autoload/strings.gd
+msgid "Deleted the entry."
+msgstr "Удалить запись."
+
+#: src/autoload/strings.gd
+msgid "Error, can't delete entry."
+msgstr "Ошибка, невозможно удалить запись."
+
+#: src/autoload/strings.gd
+msgid "Renamed the entry."
+msgstr "Запись переименована."
+
+#: src/autoload/strings.gd
+msgid "Error, can't rename the entry."
+msgstr "Ошибка, невозможно переименовать запись."
+
+#: src/autoload/strings.gd
+msgid "Successfully exported the lorebook."
+msgstr "Энциклопедия успешно экспортирована."
+
+#: src/autoload/strings.gd
+msgid "Error, can't export the lorebook."
+msgstr "Ошибка, невозможно экспортировать энциклопедию."
+
+#: src/autoload/strings.gd
+msgid "The server is off."
+msgstr "Сервер выключен."
+
+#: src/autoload/strings.gd
+msgctxt "The first person pronoun. It is placed before the user's input."
+msgid "I"
+msgstr "Я"
+
+#: src/autoload/strings.gd
+msgctxt "The second person pronoun. It is placed before the user's input."
+msgid "You"
+msgstr "Ты"
+
+#: src/autoload/strings.gd
+msgctxt "Conjugate say for I. E.g: I say. (Don't add uppercase)"
+msgid "say"
+msgstr "говорю"
+
+#: src/autoload/strings.gd
+msgctxt "Conjugate say for You. E.g: You say. (Don't add uppercase)"
+msgid "say"
+msgstr "говоришь"
+
+#: src/autoload/strings.gd
+msgctxt "Conjugate for I. E.g: I succeed to. (Don't add uppercase)"
+msgid "succeed to"
+msgstr "справляюсь с"
+
+#: src/autoload/strings.gd
+msgctxt "Conjugate for You. E.g: You succeed to. (Don't add uppercase)"
+msgid "succeed to"
+msgstr "справляешься с"
+
+#: src/autoload/strings.gd
+msgctxt "E.g: You satisfyingly punch the man. (Don't add uppercase)"
+msgid "satisfyingly"
+msgstr "удовлетворительно"
+
+#: src/autoload/strings.gd
+msgctxt "E.g: You competently punch the man. (Don't add uppercase)"
+msgid "competently"
+msgstr "компетентно"
+
+#: src/autoload/strings.gd
+msgctxt "E.g: You perfectly punch the man. (Don't add uppercase)"
+msgid "perfectly"
+msgstr "идеально"
+
+#: src/autoload/strings.gd
+msgctxt "E.g: You fail to punch the man (Don't add uppercase)"
+msgid "fail to"
+msgstr "не можешь"
+
+#: src/autoload/strings.gd
+msgctxt "E.g: I fail to punch the man (Don't add uppercase)"
+msgid "fail to"
+msgstr "не могу"
+
+#: src/autoload/strings.gd
+msgctxt "E.g: I pathetically fail to punch the man (Don't add uppercase)"
+msgid "pathetically fail to"
+msgstr "не в состоянии"
+
+#: src/autoload/strings.gd
+msgctxt "E.g: You pathetically fail to punch the man (Don't add uppercase)"
+msgid "pathetically fail to"
+msgstr "не в состоянии"
+
+#: src/autoload/strings.gd
+msgid "Visible to everyone."
+msgstr "Видно для всех."
+
+#: src/autoload/strings.gd
+msgid "Visible to friends only."
+msgstr "Видно только для друзей."
+
+#: src/autoload/strings.gd
+msgid "Only visible to the creator."
+msgstr "Видно только автору."
+
+#: src/autoload/strings.gd
+msgid ""
+"Visible to everyone, but will not be returned in any global queries.\n"
+"Will also not be returned in any user lists unless the caller is the creator "
+"or a subscriber."
+msgstr ""
+"Виден всем, но не будет возвращен ни в одном глобальном запросе.\n"
+"Также не будет возвращаться в списках пользователей, если только вызывающий "
+"не является создателем или подписчиком."
+
+#: src/autoload/strings.gd
+msgid "Couldn't edit the Workshop item."
+msgstr "Не удалось отредактировать предмет Мастерской."
+
+#: src/autoload/strings.gd
+msgid "Couldn't upload to the Workshop."
+msgstr "Не удалось загрузить в Мастерскую."
+
+#: src/autoload/strings.gd
+msgid "Successfully uploaded to the Workshop."
+msgstr "Успешно загружено в Мастерскую."
+
+#: src/autoload/strings.gd
+msgid "Successfully updated the Workshop item."
+msgstr "Файл Мастерской успешно обновлен."
+
+#: src/autoload/strings.gd
+msgid "File deleted."
+msgstr "Файл удален."
+
+#: src/autoload/strings.gd
+msgid "Error, can't delete file."
+msgstr "Ошибка, невозможно удалить файл."
+
+#: src/autoload/strings.gd
+msgid "AI deleted."
+msgstr "ИИ удален."
+
+#: src/autoload/strings.gd
+msgid "Error, can't delete AI."
+msgstr "Ошибка, невозможно удалить ИИ."
+
+#: src/autoload/strings.gd
+msgid "AI added to download's queue."
+msgstr "ИИ добавлен в очередь на скачивание."
+
+#: src/autoload/strings.gd
+msgid "This custom AI is already installed."
+msgstr "Этот пользовательский ИИ уже установлен."
+
+#: src/autoload/strings.gd
+msgid "AI downloaded."
+msgstr "ИИ скачан."
+
+#: src/autoload/strings.gd
+msgid "Error, can't download AI."
+msgstr "Ошибка, невозможно скачать ИИ."
+
+#: src/autoload/strings.gd
+msgid "This AI is safe for work."
+msgstr "Этот ИИ безопасен для просмотра на работе."
+
+#: src/autoload/strings.gd
+msgid ""
+"This AI is moderately safe. It might still generate 'light' erotic content "
+"by itself!"
+msgstr ""
+"Этот ИИ относительно безопасен, но всё равно может содержать легкий "
+"эротический контент!"
+
+#: src/autoload/strings.gd
+msgid "This AI isn't safe for work! It will generate erotic content by itself!"
+msgstr ""
+"Этот ИИ не безопасен для просмотра на работе! Оно будет генерировать "
+"эротический контент сам по себе!"
+
+#: src/autoload/strings.gd
+msgid "This is a custom AI. It hasn't been tested and might not work."
+msgstr ""
+"Это пользовательский ИИ. Он ещё не был тестирован и может работать "
+"неправильно."
+
+#: src/dialogs/lorebook_info_popup_window.tscn
+msgid "Save changes"
+msgstr "Сохранить изменения"
+
+#: src/dialogs/server_off_warning.tscn
+msgid ""
+"To generate text the server has to be running.\n"
+"To translate text, you need to enable automatic translation."
+msgstr ""
+"Чтобы сгенерировать текст, сервер должен был включен.\n"
+"Чтобы перевести текст, нужно включить автоматический перевод."
+
+#: src/dialogs/server_off_warning.tscn
+msgid "Open server's menu"
+msgstr "Открыть меню сервера"
+
+#: src/dialogs/hardware_form/gpu_form.tscn
+msgid ""
+"This game uses CUDA to run AIs on your GPU.\n"
+"Do you have a Nvidia Graphical Card ?"
+msgstr ""
+"Эта игра использует CUDA, чтобы запускай ИИ на вашем GPU.\n"
+"У вас есть видеокарта от Nvidia ?"
+
+#: src/dialogs/hardware_form/gpu_form.tscn
+msgid "Yes, I have a Nvidia card"
+msgstr "Да, у меня есть видеокарта Nvidia"
+
+#: src/dialogs/hardware_form/gpu_form.tscn
+msgid "No, I don't have a Nvidia card"
+msgstr "Нет, у меня нет видеокарты Nvidia"
+
+#: src/dialogs/hardware_form/gpu_form.tscn
+msgid "I don't know"
+msgstr "Я не знаю"
+
+#: src/dialogs/hardware_form/gpu_form.tscn
+msgid "The list of the GPU compatible with CUDA"
+msgstr "Список GPU, поддерживающих CUDA"
+
+#: src/dialogs/hardware_form/gpu_form.tscn
+msgid "See supported cards"
+msgstr "Посмотреть поддерживающие видеокарты"
+
+#: src/dialogs/hardware_form/hardware_form.gd
+#: src/dialogs/hardware_form/hardware_form.tscn
+msgid "Successfully adapted settings to your hardware."
+msgstr "Настройки успешно подобраны для вашего оборудования."
+
+#: src/dialogs/hardware_form/hardware_form.gd
+#: src/dialogs/hardware_form/hardware_form.tscn
+msgid "Failed to adapt settings to your hardware."
+msgstr "Неудалось адаптировать настройки под ваше оборудование."
+
+#: src/dialogs/hardware_form/hardware_form.tscn
+msgid ""
+"AIdventure uses Artificial Intelligences (AIs). It's a tricky technology and "
+"can behave differently depending of your hardware.\n"
+"\n"
+"The game will try to adapt to your hardware as best as it can.\n"
+"This window will ask you multiple information to improve the automatic setup."
+msgstr ""
+"АИдвенчура использует Искусственный Интеллект (ИИ). Это сложная технология и "
+"может вести себя по разному в зависимости от вашего оборудования.\n"
+"\n"
+"Игра постарается адаптироваться под вашу операционную систему.\n"
+"Это окно спросит у вас определенную информацию для улучшения автоматиекой "
+"установки."
+
+#: src/dialogs/hardware_form/hardware_form.tscn
+msgid ""
+"Thank you for your time.\n"
+"You can exit by click on OK."
+msgstr ""
+"Спасибо за уделенное время.\n"
+"Вы можете выйти нажав на ОК."
+
+#: src/dialogs/hardware_form/memory_form.tscn
+msgid ""
+"Please, specify how much memory you want to allow AIdventure to use.\n"
+"You should always leave 2-4 GB of memory free for the OS and other "
+"applications."
+msgstr ""
+"Пожалуйста, уточните как много памяти вы хотите разрешить AIdventure.\n"
+"Всегда стоит оставлять 2-4 ГБ памяти свободными для ОС и других приложений."
+
+#: src/dialogs/hardware_form/memory_form.tscn
+msgid ""
+"You can choose to not limit memory.\n"
+"But you risk running out of memory."
+msgstr ""
+"Вы можете выбрать не ограничивать память.\n"
+"Но так вы рискуете остаться без памяти."
+
+#: src/dialogs/hardware_form/memory_form.tscn
+msgid "Don't limit memory"
+msgstr "Не ограничивать память"
+
+#: src/dialogs/hardware_form/memory_form.tscn
+msgid "I don't know how much memory I have"
+msgstr "Я не знаю, сколько у меня памяти"
+
+#: src/interfaces/character_menu.tscn
+msgctxt "character like an individual. Not like characters in a word."
+msgid "Character menu"
+msgstr "Меню персонажа"
+
+#: src/interfaces/character_menu.tscn
+msgid "Strength"
+msgstr "Сила"
+
+#: src/interfaces/character_menu.tscn
+msgid "Reroll"
+msgstr "Перебросить"
+
+#: src/interfaces/character_menu.tscn
+msgid "Constitution"
+msgstr "Выносливость"
+
+#: src/interfaces/character_menu.tscn
+msgid "Dexterity"
+msgstr "Ловкость"
+
+#: src/interfaces/character_menu.tscn
+msgid "Charisma"
+msgstr "Харизма"
+
+#: src/interfaces/character_menu.tscn
+msgid "Intelligence"
+msgstr "Интеллект"
+
+#: src/interfaces/character_menu.tscn
+msgid "Wisdom"
+msgstr "Мудрость"
+
+#: src/interfaces/character_menu.tscn
+msgid "Luck"
+msgstr "Удача"
+
+#: src/interfaces/character_menu.tscn
+msgid "Name"
+msgstr "Имя"
+
+#: src/interfaces/character_menu.tscn
+msgid "Arthur"
+msgstr "Артур"
+
+#: src/interfaces/character_menu.tscn
+msgid "Randomize"
+msgstr "Рандомизировать"
+
+#: src/interfaces/character_menu.tscn
+msgid "How does it work?"
+msgstr "Как это работает?"
+
+#: src/interfaces/character_menu.tscn
+msgid ""
+"Attributes are between 15 and 90.\n"
+"When you try an action, you must do a score above your value.\n"
+"If you have 50 in strength and use it to try an action. You have 50% chances "
+"of success."
+msgstr ""
+"Атрибуты расположены между 15 и 90.\vКогда вы применяете действие, вы должны "
+"получить результат больше вашего значения.\n"
+"Если у вас 50 силы и вы пытаетесь применить её в действии, у вас 50% шансов "
+"на успех."
+
+#: src/interfaces/character_menu.tscn
+msgid "Randomize everything."
+msgstr "Рандомизировать всё."
+
+#: src/interfaces/character_menu.tscn
+msgid "Roll the dice"
+msgstr "Бросить кубик"
+
+#: src/interfaces/end_demo.tscn
+msgid ""
+"Thank you for playing AIdventure's demo!\n"
+"You reached the limit.\n"
+"Buy the game to continue this adventure."
+msgstr ""
+"Спасибо за игру в демо АИдвенчуры!\n"
+"Вы достигли лимита.\n"
+"Купите игру для того, чтобы продолжить это приключение."
+
+#: src/interfaces/end_demo.tscn
+msgid "Buy"
+msgstr "Купить"
+
+#: src/interfaces/game_top_bar_menu.tscn
+msgid "Menu"
+msgstr "Меню"
+
+#: src/interfaces/game_top_bar_menu.tscn
+msgid "Server"
+msgstr "Сервер"
+
+#: src/interfaces/load_translator.tscn
+msgid "Do you want to use the automatic translation ?"
+msgstr "Вы хотите использовать автоматический перевод?"
+
+#: src/interfaces/load_translator.tscn
+msgid "Select the language for the automatic translation"
+msgstr "Выберите язык для автоматического перевода"
+
+#: src/interfaces/load_translator.tscn
+msgid "Load translators"
+msgstr "Загрузить переводчик"
+
+#: src/interfaces/load_translator.tscn
+msgid "Manage translators"
+msgstr "Управлять переводчиками"
+
+#: src/interfaces/load_translator.tscn
+msgid "Disable automatic translation"
+msgstr "Выключить автоматический перевод"
+
+#: src/interfaces/server_menu.gd src/interfaces/server_menu.tscn
+msgctxt "Running like in 'The server is running'"
+msgid "Running"
+msgstr "Работает"
+
+#: src/interfaces/server_menu.gd src/interfaces/server_menu.tscn
+msgid "Turned off"
+msgstr "Выключен"
+
+#: src/interfaces/server_menu.gd src/interfaces/server_menu.tscn
+msgid "Error"
+msgstr "Ошибка"
+
+#: src/interfaces/server_menu.tscn
+msgid "Server control center"
+msgstr "Центр контроля серверов"
+
+#: src/interfaces/server_menu.tscn
+msgid "Server status:"
+msgstr "Статус сервера:"
+
+#: src/interfaces/server_menu.tscn
+msgid "Start the server"
+msgstr "Запустить сервер"
+
+#: src/interfaces/server_menu.tscn
+msgid "Stop the server"
+msgstr "Остановить сервер"
+
+#: src/interfaces/server_menu.tscn
+msgid "The server is starting"
+msgstr "Сервер запускается"
+
+#: src/interfaces/server_menu.tscn
+msgid "Load Generator"
+msgstr "Запустить Генератор"
+
+#: src/interfaces/server_menu.tscn
+msgid "To load translators, you need to enable automatic translation"
+msgstr "Чтобы запустить переводчик, вам нужно включить автоматический перевод"
+
+#: src/interfaces/server_menu.tscn
+msgid "Enable automatic translation"
+msgstr "Включить автоматический перевод"
+
+#: src/interfaces/server_menu.tscn
+msgid "Load Translators"
+msgstr "Загрузить Переводчик"
+
+#: src/interfaces/start_game_workflow.tscn
+msgid "The server is starting."
+msgstr "Сервер запускается."
+
+#: src/interfaces/start_game_workflow.tscn
+msgid "Please, wait."
+msgstr "Пожалуйста, подождите."
+
+#: src/interfaces/start_game_workflow.tscn
+msgid "What do you want to do?"
+msgstr "Что вы хотите сделать?"
+
+#: src/interfaces/start_game_workflow.tscn
+msgid "New story"
+msgstr "Новая история"
+
+#: src/interfaces/start_game_workflow.tscn
+msgid "Load a story"
+msgstr "Загрузить историю"
+
+#: src/interfaces/start_game_workflow.tscn
+msgid "Select a save to load."
+msgstr "Выберите сохранение для загрузки."
+
+#: src/interfaces/start_game_workflow.tscn
+msgid "Load"
+msgstr "Загрузить"
+
+#: src/interfaces/start_game_workflow.tscn
+msgid "Return"
+msgstr "Вернуться"
+
+#: src/interfaces/options/preferences.tscn
+msgid "Display mode"
+msgstr "Режим отображения"
+
+#: src/interfaces/options/preferences.tscn
+msgid "Language of the interface"
+msgstr "Язык интерфейса"
+
+#: src/interfaces/options/preferences.tscn
+msgid "Default AI"
+msgstr "Стандартный ИИ"
+
+#: src/interfaces/options/preferences.tscn
+msgid ""
+"Delete the last sentence if the AI didn't 'finish' it by a punctuation "
+"(, ; : ! ? .).\n"
+"It might delete the whole output if \"max length\" is too small!"
+msgstr ""
+"Удалить последнее предложение если ИИ не закончил его на знаке препинания "
+"(, ; : ! ? .).\n"
+"Оно может удалить весь вывод если \"максимальная длина\" выставлена на "
+"минимум!"
+
+#: src/interfaces/options/preferences.tscn
+msgid "Remove unfinished sentences"
+msgstr "Убрать незавершенные предложения"
+
+#: src/interfaces/options/preferences.tscn
+msgid ""
+"It will hide the top bar in the game.\n"
+"You can still access the menu by pressing the ESC key."
+msgstr ""
+"Спрячет верхнюю панель в игре.\n"
+"Вы сможете получить доступ к ней нажав кнопку ESC."
+
+#: src/interfaces/options/preferences.tscn
+msgid "Hide top bar"
+msgstr "Спрятать верхнюю панель"
+
+#: src/interfaces/options/preferences.tscn
+msgid "It will use \"You\" or \"I\" in your inputs."
+msgstr "Будет использовать \"Ты\" или \"Я\" в вашем вводе."
+
+#: src/interfaces/options/preferences.tscn
+msgid "Point of view"
+msgstr "Точка зрения"
+
+#: src/interfaces/options/preferences.tscn
+msgid ""
+"You can add custom fonts to the list.\n"
+"- Create a \"fonts\" folder in the game folder\n"
+"- Download fonts online (https://www.dafont.com/)\n"
+"- Add the \".ttf\" file in the fonts folder\n"
+"- Reload."
+msgstr ""
+"Вы можете добавить пользовательский шрифт в список.\n"
+"- Создать папку \"шрифта\" в папке с игрой\n"
+"- Скачать шрифты онлайн (https://www.dafont.com/)\n"
+"- Добавить \".ttf\" файл в папку шрифтов\n"
+"- Перезагрузить игру."
+
+#: src/interfaces/options/preferences.tscn
+msgid "Application's Font"
+msgstr "Шрифт Приложения"
+
+#: src/interfaces/options/preferences.tscn
+msgid "How many seconds before the notification disappears."
+msgstr "Количество секунд прежде чем уведомление пропадет."
+
+#: src/interfaces/options/preferences.tscn
+msgid "Notification's duration"
+msgstr "Длительность уведомления"
+
+#: src/interfaces/options/preferences.tscn
+msgid "Story reader preferences"
+msgstr "Предпочтение читателя истории"
+
+#: src/interfaces/options/preferences.tscn
+msgid "Font"
+msgstr "Шрифт"
+
+#: src/interfaces/options/preferences.tscn
+msgid "Font size"
+msgstr "Размер шрифта"
+
+#: src/interfaces/options/preferences.tscn
+msgid "The space left between two lines."
+msgstr "Промежуток между двумя строками."
+
+#: src/interfaces/options/preferences.tscn
+msgid "Line spacing"
+msgstr "Межстрочный интервал"
+
+#: src/interfaces/options/preferences.tscn
+msgid "Font color"
+msgstr "Цвет шрифта"
+
+#: src/interfaces/options/preferences.tscn
+msgid "Selection color"
+msgstr "Выбор цвета"
+
+#: src/interfaces/options/preferences.tscn
+msgid "Story reader preview"
+msgstr "Предпросмотр читателя истории"
+
+#: src/interfaces/options/preferences.tscn
+msgid "This is a sample text."
+msgstr "Это текст для примера."
+
+#: src/interfaces/options/server.tscn
+msgid "If you don't know what you are doing, don't change anything here."
+msgstr "Если вы не знаете, что делаете, не меняйте здесь ничего."
+
+#: src/interfaces/options/server.tscn
+msgid ""
+"The seconds to wait before trying to connect to the server.\n"
+"It only works for local server."
+msgstr ""
+"Количество секунд для ожидания перед подключения к серверу.\n"
+"Работает только на локальном сервере."
+
+#: src/interfaces/options/server.tscn
+msgid "Connection delay"
+msgstr "Задержка подключения"
+
+#: src/interfaces/options/server.tscn
+msgid "If enabled, the server will try to download an AI if it's missing.\n"
+msgstr "Если включено, сервер постарается скачать ИИ если он отсутствует.\n"
+
+#: src/interfaces/options/server.tscn
+msgid "Allow downloading AI"
+msgstr "Разрешить скачивание ИИ"
+
+#: src/interfaces/options/server.tscn
+msgid "Connect to a remote server"
+msgstr "Подключиться к удаленному серверу"
+
+#: src/interfaces/options/server.tscn
+msgid ""
+"For now the communication with the server isn't secure. Use this for local "
+"networks only."
+msgstr ""
+"На данный момент подключение к серверу не защищено. Используйте это только "
+"для локальных сетей."
+
+#: src/interfaces/options/server.tscn
+msgid "Server's IP"
+msgstr "IP Сервера"
+
+#: src/interfaces/options/server.tscn
+msgid "Server's port"
+msgstr "Порт сервера"
