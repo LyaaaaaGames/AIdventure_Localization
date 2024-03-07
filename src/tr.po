@@ -1,0 +1,1911 @@
+# LANGUAGE translation for AIdventure for the following files:
+# res://src/interfaces/ai_info.gd
+# res://src/interfaces/ai_info.tscn
+# res://src/interfaces/ai_menu.gd
+# res://src/interfaces/ai_menu.tscn
+# res://src/interfaces/ai_options.gd
+# res://src/interfaces/ai_options.tscn
+# res://src/interfaces/edit_bar.gd
+# res://src/interfaces/edit_bar.tscn
+# res://src/interfaces/edit_workshop_item.gd
+# res://src/interfaces/edit_workshop_item.tscn
+# res://src/interfaces/input_bar.gd
+# res://src/interfaces/input_bar.tscn
+# res://src/interfaces/input_bar_text_edit.gd
+# res://src/interfaces/languages_button.gd
+# res://src/interfaces/languages_button.tscn
+# res://src/interfaces/list_own_workshop_items.gd
+# res://src/interfaces/list_own_workshop_items.tscn
+# res://src/interfaces/lorebook_info.gd
+# res://src/interfaces/lorebook_info.tscn
+# res://src/interfaces/lorebook_menu.gd
+# res://src/interfaces/lorebook_menu.tscn
+# res://src/interfaces/main_menu.gd
+# res://src/interfaces/main_menu.tscn
+# res://src/interfaces/options_menu.tscn
+# res://src/interfaces/output_display.gd
+# res://src/interfaces/output_display.tscn
+# res://src/interfaces/rotating_sprite.gd
+# res://src/interfaces/rotating_sprite.tscn
+# res://src/interfaces/scenario_info.gd
+# res://src/interfaces/scenario_info.tscn
+# res://src/interfaces/scenario_menu.gd
+# res://src/interfaces/scenario_menu.tscn
+# res://src/interfaces/splash_screen.gd
+# res://src/interfaces/splash_screen.tscn
+# res://src/interfaces/steam_workshop_menu.gd
+# res://src/interfaces/steam_workshop_menu.tscn
+# res://src/interfaces/tags_selector.gd
+# res://src/interfaces/tags_selector.tscn
+# res://src/interfaces/translator_manager.gd
+# res://src/interfaces/translator_manager.tscn
+# res://src/interfaces/translator_menu.gd
+# res://src/interfaces/translator_menu.tscn
+# res://src/interfaces/default_interfaces/default_botton_button_box.tscn
+# res://src/interfaces/default_interfaces/default_interface_background.tscn
+# res://src/interfaces/default_interfaces/default_interface_margin.tscn
+# res://src/game.gd
+# res://src/game.tscn
+# res://src/dialogs/asking_memory_size_pop_up.gd
+# res://src/dialogs/asking_memory_size_pop_up.tscn
+# res://src/dialogs/ask_custom_ai_name_popup.gd
+# res://src/dialogs/ask_custom_ai_name_popup.tscn
+# res://src/dialogs/character_creation_dialog.gd
+# res://src/dialogs/character_creation_dialog.tscn
+# res://src/dialogs/confirmation_dialog.gd
+# res://src/dialogs/confirmation_dialog.tscn
+# res://src/dialogs/custom_download_window.gd
+# res://src/dialogs/custom_download_window.tscn
+# res://src/dialogs/end_demo_popup.gd
+# res://src/dialogs/end_demo_popup.tscn
+# res://src/dialogs/error_popup.gd
+# res://src/dialogs/error_popup.tscn
+# res://src/dialogs/escape_menu.gd
+# res://src/dialogs/escape_menu.tscn
+# res://src/dialogs/incompatible_memory_dialog.gd
+# res://src/dialogs/incompatible_memory_dialog.tscn
+# res://src/dialogs/installation_popup.gd
+# res://src/dialogs/installation_popup.tscn
+# res://src/dialogs/intro_demo_popup.gd
+# res://src/dialogs/intro_demo_popup.tscn
+# res://src/dialogs/loading_server.gd
+# res://src/dialogs/loading_server.tscn
+# res://src/dialogs/load_menu.gd
+# res://src/dialogs/load_menu.tscn
+# res://src/dialogs/lore_book_popup.gd
+# res://src/dialogs/lore_book_popup.tscn
+# res://src/dialogs/memory_dialog.gd
+# res://src/dialogs/memory_dialog.tscn
+# res://src/dialogs/options_dialog.gd
+# res://src/dialogs/options_dialog.tscn
+# res://src/dialogs/story_editor.gd
+# res://src/dialogs/story_editor.tscn
+# res://src/dialogs/translate_scenario_pop_up.gd
+# res://src/dialogs/translate_scenario_pop_up.tscn
+# res://src/dialogs/update_workshop_dialog.tscn
+# res://src/dialogs/upload_workshop_dialog.tscn
+# res://src/dialogs/wait_dialog.gd
+# res://src/dialogs/wait_dialog.tscn
+# res://src/custom_nodes/advanced_list.gd
+# res://src/custom_nodes/ai_list.gd
+# res://src/custom_nodes/ai_list.tscn
+# res://src/custom_nodes/audio_button.gd
+# res://src/custom_nodes/audio_button.tscn
+# res://src/custom_nodes/audio_options_button.gd
+# res://src/custom_nodes/audio_options_button.tscn
+# res://src/custom_nodes/device_map_option_button.gd
+# res://src/custom_nodes/device_map_option_button.tscn
+# res://src/custom_nodes/dots_wait_animation.gd
+# res://src/custom_nodes/dots_wait_animation.tscn
+# res://src/custom_nodes/download_window.gd
+# res://src/custom_nodes/download_window.tscn
+# res://src/custom_nodes/edit_buttons.gd
+# res://src/custom_nodes/edit_buttons.tscn
+# res://src/custom_nodes/filters_inputs.gd
+# res://src/custom_nodes/filters_inputs.tscn
+# res://src/custom_nodes/generator_preset_options_button.gd
+# res://src/custom_nodes/generator_preset_options_button.tscn
+# res://src/custom_nodes/lorebook_list.gd
+# res://src/custom_nodes/lorebook_list.tscn
+# res://src/custom_nodes/notification.gd
+# res://src/custom_nodes/notification.tscn
+# res://src/custom_nodes/scenario_list.gd
+# res://src/custom_nodes/scenario_list.tscn
+# res://src/custom_nodes/story_element_info.gd
+# res://src/custom_nodes/story_element_info.tscn
+# res://src/custom_nodes/story_element_list.gd
+# res://src/custom_nodes/torch_dtype_option_button.gd
+# res://src/custom_nodes/torch_dtype_option_button.tscn
+# res://src/custom_nodes/ask_name_dialog/ask_lorebook_entry_name_dialog.gd
+# res://src/custom_nodes/ask_name_dialog/ask_lorebook_entry_name_dialog.tscn
+# res://src/custom_nodes/ask_name_dialog/ask_lorebook_name_dialog.gd
+# res://src/custom_nodes/ask_name_dialog/ask_lorebook_name_dialog.tscn
+# res://src/custom_nodes/ask_name_dialog/ask_name_dialog.gd
+# res://src/custom_nodes/ask_name_dialog/ask_name_dialog.tscn
+# res://src/custom_nodes/ask_name_dialog/ask_scenario_name_dialog.gd
+# res://src/custom_nodes/ask_name_dialog/ask_scenario_name_dialog.tscn
+# res://src/custom_nodes/ask_name_dialog/ask_story_element_name_dialog.gd
+# res://src/custom_nodes/ask_name_dialog/ask_story_element_name_dialog.tscn
+# res://src/classes/character.gd
+# res://src/classes/client.gd
+# res://src/classes/config.gd
+# res://src/classes/context.gd
+# res://src/classes/die.gd
+# res://src/classes/dir_utils.gd
+# res://src/classes/file_simple.gd
+# res://src/classes/game_settings.gd
+# res://src/classes/game_translator.gd
+# res://src/classes/language.gd
+# res://src/classes/logger.gd
+# res://src/classes/name.gd
+# res://src/classes/null_file_simple.gd
+# res://src/classes/null_language.gd
+# res://src/classes/parser.gd
+# res://src/classes/save.gd
+# res://src/classes/scenario_translator.gd
+# res://src/classes/server.gd
+# res://src/classes/translation_handler.gd
+# res://src/classes/story_elements/embedded_lorebook.gd
+# res://src/classes/story_elements/lorebook.gd
+# res://src/classes/story_elements/scenario.gd
+# res://src/classes/story_elements/story_element.gd
+# res://src/classes/story_elements/workshop_lorebook.gd
+# res://src/classes/story_elements/workshop_scenario.gd
+# res://src/classes/steam/steam_integration.gd
+# res://src/classes/steam/steam_integration_blank.gd
+# res://src/classes/steam/steam_workshop.gd
+# res://src/classes/steam/steam_workshop_item.gd
+# res://src/classes/ai/ai.gd
+# res://src/classes/ai/custom_ai.gd
+# res://src/classes/ai/generator.gd
+# res://src/classes/ai/generator_settings.gd
+# res://src/classes/ai/translator.gd
+# res://src/autoload/ai_autoload.gd
+# res://src/autoload/audio.gd
+# res://src/autoload/display.gd
+# res://src/autoload/features.gd
+# res://src/autoload/fonts.gd
+# res://src/autoload/global_variables.gd
+# res://src/autoload/icons.gd
+# res://src/autoload/installer.gd
+# res://src/autoload/languages.gd
+# res://src/autoload/notification_autoload.gd
+# res://src/autoload/steam_autoload.gd
+# res://src/autoload/tags.gd
+# res://src/autoload/thread_pool_autoload.gd
+# res://src/dialogs/merge_lorebook_dialog.gd
+# res://src/dialogs/merge_lorebook_dialog.tscn
+# res://src/dialogs/select_lorebook_dialog.gd
+# res://src/dialogs/select_lorebook_dialog.tscn
+# res://src/custom_nodes/advanced_tab_container.gd
+# res://src/custom_nodes/advanced_tab_container.tscn
+# res://src/custom_nodes/display_options_button.gd
+# res://src/custom_nodes/display_options_button.tscn
+# res://src/custom_nodes/font_options_button.gd
+# res://src/custom_nodes/font_options_button.tscn
+# res://src/custom_nodes/h_slider_with_counter.gd
+# res://src/custom_nodes/h_slider_with_counter.tscn
+# res://src/custom_nodes/load_generator.gd
+# res://src/custom_nodes/load_generator.tscn
+# res://src/custom_nodes/memory_sliders.gd
+# res://src/custom_nodes/memory_sliders.tscn
+# res://src/custom_nodes/options_buttons.gd
+# res://src/custom_nodes/options_buttons.tscn
+# res://src/custom_nodes/pov_options_button.gd
+# res://src/custom_nodes/pov_options_button.tscn
+# res://src/custom_nodes/published_workshop_item_list.gd
+# res://src/custom_nodes/published_workshop_item_list.tscn
+# res://src/custom_nodes/saves_list.gd
+# res://src/custom_nodes/saves_list.tscn
+# res://src/custom_nodes/server_log_display.gd
+# res://src/custom_nodes/server_log_display.tscn
+# res://src/custom_nodes/language_buttons/auto_translation_option_button.gd
+# res://src/custom_nodes/language_buttons/auto_translation_option_button.tscn
+# res://src/custom_nodes/language_buttons/languages_button.gd
+# res://src/custom_nodes/language_buttons/languages_button.tscn
+# res://src/custom_nodes/language_buttons/localization_option_button.gd
+# res://src/custom_nodes/language_buttons/localization_option_button.tscn
+# res://src/custom_nodes/language_buttons/translator_option_button.gd
+# res://src/custom_nodes/language_buttons/translator_option_button.tscn
+# res://src/custom_nodes/ask_name_dialog/ask_save_name_dialog.gd
+# res://src/custom_nodes/ask_name_dialog/ask_save_name_dialog.tscn
+# res://src/custom_nodes/ai_options_button/ai_option_button.gd
+# res://src/custom_nodes/ai_options_button/ai_option_button.tscn
+# res://src/custom_nodes/ai_options_button/generators_options_button.gd
+# res://src/custom_nodes/ai_options_button/generators_options_button.tscn
+# res://src/autoload/global_functions.gd
+# res://src/autoload/server_autoload.gd
+# res://src/autoload/strings.gd
+# res://src/classes/default_config.gd
+# res://src/classes/ai/ai_translator.gd
+# res://src/classes/ai/null_generator.gd
+# res://src/classes/fonts/custom_font.gd
+# res://src/classes/fonts/font_simple.gd
+# res://src/classes/story_elements/null_scenario.gd
+# res://src/classes/story_elements/save.gd
+# res://src/classes/translators/lorebook_translator.gd
+# res://src/classes/translators/scenario_translator.gd
+# res://src/classes/translators/story_element_translator.gd
+# res://src/classes/translators/translator.gd
+# res://src/dialogs/lorebook_info_popup_window.gd
+# res://src/dialogs/lorebook_info_popup_window.tscn
+# res://src/dialogs/server_off_warning.gd
+# res://src/dialogs/server_off_warning.tscn
+# res://src/dialogs/hardware_form/gpu_form.gd
+# res://src/dialogs/hardware_form/gpu_form.tscn
+# res://src/dialogs/hardware_form/hardware_form.gd
+# res://src/dialogs/hardware_form/hardware_form.tscn
+# res://src/dialogs/hardware_form/memory_form.gd
+# res://src/dialogs/hardware_form/memory_form.tscn
+# res://src/interfaces/character_menu.gd
+# res://src/interfaces/character_menu.tscn
+# res://src/interfaces/create_menu.gd
+# res://src/interfaces/create_menu.tscn
+# res://src/interfaces/end_demo.gd
+# res://src/interfaces/end_demo.tscn
+# res://src/interfaces/game.gd
+# res://src/interfaces/game.tscn
+# res://src/interfaces/game_top_bar_menu.gd
+# res://src/interfaces/game_top_bar_menu.tscn
+# res://src/interfaces/load_translator.gd
+# res://src/interfaces/load_translator.tscn
+# res://src/interfaces/options_menu.gd
+# res://src/interfaces/published_workshop_item_menu.gd
+# res://src/interfaces/published_workshop_item_menu.tscn
+# res://src/interfaces/server_menu.gd
+# res://src/interfaces/server_menu.tscn
+# res://src/interfaces/start_game_workflow.gd
+# res://src/interfaces/start_game_workflow.tscn
+# res://src/interfaces/workshop_menu.tscn
+# res://src/interfaces/options/preferences.gd
+# res://src/interfaces/options/preferences.tscn
+# res://src/interfaces/options/server.gd
+# res://src/interfaces/options/server.tscn
+# res://src/dialogs/custom_ai_download_window.gd
+# res://src/dialogs/custom_ai_download_window.tscn
+#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AIdventure\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.2\n"
+
+#: src/interfaces/ai_info.gd src/interfaces/ai_info.tscn
+msgid "?"
+msgstr "?"
+
+#: src/interfaces/ai_info.tscn
+msgid "Size"
+msgstr "Boyut"
+
+#: src/interfaces/ai_info.tscn
+msgid "Space on disk"
+msgstr "Diskteki alan"
+
+#: src/interfaces/ai_info.tscn
+msgid "Number of files"
+msgstr "Dosya sayısı"
+
+#: src/interfaces/ai_info.tscn
+msgid "RAM needed"
+msgstr "Gereken RAM"
+
+#: src/interfaces/ai_info.tscn
+msgid "VRAM needed"
+msgstr "Gereken VRAM"
+
+#: src/interfaces/ai_info.tscn src/custom_nodes/story_element_info.tscn
+msgid "Language"
+msgstr "Dil"
+
+#: src/interfaces/ai_info.tscn
+msgid "Description"
+msgstr "Tanım"
+
+#: src/interfaces/ai_menu.tscn src/custom_nodes/filters_inputs.tscn
+msgid "Filter by name"
+msgstr "Ada göre filtrele"
+
+#: src/interfaces/ai_menu.tscn
+msgid "Installed AI"
+msgstr "Kurulu Yapay Zekâ"
+
+#: src/interfaces/ai_menu.tscn
+msgid "NSFW AI"
+msgstr "NSFW Yapay Zekâ"
+
+#: src/interfaces/ai_menu.tscn
+msgid "Custom AI"
+msgstr "Özel Yapay Zekâ"
+
+#: src/interfaces/ai_menu.tscn src/custom_nodes/filters_inputs.tscn
+msgid "Filter by language"
+msgstr "Dile göre filtrele"
+
+#: src/interfaces/ai_menu.tscn src/custom_nodes/filters_inputs.tscn
+msgid "Reset filters"
+msgstr "Filtreleri sıfırla"
+
+#: src/interfaces/ai_menu.tscn
+msgid "Artificial intelligences"
+msgstr "Yapay zekâ"
+
+#: src/interfaces/ai_menu.tscn
+msgid "Download custom AI"
+msgstr "Özel Yapay Zekâ indir"
+
+#: src/interfaces/ai_menu.tscn src/interfaces/translator_menu.tscn
+msgid "Download AI"
+msgstr "Yapay Zekâ İndir"
+
+#: src/interfaces/ai_menu.tscn
+msgid "Open AIs' folder"
+msgstr "Yapay Zekâ klasörünü aç"
+
+#: src/interfaces/ai_menu.tscn src/interfaces/translator_menu.tscn
+msgid "Delete AI"
+msgstr "Yapay Zekâyı sil"
+
+#: src/interfaces/ai_menu.tscn
+msgid "Save settings"
+msgstr "Ayarları kaydet"
+
+#: src/interfaces/ai_menu.tscn
+msgid "Save settings to all AIs"
+msgstr "Ayarları tüm Yapay Zekâlara kaydet"
+
+#: src/interfaces/ai_menu.tscn
+msgid "Reset AI's settings"
+msgstr "Yapay Zekâ ayarlarını sıfırla"
+
+#: src/interfaces/ai_menu.tscn
+msgid "Reset all AIs settings"
+msgstr "Tüm Yapay Zekâ ayarlarını sıfırla"
+
+#: src/interfaces/ai_menu.tscn src/interfaces/lorebook_menu.tscn
+#: src/interfaces/scenario_menu.tscn src/interfaces/translator_menu.tscn
+#: src/dialogs/ask_custom_ai_name_popup.tscn
+#: src/custom_nodes/options_buttons.tscn src/dialogs/server_off_warning.tscn
+#: src/interfaces/character_menu.tscn src/interfaces/server_menu.tscn
+msgid "Close"
+msgstr "Kapat"
+
+#: src/interfaces/ai_options.tscn
+msgid "AI settings"
+msgstr "Yapay Zekâ ayarları"
+
+#: src/interfaces/ai_options.tscn
+msgid "The maximum words to be generated."
+msgstr "Üretilecek maksimum kelime sayısı."
+
+#: src/interfaces/ai_options.tscn
+msgid "Generation's max length"
+msgstr "Üretimin maksimum uzunluğu"
+
+#: src/interfaces/ai_options.tscn
+msgid ""
+"Make the generated text more or less coherent. Commonly named "
+"\"Temperature\", 0 means no randomness."
+msgstr ""
+"Oluşturulan metni az çok tutarlı hale getir. Genellikle \"Derece\" olarak "
+"adlandırılır, 0 rastgeleliğin olmadığı anlamına gelir."
+
+#: src/interfaces/ai_options.tscn
+msgid "Randomness"
+msgstr "Rastgelelik"
+
+#: src/interfaces/ai_options.tscn
+msgid ""
+"If greater than 1.0, penalizes repetition in a text to avoid infinite "
+"loops.\n"
+"1 means no penalty."
+msgstr ""
+"1.0 üzerinde ise sonsuz döngülerden kaçınmak için metin içindeki tekrarları "
+"cezalandırır.\n"
+"1, ceza olmadığı anlamına gelir."
+
+#: src/interfaces/ai_options.tscn
+msgid "Repetition penalty"
+msgstr "Tekrar cezası"
+
+#: src/interfaces/ai_options.tscn
+msgid ""
+"The maximum amount of time you allow the AI to generate text, in seconds."
+msgstr ""
+"Saniye cinsinden yapay zekânın metin oluşturmasına izin verdiğin maksimum "
+"süre."
+
+#: src/interfaces/ai_options.tscn
+msgid "Generation's max time"
+msgstr "Maksimum üretim süresi"
+
+#: src/interfaces/ai_options.tscn
+msgctxt "characters like in a text. Not an individual."
+msgid "How many of the story's last characters the AI must remember."
+msgstr ""
+"Yapay zekânın hikâyedeki son karakterler arasından hatırlaması gereken "
+"karakter sayısı."
+
+#: src/interfaces/ai_options.tscn
+msgid "Context's max length"
+msgstr "Maksimum bağlam uzunluğu"
+
+#: src/interfaces/ai_options.tscn
+msgctxt "characters like in a text. Not an individual."
+msgid "How many characters the memory can hold."
+msgstr "Belleğin tutabileceği karakter sayısı."
+
+#: src/interfaces/ai_options.tscn
+msgid "Memory's max length"
+msgstr "Maksimum bellek uzunluğu"
+
+#: src/interfaces/ai_options.tscn
+msgid ""
+"If a model doesn’t fully fit in VRAM, it will offload the rest on the CPU "
+"(RAM), or even the hard drive if you don’t have enough RAM."
+msgstr ""
+"Bir model VRAM'e tam olarak sığmıyorsa geri kalan kısmı CPU'ya (RAM) ve "
+"hatta yeterli RAM yoksa sabit sürücüye aktaracaktır."
+
+#: src/interfaces/ai_options.tscn
+msgid "Offload model"
+msgstr "Aktarma modeli"
+
+#: src/interfaces/ai_options.tscn
+msgid ""
+"Limiting the memory will force the server to never use more memory than "
+"specified for loading a model.\n"
+"It might still go over it while generating text.\n"
+"Therefore, if you want to limit the RAM usage to 10000 Mb, you should "
+"probably set it to 9500Mb.\n"
+"Same for the VRAM limit."
+msgstr ""
+"Belleğin sınırlandırılması sunucunun hiçbir zaman bir modeli yüklemek için "
+"belirtilenden daha fazla bellek kullanmamasına neden olacaktır.\n"
+"Metin oluştururken yine de bu sınırı aşabilir.\n"
+"Bu nedenle, RAM kullanımını 10000MB ile sınırlamak istiyorsan yaklaşık "
+"9500MB olarak ayarlamalısın.\n"
+"Aynı durum VRAM sınırı için de geçerlidir."
+
+#: src/interfaces/ai_options.tscn
+msgid "Limit memory usage"
+msgstr "Bellek kullanımını sınırla"
+
+#: src/interfaces/ai_options.tscn
+msgid "Display advanced options"
+msgstr "Gelişmiş seçenekleri görüntüle"
+
+#: src/interfaces/ai_options.tscn
+msgid "Advanced options"
+msgstr "Gelişmiş seçenekler"
+
+#: src/interfaces/ai_options.tscn
+msgid ""
+"It is recommended to only edit the advanced options if you know what you are "
+"doing.\n"
+"If you happen to \"break\" the generation, just press the \"reset\" button."
+msgstr ""
+"Gelişmiş seçenekleri yalnızca ne yaptığını biliyorsan düzenlemen önerilir.\n"
+"Üretimi \"bozman\" durumunda \"sıfırla\" düğmesine bas."
+
+#: src/interfaces/ai_options.tscn
+msgid ""
+"This is an experimental feature.\n"
+"It reduces by ~2 the memory needed by the server."
+msgstr ""
+"Bu özellik deneme amaçlı bir özelliktir.\n"
+"Sunucunun ihtiyaç duyduğu belleği ~2 azaltır."
+
+#: src/interfaces/ai_options.tscn
+msgid "Low RAM mode"
+msgstr "Düşük RAM modu"
+
+#: src/interfaces/ai_options.tscn
+msgid ""
+"Enable randomly picking the next word.\n"
+"It limits the repetition."
+msgstr ""
+"Bir sonraki kelimeyi rastgele seçme özelliğini etkinleştir.\n"
+"Tekrarlamayı sınırlar."
+
+#: src/interfaces/ai_options.tscn
+msgid "Do sample"
+msgstr "Örnek yap"
+
+#: src/interfaces/ai_options.tscn
+msgid ""
+"The K most likely next words are filtered and the probability mass is "
+"redistributed\n"
+"among only those K next words.\n"
+"Set to 0 to disable it."
+msgstr ""
+"Büyük olasılıkla sonraki K kelime filtrelenir ve olasılık kütlesi yalnızca "
+"sonraki K kelime\n"
+"arasında yeniden dağıtılır.\n"
+"Devre dışı bırakmak için 0 olarak ayarla."
+
+#: src/interfaces/ai_options.tscn
+msgid "Top k"
+msgstr "Top-K"
+
+#: src/interfaces/ai_options.tscn
+msgid ""
+"Chooses from the smallest possible set of words whose cumulative probability "
+"exceeds the probability p.\n"
+"The probability mass is then redistributed among this set of words.\n"
+"If set to < 1, only the most probable tokens with probabilities that\n"
+"add up to top_p or higher are kept for generation.\n"
+"Set to 0 to disable it."
+msgstr ""
+"Kümülatif olasılığı p olasılığını aşan mümkün olan en küçük kelime "
+"kümesinden seçim yapar.\n"
+"Olasılık kütlesi daha sonra bu kelime dizisi arasında yeniden dağıtılır.\n"
+"< 1 olarak ayarlanırsa yalnızca toplamı Top-P ya da daha yüksek olan\n"
+"olasılıklara sahip en olası belirteçler üretim için tutulur.\n"
+"Devre dışı bırakmak için 0 olarak ayarla."
+
+#: src/interfaces/ai_options.tscn
+msgid "Top p"
+msgstr "Top-P"
+
+#: src/interfaces/ai_options.tscn
+msgid ""
+"If greater than 1, executes beam search for cleaner text.\n"
+"1 means no beam search."
+msgstr ""
+"1'den büyükse daha temiz bir metin için ışın araması gerçekleştirir\n"
+"1, ışın araması yapılmadığı anlamına gelir."
+
+#: src/interfaces/ai_options.tscn
+msgid "Number of beams"
+msgstr "Işın sayısı"
+
+#: src/interfaces/ai_options.tscn
+msgid ""
+"Token length to avoid repeating given phrases.\n"
+"Set to 0 to disable it."
+msgstr ""
+"Verilen ifadelerin tekrarlanmasını önlemeye yönelik belirteç uzunluğu.\n"
+"Devre dışı bırakmak için 0 olarak ayarla."
+
+#: src/interfaces/ai_options.tscn
+msgid "No repeat ngram size"
+msgstr "Tekrarlanan ngram boyutu yok"
+
+#: src/interfaces/ai_options.tscn
+msgid ""
+"If the weight of the CPU state dictionnary + the biggest shard of the "
+"checkpoint does not fit,\n"
+"will temporarily offload the CPU state dictionary to the hard drive to avoid "
+"getting out of CPU RAM."
+msgstr ""
+"CPU durumu sözlüğünün ağırlığı + denetim noktasının en büyük parçası "
+"sığmıyorsa\n"
+"CPU RAM'ini aşmayı önlemek için CPU durumu sözlüğünü geçici olarak sabit "
+"sürücüye aktarır."
+
+#: src/interfaces/ai_options.tscn
+msgid "Offload dictionary"
+msgstr "Aktarma sözlüğü"
+
+#: src/interfaces/ai_options.tscn
+msgid "Change how the AI is dispatched on the GPU and CPU."
+msgstr "Yapay zekânın GPU ve CPU'ya gönderilme şeklini değiştir."
+
+#: src/interfaces/ai_options.tscn
+msgid "Device map"
+msgstr "Cihaz haritası"
+
+#: src/interfaces/ai_options.tscn
+msgid ""
+"A torch.dtype is an object that represents the data type of a torch.Tensor. "
+"PyTorch has twelve different data types."
+msgstr ""
+"torch.dtype, torch.Tensor'ün veri türünü temsil eden bir nesnedir. PyTorch, "
+"on iki farklı veri türüne sahiptir."
+
+#: src/interfaces/ai_options.tscn
+msgid "Torch Dtype"
+msgstr "Torch Dtype"
+
+#: src/interfaces/edit_bar.tscn
+#: src/custom_nodes/ask_name_dialog/ask_name_dialog.tscn
+#: src/dialogs/select_lorebook_dialog.tscn
+msgid "Cancel"
+msgstr "İptal et"
+
+#: src/interfaces/edit_bar.tscn src/dialogs/hardware_form/hardware_form.tscn
+msgid "Previous"
+msgstr "Önceki"
+
+#: src/interfaces/edit_bar.tscn src/dialogs/hardware_form/hardware_form.tscn
+msgid "Next"
+msgstr "Sonraki"
+
+#: src/interfaces/edit_bar.tscn
+msgid "Ask another generation"
+msgstr "Başka bir tane üretmesini iste"
+
+#: src/interfaces/edit_bar.tscn src/interfaces/character_menu.tscn
+msgid "Validate"
+msgstr "Onayla"
+
+#: src/interfaces/input_bar.tscn
+msgid "Undo"
+msgstr "Geri al"
+
+#: src/interfaces/input_bar.tscn
+msgid "Redo"
+msgstr "Tekrarla"
+
+#: src/interfaces/input_bar.tscn
+msgid "Lorebook"
+msgstr "Ansiklopedi"
+
+#: src/interfaces/input_bar.tscn
+msgctxt "characters like an individual. Not like characters in a word."
+msgid "Character"
+msgstr "Karakter"
+
+#: src/interfaces/input_bar.tscn
+msgid "Click to modify memory."
+msgstr "Belleği değiştirmek için tıkla."
+
+#: src/interfaces/input_bar.tscn src/interfaces/scenario_info.tscn
+#: src/dialogs/memory_dialog.tscn
+msgid "Memory"
+msgstr "Bellek"
+
+#: src/interfaces/input_bar.tscn
+msgid "Click to switch of mode."
+msgstr "Modu değiştirmek için dokun."
+
+#: src/interfaces/input_bar.tscn src/interfaces/scenario_info.tscn
+#: src/autoload/strings.gd
+msgid "Story"
+msgstr "Hikâye"
+
+#: src/interfaces/input_bar.tscn src/autoload/strings.gd
+msgid "The knight draws his sword and takes a step forward."
+msgstr "Şövalye kılıcını çeker ve ileri doğru bir adım atar."
+
+#: src/interfaces/input_bar.tscn
+msgid "Generate"
+msgstr "Üret"
+
+#: src/interfaces/lorebook_info.tscn
+msgid "Export"
+msgstr "Dışarı Aktar"
+
+#: src/interfaces/lorebook_info.tscn
+msgid "Import"
+msgstr "İçeri Aktar"
+
+#: src/interfaces/lorebook_info.tscn
+msgid "Rename"
+msgstr "Yeniden Adlandır"
+
+#: src/interfaces/lorebook_info.tscn
+msgid "Add"
+msgstr "Ekle"
+
+#: src/interfaces/lorebook_info.tscn src/custom_nodes/edit_buttons.tscn
+msgid "Delete"
+msgstr "Sil"
+
+#: src/interfaces/lorebook_menu.tscn
+msgid "Lorebooks"
+msgstr "Ansiklopediler"
+
+#: src/interfaces/lorebook_menu.tscn
+msgid "Open Lorebooks' folder."
+msgstr "Ansiklopedilerin bulunduğu klasörü aç."
+
+#: src/interfaces/main_menu.gd src/interfaces/main_menu.tscn
+msgid "Buy the complete version to unlock."
+msgstr "Kilidini açmak için tam sürümü satın al."
+
+#: src/interfaces/main_menu.tscn src/interfaces/scenario_menu.tscn
+msgid "Play"
+msgstr "Oyna"
+
+#: src/interfaces/main_menu.tscn
+msgid "Create"
+msgstr "Oluştur"
+
+#: src/interfaces/main_menu.tscn
+msgid "Steam Workshop"
+msgstr "Steam Atölye"
+
+#: src/interfaces/main_menu.tscn src/dialogs/escape_menu.tscn
+msgid "Options"
+msgstr "Seçenekler"
+
+#: src/interfaces/main_menu.tscn
+msgid "Community"
+msgstr "Topluluk"
+
+#: src/interfaces/main_menu.tscn
+msgid "Help"
+msgstr "Yardım"
+
+#: src/interfaces/main_menu.tscn
+msgid "Credits"
+msgstr "Katkıda Bulunanlar"
+
+#: src/interfaces/main_menu.tscn
+msgid "Exit"
+msgstr "Çık"
+
+#: src/interfaces/main_menu.tscn
+msgid "AIdventure "
+msgstr "AIdventure "
+
+#: src/interfaces/main_menu.tscn
+msgid "Copyright (c) 2022-Present Lyaaaaa Games™"
+msgstr "2022'den Günümüze Telif Hakları Sahibi (c): Lyaaaaa Games™"
+
+#: src/interfaces/output_display.tscn
+msgid "Double click to edit the story."
+msgstr "Hikâyeyi düzenlemek için çift tıkla."
+
+#: src/interfaces/output_display.tscn
+msgid ""
+"Press enter to validate.\n"
+"Press escape to cancel.\n"
+"Press shift + enter to insert a new line."
+msgstr ""
+"Onaylamak için Enter tuşuna bas.\n"
+"İptal etmek için Esc tuşuna bas.\n"
+"Yeni bir satır eklemek için Shift + Enter tuşlarına bas."
+
+#: src/interfaces/scenario_menu.tscn
+msgid "Scenarios"
+msgstr "Senaryolar"
+
+#: src/interfaces/scenario_menu.tscn
+msgid "Open scenarios' folder"
+msgstr "Senaryoların bulunduğu klasörü aç"
+
+#: src/interfaces/scenario_menu.tscn
+msgid "Custom start"
+msgstr "Özel başlangıç"
+
+#: src/interfaces/splash_screen.tscn
+msgid "Lyaaaaa Games™"
+msgstr "Lyaaaaa Games™"
+
+#: src/interfaces/translator_menu.tscn
+msgid "Open AI's folder"
+msgstr "Yapay Zekâ klasörünü aç"
+
+#: src/dialogs/asking_memory_size_pop_up.tscn
+msgid "How much memory do you want to allocate to the server?"
+msgstr "Sunucuya ne kadar bellek tahsis etmek istiyorsun?"
+
+#: src/dialogs/ask_custom_ai_name_popup.tscn
+msgid ""
+"Enter the name of the AI from huggingface.co.\n"
+"E.g: For https://huggingface.co/sshleifer/tiny-gpt2 enter sshleifer/tiny-gpt2"
+msgstr ""
+"huggingface.co sayfasındaki Yapay Zekânın adını gir.\n"
+"Örneğin: https://huggingface.co/sshleifer/tiny-gpt2 için sshleifer/tiny-gpt2 "
+"yaz"
+
+#: src/dialogs/ask_custom_ai_name_popup.tscn
+msgid "enter the name of the AI"
+msgstr "Yapay Zekânın adını gir"
+
+#: src/dialogs/ask_custom_ai_name_popup.tscn
+msgid ""
+"Customs AIs aren't tested. They might not work or be too big for your PC."
+msgstr ""
+"Özel Yapay Zekâlar test edilmez. Çalışmayabilirler ya da kişisel "
+"bilgisayarın için çok büyük olabilirler."
+
+#: src/dialogs/ask_custom_ai_name_popup.tscn
+msgid "Browse for AIs"
+msgstr "Yapay Zekâ ara"
+
+#: src/dialogs/ask_custom_ai_name_popup.tscn
+msgid "Download"
+msgstr "İndir"
+
+#: src/dialogs/confirmation_dialog.tscn
+#: src/dialogs/incompatible_memory_dialog.tscn
+#: src/interfaces/load_translator.tscn
+msgid "No"
+msgstr "Hayır"
+
+#: src/dialogs/confirmation_dialog.tscn
+#: src/dialogs/incompatible_memory_dialog.tscn
+#: src/interfaces/load_translator.tscn
+msgid "Yes"
+msgstr "Evet"
+
+#: src/dialogs/error_popup.tscn
+msgid "An error occured!"
+msgstr "Bir hata meydana geldi!"
+
+#: src/dialogs/error_popup.tscn
+msgid "Report the error on Discord or the forum\n"
+msgstr "Discord kanalında ya da forum sayfasında sorunu bildir\n"
+
+#: src/dialogs/error_popup.tscn
+msgid "Logs copied in the clipboard!"
+msgstr "Kayıtlar panoya kopyalandı!"
+
+#: src/dialogs/error_popup.tscn
+msgid "Copy logs to clipboard\n"
+msgstr "Kayıtları panoya kopyala\n"
+
+#: src/dialogs/error_popup.tscn
+msgid "Forum"
+msgstr "Forum"
+
+#: src/dialogs/error_popup.tscn
+msgid "Main menu"
+msgstr "Ana menü"
+
+#: src/dialogs/escape_menu.tscn
+msgid "AIdventure"
+msgstr "AIdventure"
+
+#: src/dialogs/escape_menu.tscn
+msgid "Resume"
+msgstr "Devam et"
+
+#: src/dialogs/escape_menu.tscn src/interfaces/end_demo.tscn
+msgid "Return to main menu"
+msgstr "Ana menüye geri dön"
+
+#: src/dialogs/escape_menu.tscn
+msgid "Exit the game"
+msgstr "Oyundan çık"
+
+#: src/dialogs/incompatible_memory_dialog.tscn
+msgid ""
+"The \"Memory max length\" defined in your option is too small for this "
+"scenario.\n"
+"Memory length required :"
+msgstr ""
+"Seçeneğinde tanımlanan \"Maksimum bellek uzunluğu\" bu senaryo için çok "
+"küçük.\n"
+"Gereken bellek uzunluğu:"
+
+#: src/dialogs/incompatible_memory_dialog.tscn
+msgid ""
+"Do you want to change the \"Memory max length\" option to play this scenario "
+"in the best conditions?"
+msgstr ""
+"Bu senaryoyu en iyi koşullarda oynatmak için \"Maksimum bellek uzunluğu\" "
+"seçeneğini değiştirmek istiyor musun?"
+
+#: src/dialogs/installation_popup.gd src/dialogs/installation_popup.tscn
+msgid ""
+"The game didn't find the installation. Please, run the installer and install "
+"the game."
+msgstr ""
+"Oyun, kurulum dosyasını bulamadı. Lütfen kurulum programını çalıştır ve "
+"oyunu kur."
+
+#: src/dialogs/installation_popup.gd src/dialogs/installation_popup.tscn
+msgid "Your installation is outdated. Please, run the installer and update."
+msgstr ""
+"Kurulumun güncel değil. Lütfen kurulum programını çalıştır ve güncelle."
+
+#: src/dialogs/installation_popup.gd src/dialogs/installation_popup.tscn
+msgid "Installer not found."
+msgstr "Kurulum programı bulunamadı."
+
+#: src/dialogs/installation_popup.tscn
+msgid "Launch the installer"
+msgstr "Kurulum programını başlat"
+
+#: src/dialogs/installation_popup.tscn
+#: src/dialogs/hardware_form/hardware_form.tscn
+msgid "Skip"
+msgstr "Atla"
+
+#: src/dialogs/installation_popup.tscn
+msgid "I already installed the game\n"
+msgstr "Oyunu zaten kurdum\n"
+
+#: src/dialogs/intro_demo_popup.tscn
+msgid "Thank you for downloading AIdventure's demo!"
+msgstr "AIdventure demo sürümünü indirdiğin için teşekkürler!"
+
+#: src/dialogs/intro_demo_popup.tscn
+msgid "The following features are disabled in the demo:"
+msgstr "Demo sürümünde aşağıdaki özellikler devre dışı bırakılmıştır:"
+
+#: src/dialogs/intro_demo_popup.tscn
+msgid ""
+"The creation menu\n"
+"Custom scenarios\n"
+"Connecting to a remote server\n"
+"Steam Workshop menu"
+msgstr ""
+"Oluşturma menüsü\n"
+"Özel senaryolar\n"
+"Uzaktaki bir sunucuya bağlanma\n"
+"Steam Atölye menüsü"
+
+#: src/dialogs/intro_demo_popup.tscn
+msgid "You also have a limited number of AIs:"
+msgstr "Sahip olduğun Yapay Zekâlar da sınırlıdır:"
+
+#: src/dialogs/intro_demo_popup.tscn
+msgctxt "characters like in a text. Not an individual."
+msgid "The stories are limited to a maximum number of characters:"
+msgstr "Hikâyeler belirli bir maksimum karakter sayısı ile sınırlıdır:"
+
+#: src/dialogs/intro_demo_popup.tscn
+msgid "Play the game"
+msgstr "Oyunu oyna"
+
+#: src/dialogs/intro_demo_popup.tscn src/interfaces/end_demo.tscn
+msgid "Join the community"
+msgstr "Topluluğa katıl"
+
+#: src/dialogs/intro_demo_popup.tscn
+msgid "Buy the game"
+msgstr "Oyunu satın al"
+
+#: src/dialogs/memory_dialog.tscn
+msgid "Write here what the AI must always remember."
+msgstr "Yapay Zekânın her zaman hatırlaması gerekenleri buraya yaz."
+
+#: src/dialogs/wait_dialog.tscn
+msgid "Please, wait"
+msgstr "Lütfen bekle"
+
+#: src/custom_nodes/download_window.tscn
+msgid "AI downloading"
+msgstr "Yapay Zekâ indiriliyor"
+
+#: src/custom_nodes/download_window.tscn
+#: src/dialogs/custom_ai_download_window.tscn
+msgid "Please wait until the download is done."
+msgstr "İndirme tamamlanana kadar lütfen bekle."
+
+#: src/custom_nodes/edit_buttons.tscn
+msgid "Enable edition"
+msgstr "Sürümü etkinleştir"
+
+#: src/custom_nodes/edit_buttons.tscn
+msgid "Show embedded lorebook"
+msgstr "Tümleşik ansiklopediyi göster"
+
+#: src/custom_nodes/edit_buttons.tscn
+msgid "Merge the entries of multiple lorebooks together."
+msgstr "Birden fazla ansiklopedinin kayıtlarını birleştir."
+
+#: src/custom_nodes/edit_buttons.tscn
+msgid "Merge entries"
+msgstr "Kayıtları birleştir"
+
+#: src/custom_nodes/edit_buttons.tscn
+msgid "Translate"
+msgstr "Çevir"
+
+#: src/custom_nodes/edit_buttons.tscn src/custom_nodes/options_buttons.tscn
+msgid "Save"
+msgstr "Kaydet"
+
+#: src/custom_nodes/edit_buttons.tscn
+msgid "Save as"
+msgstr "Farklı kaydet"
+
+#: src/custom_nodes/filters_inputs.tscn
+msgid "Filter by workshop"
+msgstr "Atölyeye göre filtrele"
+
+#: src/custom_nodes/generator_preset_options_button.gd
+#: src/custom_nodes/generator_preset_options_button.tscn
+msgid "Memory saving preset."
+msgstr "Bellek tasarrufu ön ayarı."
+
+#: src/custom_nodes/generator_preset_options_button.gd
+#: src/custom_nodes/generator_preset_options_button.tscn
+msgid "Memory saving preset for CPU only."
+msgstr "Yalnızca CPU'ya yönelik bellek tasarrufu ön ayarı."
+
+#: src/custom_nodes/generator_preset_options_button.gd
+#: src/custom_nodes/generator_preset_options_button.tscn
+msgid "Performance preset."
+msgstr "Performans ön ayarı."
+
+#: src/custom_nodes/generator_preset_options_button.gd
+#: src/custom_nodes/generator_preset_options_button.tscn
+msgid "Performance preset for CPU only."
+msgstr "Yalnızca CPU'ya yönelik performans ön ayarı."
+
+#: src/custom_nodes/notification.tscn
+msgid "AIdventure notification"
+msgstr "AIdventure bildirimi"
+
+#: src/custom_nodes/story_element_info.tscn
+msgid "Title"
+msgstr "Başlık"
+
+#: src/custom_nodes/story_element_info.tscn
+msgid "Author"
+msgstr "Yazar"
+
+#: src/custom_nodes/story_element_info.tscn
+msgid "Steam Workshop ID"
+msgstr "Steam Atölye Kimliği"
+
+#: src/custom_nodes/story_element_info.tscn
+msgid "Category"
+msgstr "Kategori"
+
+#: src/custom_nodes/ask_name_dialog/ask_name_dialog.tscn
+msgid "Enter a name."
+msgstr "Bir ad gir."
+
+#: src/custom_nodes/ask_name_dialog/ask_name_dialog.tscn
+msgid "Cool name"
+msgstr "Havalı bir ad"
+
+#: src/custom_nodes/ask_name_dialog/ask_name_dialog.tscn
+msgid "This name is already taken. Please, choose another one."
+msgstr "Bu ad zaten alınmış. Lütfen başka bir ad seç."
+
+#: src/custom_nodes/ask_name_dialog/ask_name_dialog.tscn
+#: src/dialogs/select_lorebook_dialog.tscn
+#: src/dialogs/hardware_form/hardware_form.tscn
+msgid "Ok"
+msgstr "Tamam"
+
+#: src/classes/client.gd
+msgid "Closed the connection with the server."
+msgstr "Sunucu ile bağlantı kapatıldı."
+
+#: src/classes/client.gd
+msgid "Failed to connect to the server."
+msgstr "Sunucuya bağlanılamadı."
+
+#: src/classes/client.gd
+msgid "Connection established with the server."
+msgstr "Sunucu ile bağlantı kuruldu."
+
+#: src/classes/client.gd
+msgid "Text generated."
+msgstr "Metin üretildi."
+
+#: src/classes/client.gd
+msgid "Generator loaded."
+msgstr "Üretici yüklendi."
+
+#: src/classes/client.gd
+msgid "Failed loading Generator."
+msgstr "Üreticiyi yükleme işlemi başarısız oldu."
+
+#: src/classes/client.gd
+msgid "Translators loaded."
+msgstr "Tercümanlar yüklendi."
+
+#: src/dialogs/merge_lorebook_dialog.tscn
+msgid ""
+"If enabled, the source lorebook will overwrite conflicting entries.\n"
+"If disabled, no entry will be erased but the conflicting entries will be "
+"renamed."
+msgstr ""
+"Etkinleştirilirse kaynak ansiklopedi kayıtların üzerine yazacaktır.\n"
+"Devre dışı bırakılırsa hiçbir kayıt silinmeyecek, ancak çakışan kayıtlar "
+"yeniden adlandırılacaktır."
+
+#: src/dialogs/merge_lorebook_dialog.tscn
+msgid "Allow overwriting"
+msgstr "Üzerine yazmaya izin ver"
+
+#: src/dialogs/select_lorebook_dialog.tscn
+msgid "Select a lorebook to import."
+msgstr "İçeri aktarılacak bir ansiklopedi seç."
+
+#: src/custom_nodes/display_options_button.gd
+#: src/custom_nodes/display_options_button.tscn
+msgid "Windowed"
+msgstr "Pencereli"
+
+#: src/custom_nodes/display_options_button.gd
+#: src/custom_nodes/display_options_button.tscn
+msgid "Fullscreen"
+msgstr "Tam ekran"
+
+#: src/custom_nodes/display_options_button.gd
+#: src/custom_nodes/display_options_button.tscn
+msgid "Borderless"
+msgstr "Kenarlıksız"
+
+#: src/custom_nodes/h_slider_with_counter.tscn
+msgid "50"
+msgstr "50"
+
+#: src/custom_nodes/load_generator.tscn
+msgid "Select an AI for your game."
+msgstr "Oyunun için bir Yapay Zekâ seç."
+
+#: src/custom_nodes/load_generator.tscn
+msgid "Buy the game to unlock more powerful AIs"
+msgstr "Daha güçlü Yapay Zekâların kilidini açmak için oyunu satın al"
+
+#: src/custom_nodes/load_generator.tscn
+msgid "Load AI"
+msgstr "Yapay Zekâyı Yükle"
+
+#: src/custom_nodes/load_generator.tscn
+msgid "Manage AIs"
+msgstr "Yapay Zekâları Yönet"
+
+#: src/custom_nodes/memory_sliders.tscn
+msgid "The maximum GPU memory allowed to be used by the Generator."
+msgstr "Üretici tarafından kullanılmasına izin verilen maksimum GPU belleği."
+
+#: src/custom_nodes/memory_sliders.tscn
+msgid "Max VRAM"
+msgstr "Maksimum VRAM"
+
+#: src/custom_nodes/memory_sliders.tscn
+msgid "The maximum memory allowed to be used by the Generator."
+msgstr "Üretici tarafından kullanılmasına izin verilen maksimum bellek."
+
+#: src/custom_nodes/memory_sliders.tscn
+msgid "Max RAM"
+msgstr "Maksimum RAM"
+
+#: src/custom_nodes/options_buttons.tscn
+msgid "Reset"
+msgstr "Sıfırla"
+
+#: src/custom_nodes/pov_options_button.gd
+#: src/custom_nodes/pov_options_button.tscn
+msgid "First person"
+msgstr "Birinci şahıs"
+
+#: src/custom_nodes/pov_options_button.gd
+#: src/custom_nodes/pov_options_button.tscn
+msgid "Second person"
+msgstr "İkinci şahıs"
+
+#: src/custom_nodes/server_log_display.tscn
+msgid "Copy logs to clipboard"
+msgstr "Kayıtları panoya kopyala"
+
+#: src/autoload/strings.gd
+msgid "Select a language."
+msgstr "Bir dil seç."
+
+#: src/autoload/strings.gd
+msgid "Failed loading translator."
+msgstr "Tercümanı yükleme işlemi başarısız oldu."
+
+#: src/autoload/strings.gd
+msgid "Translation in progress."
+msgstr "Tercüme devam ediyor."
+
+#: src/autoload/strings.gd
+msgid "Scenario's translation over."
+msgstr "Senaryonun tercümesi tamamlandı."
+
+#: src/autoload/strings.gd
+msgid "Lorebook's translation over."
+msgstr "Ansiklopedinin tercümesi tamamlandı."
+
+#: src/autoload/strings.gd
+msgid "Memory's translation in progress."
+msgstr "Belleğin tercümesi devam ediyor."
+
+#: src/autoload/strings.gd
+msgid "Story's translation in progress."
+msgstr "Hikâyenin tercümesi devam ediyor."
+
+#: src/autoload/strings.gd
+msgid "Lorebook's translation in progress."
+msgstr "Ansiklopedinin tercümesi devam ediyor."
+
+#: src/autoload/strings.gd
+msgid "Scenario saved."
+msgstr "Senaryo kaydedildi."
+
+#: src/autoload/strings.gd
+msgid "Error, can't save scenario."
+msgstr "Hata, senaryo kaydedilemiyor."
+
+#: src/autoload/strings.gd
+msgid "empty your bucket of water on the knight's head."
+msgstr "kovadaki suyu şövalyenin başından aşağı boşalt."
+
+#: src/autoload/strings.gd
+msgid "conceal the stolen ring in your pocket."
+msgstr "çalınan yüzüğü cebinde sakla."
+
+#: src/autoload/strings.gd
+msgid "Sir, is that your mule or your mother?"
+msgstr "Bayım, bu sizin katırınız mı yoksa anneniz mi?"
+
+#: src/autoload/strings.gd
+msgid "Do"
+msgstr "Yap"
+
+#: src/autoload/strings.gd
+msgid "Say"
+msgstr "Söyle"
+
+#: src/autoload/strings.gd
+msgid "Try"
+msgstr "Dene"
+
+#: src/autoload/strings.gd
+msgid "Failed sending data to the server."
+msgstr "Verileri sunucuya gönderme işlemi başarısız oldu."
+
+#: src/autoload/strings.gd
+msgid "Couldn't save game."
+msgstr "Oyun kaydedilemiyor."
+
+#: src/autoload/strings.gd
+msgid "Successfully saved the lorebook."
+msgstr "Ansiklopedi başarılı bir şekilde kaydedildi."
+
+#: src/autoload/strings.gd
+msgid "Error, can't save the lorebook."
+msgstr "Hata, ansiklopedi kaydedilemiyor."
+
+#: src/autoload/strings.gd
+msgid "Added the following entry."
+msgstr "Aşağıdaki kayıt eklendi."
+
+#: src/autoload/strings.gd
+msgid "Error, can't add the entry."
+msgstr "Hata, kayıt eklenemiyor."
+
+#: src/autoload/strings.gd
+msgid "Deleted the entry."
+msgstr "Kayıt silindi."
+
+#: src/autoload/strings.gd
+msgid "Error, can't delete entry."
+msgstr "Hata, kayıt silinemiyor."
+
+#: src/autoload/strings.gd
+msgid "Renamed the entry."
+msgstr "Kayıt yeniden adlandırıldı."
+
+#: src/autoload/strings.gd
+msgid "Error, can't rename the entry."
+msgstr "Hata, kayıt yeniden adlandırılamıyor."
+
+#: src/autoload/strings.gd
+msgid "Successfully exported the lorebook."
+msgstr "Ansiklopediyi başarılı bir şekilde dışarı aktarıldı."
+
+#: src/autoload/strings.gd
+msgid "Error, can't export the lorebook."
+msgstr "Hata, ansiklopedi dışarı aktarılamıyor."
+
+#: src/autoload/strings.gd
+msgid "The server is off."
+msgstr "Sunucu kapalı."
+
+#: src/autoload/strings.gd
+msgctxt "The first person pronoun. It is placed before the user's input."
+msgid "I"
+msgstr "Ben"
+
+#: src/autoload/strings.gd
+msgctxt "The second person pronoun. It is placed before the user's input."
+msgid "You"
+msgstr "Sen"
+
+#: src/autoload/strings.gd
+msgctxt "Conjugate say for I. E.g: I say. (Don't add uppercase)"
+msgid "say"
+msgstr "söyle"
+
+#: src/autoload/strings.gd
+msgctxt "Conjugate say for You. E.g: You say. (Don't add uppercase)"
+msgid "say"
+msgstr "söyle"
+
+#: src/autoload/strings.gd
+msgctxt "Conjugate for I. E.g: I succeed to. (Don't add uppercase)"
+msgid "succeed to"
+msgstr "başardım"
+
+#: src/autoload/strings.gd
+msgctxt "Conjugate for You. E.g: You succeed to. (Don't add uppercase)"
+msgid "succeed to"
+msgstr "başardın"
+
+#: src/autoload/strings.gd
+msgctxt "E.g: You satisfyingly punch the man. (Don't add uppercase)"
+msgid "satisfyingly"
+msgstr "tatmin edici bir şekilde"
+
+#: src/autoload/strings.gd
+msgctxt "E.g: You competently punch the man. (Don't add uppercase)"
+msgid "competently"
+msgstr "yetkin bir şekilde"
+
+#: src/autoload/strings.gd
+msgctxt "E.g: You perfectly punch the man. (Don't add uppercase)"
+msgid "perfectly"
+msgstr "mükemmel bir şekilde"
+
+#: src/autoload/strings.gd
+msgctxt "E.g: You fail to punch the man (Don't add uppercase)"
+msgid "fail to"
+msgstr "başaramadın"
+
+#: src/autoload/strings.gd
+msgctxt "E.g: I fail to punch the man (Don't add uppercase)"
+msgid "fail to"
+msgstr "başaramadım"
+
+#: src/autoload/strings.gd
+msgctxt "E.g: I pathetically fail to punch the man (Don't add uppercase)"
+msgid "pathetically fail to"
+msgstr "acınası bir şekilde başarısız oldum"
+
+#: src/autoload/strings.gd
+msgctxt "E.g: You pathetically fail to punch the man (Don't add uppercase)"
+msgid "pathetically fail to"
+msgstr "acınası bir şekilde başarısız oldun"
+
+#: src/autoload/strings.gd
+msgid "Visible to everyone."
+msgstr "Herkese görünür."
+
+#: src/autoload/strings.gd
+msgid "Visible to friends only."
+msgstr "Yalnızca arkadaşlara görünür."
+
+#: src/autoload/strings.gd
+msgid "Only visible to the creator."
+msgstr "Yalnızca yaratan kişiye görünür."
+
+#: src/autoload/strings.gd
+msgid ""
+"Visible to everyone, but will not be returned in any global queries.\n"
+"Will also not be returned in any user lists unless the caller is the creator "
+"or a subscriber."
+msgstr ""
+"Herkese görünür, ancak herhangi bir küresel aramada geri gönderilmez.\n"
+"Arayan içerik oluşturucu ya da abone olmadığı sürece hiçbir kullanıcı "
+"listesinden de geri gönderilmez."
+
+#: src/autoload/strings.gd
+msgid "Couldn't edit the Workshop item."
+msgstr "Atölye ögesi düzenlenemedi."
+
+#: src/autoload/strings.gd
+msgid "Couldn't upload to the Workshop."
+msgstr "Atölyeye yüklenemiyor."
+
+#: src/autoload/strings.gd
+msgid "Successfully uploaded to the Workshop."
+msgstr "Atölyeye yükleme işlemi başarılı oldu."
+
+#: src/autoload/strings.gd
+msgid "Successfully updated the Workshop item."
+msgstr "Atölye ögesi başarılı bir şekilde güncellendi."
+
+#: src/autoload/strings.gd
+msgid "File deleted."
+msgstr "Dosya silindi."
+
+#: src/autoload/strings.gd
+msgid "Error, can't delete file."
+msgstr "Hata, dosya silinemiyor."
+
+#: src/autoload/strings.gd
+msgid "AI deleted."
+msgstr "Yapay Zekâ silindi."
+
+#: src/autoload/strings.gd
+msgid "Error, can't delete AI."
+msgstr "Hata, Yapay Zekâ silinemiyor."
+
+#: src/autoload/strings.gd
+msgid "AI added to download's queue."
+msgstr "Yapay Zekâ, indirme kuyruğuna eklendi."
+
+#: src/autoload/strings.gd
+msgid "This custom AI is already installed."
+msgstr "Bu özel Yapay Zekâ zaten yüklenmiş."
+
+#: src/autoload/strings.gd
+msgid "AI downloaded."
+msgstr "Yapay Zekâ indirildi."
+
+#: src/autoload/strings.gd
+msgid "Error, can't download AI."
+msgstr "Hata, Yapay Zekâ indirilemiyor."
+
+#: src/autoload/strings.gd
+msgid "This AI is safe for work."
+msgstr "Bu Yapay Zekâ iş için güvenli."
+
+#: src/autoload/strings.gd
+msgid ""
+"This AI is moderately safe. It might still generate 'light' erotic content "
+"by itself!"
+msgstr ""
+"Bu Yapay Zekâ orta derecede güvenli. Kendi başına \"hafif\" erotik içerik "
+"üretebilir."
+
+#: src/autoload/strings.gd
+msgid "This AI isn't safe for work! It will generate erotic content by itself!"
+msgstr ""
+"Bu Yapay Zekâ iş için güvenli değil! Kendi başına erotik içerik üretecektir!"
+
+#: src/autoload/strings.gd
+msgid "This is a custom AI. It hasn't been tested and might not work."
+msgstr "Bu, özel bir Yapay Zekâ. Henüz test edilmedi, çalışmayabilir."
+
+#: src/dialogs/lorebook_info_popup_window.tscn
+msgid "Save changes"
+msgstr "Değişiklikleri kaydet"
+
+#: src/dialogs/server_off_warning.tscn
+msgid ""
+"To generate text the server has to be running.\n"
+"To translate text, you need to enable automatic translation."
+msgstr ""
+"Metin üretilebilmesi için sunucunun çalışır durumda olması gerekmektedir.\n"
+"Metni tercüme etmek için otomatik tercümeyi etkinleştirmelisin."
+
+#: src/dialogs/server_off_warning.tscn
+msgid "Open server's menu"
+msgstr "Sunucunun menüsünü aç"
+
+#: src/dialogs/hardware_form/gpu_form.tscn
+msgid ""
+"This game uses CUDA to run AIs on your GPU.\n"
+"Do you have a Nvidia Graphical Card ?"
+msgstr ""
+"Bu oyun, Yapay Zekâları GPU üzerinde çalıştırmak için CUDA yazılımını "
+"kullanmaktadır.\n"
+"Nvidia Grafik Kartın var mı?"
+
+#: src/dialogs/hardware_form/gpu_form.tscn
+msgid "Yes, I have a Nvidia card"
+msgstr "Evet, Nvidia kartım var"
+
+#: src/dialogs/hardware_form/gpu_form.tscn
+msgid "No, I don't have a Nvidia card"
+msgstr "Hayır, Nvidia kartım yok"
+
+#: src/dialogs/hardware_form/gpu_form.tscn
+msgid "I don't know"
+msgstr "Bilmiyorum"
+
+#: src/dialogs/hardware_form/gpu_form.tscn
+msgid "The list of the GPU compatible with CUDA"
+msgstr "CUDA ile uyumlu GPU listesi"
+
+#: src/dialogs/hardware_form/gpu_form.tscn
+msgid "See supported cards"
+msgstr "Desteklenen kartları görüntüle"
+
+#: src/dialogs/hardware_form/hardware_form.gd
+#: src/dialogs/hardware_form/hardware_form.tscn
+msgid "Successfully adapted settings to your hardware."
+msgstr "Ayarlar başarılı bir şekilde donanımına uyarlandı."
+
+#: src/dialogs/hardware_form/hardware_form.gd
+#: src/dialogs/hardware_form/hardware_form.tscn
+msgid "Failed to adapt settings to your hardware."
+msgstr "Ayarları donanımına uyarlama işlemi başarısız oldu."
+
+#: src/dialogs/hardware_form/hardware_form.tscn
+msgid ""
+"AIdventure uses Artificial Intelligences (AIs). It's a tricky technology and "
+"can behave differently depending of your hardware.\n"
+"\n"
+"The game will try to adapt to your hardware as best as it can.\n"
+"This window will ask you multiple information to improve the automatic setup."
+msgstr ""
+"AIdventure, Yapay Zekâdan (AI) yararlanmaktadır. Karmaşık bir teknolojidir "
+"ve sahip olduğun donanıma bağlı olarak farklı davranabilir.\n"
+"\n"
+"Oyun, donanımına mümkün olan en iyi şekilde uyum sağlamaya çalışacaktır.\n"
+"Bu pencere otomatik kurulumu geliştirmek için birçok soru soracaktır."
+
+#: src/dialogs/hardware_form/hardware_form.tscn
+msgid ""
+"Thank you for your time.\n"
+"You can exit by click on OK."
+msgstr ""
+"Zaman ayırdığın için teşekkürler.\n"
+"TAMAM butonuna tıklayarak çıkabilirsin."
+
+#: src/dialogs/hardware_form/memory_form.tscn
+msgid ""
+"Please, specify how much memory you want to allow AIdventure to use.\n"
+"You should always leave 2-4 GB of memory free for the OS and other "
+"applications."
+msgstr ""
+"Lütfen AIdventure oyununun ne kadar bellek kullanmasına izin vermek "
+"istediğini belirt.\n"
+"İşletim sistemi ve diğer uygulamalar için her zaman 2-4GB boş bellek "
+"bırakmalısın."
+
+#: src/dialogs/hardware_form/memory_form.tscn
+msgid ""
+"You can choose to not limit memory.\n"
+"But you risk running out of memory."
+msgstr ""
+"Belleği sınırlandırmamayı tercih edebilirsin.\n"
+"Ancak belleğin tamamen tükenme riskiyle karşılaşabilirsin."
+
+#: src/dialogs/hardware_form/memory_form.tscn
+msgid "Don't limit memory"
+msgstr "Belleği sınırlandırma"
+
+#: src/dialogs/hardware_form/memory_form.tscn
+msgid "I don't know how much memory I have"
+msgstr "Ne kadar belleğe sahip olduğumu bilmiyorum"
+
+#: src/interfaces/character_menu.tscn
+msgctxt "character like an individual. Not like characters in a word."
+msgid "Character menu"
+msgstr "Karakter menüsü"
+
+#: src/interfaces/character_menu.tscn
+msgid "Strength"
+msgstr "Güç"
+
+#: src/interfaces/character_menu.tscn
+msgid "Reroll"
+msgstr "Yeniden At"
+
+#: src/interfaces/character_menu.tscn
+msgid "Constitution"
+msgstr "Karakter"
+
+#: src/interfaces/character_menu.tscn
+msgid "Dexterity"
+msgstr "Yetenek"
+
+#: src/interfaces/character_menu.tscn
+msgid "Charisma"
+msgstr "Karizma"
+
+#: src/interfaces/character_menu.tscn
+msgid "Intelligence"
+msgstr "Zekâ"
+
+#: src/interfaces/character_menu.tscn
+msgid "Wisdom"
+msgstr "Bilgelik"
+
+#: src/interfaces/character_menu.tscn
+msgid "Luck"
+msgstr "Şans"
+
+#: src/interfaces/character_menu.tscn
+msgid "Name"
+msgstr "Ad"
+
+#: src/interfaces/character_menu.tscn
+msgid "Arthur"
+msgstr "Yazar"
+
+#: src/interfaces/character_menu.tscn
+msgid "Randomize"
+msgstr "Rastgele"
+
+#: src/interfaces/character_menu.tscn
+msgid "How does it work?"
+msgstr "Nasıl çalışır?"
+
+#: src/interfaces/character_menu.tscn
+msgid ""
+"Attributes are between 15 and 90.\n"
+"When you try an action, you must do a score above your value.\n"
+"If you have 50 in strength and use it to try an action. You have 50% chances "
+"of success."
+msgstr ""
+"Nitelikler 15 ve 90 arasındadır.\n"
+"Bir eylemi denediğinde değerinin üzerinde bir skor almalısın.\n"
+"Gücün 50 ise gücünü bir eylem yapmak için kullanabilirsin. Başarılı olma "
+"şansın %50'dir."
+
+#: src/interfaces/character_menu.tscn
+msgid "Randomize everything."
+msgstr "Her şeyi rastgele hale getir."
+
+#: src/interfaces/character_menu.tscn
+msgid "Roll the dice"
+msgstr "Zar at"
+
+#: src/interfaces/end_demo.tscn
+msgid ""
+"Thank you for playing AIdventure's demo!\n"
+"You reached the limit.\n"
+"Buy the game to continue this adventure."
+msgstr ""
+"AIdventure deneme sürümünü oynadığın için teşekkürler!\n"
+"Sınıra ulaştın.\n"
+"Bu maceraya devam etmek için oyunu satın al."
+
+#: src/interfaces/end_demo.tscn
+msgid "Buy"
+msgstr "Satın Al"
+
+#: src/interfaces/game_top_bar_menu.tscn
+msgid "Menu"
+msgstr "Menü"
+
+#: src/interfaces/game_top_bar_menu.tscn
+msgid "Server"
+msgstr "Sunucu"
+
+#: src/interfaces/load_translator.tscn
+msgid "Do you want to use the automatic translation ?"
+msgstr "Otomatik tercüme işlevini kullanmak istiyor musun?"
+
+#: src/interfaces/load_translator.tscn
+msgid "Select the language for the automatic translation"
+msgstr "Otomatik tercüme için dili seç"
+
+#: src/interfaces/load_translator.tscn
+msgid "Load translators"
+msgstr "Tercümanları yükle"
+
+#: src/interfaces/load_translator.tscn
+msgid "Manage translators"
+msgstr "Tercümanları yönet"
+
+#: src/interfaces/load_translator.tscn
+msgid "Disable automatic translation"
+msgstr "Otomatik tercümeyi devre dışı bırak"
+
+#: src/interfaces/server_menu.gd src/interfaces/server_menu.tscn
+msgctxt "Running like in 'The server is running'"
+msgid "Running"
+msgstr "Çalışıyor"
+
+#: src/interfaces/server_menu.gd src/interfaces/server_menu.tscn
+msgid "Turned off"
+msgstr "Kapatıldı"
+
+#: src/interfaces/server_menu.gd src/interfaces/server_menu.tscn
+msgid "Error"
+msgstr "Hata"
+
+#: src/interfaces/server_menu.tscn
+msgid "Server control center"
+msgstr "Sunucu kontrol merkezi"
+
+#: src/interfaces/server_menu.tscn
+msgid "Server status:"
+msgstr "Sunucu durumu:"
+
+#: src/interfaces/server_menu.tscn
+msgid "Start the server"
+msgstr "Sunucuyu başlat"
+
+#: src/interfaces/server_menu.tscn
+msgid "Stop the server"
+msgstr "Sunucuyu durdur"
+
+#: src/interfaces/server_menu.tscn
+msgid "The server is starting"
+msgstr "Sunucu başlatılıyor"
+
+#: src/interfaces/server_menu.tscn
+msgid "Load Generator"
+msgstr "Üreticiyi Yükle"
+
+#: src/interfaces/server_menu.tscn
+msgid "To load translators, you need to enable automatic translation"
+msgstr "Tercümanları yüklemek için otomatik tercümeyi etkinleştirmelisin"
+
+#: src/interfaces/server_menu.tscn
+msgid "Enable automatic translation"
+msgstr "Otomatik tercümeyi etkinleştir"
+
+#: src/interfaces/server_menu.tscn
+msgid "Load Translators"
+msgstr "Tercümanları Yükle"
+
+#: src/interfaces/start_game_workflow.tscn
+msgid "The server is starting."
+msgstr "Sunucu başlatılıyor."
+
+#: src/interfaces/start_game_workflow.tscn
+msgid "Please, wait."
+msgstr "Lütfen bekle."
+
+#: src/interfaces/start_game_workflow.tscn
+msgid "What do you want to do?"
+msgstr "Ne yapmak istiyorsun?"
+
+#: src/interfaces/start_game_workflow.tscn
+msgid "New story"
+msgstr "Yeni hikâye"
+
+#: src/interfaces/start_game_workflow.tscn
+msgid "Load a story"
+msgstr "Bir hikâye yükle"
+
+#: src/interfaces/start_game_workflow.tscn
+msgid "Select a save to load."
+msgstr "Yüklemek için kayıtlardan birini seç."
+
+#: src/interfaces/start_game_workflow.tscn
+msgid "Load"
+msgstr "Yükle"
+
+#: src/interfaces/start_game_workflow.tscn
+msgid "Return"
+msgstr "Geri Dön"
+
+#: src/interfaces/options/preferences.tscn
+msgid "Display mode"
+msgstr "Görüntüleme modu"
+
+#: src/interfaces/options/preferences.tscn
+msgid "Language of the interface"
+msgstr "Arayüz dili"
+
+#: src/interfaces/options/preferences.tscn
+msgid "Default AI"
+msgstr "Varsayılan Yapay Zekâ"
+
+#: src/interfaces/options/preferences.tscn
+msgid ""
+"Delete the last sentence if the AI didn't 'finish' it by a punctuation "
+"(, ; : ! ? .).\n"
+"It might delete the whole output if \"max length\" is too small!"
+msgstr ""
+"Yapay Zekâ cümleyi noktalama işaretlerinden herhangi biriyle (, ; : ! ? .) "
+"\"bitirmediyse\" son cümleyi sil.\n"
+"\"Maksimum uzunluk\" çok kısa ise tümünü silebilir!"
+
+#: src/interfaces/options/preferences.tscn
+msgid "Remove unfinished sentences"
+msgstr "Tamamlanmamış cümleleri kaldır"
+
+#: src/interfaces/options/preferences.tscn
+msgid ""
+"It will hide the top bar in the game.\n"
+"You can still access the menu by pressing the ESC key."
+msgstr ""
+"Oyundaki üst çubuğu gizleyecektir.\n"
+"ESC tuşuna basarak menüye erişebilirsin."
+
+#: src/interfaces/options/preferences.tscn
+msgid "Hide top bar"
+msgstr "Üst çubuğu gizle"
+
+#: src/interfaces/options/preferences.tscn
+msgid "It will use \"You\" or \"I\" in your inputs."
+msgstr "Girdilerinde \"Sen\" ya da \"Ben\" kullanacaktır."
+
+#: src/interfaces/options/preferences.tscn
+msgid "Point of view"
+msgstr "Bakış açısı"
+
+#: src/interfaces/options/preferences.tscn
+msgid ""
+"You can add custom fonts to the list.\n"
+"- Create a \"fonts\" folder in the game folder\n"
+"- Download fonts online (https://www.dafont.com/)\n"
+"- Add the \".ttf\" file in the fonts folder\n"
+"- Reload."
+msgstr ""
+"Listeye özel yazı tipleri ekleyebilirsin.\n"
+"- Oyun klasöründe bir \"fonts\" klasörü oluştur\n"
+"- Yazı tiplerini indir (https://www.dafont.com/)\n"
+"- Fonts klasörüne \".ttf\" dosyasını ekle\n"
+"- Yeniden yükle."
+
+#: src/interfaces/options/preferences.tscn
+msgid "Application's Font"
+msgstr "Uygulamanın Yazı Tipi"
+
+#: src/interfaces/options/preferences.tscn
+msgid "How many seconds before the notification disappears."
+msgstr "Bildirimin kaybolması için geçmesi gereken saniye."
+
+#: src/interfaces/options/preferences.tscn
+msgid "Notification's duration"
+msgstr "Bildirim süresi"
+
+#: src/interfaces/options/preferences.tscn
+msgid "Story reader preferences"
+msgstr "Hikâye okuyucu tercihleri"
+
+#: src/interfaces/options/preferences.tscn
+msgid "Font"
+msgstr "Yazı Tipi"
+
+#: src/interfaces/options/preferences.tscn
+msgid "Font size"
+msgstr "Yazı Tipi Boyutu"
+
+#: src/interfaces/options/preferences.tscn
+msgid "The space left between two lines."
+msgstr "İki satır arasında bırakılan boşluk."
+
+#: src/interfaces/options/preferences.tscn
+msgid "Line spacing"
+msgstr "Satır aralığı"
+
+#: src/interfaces/options/preferences.tscn
+msgid "Font color"
+msgstr "Yazı tipi rengi"
+
+#: src/interfaces/options/preferences.tscn
+msgid "Selection color"
+msgstr "Seçim rengi"
+
+#: src/interfaces/options/preferences.tscn
+msgid "Story reader preview"
+msgstr "Hikâye okuyucu ön izlemesi"
+
+#: src/interfaces/options/preferences.tscn
+msgid "This is a sample text."
+msgstr "Bu metin örnek bir metindir."
+
+#: src/interfaces/options/server.tscn
+msgid "If you don't know what you are doing, don't change anything here."
+msgstr "Ne yaptığını bilmiyorsan burada hiçbir şey değiştirme."
+
+#: src/interfaces/options/server.tscn
+msgid ""
+"The seconds to wait before trying to connect to the server.\n"
+"It only works for local server."
+msgstr ""
+"Sunucuya bağlanmayı denemeden önce beklenmesi gereken saniye.\n"
+"Yalnızca yerel sunucuda çalışır."
+
+#: src/interfaces/options/server.tscn
+msgid "Connection delay"
+msgstr "Bağlantı gecikmesi"
+
+#: src/interfaces/options/server.tscn
+msgid "If enabled, the server will try to download an AI if it's missing.\n"
+msgstr ""
+"Etkinleştirilirse sunucu eksik olması durumunda bir Yapay Zekâ indirmeye "
+"çalışacaktır.\n"
+
+#: src/interfaces/options/server.tscn
+msgid "Allow downloading AI"
+msgstr "Yapay Zekâ indirmeye izin ver"
+
+#: src/interfaces/options/server.tscn
+msgid "Connect to a remote server"
+msgstr "Uzak bir sunucuya bağlan"
+
+#: src/interfaces/options/server.tscn
+msgid ""
+"For now the communication with the server isn't secure. Use this for local "
+"networks only."
+msgstr ""
+"Şimdilik sunucuyla iletişim güvenli değil. Bu özelliği yalnızca yerel ağlar "
+"için kullan."
+
+#: src/interfaces/options/server.tscn
+msgid "Server's IP"
+msgstr "Sunucu IP"
+
+#: src/interfaces/options/server.tscn
+msgid "Server's port"
+msgstr "Sunucu portu"
