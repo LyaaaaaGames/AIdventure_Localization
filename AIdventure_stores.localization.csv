@@ -1,0 +1,485 @@
+Entity Type,Entity Id,Entity Name,Entity Description,Localization Field,Field Description,Field Type,en,es,fr,ru,tr
+Offer,9cf43af4da8f46c88f1186b672dcbfa0,AIdventure Demo,Others,title,Name,string,AIdventure Demo,AIdventure Demo,AIdventure Demo,"АИдвенчура ""demo""",AIdventure Demo
+Offer,9cf43af4da8f46c88f1186b672dcbfa0,AIdventure Demo,Others,description,Short description,string,"AIdventure is a text adventure game with an AI as a storyteller. No rules, no censorship, the only limit is your imagination, not someone else's. It is shipped with more than 25 scenarios. Unleash your creativity by writing and sharing your own stories with other players.","AIdventure es un juego de aventura de texto donde el narrador es una IA. Sin reglas, sin censura, el único limite es tu imaginación, no la de otros. Incluye más de 25 escenarios.  Libera tu creatividad escribiendo y compartiendo tus proprias historias con otros jugadores.","AIdventure est un jeu d'aventures textuelles où une IA est la narratrice. Aucune règle, aucune censure, la seule limite est votre imagination, pas celle de quelqu'un d'autre. Laissez libre cours à votre imagination. Écrirez et partagez vos histoires avec d'autres joueurs.","АИдвенчура это текстовая приключенческая игра с ИИ рассказчиком. Никаких правил, никакой цензуры, всё ограничено лишь вашим воображением, а не чьим-либо ещё. АИдвенчура содержит более 25ти сценариев. Покажите себя - пишите и делитесь своими историями с другими игроками.","AIdventure, hikâye anlatıcı olarak yapay zekâya sahip bir metin macera oyunudur. Kural yok, sansür yok, tek sınır bir başkasının hayal gücü değil senin hayal gücün. 25’ten fazla senaryo mevcuttur. Kendi hikâyelerini yazıp diğer oyuncularla paylaşarak yaratıcılığını ortaya çıkar."
+Offer,9cf43af4da8f46c88f1186b672dcbfa0,AIdventure Demo,Others,aboutItem.0.textBlock.headline,About,markdown,"Text adventure game with an AI as a storyteller. No rules, no censorship, the only limit is your imagination, not someone else's.","Juego de aventura de texto con una IA como narrador. Sin reglas, sin censura. El único limite es tu imaginación, no la de otros.","Text adventure game with an AI as a storyteller. No rules, no censorship, the only limit is your imagination, not someone else's.","Text adventure game with an AI as a storyteller. No rules, no censorship, the only limit is your imagination, not someone else's.","Text adventure game with an AI as a storyteller. No rules, no censorship, the only limit is your imagination, not someone else's."
+Offer,9cf43af4da8f46c88f1186b672dcbfa0,AIdventure Demo,Others,aboutItem.0.textBlock.body,About,markdown,"Protect Europe from the overpopulation by enforcing the tough Law on life, a life for a birth. Or flip the table and fight the cruel plutocracy to free humanity.
+Survive the zombie apocalypse, but will your humanity survive in the process? Inherit a corrupt kingdom and survive the court's intrigues. Live the American dream and emigrate from Hong Kong with the help of the Triad. Sadly, nothing is free, and your dream isn't an exception. What will be the price? Fight Orcs with swords or blasters. Survive the harsh Dark Ages in the skin of a peasant, witch or squire. Wake up within a tube in a post-apocalyptic world. Plunder on the seven seas, or just help your neighbor's wife with her plumbing problems. The choice is yours.
+
+AIdventure is a text adventure game with an AI as a storyteller. It is shipped with 27 starting scenarios. From Fantasy to Lovecraft or zombie genre, they will help you discover the game's potential.
+
+Community-friendly, the game lets you unleash your creativity by writing and sharing your own stories with other players. No rules, no censorship, the only limit is your imagination, not someone else's.","Protege a Europa de la superpoblación aplicando la dura ley de la vida: una vida por un nacimiento. O da la vuelta a la tortilla y lucha contra la cruel plutocracia para liberar la humanidad. 
+Sobrevive al apocalipsis zombi, pero ¿sobrevivirá tu humanidad en en proceso? 
+Hereda un reino corrupto y sobrevive las intrigas de la corte. Vive el sueño americano y emigra de Hong Kong con la ayuda de la Tríada. Por desgracia, nada es gratis, y tu sueño no es una excepción. ¿Cuál será el precio? Lucha contra orcos con espadas o blásteres. Sobrevive la Alta Edad Media en la piel de un campesino, bruja o escudero. 
+Despierta dentro de un tubo, en un mundo post-apocalíptico. Surca los siete mares, o tan solo ayuda la mujer de tu vecino con sus problemas de fontanería. Tu elijes.
+
+AIdventure es un juego de aventura de texto con una IA como narrador. Incluye 27 escenarios iniciales. Desde la Fantasía a Lovecraft o el género zombi, te ayudarán explorar el potencial del juego.
+
+Compatible con la comunidad, el juego permite que liberes tu creatividad escribiendo y compartiendo tus proprias historias con otros jugadores. Sin reglas, sin censura, el único límite es tu imaginación, no la de otros. ","Protect Europe from the overpopulation by enforcing the tough Law on life, a life for a birth. Or flip the table and fight the cruel plutocracy to free humanity.
+Survive the zombie apocalypse, but will your humanity survive in the process? Inherit a corrupt kingdom and survive the court's intrigues. Live the American dream and emigrate from Hong Kong with the help of the Triad. Sadly, nothing is free, and your dream isn't an exception. What will be the price? Fight Orcs with swords or blasters. Survive the harsh Dark Ages in the skin of a peasant, witch or squire. Wake up within a tube in a post-apocalyptic world. Plunder on the seven seas, or just help your neighbor's wife with her plumbing problems. The choice is yours.
+
+AIdventure is a text adventure game with an AI as a storyteller. It is shipped with 27 starting scenarios. From Fantasy to Lovecraft or zombie genre, they will help you discover the game's potential.
+
+Community-friendly, the game lets you unleash your creativity by writing and sharing your own stories with other players. No rules, no censorship, the only limit is your imagination, not someone else's.","Protect Europe from the overpopulation by enforcing the tough Law on life, a life for a birth. Or flip the table and fight the cruel plutocracy to free humanity.
+Survive the zombie apocalypse, but will your humanity survive in the process? Inherit a corrupt kingdom and survive the court's intrigues. Live the American dream and emigrate from Hong Kong with the help of the Triad. Sadly, nothing is free, and your dream isn't an exception. What will be the price? Fight Orcs with swords or blasters. Survive the harsh Dark Ages in the skin of a peasant, witch or squire. Wake up within a tube in a post-apocalyptic world. Plunder on the seven seas, or just help your neighbor's wife with her plumbing problems. The choice is yours.
+
+AIdventure is a text adventure game with an AI as a storyteller. It is shipped with 27 starting scenarios. From Fantasy to Lovecraft or zombie genre, they will help you discover the game's potential.
+
+Community-friendly, the game lets you unleash your creativity by writing and sharing your own stories with other players. No rules, no censorship, the only limit is your imagination, not someone else's.","Protect Europe from the overpopulation by enforcing the tough Law on life, a life for a birth. Or flip the table and fight the cruel plutocracy to free humanity.
+Survive the zombie apocalypse, but will your humanity survive in the process? Inherit a corrupt kingdom and survive the court's intrigues. Live the American dream and emigrate from Hong Kong with the help of the Triad. Sadly, nothing is free, and your dream isn't an exception. What will be the price? Fight Orcs with swords or blasters. Survive the harsh Dark Ages in the skin of a peasant, witch or squire. Wake up within a tube in a post-apocalyptic world. Plunder on the seven seas, or just help your neighbor's wife with her plumbing problems. The choice is yours.
+
+AIdventure is a text adventure game with an AI as a storyteller. It is shipped with 27 starting scenarios. From Fantasy to Lovecraft or zombie genre, they will help you discover the game's potential.
+
+Community-friendly, the game lets you unleash your creativity by writing and sharing your own stories with other players. No rules, no censorship, the only limit is your imagination, not someone else's."
+Offer,9cf43af4da8f46c88f1186b672dcbfa0,AIdventure Demo,Others,aboutItem.2.textBlock.headline,About,markdown,Features,Funciones,Features,Features,Features
+Offer,9cf43af4da8f46c88f1186b672dcbfa0,AIdventure Demo,Others,aboutItem.2.textBlock.body,About,markdown,"- Customizable - Don't like the AI? Don't like the settings? Change them!
+- Memory system - The AI has both a short and long term memory.
+- Easy to use interactions - Choose the mode of interaction with the AI between Say/Try/Do/Story.
+- RPG system - Create your character's stats and fail or succeed in your own actions.
+- Generate multiple AI's responses - If you hesitate, you can ask the AI to generate another response.
+- Story editor - You can edit whenever you want your story.
+- Scenario editor - Feeling creative? You can create a new scenario or edit an existing one.
+- Community friendly - Stories and scenarios are stored in json files. It's easy to share and add new content to your game.
+- No censorship - Keep control of your stories.
+- Privacy safe - Your data remain on your PC, and only you can access it.
+- 27 scenarios - From fantasy to Lovecraft or Zombies, the starting scenarios will help you discover the game
+- GPU support - The game supports CUDA to improve the performances.
+- Automatic translation - Live your adventure in your native language!.
+- Lore book - Build coherent stories with the lore book!","- Personalizable – No te gusta el IA? No te gustan los ajustes? ¡Cámbialos!
+- Sistema de memoria – La IA tiene memoria a corto y largo plazo.
+- Interacciones fáciles de utilizar – Elige el modo de interacción con la IA entre Decir/Probar/Hacer/Historia.
+- Sistema RPG – Crea las estadísticas de tu personaje y realiza tus acciones con o sin éxito.
+- Genera múltiplas respuestas de la IA – Si dudas, puedes pedir a la IA que genere otra respuesta.
+- Editor de historia – ¿Te sientes creativo? Puedes crear un escenario nuevo o editar uno que ya exista.
+- Compatible con la comunidad – Historias y escenarios se almacenan en archivos json. Fácil de compartir y añadir contenido nuevo a tu juego.
+- Sin censura – Mantén el control de tus historias.
+- Privacidad segura – Tus datos permanecen en tu ordenador y sólo tú puedes accesarlos.
+- 27 escenarios – De la fantasía a Lovecraft o los zombis, los escenarios iniciales te ayudarán a conocer el juego
+- Compatible con GPU – El juego soporta CUDA para mejorar su funcionamiento.
+- Traducción automática – ¡Vive tu aventura en tu idioma materno!.
+- Enciclopedia - ¡Construye historias coherentes con la enciclopedia !
+- Compatible con Steam Workshop – ¡Comparte contenido o explora las obras de la comunidad!
+- Compatible con Remote Play Together – ¡Escribe tu historia con tus amigos!","- Customizable - Don't like the AI? Don't like the settings? Change them!
+- Memory system - The AI has both a short and long term memory.
+- Easy to use interactions - Choose the mode of interaction with the AI between Say/Try/Do/Story.
+- RPG system - Create your character's stats and fail or succeed in your own actions.
+- Generate multiple AI's responses - If you hesitate, you can ask the AI to generate another response.
+- Story editor - You can edit whenever you want your story.
+- Scenario editor - Feeling creative? You can create a new scenario or edit an existing one.
+- Community friendly - Stories and scenarios are stored in json files. It's easy to share and add new content to your game.
+- No censorship - Keep control of your stories.
+- Privacy safe - Your data remain on your PC, and only you can access it.
+- 27 scenarios - From fantasy to Lovecraft or Zombies, the starting scenarios will help you discover the game
+- GPU support - The game supports CUDA to improve the performances.
+- Automatic translation - Live your adventure in your native language!.
+- Lore book - Build coherent stories with the lore book!","- Customizable - Don't like the AI? Don't like the settings? Change them!
+- Memory system - The AI has both a short and long term memory.
+- Easy to use interactions - Choose the mode of interaction with the AI between Say/Try/Do/Story.
+- RPG system - Create your character's stats and fail or succeed in your own actions.
+- Generate multiple AI's responses - If you hesitate, you can ask the AI to generate another response.
+- Story editor - You can edit whenever you want your story.
+- Scenario editor - Feeling creative? You can create a new scenario or edit an existing one.
+- Community friendly - Stories and scenarios are stored in json files. It's easy to share and add new content to your game.
+- No censorship - Keep control of your stories.
+- Privacy safe - Your data remain on your PC, and only you can access it.
+- 27 scenarios - From fantasy to Lovecraft or Zombies, the starting scenarios will help you discover the game
+- GPU support - The game supports CUDA to improve the performances.
+- Automatic translation - Live your adventure in your native language!.
+- Lore book - Build coherent stories with the lore book!","- Customizable - Don't like the AI? Don't like the settings? Change them!
+- Memory system - The AI has both a short and long term memory.
+- Easy to use interactions - Choose the mode of interaction with the AI between Say/Try/Do/Story.
+- RPG system - Create your character's stats and fail or succeed in your own actions.
+- Generate multiple AI's responses - If you hesitate, you can ask the AI to generate another response.
+- Story editor - You can edit whenever you want your story.
+- Scenario editor - Feeling creative? You can create a new scenario or edit an existing one.
+- Community friendly - Stories and scenarios are stored in json files. It's easy to share and add new content to your game.
+- No censorship - Keep control of your stories.
+- Privacy safe - Your data remain on your PC, and only you can access it.
+- 27 scenarios - From fantasy to Lovecraft or Zombies, the starting scenarios will help you discover the game
+- GPU support - The game supports CUDA to improve the performances.
+- Automatic translation - Live your adventure in your native language!.
+- Lore book - Build coherent stories with the lore book!"
+Offer,9cf43af4da8f46c88f1186b672dcbfa0,AIdventure Demo,Others,aboutItem.3.textBlock.headline,About,markdown,Supported AIs,IAs compatibles,Supported AIs,Supported AIs,Supported AIs
+Offer,9cf43af4da8f46c88f1186b672dcbfa0,AIdventure Demo,Others,aboutItem.3.textBlock.body,About,markdown,"- gpt2
+- gpt2-xl
+- gpt2-medium
+- gpt2-large
+- EleutherAI/gpt-neo-125M
+- EleutherAI/gpt-neo-1.3B
+- EleutherAI/gpt-neo-2.7B
+- KoboldAI/GPT-J-6B-Adventure
+- KoboldAI/GPT-J-6B-Skein
+- KoboldAI/GPT-Neo-125M-AID
+- KoboldAI/GPT-Neo-2.7B-Horni-LN
+- KoboldAI/GPT-Neo-2.7B-Horni
+- KoboldAI/GPT-Neo-2.7B-Picard
+- KoboldAI/GPT-Neo-2.7B-Shinen
+- Nomic-AI/gpt4all-j​","
+
+- gpt2
+- gpt2-xl
+- gpt2-medium
+- gpt2-large
+- EleutherAI/gpt-neo-125M
+- EleutherAI/gpt-neo-1.3B
+- EleutherAI/gpt-neo-2.7B
+- KoboldAI/GPT-J-6B-Adventure
+- KoboldAI/GPT-J-6B-Skein
+- KoboldAI/GPT-Neo-125M-AID
+- KoboldAI/GPT-Neo-2.7B-Horni-LN
+- KoboldAI/GPT-Neo-2.7B-Horni
+- KoboldAI/GPT-Neo-2.7B-Picard
+- KoboldAI/GPT-Neo-2.7B-Shinen
+- Nomic-AI/gpt4all-j​","- gpt2
+- gpt2-xl
+- gpt2-medium
+- gpt2-large
+- EleutherAI/gpt-neo-125M
+- EleutherAI/gpt-neo-1.3B
+- EleutherAI/gpt-neo-2.7B
+- KoboldAI/GPT-J-6B-Adventure
+- KoboldAI/GPT-J-6B-Skein
+- KoboldAI/GPT-Neo-125M-AID
+- KoboldAI/GPT-Neo-2.7B-Horni-LN
+- KoboldAI/GPT-Neo-2.7B-Horni
+- KoboldAI/GPT-Neo-2.7B-Picard
+- KoboldAI/GPT-Neo-2.7B-Shinen
+- Nomic-AI/gpt4all-j​","- gpt2
+- gpt2-xl
+- gpt2-medium
+- gpt2-large
+- EleutherAI/gpt-neo-125M
+- EleutherAI/gpt-neo-1.3B
+- EleutherAI/gpt-neo-2.7B
+- KoboldAI/GPT-J-6B-Adventure
+- KoboldAI/GPT-J-6B-Skein
+- KoboldAI/GPT-Neo-125M-AID
+- KoboldAI/GPT-Neo-2.7B-Horni-LN
+- KoboldAI/GPT-Neo-2.7B-Horni
+- KoboldAI/GPT-Neo-2.7B-Picard
+- KoboldAI/GPT-Neo-2.7B-Shinen
+- Nomic-AI/gpt4all-j​","- gpt2
+- gpt2-xl
+- gpt2-medium
+- gpt2-large
+- EleutherAI/gpt-neo-125M
+- EleutherAI/gpt-neo-1.3B
+- EleutherAI/gpt-neo-2.7B
+- KoboldAI/GPT-J-6B-Adventure
+- KoboldAI/GPT-J-6B-Skein
+- KoboldAI/GPT-Neo-125M-AID
+- KoboldAI/GPT-Neo-2.7B-Horni-LN
+- KoboldAI/GPT-Neo-2.7B-Horni
+- KoboldAI/GPT-Neo-2.7B-Picard
+- KoboldAI/GPT-Neo-2.7B-Shinen
+- Nomic-AI/gpt4all-j​"
+Offer,9cf43af4da8f46c88f1186b672dcbfa0,AIdventure Demo,Others,aboutItem.4.textBlock.headline,About,markdown,Privacy safe,Privacidad segura,Privacy safe,Privacy safe,Privacy safe
+Offer,9cf43af4da8f46c88f1186b672dcbfa0,AIdventure Demo,Others,aboutItem.4.textBlock.body,About,markdown,"- Local content
+- No moderator reading your stories
+- No data leaking.",- Contenido local - Sin moderador leyendo tus historias - Sin fuga de datos,"- Local content
+- No moderator reading your stories
+- No data leaking.","- Local content
+- No moderator reading your stories
+- No data leaking.","- Local content
+- No moderator reading your stories
+- No data leaking."
+Offer,9cf43af4da8f46c88f1186b672dcbfa0,AIdventure Demo,Others,aboutItem.5.textBlock.headline,About,markdown,Join the community on discord!,¡Únete a la comunidad en discord!,Join the community on discord!,Join the community on discord!,Join the community on discord!
+Offer,9cf43af4da8f46c88f1186b672dcbfa0,AIdventure Demo,Others,aboutItem.5.textBlock.body,About,markdown,[Join the discord!](https://discord.gg/mJGSkJ3mgT),[¡Únete al discord!] (https://discord.gg/mJGSkJ3mgT),[Join the discord!](https://discord.gg/mJGSkJ3mgT),[Join the discord!](https://discord.gg/mJGSkJ3mgT),[Join the discord!](https://discord.gg/mJGSkJ3mgT)
+Offer,1464466b441b4977be121b07af9b4efe,AIdventure,Base Game,title,Name,string,AIdventure,AIdventure,AIdventure,АИдвенчура,Aidventure
+Offer,1464466b441b4977be121b07af9b4efe,AIdventure,Base Game,description,Short description,string,"AIdventure is a text adventure game with an AI as a storyteller. No rules, no censorship, the only limit is your imagination, not someone else's. It is shipped with more than 25 scenarios. Unleash your creativity by writing and sharing your own stories with other players.","AIdventure es un juego de aventura de texto donde el narrador es una IA. Sin reglas, sin censura, el único limite es tu imaginación, no la de otros. Incluye más de 25 escenarios.  Libera tu creatividad escribiendo y compartiendo tus proprias historias con otros jugadores.","AIdventure est un jeu d'aventures textuelles où une IA est la narratrice. Aucune règle, aucune censure, la seule limite est votre imagination, pas celle de quelqu'un d'autre. Laissez libre cours à votre imagination. Écrirez et partagez vos histoires avec d'autres joueurs.","АИдвенчура это текстовая приключенческая игра с ИИ рассказчиком. Никаких правил, никакой цензуры, всё ограничено лишь вашим воображением, а не чьим-либо ещё. АИдвенчура содержит более 25ти сценариев. Покажите себя - пишите и делитесь своими историями с другими игроками.","AIdventure, hikâye anlatıcı olarak yapay zekâya sahip bir metin macera oyunudur. Kural yok, sansür yok, tek sınır bir başkasının hayal gücü değil senin hayal gücün. 25’ten fazla senaryo mevcuttur. Kendi hikâyelerini yazıp diğer oyuncularla paylaşarak yaratıcılığını ortaya çıkar."
+Product Home,1443d8f1ea2443a6ad426c4b7d306d9a,Product Home,,aboutItem.0.textBlock.headline,About,markdown,"Text adventure game with an AI as a storyteller. No rules, no censorship, the only limit is your imagination, not someone else's.","Juego de aventura de texto con una IA como narrador. Sin reglas, sin censura. El único limite es tu imaginación, no la de otros.","Jeu d'aventures textuelles où une IA est la narratrice. Aucune règle, aucune censure, la seule limite est votre imagination.","Текстовая приключенческая игра с ИИ в роли рассказчика. Никаких правил или цензуры, всё ограничено вашим воображением.","Hikâye anlatıcı olarak yapay zekâya sahip bir metin macera oyunu. Kural yok, sansür yok, tek sınır hayal gücün."
+Product Home,1443d8f1ea2443a6ad426c4b7d306d9a,Product Home,,aboutItem.0.textBlock.body,About,markdown,"Protect Europe from the overpopulation by enforcing the tough Law on life, a life for a birth. Or flip the table and fight the cruel plutocracy to free humanity.
+Survive the zombie apocalypse, but will your humanity survive in the process? Inherit a corrupt kingdom and survive the court's intrigues. Live the American dream and emigrate from Hong Kong with the help of the Triad. Sadly, nothing is free, and your dream isn't an exception. What will be the price? Fight Orcs with swords or blasters. Survive the harsh Dark Ages in the skin of a peasant, witch or squire. Wake up within a tube in a post-apocalyptic world. Plunder on the seven seas, or just help your neighbor's wife with her plumbing problems. The choice is yours.
+
+AIdventure is a text adventure game with an AI as a storyteller. It is shipped with 27 starting scenarios. From Fantasy to Lovecraft or zombie genre, they will help you discover the game's potential.
+
+Community-friendly, the game lets you unleash your creativity by writing and sharing your own stories with other players. No rules, no censorship, the only limit is your imagination, not someone else's.","Protege a Europa de la superpoblación aplicando la dura ley de la vida: una vida por un nacimiento. O da la vuelta a la tortilla y lucha contra la cruel plutocracia para liberar la humanidad. 
+Sobrevive al apocalipsis zombi, pero ¿sobrevivirá tu humanidad en en proceso? 
+Hereda un reino corrupto y sobrevive las intrigas de la corte. Vive el sueño americano y emigra de Hong Kong con la ayuda de la Tríada. Por desgracia, nada es gratis, y tu sueño no es una excepción. ¿Cuál será el precio? Lucha contra orcos con espadas o blásteres. Sobrevive la Alta Edad Media en la piel de un campesino, bruja o escudero. 
+Despierta dentro de un tubo, en un mundo post-apocalíptico. Surca los siete mares, o tan solo ayuda la mujer de tu vecino con sus problemas de fontanería. Tu elijes.
+
+AIdventure es un juego de aventura de texto con una IA como narrador. Incluye 27 escenarios iniciales. Desde la Fantasía a Lovecraft o el género zombi, te ayudarán explorar el potencial del juego.
+
+Compatible con la comunidad, el juego permite que liberes tu creatividad escribiendo y compartiendo tus proprias historias con otros jugadores. Sin reglas, sin censura, el único límite es tu imaginación, no la de otros. ","Protégez l'Europe de la surpopulation grâce à la dure loi sur la vie, une vie pour une naissance. Ou renversez la table et combattez la ploutocratie cruelle pour libérer l'humanité.
+Survivez à l'apocalypse zombie, mais sauverez-vous votre humanité ? Héritez d'un royaume corrompu et survivez aux intrigues de la cour. Vivez le rêve américain et émigré d'Hong Kong avec l'aide de la triade. Cependant, rien n'est gratuit et votre rêve ne fait pas exception. Quel en sera le prix ? Combattez des Orcs avec votre épée ou votre blaster. Survivez au Moyen Âge sans pitié dans la peau d'un paysan, d'une sorcière ou d'un écuyer. Réveillez-vous à l'intérieur d'un tube dans un monde post apocalyptique. Écumez les mers avec votre équipage ou allez simplement dépanner votre voisine. Le choix vous appartient.
+
+AIdventure est un jeu d'aventures textuelles où une IA est la narratrice. Il est livré avec plus de 25 scénarios de démarrage. De la fantaisie en passant par du Lovecraft ou du zombie, ces scénarios vous aideront à découvrir le potentiel du jeu.
+
+Communautaire, le jeu laisse libre cours à votre imagination. Vous pouvez écrire et partager vos propres histoires avec d'autres joueurs. Aucune règle, aucune censure, la seule limite est votre imagination, pas celle de quelqu'un d'autre.","Защитите Европу от перенаселения, применяя жесткие законы для популяции - ""жизнь за жизнь"". Или возьмите дело в свои руки и сразитесь с жестокой плутократией, чтобы освободить человечество. 
+Почувствуйте себя в роли выживающего в зомби апокалипсисе, проверив на прочность вашу человечность. Унаследуйте коррумпированное королевство и переживите козни суда. Осуществите Американскую мечту и эмигрируйте из Гонконга с помощью Триад. У всего своя цена, чего будет стоить ваша мечта? Сразитесь с Орками мечами и бластерами. Переживите суровые Темные века в роли крестьянина, ведьмы или рыцаря. Очнитесь в ржавой трубе в постапокалиптическом мире. Разграбьте семь морей или просто помогите жене соседа с её сантехникой. Выбор за вами. 
+
+АИдвенчура это текстовая приключенческая игра с Искусственным Интеллектом в роли рассказчика. Игра создана с 27мью начальными сценариями. От Фентези до Лавкрафтских и зомби ужасов, они все помогут вам раскрыть полный потенциал игры. 
+
+Коммьюнити-френдли, игра позволяет вам раскрыть свой творческий потенциал - пишите и делитесь своими историями с другими игроками. Никаких правил, никакой цензуры, всё ограничено лишь вашим воображением, а не чьим-либо ещё.","Doğuma karşılık yaşam Yasasını uygulayarak Avrupa’yı aşırı nüfustan koru. Ya da masaya yumruğunu vur ve insanları özgürleştirmek için zalim zengin erki sisteme karşı koy.
+Zombi kıyametinde hayatta kal. Bakalım bu süreçte insanlığın da hayatta kalmayı başarabilecek mi? Yozlaşmış bir krallığı devral ve sarayın entrikalarında hayatta kal. Amerikan rüyasını yaşa ve Triad’ın yardımıyla Hong Kong’dan göç et. Ne yazık ki hiçbir şey bedava değil, buna hayallerin de dâhil. Ücreti ne kadar olacak? Kılıçları ya da patlayıcıları kullanarak Orklarla savaş. Bir köylünün, cadının ya da toprak sahibinin kılığında zorlu Karanlık Çağlarda hayatta kal. Kıyamet sonrası bir dünyada bir tüpün içinde uyan. Yedi denizde yağma yap ya da komşuna su tesisatı ile ilgili sorunlarda yardım et. Karar senin.
+
+AIdventure, hikâye anlatıcı olarak yapay zekâya sahip bir metin macera oyunudur. 27’den fazla senaryo mevcuttur. Bu temalar fantezi türünden aşk ya da zombi türüne kadar oyunun potansiyelini keşfetmene yardımcı olacaktır.
+
+Bu topluluk dostu oyun kendi hikâyelerini yazıp diğer oyuncularla paylaşarak yaratıcılığını ortaya çıkarmanı sağlar. Kural yok, sansür yok, tek sınır bir başkasının hayal gücü değil senin sahip olduğun hayal gücü."
+Product Home,1443d8f1ea2443a6ad426c4b7d306d9a,Product Home,,aboutItem.2.textBlock.headline,About,markdown,Features,Funciones,Fonctionnalités,Особенности,Özellikler
+Product Home,1443d8f1ea2443a6ad426c4b7d306d9a,Product Home,,aboutItem.2.textBlock.body,About,markdown,"- Customizable - Don't like the AI? Don't like the settings? Change them!
+- Memory system - The AI has both a short and long term memory.
+- Easy to use interactions - Choose the mode of interaction with the AI between Say/Try/Do/Story.
+- RPG system - Create your character's stats and fail or succeed in your own actions.
+- Generate multiple AI's responses - If you hesitate, you can ask the AI to generate another response.
+- Story editor - You can edit whenever you want your story.
+- Scenario editor - Feeling creative? You can create a new scenario or edit an existing one.
+- Community friendly - Stories and scenarios are stored in json files. It's easy to share and add new content to your game.
+- No censorship - Keep control of your stories.
+- Privacy safe - Your data remain on your PC, and only you can access it.
+- 27 scenarios - From fantasy to Lovecraft or Zombies, the starting scenarios will help you discover the game
+- GPU support - The game supports CUDA to improve the performances.
+- Automatic translation - Live your adventure in your native language!.
+- Lore book - Build coherent stories with the lore book!","- Personalizable – No te gusta el IA? No te gustan los ajustes? ¡Cámbialos!
+- Sistema de memoria – La IA tiene memoria a corto y largo plazo.
+- Interacciones fáciles de utilizar – Elige el modo de interacción con la IA entre Decir/Probar/Hacer/Historia.
+- Sistema RPG – Crea las estadísticas de tu personaje y realiza tus acciones con o sin éxito.
+- Genera múltiplas respuestas de la IA – Si dudas, puedes pedir a la IA que genere otra respuesta.
+- Editor de historia – ¿Te sientes creativo? Puedes crear un escenario nuevo o editar uno que ya exista.
+- Compatible con la comunidad – Historias y escenarios se almacenan en archivos json. Fácil de compartir y añadir contenido nuevo a tu juego.
+- Sin censura – Mantén el control de tus historias.
+- Privacidad segura – Tus datos permanecen en tu ordenador y sólo tú puedes accesarlos.
+- 27 escenarios – De la fantasía a Lovecraft o los zombis, los escenarios iniciales te ayudarán a conocer el juego
+- Compatible con GPU – El juego soporta CUDA para mejorar su funcionamiento.
+- Traducción automática – ¡Vive tu aventura en tu idioma materno!.
+- Enciclopedia - ¡Construye historias coherentes con la enciclopedia !
+- Compatible con Steam Workshop – ¡Comparte contenido o explora las obras de la comunidad!
+- Compatible con Remote Play Together – ¡Escribe tu historia con tus amigos!","- PERSONNALISABLE - Vous n’aimez pas l’IA ou les options? Changez-les!
+- MÉMOIRE - L’IA dispose de mémoires à court et long terme.
+- SIMPLICITÉ D’UTILISATION - Interagissez avec l’IA via l’un des 4 modes disponibles, “Dire”, “Essayer”, “Faire”, “Histoire”.
+- SYSTÈME DE JDR - Créer les caractéristiques de votre personnage et échouez ou réussissez vos actions en fonction de vos statistiques.
+- GÉNÉREZ PLUSIEURS RÉPONSES DE L’IA - Demandez à l’IA une autre réponse en un clic.
+- ÉDITEUR D’HISTOIRE - Modifiez ou corrigez votre histoire quand vous voulez.
+- ÉDITEUR DE SCÉNARIO - Vous vous sentez inspiré? Créez de nouveaux scénarios facilement avec l’éditeur intégré.
+- COMMUNAUTAIRE - Les histoires et scénario sont sauvegardés en .json. Il est facile de partager et d’ajouter du contenu au jeu.
+- RESPECTUEUX DE LA VIE PRIVÉE - Vos données restent sur votre PC. Seul vous y avez accès.
+- PLUS DE 25 SCÉNARIOS - De la fantaisie en passant par du Lovecraft ou du zombie, ces scénarios vous aideront à découvrir le potentiel du jeu.
+- SUPPORT DU PROCESSEUR GRAPHIQUE - Le jeu utilise le processeur graphique NVIDIA pour améliorer les performances.
+- TRADUCTION AUTOMATIQUE - Vivez votre aventure dans votre langue maternelle!
+- ENCYCLOPÉDIE – Écrivez des histoires cohérentes avec l’encyclopédie!","- Настраиваемость - Не нравится ИИ? Не нравятся настройки? Измените их!
+- Система памяти - ИИ имеет как долгосрочную так и короткосрочную память. 
+- Легко в использовании - Взаимодействуйте с ИИ при помощи Сказать/Попытаться/Сделать/История.
+- RPG система - Создайте своего персонажа и его характеристики и преуспевайте или терпите неудачу в своих действах.
+- Генерируйте несколько ответов ИИ - если сомневаетесь - можете попросить ИИ сгенерировать ещё один ответ. 
+- Редактор историй - Вы можете менять свою историю когда угодно. 
+- Редактор сценариев - Чувствуете вдохновление? Вы можете создавать собственные сценарии или менять существующие.
+- Удобно для сообщества - Истории и сценарии хранятся в json файлах. Ими легко делиться и добавлять новый контент для вашей игры. 
+- Приватность - Ваша информация хранится на вашем ПК, и только вы имеете к ней доступ. 
+- 27 сценариев - От фентези до Лавкрафта и Зомби, начальные сценарии помогут вам познакомиться с игрой
+- Поддержка GPU - Игра поддерживает CUDA для улучшения производительности.
+- Автоматический перевод -  Живите своим приключением на вашем родном языке! 
+- Энциклопедия - Стройте последовательные истории с энциклопедией! 
+- Поддержка Мастерской Steam - Делитесь контентом и исследуйте работы сообщества!
+- Поддержка Remote Play Together - Пишите свою историю вместе с друзьями!","- Özelleştirilebilir - Kullandığın Yapay Zekâyı beğenmedin mi? Ayarları beğenmedin mi? Değiştir gitsin!
+- Bellek sistemi - Yapay Zekân hem kısa hem uzun dönem belleğe sahiptir.
+- Kolay kullanılabilen etkileşimler - Söyle/Dene/Yap/Hikâye komutlarıyla Yapay Zekâ ile etkileşim modunu seç.
+- RPG sistemi - Karakterini yarat ve kendi eylemlerinde başarılı ya da başarısız ol.
+- Birden fazla Yapay Zekâ yanıtı üret - Tereddüt ediyorsan Yapay Zekâdan başka bir yanıt üretmesini isteyebilirsin.
+- Hikâye düzenleyici - Hikâyeyi istediğin zaman düzenleyebilirsin.
+- Senaryo düzenleyici - Yaratıcı olduğunu mu düşünüyorsun? Yeni bir senaryo oluşturabilir ya da mevcut bir senaryoyu düzenleyebilirsin.
+- Topluluk dostu - Hikâyeler ve senaryolar json dosyalarında muhafaza edilmektedir. Oyununa yeni içerikler eklemek ve içeriklerini paylaşmak oldukça kolaydır.
+- Gizlilik güvenliği - Verilerin kişisel bilgisayarında kalır ve verilerine yalnızca sen erişebilirsin.
+- 27 senaryo - Fantezi türünden aşk ya da zombi türüne başlangıç senaryoları oyunu keşfetmene yardımcı olacak
+- GPU desteği - Oyun, performansı iyileştirmek için CUDA yazılımını kullanmaktadır.
+- Otomatik tercüme - Macerayı kendi dilinde deneyimle!.
+- Ansiklopedi - Ansiklopedi sayesinde tutarlı hikâyeler oluştur!
+- Steam Atölye desteği - İçeriği paylaş ya da topluluğun yaptığı çalışmaları keşfet!
+- Uzaktan Birlikte Oynama desteği - Hikâyeni arkadaşlarınla birlikte yaz!"
+Product Home,1443d8f1ea2443a6ad426c4b7d306d9a,Product Home,,aboutItem.3.textBlock.headline,About,markdown,Supported AIs,IAs compatibles,IA compatibles,Поддерживамые ИИ,Desteklenen Yapay Zekâlar
+Product Home,1443d8f1ea2443a6ad426c4b7d306d9a,Product Home,,aboutItem.3.textBlock.body,About,markdown,"- gpt2
+- gpt2-xl
+- gpt2-medium
+- gpt2-large
+- EleutherAI/gpt-neo-125M
+- EleutherAI/gpt-neo-1.3B
+- EleutherAI/gpt-neo-2.7B
+- KoboldAI/GPT-J-6B-Adventure
+- KoboldAI/GPT-J-6B-Skein
+- KoboldAI/GPT-Neo-125M-AID
+- KoboldAI/GPT-Neo-2.7B-Picard
+- Nomic-AI/gpt4all-j​","
+
+- gpt2
+- gpt2-xl
+- gpt2-medium
+- gpt2-large
+- EleutherAI/gpt-neo-125M
+- EleutherAI/gpt-neo-1.3B
+- EleutherAI/gpt-neo-2.7B
+- KoboldAI/GPT-J-6B-Adventure
+- KoboldAI/GPT-J-6B-Skein
+- KoboldAI/GPT-Neo-125M-AID
+- KoboldAI/GPT-Neo-2.7B-Horni-LN
+- KoboldAI/GPT-Neo-2.7B-Horni
+- KoboldAI/GPT-Neo-2.7B-Picard
+- KoboldAI/GPT-Neo-2.7B-Shinen
+- Nomic-AI/gpt4all-j​","- gpt2
+- gpt2-xl
+- gpt2-medium
+- gpt2-large
+- EleutherAI/gpt-neo-125M
+- EleutherAI/gpt-neo-1.3B
+- EleutherAI/gpt-neo-2.7B
+- KoboldAI/GPT-J-6B-Adventure
+- KoboldAI/GPT-J-6B-Skein
+- KoboldAI/GPT-Neo-125M-AID
+- KoboldAI/GPT-Neo-2.7B-Picard
+- Nomic-AI/gpt4all-j​","- gpt2
+- gpt2-xl
+- gpt2-medium
+- gpt2-large
+- EleutherAI/gpt-neo-125M
+- EleutherAI/gpt-neo-1.3B
+- EleutherAI/gpt-neo-2.7B
+- KoboldAI/GPT-J-6B-Adventure
+- KoboldAI/GPT-J-6B-Skein
+- KoboldAI/GPT-Neo-125M-AID
+- KoboldAI/GPT-Neo-2.7B-Picard
+- Nomic-AI/gpt4all-j​","- gpt2
+- gpt2-xl
+- gpt2-medium
+- gpt2-large
+- EleutherAI/gpt-neo-125M
+- EleutherAI/gpt-neo-1.3B
+- EleutherAI/gpt-neo-2.7B
+- KoboldAI/GPT-J-6B-Adventure
+- KoboldAI/GPT-J-6B-Skein
+- KoboldAI/GPT-Neo-125M-AID
+- KoboldAI/GPT-Neo-2.7B-Picard
+- Nomic-AI/gpt4all-jâ€‹"
+Product Home,1443d8f1ea2443a6ad426c4b7d306d9a,Product Home,,aboutItem.4.textBlock.headline,About,markdown,Privacy safe,Privacidad segura,Respectueux de la vie privée,Приватность,Gizlilik güvenliği
+Product Home,1443d8f1ea2443a6ad426c4b7d306d9a,Product Home,,aboutItem.4.textBlock.body,About,markdown,"- Local content
+- No moderator reading your stories
+- No data leaking.",- Contenido local - Sin moderador leyendo tus historias - Sin fuga de datos,"- Contenu local
+- Pas de modérateurs qui lisent vos histoires !
+- Pas de fuite de données !","- Локальный контент
+- Никаких модераторов читающих ваши истории
+- Никакой утечки данных","- Yerel içerik
+- Hikâyelerin bir moderatör tarafından okunmaz
+- Veriler sızdırılmaz."
+Product Home,1443d8f1ea2443a6ad426c4b7d306d9a,Product Home,,aboutItem.5.textBlock.headline,About,markdown,Join the community on discord!,¡Únete a la comunidad en discord!,Rejoignez la communauté sur Discord !,Присоединяйтесь к сообществу в discord!,Discord kanalında topluluğa katıl!
+Product Home,1443d8f1ea2443a6ad426c4b7d306d9a,Product Home,,aboutItem.5.textBlock.body,About,markdown,[Join the discord!](https://discord.gg/mJGSkJ3mgT),[¡Únete al discord!] (https://discord.gg/mJGSkJ3mgT),[Rejoignez le Discord !!](https://discord.gg/mJGSkJ3mgT),[Присоединяйтесь в discord!](https://discord.gg/mJGSkJ3mgT),[Discord kanalına katıl!](https://discord.gg/mJGSkJ3mgT)
+FAQs,1fca5e8195a64f6abdf884a52c5f7a9b,FAQs,,faqItem.0.textBlock.question,Frequently Asked Questions,markdown,Why Early Access?,¿Por qué el acceso anticipado?,Pourquoi choisir l'accès anticipé ?,Зачем ранний доступ?,Neden erken erişim?
+FAQs,1fca5e8195a64f6abdf884a52c5f7a9b,FAQs,,faqItem.0.textBlock.answer,Frequently Asked Questions,markdown,"AIdventure is not feature complete. I need more time to implement everything I want. Receiving feedback from the players is the best way to make the game better. Moreover, I believe involving the community in the creative process is important. It's also a good way to fund myself.","AIdventure no está completo. Necesito más tiempo para implementar todo lo que quiero. Recibir reacciones de los jugadores es la mejor forma de mejorar el juego. Además, creo que es importante la participación de la comunidad en el proceso creativo. También es una buena forma de financiarme.","AIdventure n'est pas encore complet. J'ai besoin de plus de temps pour tout développer. De plus, faire participer la communauté pendant le processus créatif est important et permet de recevoir des retours qui rendent le jeu meilleur. C'est aussi un bon moyen de m'autofinancer.","АИдвенчура не является завершенным проектом. Мне нужно больше времени, чтобы добавить все функции, что я хочу. Обратная связь от игроков отличный способ сделать игру лучше. К тому же, я верю что вовлечение сообщества в креативный процесс тоже важно. Это так же хороший способ спонсировать проект.","Aıdventure oyununun özellikleri henüz tamamlanmamıştır. Planladığım tüm özellikleri uygulamaya geçirebilmek için daha fazla zamana ihtiyacım var. Oyunculardan geri bildirim almak oyunu daha iyi hale getirmenin en iyi yoludur. Ayrıca, topluluğun yaratıcı sürece dâhil olmasının önemli olduğuna inanıyorum. Erken erişim aynı zamanda kendimi finanse etmenin de iyi bir yolu."
+FAQs,1fca5e8195a64f6abdf884a52c5f7a9b,FAQs,,faqItem.1.textBlock.question,Frequently Asked Questions,markdown,Approximately how long will this game be in Early Access?,¿Cuánto tiempo estará el juego en acceso anticipado?,Pendant combien de temps environ ce jeu sera-t-il en accès anticipé ?,Примерно как долго игра будет находится в раннем доступе?,Bu oyun Erken Erişimde yaklaşık ne kadar süre kalacak?
+FAQs,1fca5e8195a64f6abdf884a52c5f7a9b,FAQs,,faqItem.1.textBlock.answer,Frequently Asked Questions,markdown,It should stay in Early Access around two year (Until end of 2024).,Aproximadamente dos años (hasta finales de 2024).,Environ 2 ans. (Jusqu’à fin 2024).,Проект планируется оставаться в раннем доступе в районе двух лет(До конца 2024),Yaklaşık iki yıl boyunca (2024 yılının sonuna kadar) erken erişimde kalacak.
+FAQs,1fca5e8195a64f6abdf884a52c5f7a9b,FAQs,,faqItem.2.textBlock.question,Frequently Asked Questions,markdown,How is the full version planned to differ from the Early Access version?,¿Cómo será diferente la versión final de la versión de acceso anticipado?,En quoi la version finale sera-t-elle différente de la version en accès anticipé ?,Как полная версия планируется отличаться от версии из раннего доступа?,Tam sürümün Erken Erişim sürümünden farkları ne olacak?
+FAQs,1fca5e8195a64f6abdf884a52c5f7a9b,FAQs,,faqItem.2.textBlock.answer,Frequently Asked Questions,markdown,"I plan to add the following features
+
+- Support more languages
+- Multiplayer - Connect to your friend's AI and write the story together
+- Modding support (Not certain)
+- MacOS version
+- Support more AI - Request new AI from this list on the forum or on the discord
+- More immersion
+- More control of the AIs
+- General improvements","Mi plan es adicionar las siguientes funciones:  
+
+- Más idiomas 
+- Multijugadores 
+– Conéctate a la IA de tu amigo para escribir la historia juntos 
+- Soporte para mods (no garantido) 
+- Versión MacOS 
+- Más IAs 
+– Puedes proponer nuevas IAs en el foro o en el discord 
+- Más inmersión - Más control sobre las IAs 
+- Mejoramientos generales","J'ai prévu d'ajouter les fonctionnalités suivantes :
+
+- Plus de langues
+- Le multijoueurs - Connectez vous à l'IA de votre ami pour co-écrire une histoire.
+- Support des mods (Pas sûr)
+- Version Mac
+- Plus d'IA - Vous pouvez proposer de nouveau IA sur le forum.
+- Plus d'immersion.
+- Plus de contrôle sur les IA.
+- Et plein d'améliorations en tout genre.","Я планирую добавить следующие функции
+
+- Поддержку большего количества языков
+- Мультиплеер - Подключайтесь к ИИ своих друзей и пишите истории вместе
+- Поддержка модификаций (Не точно)
+- Версия для MacOS
+- Поддержка большего количества ИИ - Запросы на новые ИИ из этого списка принимаются на форуме или в дискорде
+- Больше погружения
+- Больше контроля над ИИ
+- Общие улучшения","Tam sürüme aşağıdaki özellikleri eklemeyi planlıyorum:
+
+- Daha fazla dil desteği
+- Çok oyuncu - Arkadaşının Yapay Zekâsına bağlanarak hikâyeyi birlikte yazın
+- Düzenleme desteği (belirsiz)
+- MacOS sürümü
+- Daha fazla Yapay Zekâ desteği - Discord kanalında ya da forumda yeni Yapay Zekâ talep etme özelliği
+- Daha fazla sürükleyicilik
+- Daha fazla Yapay Zekâ kontrolü
+- Daha fazla iyileştirme"
+FAQs,1fca5e8195a64f6abdf884a52c5f7a9b,FAQs,,faqItem.3.textBlock.question,Frequently Asked Questions,markdown,What is the current state of the Early Access version?,¿Cuál es el estado actual de la versión de Acceso Anticipado?,Quel est l'état actuel de la version en accès anticipé ?,Какое состояние у игры в ранней версии на данный момент?,Erken Erişim sürümünün mevcut durumu nasıl?
+FAQs,1fca5e8195a64f6abdf884a52c5f7a9b,FAQs,,faqItem.3.textBlock.answer,Frequently Asked Questions,markdown,The game has been in tests since January 2022. It has been greatly tested and improved during that time. The Early Access is mostly stable and it already contains many features.,El juego está siendo testado desde enero de 2022. Se ha verificado y mejorado mucho a lo largo de este tiempo.,"Le jeu a été en test depuis janvier 2022. Il a été bien testé et améliorer depuis cette date.
+La version actuelle est relativement stable et contient déjà plein de fonctionnalités pour vous occuper ;)
+Voir la liste des Fonctionnalités ci-dessous.",Игра была в тестировании с начала Января 2022. Игра была тщательно тестирована и улучшена с того времени. Версия раннего доступа в основном стабильна и уже содержит множество функций.,"Oyun, 2022 yılının Ocak ayından beri test ediliyor. Bu süre zarfında çok sayıda testten geçti ve iyileştirildi. Erken Erişim büyük oranda sorunsuz bir şekilde çalışmaktadır ve çoğu özelliği bünyesinde barındırmaktadır."
+FAQs,1fca5e8195a64f6abdf884a52c5f7a9b,FAQs,,faqItem.4.textBlock.question,Frequently Asked Questions,markdown,Will the game be priced differently during and after Early Access?,El Acceso Anticipado es estable en su mayoría y ya contiene muchas funciones.,Le prix du jeu sera-t-il différent pendant et après l'accès anticipé ?,Будет ли цена полной игры отличаться цены раннего доступа?,Erken Erişim sonrasında oyun fiyatında herhangi bir değişiklik olacak mı?
+FAQs,1fca5e8195a64f6abdf884a52c5f7a9b,FAQs,,faqItem.4.textBlock.answer,Frequently Asked Questions,markdown,The price might rise from 10-15% once done.,El precio podrá subir 10-15% cuando el juego esté terminado.,Le prix devrait augmenter de 10-15% quand le jeu sera fini.,Цена может подняться на 10-15% на выходе игры.,Tamamlandıktan sonra oyun fiyatı %10-15 artabilir.
+FAQs,1fca5e8195a64f6abdf884a52c5f7a9b,FAQs,,faqItem.5.textBlock.question,Frequently Asked Questions,markdown,How am I planning on involving the Community in my development process?,¿Cómo planeo incluir la Comunidad en mi proceso de desarrollo?,Comment comptez-vous impliquer la communauté dans le processus de développement ?,Как я планирую включать сообщество в мой процесс разработки?,Geliştirme sürecinde Topluluk nasıl sürece dâhil edilecek?
+FAQs,1fca5e8195a64f6abdf884a52c5f7a9b,FAQs,,faqItem.5.textBlock.answer,Frequently Asked Questions,markdown,"I have been involving the community since the first tests. Anyone can suggest a new feature, adjustment, give feedback. I try to answer to any question.
+
+**Involving the community is a core value of Lyaaaaa Games.**","La comunidad ha participando desde las primeras pruebas. Todo el mundo puede sugerir nuevas funciones, ajustes o hacer comentarios. Intentaré responder a todas las preguntas.  
+
+**Incluir  la comunidad es un valor fundamental de Lyaaaaa Games.**","La communauté participe depuis les premiers tests. Tout le monde peut suggérer de nouvelles fonctionnalités, des ajustements ou juste faire un retour.
+J'essaye de répondre à toutes les questions.
+
+**Impliquer la communauté est une des Valeurs Fondamentales de Lyaaaaa Games.**","Я работал над включением сообщества с первых тестов.
+Каждый может рекоммендовать новые функции, поправки и давать обратную связь. Я стараюсь отвечать на любой вопрос. 
+
+**Вовлечение сообщества является главной задачей Lyaaaaa Games.**","İlk testleri yaptığımız andan itibaren topluluğu sürece dâhil ediyorum. İsteyen herkes yeni bir özellik ya da düzenleme önerebilir ve geri bildirim paylaşabilir. Tüm soruları yanıtlamaya çalışıyorum.
+
+**Topluluğu sürece dâhil etme, Lyaaaaa Games’in temel değerlerinden biridir.**"
+FAQs,1fca5e8195a64f6abdf884a52c5f7a9b,FAQs,,faqItem.6.textBlock.question,Frequently Asked Questions,markdown,How is AI used in the gameplay?,How is AI used in the gameplay?,Comment l’IA est utilisée dans le jeu ?,Как ИИ используется в геймплее?,AI oyunlarda nasıl kullanılır?
+FAQs,1fca5e8195a64f6abdf884a52c5f7a9b,FAQs,,faqItem.6.textBlock.answer,Frequently Asked Questions,markdown,The AI generates answers to your text inputs in real time.,The AI generates answers to your text inputs in real time.,L’IA génère des réponses à vos entrées en temps réel.,ИИ генерирует ответы на ваши текстовые входы в режиме реального времени.,"AI, metin girişlerinize gerçek zamanlı olarak cevaplar üretir."
+Store Configs,00888fce72f549b8ad5568008a406bab,Store Configs,,developerDisplayName,Developer Display Name,string,Lyaaaaa Games,Lyaaaaa Games,Lyaaaaa Games,Lyaaaaa Games,Lyaaaaa Games
+Store Configs,00888fce72f549b8ad5568008a406bab,Store Configs,,publisherDisplayName,Publisher Display Name,string,Lyaaaaa Games,Lyaaaaa Games,Lyaaaaa Games,Lyaaaaa Games,Lyaaaaa Games
+Store Configs,00888fce72f549b8ad5568008a406bab,Store Configs,,productDisplayName,Product Display Name,string,AIdventure,AIdventure,AIdventure,АИдвенчура,AIdventure
+Store Configs,00888fce72f549b8ad5568008a406bab,Store Configs,,shortDescription,Short description of the product,string,"AIdventure is a text adventure game with an AI as a storyteller. No rules, no censorship, the only limit is your imagination, not someone else's. It is shipped with more than 25 scenarios. Unleash your creativity by writing and sharing your own stories with other players.","AIdventure es un juego de aventura de texto con una IA como narrador. Sin reglas, sin censura, el único límite es tu imaginación, no la de otros. Está equipado con más de 25 escenarios. Libera tu imaginación escribiendo y compartiendo tus historias con otros jugadores.","AIdventure est un jeu d'aventures textuelles où une IA est la narratrice. Aucune règle, aucune censure, la seule limite est votre imagination, pas celle de quelqu'un d'autre. Laissez libre cours à votre imagination. Écrirez et partagez vos histoires avec d'autres joueurs.","АИдвенчура это текстовая приключенческая игра с ИИ рассказчиком. Никаких правил, никакой цензуры, всё ограничено лишь вашим воображением, а не чьим-либо ещё. АИдвенчура содержит более 25ти сценариев. Покажите себя - пишите и делитесь своими историями с другими игроками.","AIdventure, hikâye anlatıcı olarak yapay zekâya sahip bir metin macera oyunudur. Kural yok, sansür yok, tek sınır bir başkasının hayal gücü değil senin hayal gücün. 25’ten fazla senaryo mevcuttur. Kendi hikâyelerini yazıp diğer oyuncularla paylaşarak yaratıcılığını ortaya çıkar."
+Store Configs,00888fce72f549b8ad5568008a406bab,Store Configs,,legalText,Legal Text used in the foot of the product / offer pages.,markdown,"THE SOFTWARE IS PROVIDED ""AS IS"", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR
+OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+OTHER DEALINGS IN THE SOFTWARE.","EL SOFTWARE SE PROPORCIONA “TAL CUAL”, SIN GARANTÍA DE NINGÚN TIPO, EXPRESA O IMPLÍCITA, INCLUYENDO – PERO NO LIMITADO A – LAS GARANTÍAS DE COMERCIABILIDAD, DE APTITUD PARA UN FIN DETERMINADO Y DE NO INFRACCIÓN. 
+EN NINGÚN CASO LOS AUTORES SERÁN RESPONSABLES DE NINGUNA RECLAMACIÓN, DAÑO U OTRA RESPONSABILIDAD, YA SEA CONTRACTUAL, EXTRA-CONTRACTUAL O DE OTRO TIPO, DERIVADA DE, O RELACIONADA CON EL SOFTWARE O EL USO U OTRAS OPERACIONES CON EL SOFTWARE.","Les IA peuvent être biaisées et ne sont pas censurées. En conséquent, elles peuvent générer du contenu socialement inacceptable ou érotique.
+Lyaaaaa Games n’est pas responsable du contenu généré.","ПРОГРАММНОЕ ОБЕСПЕЧЕНИЕ ПРЕДОСТАВЛЯЕТСЯ «КАК ЕСТЬ», БЕЗ КАКИХ-ЛИБО ГАРАНТИЙ,
+ЯВНЫХ ИЛИ ПОДРАЗУМЕВАЕМЫХ, ВКЛЮЧАЯ, НО НЕ ОГРАНИЧИВАЯСЬ, ГАРАНТИИ НА
+ТОВАРНУЮ ПРИГОДНОСТЬ, ПРИГОДНОСТЬ ДЛЯ ОПРЕДЕЛЕННОЙ ЦЕЛИ И НЕНАРУШЕНИЕ ПРАВ.
+НИ ПРИ КАКИХ ОБСТОЯТЕЛЬСТВАХ АВТОРЫ НЕ НЕСУТ ОТВЕТСТВЕННОСТИ ЗА КАКИЕ-ЛИБО ПРЕТЕНЗИИ, УБЫТКИ ИЛИ
+ДРУГОЙ ОТВЕТСТВЕННОСТИ ПО ДОГОВОРУ, ПРАВИЛАМ ИЛИ ДРУГИМ ОБРАЗУ,
+ВОЗНИКАЮЩИЕ ИЗ ПРОГРАММНОГО ОБЕСПЕЧЕНИЯ ИЛИ ИСПОЛЬЗОВАНИЯ ИЛИ В СВЯЗИ С ПРОГРАММНЫМ ОБЕСПЕЧЕНИЕМ ИЛИ ИСПОЛЬЗОВАНИЕМ ИЛИ
+ДРУГИЕ ДЕЛА В ПРОГРАММНОМ ОБЕСПЕЧЕНИИ.","BU YAZILIM; TİCARİ ELVERİŞLİLİK, BELİRLİ BİR AMACA UYGUNLUK VE İHLAL ETMEME DÂHİL ANCAK BUNLARLA SINIRLI KALMAMAK ÜZERE AÇIK VEYA ZIMNİ HERHANGİ BİR GARANTİ OLMAKSIZIN “OLDUĞU GİBİ” SUNULMAKTADIR.
+YAZARLAR HİÇBİR DURUMDA YAZILIM VEYA YAZILIMIN KULLANIMI VEYA YAZILIMDAKİ DİĞER İŞLEMLERİNDEN KAYNAKLANAN SÖZLEŞME, HAKSIZ FİİL YA DA BAŞKA BİR DURUMLA İLİŞKİLİ HERHANGİ BİR İDDİA, ZARAR VEYA DİĞER YÜKÜMLÜLÜKTEN SORUMLU OLMAYACAKLARDIR."
+Store Configs,00888fce72f549b8ad5568008a406bab,Store Configs,,privacyLink,Privacy Policy Link that appears under the legal text.,url/a,,,,,
+Store Configs,00888fce72f549b8ad5568008a406bab,Store Configs,,socialLinks.homepage,Collection of social links,string,https://www.lyaaaaagames.com/,https://www.lyaaaaagames.com/,https://www.lyaaaaagames.com/,https://www.lyaaaaagames.com/,https://www.lyaaaaagames.com/
+Store Configs,00888fce72f549b8ad5568008a406bab,Store Configs,,socialLinks.twitter,Collection of social links,string,https://twitter.com/LyaaaaaGames,https://twitter.com/LyaaaaaGames,https://twitter.com/LyaaaaaGames,https://twitter.com/LyaaaaaGames,https://twitter.com/LyaaaaaGames
+Store Configs,00888fce72f549b8ad5568008a406bab,Store Configs,,socialLinks.facebook,Collection of social links,string,,,,,
+Store Configs,00888fce72f549b8ad5568008a406bab,Store Configs,,socialLinks.instagram,Collection of social links,string,,,,,
+Store Configs,00888fce72f549b8ad5568008a406bab,Store Configs,,socialLinks.twitch,Collection of social links,string,https://www.twitch.tv/lyaaaaagames,https://www.twitch.tv/lyaaaaagames,https://www.twitch.tv/lyaaaaagames,https://www.twitch.tv/lyaaaaagames,https://www.twitch.tv/lyaaaaagames
+Store Configs,00888fce72f549b8ad5568008a406bab,Store Configs,,socialLinks.discord,Collection of social links,string,https://discord.gg/mJGSkJ3mgT,https://discord.gg/mJGSkJ3mgT,https://discord.gg/mJGSkJ3mgT,https://discord.gg/mJGSkJ3mgT,https://discord.gg/mJGSkJ3mgT
+Store Configs,00888fce72f549b8ad5568008a406bab,Store Configs,,socialLinks.vk,Collection of social links,string,,,,,
+Store Configs,00888fce72f549b8ad5568008a406bab,Store Configs,,socialLinks.youtube,Collection of social links,string,https://www.youtube.com/channel/UCY9ChpG4FdZEwMoiWOjsKoQ,https://www.youtube.com/channel/UCY9ChpG4FdZEwMoiWOjsKoQ,https://www.youtube.com/channel/UCY9ChpG4FdZEwMoiWOjsKoQ,https://www.youtube.com/channel/UCY9ChpG4FdZEwMoiWOjsKoQ,https://www.youtube.com/channel/UCY9ChpG4FdZEwMoiWOjsKoQ
+Store Configs,00888fce72f549b8ad5568008a406bab,Store Configs,,socialLinks.reddit,Collection of social links,string,https://www.reddit.com/r/LyaaaaaGames,https://www.reddit.com/r/LyaaaaaGames,https://www.reddit.com/r/LyaaaaaGames_FR,https://www.reddit.com/r/LyaaaaaGames,https://www.reddit.com/r/LyaaaaaGames
+Store Configs,00888fce72f549b8ad5568008a406bab,Store Configs,,socialLinks.naver,Collection of social links,string,,,,,
+Store Configs,00888fce72f549b8ad5568008a406bab,Store Configs,,socialLinks.youku,Collection of social links,string,,,,,
+Store Configs,00888fce72f549b8ad5568008a406bab,Store Configs,,socialLinks.weibo,Collection of social links,string,,,,,
+Store Configs,00888fce72f549b8ad5568008a406bab,Store Configs,,technicalRequirements.windows.osVersion.minimum,Technical Requirements,string,Windows 10,Windows 10,Windows 10,Windows 10,Windows 10
+Store Configs,00888fce72f549b8ad5568008a406bab,Store Configs,,technicalRequirements.windows.osVersion.recommended,Technical Requirements,string,Windows 10,Windows 10,Windows 10,Windows 10,Windows 10
+Store Configs,00888fce72f549b8ad5568008a406bab,Store Configs,,technicalRequirements.windows.cpu.minimum,Technical Requirements,string,4 cores CPU,4 cores CPU,4 cores CPU,4-ядерный процессор,4 çekirdekli CPU
+Store Configs,00888fce72f549b8ad5568008a406bab,Store Configs,,technicalRequirements.windows.cpu.recommended,Technical Requirements,string,4.00GHz CPU - 8 cores,4.00GHz CPU - 8 cores,4.00GHz CPU - 8 cores,"Процессор 4,00 ГГц — 8 ядер",4.00GHz CPU - 8 çekirdek
+Store Configs,00888fce72f549b8ad5568008a406bab,Store Configs,,technicalRequirements.windows.memory.minimum,Technical Requirements,string,6 GB,6 GB,6 GB,6 ГБ,6 GB
+Store Configs,00888fce72f549b8ad5568008a406bab,Store Configs,,technicalRequirements.windows.memory.recommended,Technical Requirements,string,32 GB,32 GB,32 GB,32 ГБ,32 GB
+Store Configs,00888fce72f549b8ad5568008a406bab,Store Configs,,technicalRequirements.windows.gpu.minimum,Technical Requirements,string,No gpu required for minimum config.,No requiere GPU para la configuración mínima.,Le GPU n’est pas nécessaire pour la configuration minimum.,Для минимальных настроек GPU не требуется.,Minimum yapılandırma için GPU gerekmemektedir.
+Store Configs,00888fce72f549b8ad5568008a406bab,Store Configs,,technicalRequirements.windows.gpu.recommended,Technical Requirements,string,Nvidia card with 8GB of VRAM.,Tarjeta Nvidia con 8GB de VRAM.,Nvidia card with 8GB of VRAM.,Карта Nvidia с 8 ГБ видеопамяти.,8GB VRAM’e sahip Nvidia kartı.
+Store Configs,00888fce72f549b8ad5568008a406bab,Store Configs,,technicalRequirements.windows.storage.minimum,Technical Requirements,string,20 GB,20 GB,20 GB,20 ГБ,20 GB
+Store Configs,00888fce72f549b8ad5568008a406bab,Store Configs,,technicalRequirements.windows.storage.recommended,Technical Requirements,string,40 GB,40 GB,40 GB,40 ГБ,40 GB
+Store Configs,00888fce72f549b8ad5568008a406bab,Store Configs,,technicalRequirements.windows.additionalNotes.minimum,Technical Requirements,string,The AI can run on a CPU if you have no GPU. But it will slow down the AI generation time.,La IA puede ejecutarse en un CPU si no tienes GPU. Pero la generación será más lenta.,"L’IA peut tourner sur un CPU si vous n’avez pas de GPU, mais ça sera plus lent.","ИИ может работать на процессоре, если у вас нет графического процессора. Но это замедлит время генерации ИИ.",Bilgisayarında GPU yoksa Yapay Zekâ CPU üzerinde çalışabilir. Ancak Yapay Zekânın üretim süresini yavaşlatacaktır.
+Store Configs,00888fce72f549b8ad5568008a406bab,Store Configs,,banner.link.src,Banner link,string,,,,,
+Store Configs,00888fce72f549b8ad5568008a406bab,Store Configs,,banner.link.title,Banner button,string,,,,,
+Store Configs,00888fce72f549b8ad5568008a406bab,Store Configs,,banner.description,Banner description,string,,,,,
+Store Configs,00888fce72f549b8ad5568008a406bab,Store Configs,,banner.title,Banner title,string,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+"#Note. Default locale (""en"") fields cannot be modified, all changes will be ignored on upload. To modify default locale fields please use Self-Publishing Tools.",,,,,,,,,,,
