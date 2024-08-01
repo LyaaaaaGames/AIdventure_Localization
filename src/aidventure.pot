@@ -263,6 +263,23 @@
 # res://src/interfaces/options/server.tscn
 # res://src/dialogs/custom_ai_download_window.gd
 # res://src/dialogs/custom_ai_download_window.tscn
+# res://src/interfaces/wiki_pages/cuda_out_of_memory.tscn
+# res://src/interfaces/wiki.tscn
+# res://src/interfaces/wiki.gd
+# res://src/dialogs/cant_load_checkpoint_popup.gd
+# res://src/dialogs/cant_load_checkpoint_popup.tscn
+# res://src/dialogs/cuda_memory_overflow_error.tscn
+# res://src/dialogs/cuda_memory_overflow_popup.gd
+# res://src/dialogs/cuda_memory_overflow_popup.tscn
+# res://src/dialogs/wiki_popup.gd
+# res://src/dialogs/wiki_popup.tscn
+# res://src/interfaces/wiki_pages/how_to_report_a_bug.tscn
+# res://src/interfaces/wiki_pages/inputs.tscn
+# res://src/interfaces/wiki_pages/lorebook.tscn
+# res://src/interfaces/wiki_pages/online_resources.tscn
+# res://src/interfaces/wiki_pages/remove_an_ai.tscn
+# res://src/interfaces/wiki_pages/server_connection_problem.tscn
+# res://src/interfaces/wiki_pages/tips_for_good_generations.tscn
 #
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -368,7 +385,7 @@ msgid "Download AI"
 msgstr ""
 
 #: src/interfaces/ai_menu.tscn
-msgid "Open AIs\' folder"
+msgid "Open AIs' folder"
 msgstr ""
 
 #: src/interfaces/ai_menu.tscn
@@ -385,7 +402,7 @@ msgid "Save settings to all AIs"
 msgstr ""
 
 #: src/interfaces/ai_menu.tscn
-msgid "Reset AI\'s settings"
+msgid "Reset AI's settings"
 msgstr ""
 
 #: src/interfaces/ai_menu.tscn
@@ -401,6 +418,8 @@ msgstr ""
 #: src/dialogs/server_off_warning.tscn
 #: src/interfaces/character_menu.tscn
 #: src/interfaces/server_menu.tscn
+#: src/interfaces/wiki.tscn
+#: src/dialogs/cuda_memory_overflow_error.tscn
 msgid "Close"
 msgstr ""
 
@@ -413,7 +432,7 @@ msgid "The maximum words to be generated."
 msgstr ""
 
 #: src/interfaces/ai_options.tscn
-msgid "Generation\'s max length"
+msgid "Generation's max length"
 msgstr ""
 
 #: src/interfaces/ai_options.tscn
@@ -439,16 +458,16 @@ msgid "The maximum amount of time you allow the AI to generate text, in seconds.
 msgstr ""
 
 #: src/interfaces/ai_options.tscn
-msgid "Generation\'s max time"
+msgid "Generation's max time"
 msgstr ""
 
 #: src/interfaces/ai_options.tscn
 msgctxt "characters like in a text. Not an individual."
-msgid "How many of the story\'s last characters the AI must remember."
+msgid "How many of the story's last characters the AI must remember."
 msgstr ""
 
 #: src/interfaces/ai_options.tscn
-msgid "Context\'s max length"
+msgid "Context's max length"
 msgstr ""
 
 #: src/interfaces/ai_options.tscn
@@ -457,7 +476,7 @@ msgid "How many characters the memory can hold."
 msgstr ""
 
 #: src/interfaces/ai_options.tscn
-msgid "Memory\'s max length"
+msgid "Memory's max length"
 msgstr ""
 
 #: src/interfaces/ai_options.tscn
@@ -522,6 +541,7 @@ msgid ""
 msgstr ""
 
 #: src/interfaces/ai_options.tscn
+msgctxt "Technical term. It doesn't need localization."
 msgid "Top k"
 msgstr ""
 
@@ -535,10 +555,12 @@ msgid ""
 msgstr ""
 
 #: src/interfaces/ai_options.tscn
+msgctxt "Technical term. It doesn't need localization."
 msgid "Top p"
 msgstr ""
 
 #: src/interfaces/ai_options.tscn
+msgctxt "Beam search is a technical term. It doesn't need localization."
 msgid ""
 "If greater than 1, executes beam search for cleaner text.\n"
 "1 means no beam search."
@@ -555,6 +577,7 @@ msgid ""
 msgstr ""
 
 #: src/interfaces/ai_options.tscn
+msgctxt "Ngram is a technical term. It doesn't need localization."
 msgid "No repeat ngram size"
 msgstr ""
 
@@ -565,6 +588,7 @@ msgid ""
 msgstr ""
 
 #: src/interfaces/ai_options.tscn
+msgctxt "Offload is a verb. Like in offloading surplus."
 msgid "Offload dictionary"
 msgstr ""
 
@@ -581,6 +605,7 @@ msgid "A torch.dtype is an object that represents the data type of a torch.Tenso
 msgstr ""
 
 #: src/interfaces/ai_options.tscn
+msgctxt "Torch Dtype is a technical term. Don't translate it".
 msgid "Torch Dtype"
 msgstr ""
 
@@ -681,7 +706,7 @@ msgid "Lorebooks"
 msgstr ""
 
 #: src/interfaces/lorebook_menu.tscn
-msgid "Open Lorebooks\' folder."
+msgid "Open Lorebooks' folder."
 msgstr ""
 
 #: src/interfaces/main_menu.gd
@@ -712,6 +737,8 @@ msgid "Community"
 msgstr ""
 
 #: src/interfaces/main_menu.tscn
+#: src/dialogs/escape_menu.tscn
+#: src/interfaces/game_top_bar_menu.tscn
 msgid "Help"
 msgstr ""
 
@@ -724,6 +751,7 @@ msgid "Exit"
 msgstr ""
 
 #: src/interfaces/main_menu.tscn
+#: src/dialogs/escape_menu.tscn
 msgid "AIdventure"
 msgstr ""
 
@@ -747,7 +775,7 @@ msgid "Scenarios"
 msgstr ""
 
 #: src/interfaces/scenario_menu.tscn
-msgid "Open scenarios\' folder"
+msgid "Open scenarios' folder"
 msgstr ""
 
 #: src/interfaces/scenario_menu.tscn
@@ -758,8 +786,12 @@ msgstr ""
 msgid "Lyaaaaa Games™"
 msgstr ""
 
+#: src/interfaces/splash_screen.tscn
+msgid "THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+msgstr ""
+
 #: src/interfaces/translator_menu.tscn
-msgid "Open AI\'s folder"
+msgid "Open AI's folder"
 msgstr ""
 
 #: src/dialogs/asking_memory_size_pop_up.tscn
@@ -853,7 +885,7 @@ msgstr ""
 
 #: src/dialogs/installation_popup.gd
 #: src/dialogs/installation_popup.tscn
-msgid "The game didn\'t find the installation. Please, run the installer and install the game."
+msgid "The game didn't find the installation. Please, run the installer and install the game."
 msgstr ""
 
 #: src/dialogs/installation_popup.gd
@@ -880,7 +912,7 @@ msgid "I already installed the game\n"
 msgstr ""
 
 #: src/dialogs/intro_demo_popup.tscn
-msgid "Thank you for downloading AIdventure\'s demo!"
+msgid "Thank you for downloading AIdventure's demo!"
 msgstr ""
 
 #: src/dialogs/intro_demo_popup.tscn
@@ -919,6 +951,11 @@ msgstr ""
 
 #: src/dialogs/memory_dialog.tscn
 msgid "Write here what the AI must always remember."
+msgstr ""
+
+#: src/dialogs/wait_dialog.gd
+#: src/dialogs/wait_dialog.tscn
+msgid "PLEASE_WAIT"
 msgstr ""
 
 #: src/dialogs/wait_dialog.tscn
@@ -1099,6 +1136,7 @@ msgid "Load AI"
 msgstr ""
 
 #: src/custom_nodes/load_generator.tscn
+#: src/dialogs/cant_load_checkpoint_popup.tscn
 msgid "Manage AIs"
 msgstr ""
 
@@ -1149,23 +1187,23 @@ msgid "Translation in progress."
 msgstr ""
 
 #: src/autoload/strings.gd
-msgid "Scenario\'s translation over."
+msgid "Scenario's translation over."
 msgstr ""
 
 #: src/autoload/strings.gd
-msgid "Lorebook\'s translation over."
+msgid "Lorebook's translation over."
 msgstr ""
 
 #: src/autoload/strings.gd
-msgid "Memory\'s translation in progress."
+msgid "Memory's translation in progress."
 msgstr ""
 
 #: src/autoload/strings.gd
-msgid "Story\'s translation in progress."
+msgid "Story's translation in progress."
 msgstr ""
 
 #: src/autoload/strings.gd
-msgid "Lorebook\'s translation in progress."
+msgid "Lorebook's translation in progress."
 msgstr ""
 
 #: src/autoload/strings.gd
@@ -1173,11 +1211,11 @@ msgid "Scenario saved."
 msgstr ""
 
 #: src/autoload/strings.gd
-msgid "Error, can\'t save scenario."
+msgid "Error, can't save scenario."
 msgstr ""
 
 #: src/autoload/strings.gd
-msgid "empty your bucket of water on the knight\'s head."
+msgid "empty your bucket of water on the knight's head."
 msgstr ""
 
 #: src/autoload/strings.gd
@@ -1205,7 +1243,15 @@ msgid "Failed sending data to the server."
 msgstr ""
 
 #: src/autoload/strings.gd
-msgid "Couldn\'t save game."
+msgid "Couldn't save game."
+msgstr ""
+
+#: src/autoload/strings.gd
+msgid "You have unsaved changes. Are you sure you want to proceed?"
+msgstr ""
+
+#: src/autoload/strings.gd
+msgid "Unsaved changes!"
 msgstr ""
 
 #: src/autoload/strings.gd
@@ -1213,7 +1259,7 @@ msgid "Successfully saved the lorebook."
 msgstr ""
 
 #: src/autoload/strings.gd
-msgid "Error, can\'t save the lorebook."
+msgid "Error, can't save the lorebook."
 msgstr ""
 
 #: src/autoload/strings.gd
@@ -1221,7 +1267,7 @@ msgid "Added the following entry."
 msgstr ""
 
 #: src/autoload/strings.gd
-msgid "Error, can\'t add the entry."
+msgid "Error, can't add the entry."
 msgstr ""
 
 #: src/autoload/strings.gd
@@ -1229,7 +1275,7 @@ msgid "Deleted the entry."
 msgstr ""
 
 #: src/autoload/strings.gd
-msgid "Error, can\'t delete entry."
+msgid "Error, can't delete entry."
 msgstr ""
 
 #: src/autoload/strings.gd
@@ -1237,7 +1283,7 @@ msgid "Renamed the entry."
 msgstr ""
 
 #: src/autoload/strings.gd
-msgid "Error, can\'t rename the entry."
+msgid "Error, can't rename the entry."
 msgstr ""
 
 #: src/autoload/strings.gd
@@ -1245,7 +1291,7 @@ msgid "Successfully exported the lorebook."
 msgstr ""
 
 #: src/autoload/strings.gd
-msgid "Error, can\'t export the lorebook."
+msgid "Error, can't export the lorebook."
 msgstr ""
 
 #: src/autoload/strings.gd
@@ -1253,67 +1299,67 @@ msgid "The server is off."
 msgstr ""
 
 #: src/autoload/strings.gd
-msgctxt "The first person pronoun. It is placed before the user\'s input."
+msgctxt "The first person pronoun. It is placed before the user's input."
 msgid "I"
 msgstr ""
 
 #: src/autoload/strings.gd
-msgctxt "The second person pronoun. It is placed before the user\'s input."
+msgctxt "The second person pronoun. It is placed before the user's input."
 msgid "You"
 msgstr ""
 
 #: src/autoload/strings.gd
-msgctxt "Conjugate say for I. E.g: I say. (Don\'t add uppercase)"
+msgctxt "Conjugate say for I. E.g: I say. (Don't add uppercase)"
 msgid "say"
 msgstr ""
 
 #: src/autoload/strings.gd
-msgctxt "Conjugate say for You. E.g: You say. (Don\'t add uppercase)"
+msgctxt "Conjugate say for You. E.g: You say. (Don't add uppercase)"
 msgid "say"
 msgstr ""
 
 #: src/autoload/strings.gd
-msgctxt "Conjugate for I. E.g: I succeed to. (Don\'t add uppercase)"
+msgctxt "Conjugate for I. E.g: I succeed to. (Don't add uppercase)"
 msgid "succeed to"
 msgstr ""
 
 #: src/autoload/strings.gd
-msgctxt "Conjugate for You. E.g: You succeed to. (Don\'t add uppercase)"
+msgctxt "Conjugate for You. E.g: You succeed to. (Don't add uppercase)"
 msgid "succeed to"
 msgstr ""
 
 #: src/autoload/strings.gd
-msgctxt "E.g: You satisfyingly punch the man. (Don\'t add uppercase)"
+msgctxt "E.g: You satisfyingly punch the man. (Don't add uppercase)"
 msgid "satisfyingly"
 msgstr ""
 
 #: src/autoload/strings.gd
-msgctxt "E.g: You competently punch the man. (Don\'t add uppercase)"
+msgctxt "E.g: You competently punch the man. (Don't add uppercase)"
 msgid "competently"
 msgstr ""
 
 #: src/autoload/strings.gd
-msgctxt "E.g: You perfectly punch the man. (Don\'t add uppercase)"
+msgctxt "E.g: You perfectly punch the man. (Don't add uppercase)"
 msgid "perfectly"
 msgstr ""
 
 #: src/autoload/strings.gd
-msgctxt "E.g: You fail to punch the man (Don\'t add uppercase)"
+msgctxt "E.g: You fail to punch the man (Don't add uppercase)"
 msgid "fail to"
 msgstr ""
 
 #: src/autoload/strings.gd
-msgctxt "E.g: I fail to punch the man (Don\'t add uppercase)"
+msgctxt "E.g: I fail to punch the man (Don't add uppercase)"
 msgid "fail to"
 msgstr ""
 
 #: src/autoload/strings.gd
-msgctxt "E.g: I pathetically fail to punch the man (Don\'t add uppercase)"
+msgctxt "E.g: I pathetically fail to punch the man (Don't add uppercase)"
 msgid "pathetically fail to"
 msgstr ""
 
 #: src/autoload/strings.gd
-msgctxt "E.g: You pathetically fail to punch the man (Don\'t add uppercase)"
+msgctxt "E.g: You pathetically fail to punch the man (Don't add uppercase)"
 msgid "pathetically fail to"
 msgstr ""
 
@@ -1336,11 +1382,11 @@ msgid ""
 msgstr ""
 
 #: src/autoload/strings.gd
-msgid "Couldn\'t edit the Workshop item."
+msgid "Couldn't edit the Workshop item."
 msgstr ""
 
 #: src/autoload/strings.gd
-msgid "Couldn\'t upload to the Workshop."
+msgid "Couldn't upload to the Workshop."
 msgstr ""
 
 #: src/autoload/strings.gd
@@ -1356,7 +1402,7 @@ msgid "File deleted."
 msgstr ""
 
 #: src/autoload/strings.gd
-msgid "Error, can\'t delete file."
+msgid "Error, can't delete file."
 msgstr ""
 
 #: src/autoload/strings.gd
@@ -1364,11 +1410,11 @@ msgid "AI deleted."
 msgstr ""
 
 #: src/autoload/strings.gd
-msgid "Error, can\'t delete AI."
+msgid "Error, can't delete AI."
 msgstr ""
 
 #: src/autoload/strings.gd
-msgid "AI added to download\'s queue."
+msgid "AI added to download's queue."
 msgstr ""
 
 #: src/autoload/strings.gd
@@ -1380,7 +1426,7 @@ msgid "AI downloaded."
 msgstr ""
 
 #: src/autoload/strings.gd
-msgid "Error, can\'t download AI."
+msgid "Error, can't download AI."
 msgstr ""
 
 #: src/autoload/strings.gd
@@ -1388,15 +1434,23 @@ msgid "This AI is safe for work."
 msgstr ""
 
 #: src/autoload/strings.gd
-msgid "This AI is moderately safe. It might still generate \'light\' erotic content by itself!"
+msgid "This AI is moderately safe. It might still generate 'light' erotic content by itself!"
 msgstr ""
 
 #: src/autoload/strings.gd
-msgid "This AI isn\'t safe for work! It will generate erotic content by itself!"
+msgid "This AI isn't safe for work! It will generate erotic content by itself!"
 msgstr ""
 
 #: src/autoload/strings.gd
-msgid "This is a custom AI. It hasn\'t been tested and might not work."
+msgid "This is a custom AI. It hasn't been tested and might not work."
+msgstr ""
+
+#: src/autoload/strings.gd
+msgid "Successfully saved settings."
+msgstr ""
+
+#: src/autoload/strings.gd
+msgid "Failed to save the settings."
 msgstr ""
 
 #: src/dialogs/lorebook_info_popup_window.tscn
@@ -1410,7 +1464,7 @@ msgid ""
 msgstr ""
 
 #: src/dialogs/server_off_warning.tscn
-msgid "Open server\'s menu"
+msgid "Open server's menu"
 msgstr ""
 
 #: src/dialogs/hardware_form/gpu_form.tscn
@@ -1424,11 +1478,11 @@ msgid "Yes, I have a Nvidia card"
 msgstr ""
 
 #: src/dialogs/hardware_form/gpu_form.tscn
-msgid "No, I don\'t have a Nvidia card"
+msgid "No, I don't have a Nvidia card"
 msgstr ""
 
 #: src/dialogs/hardware_form/gpu_form.tscn
-msgid "I don\'t know"
+msgid "I don't know"
 msgstr ""
 
 #: src/dialogs/hardware_form/gpu_form.tscn
@@ -1451,7 +1505,7 @@ msgstr ""
 
 #: src/dialogs/hardware_form/hardware_form.tscn
 msgid ""
-"AIdventure uses Artificial Intelligences (AIs). It\'s a tricky technology and can behave differently depending of your hardware.\n"
+"AIdventure uses Artificial Intelligences (AIs). It's a tricky technology and can behave differently depending of your hardware.\n"
 "\n"
 "The game will try to adapt to your hardware as best as it can.\n"
 "This window will ask you multiple information to improve the automatic setup."
@@ -1476,11 +1530,11 @@ msgid ""
 msgstr ""
 
 #: src/dialogs/hardware_form/memory_form.tscn
-msgid "Don\'t limit memory"
+msgid "Don't limit memory"
 msgstr ""
 
 #: src/dialogs/hardware_form/memory_form.tscn
-msgid "I don\'t know how much memory I have"
+msgid "I don't know how much memory I have"
 msgstr ""
 
 #: src/interfaces/character_menu.tscn
@@ -1493,6 +1547,7 @@ msgid "Strength"
 msgstr ""
 
 #: src/interfaces/character_menu.tscn
+msgctxt "Like when you roll the dice, a second time."
 msgid "Reroll"
 msgstr ""
 
@@ -1553,7 +1608,7 @@ msgstr ""
 
 #: src/interfaces/end_demo.tscn
 msgid ""
-"Thank you for playing AIdventure\'s demo!\n"
+"Thank you for playing AIdventure's demo!\n"
 "You reached the limit.\n"
 "Buy the game to continue this adventure."
 msgstr ""
@@ -1568,6 +1623,10 @@ msgstr ""
 
 #: src/interfaces/game_top_bar_menu.tscn
 msgid "Server"
+msgstr ""
+
+#: src/interfaces/game_top_bar_menu.tscn
+msgid "Info"
 msgstr ""
 
 #: src/interfaces/load_translator.tscn
@@ -1688,7 +1747,7 @@ msgstr ""
 
 #: src/interfaces/options/preferences.tscn
 msgid ""
-"Delete the last sentence if the AI didn\'t \'finish\' it by a punctuation (, ; : ! ? .).\n"
+"Delete the last sentence if the AI didn't 'finish' it by a punctuation (, ; : ! ? .).\n"
 "It might delete the whole output if \"max length\" is too small!"
 msgstr ""
 
@@ -1724,7 +1783,7 @@ msgid ""
 msgstr ""
 
 #: src/interfaces/options/preferences.tscn
-msgid "Application\'s Font"
+msgid "Application's Font"
 msgstr ""
 
 #: src/interfaces/options/preferences.tscn
@@ -1732,7 +1791,19 @@ msgid "How many seconds before the notification disappears."
 msgstr ""
 
 #: src/interfaces/options/preferences.tscn
-msgid "Notification\'s duration"
+msgid "Notification's duration"
+msgstr ""
+
+#: src/interfaces/options/preferences.tscn
+msgid "The color used to highlight specific elements."
+msgstr ""
+
+#: src/interfaces/options/preferences.tscn
+msgid "Highlight color"
+msgstr ""
+
+#: src/interfaces/options/preferences.tscn
+msgid "Selection color"
 msgstr ""
 
 #: src/interfaces/options/preferences.tscn
@@ -1772,7 +1843,7 @@ msgid "This is a sample text."
 msgstr ""
 
 #: src/interfaces/options/server.tscn
-msgid "If you don\'t know what you are doing, don\'t change anything here."
+msgid "If you don't know what you are doing, don't change anything here."
 msgstr ""
 
 #: src/interfaces/options/server.tscn
@@ -1786,7 +1857,7 @@ msgid "Connection delay"
 msgstr ""
 
 #: src/interfaces/options/server.tscn
-msgid "If enabled, the server will try to download an AI if it\'s missing.\n"
+msgid "If enabled, the server will try to download an AI if it's missing."
 msgstr ""
 
 #: src/interfaces/options/server.tscn
@@ -1798,13 +1869,50 @@ msgid "Connect to a remote server"
 msgstr ""
 
 #: src/interfaces/options/server.tscn
-msgid "For now the communication with the server isn\'t secure. Use this for local networks only."
+msgid "For now the communication with the server isn't secure. Use this for local networks only."
 msgstr ""
 
 #: src/interfaces/options/server.tscn
-msgid "Server\'s IP"
+msgid "Server's IP"
 msgstr ""
 
 #: src/interfaces/options/server.tscn
-msgid "Server\'s port"
+msgid "Server's port"
+msgstr ""
+
+#: src/interfaces/wiki.tscn
+msgid "Pages"
+msgstr ""
+
+#: src/interfaces/wiki.tscn
+msgid "Open FAQ"
+msgstr ""
+
+#: src/interfaces/wiki.tscn
+msgid "Open in a window"
+msgstr ""
+
+#: src/dialogs/cuda_memory_overflow_error.tscn
+msgid ""
+"[b]The server ran out of VRAM[/b]. You can get [b]more information about this error by clicking on the first button[/b] below !\n"
+"\n"
+"Otherwise, you can click on the second button. The game will try to [b]reduce the settings of this AI[/b] to decrease the risk of this error happening again."
+msgstr ""
+
+#: src/dialogs/cuda_memory_overflow_error.tscn
+msgid "More Info"
+msgstr ""
+
+#: src/dialogs/cuda_memory_overflow_error.tscn
+#: src/dialogs/cuda_memory_overflow_popup.tscn
+msgid "It will automatically reduce your settings to avoid this error."
+msgstr ""
+
+#: src/dialogs/cuda_memory_overflow_error.tscn
+#: src/dialogs/cuda_memory_overflow_popup.tscn
+msgid "Downgrade settings"
+msgstr ""
+
+#: src/dialogs/wiki_popup.tscn
+msgid "Wiki"
 msgstr ""
