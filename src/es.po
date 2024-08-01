@@ -1,0 +1,1908 @@
+# LANGUAGE translation for AIdventure for the following files:
+# res://src/interfaces/ai_info.gd
+# res://src/interfaces/ai_info.tscn
+# res://src/interfaces/ai_menu.gd
+# res://src/interfaces/ai_menu.tscn
+# res://src/interfaces/ai_options.gd
+# res://src/interfaces/ai_options.tscn
+# res://src/interfaces/edit_bar.gd
+# res://src/interfaces/edit_bar.tscn
+# res://src/interfaces/edit_workshop_item.gd
+# res://src/interfaces/edit_workshop_item.tscn
+# res://src/interfaces/input_bar.gd
+# res://src/interfaces/input_bar.tscn
+# res://src/interfaces/input_bar_text_edit.gd
+# res://src/interfaces/languages_button.gd
+# res://src/interfaces/languages_button.tscn
+# res://src/interfaces/list_own_workshop_items.gd
+# res://src/interfaces/list_own_workshop_items.tscn
+# res://src/interfaces/lorebook_info.gd
+# res://src/interfaces/lorebook_info.tscn
+# res://src/interfaces/lorebook_menu.gd
+# res://src/interfaces/lorebook_menu.tscn
+# res://src/interfaces/main_menu.gd
+# res://src/interfaces/main_menu.tscn
+# res://src/interfaces/options_menu.tscn
+# res://src/interfaces/output_display.gd
+# res://src/interfaces/output_display.tscn
+# res://src/interfaces/rotating_sprite.gd
+# res://src/interfaces/rotating_sprite.tscn
+# res://src/interfaces/scenario_info.gd
+# res://src/interfaces/scenario_info.tscn
+# res://src/interfaces/scenario_menu.gd
+# res://src/interfaces/scenario_menu.tscn
+# res://src/interfaces/splash_screen.gd
+# res://src/interfaces/splash_screen.tscn
+# res://src/interfaces/steam_workshop_menu.gd
+# res://src/interfaces/steam_workshop_menu.tscn
+# res://src/interfaces/tags_selector.gd
+# res://src/interfaces/tags_selector.tscn
+# res://src/interfaces/translator_manager.gd
+# res://src/interfaces/translator_manager.tscn
+# res://src/interfaces/translator_menu.gd
+# res://src/interfaces/translator_menu.tscn
+# res://src/interfaces/default_interfaces/default_botton_button_box.tscn
+# res://src/interfaces/default_interfaces/default_interface_background.tscn
+# res://src/interfaces/default_interfaces/default_interface_margin.tscn
+# res://src/game.gd
+# res://src/game.tscn
+# res://src/dialogs/asking_memory_size_pop_up.gd
+# res://src/dialogs/asking_memory_size_pop_up.tscn
+# res://src/dialogs/ask_custom_ai_name_popup.gd
+# res://src/dialogs/ask_custom_ai_name_popup.tscn
+# res://src/dialogs/character_creation_dialog.gd
+# res://src/dialogs/character_creation_dialog.tscn
+# res://src/dialogs/confirmation_dialog.gd
+# res://src/dialogs/confirmation_dialog.tscn
+# res://src/dialogs/custom_download_window.gd
+# res://src/dialogs/custom_download_window.tscn
+# res://src/dialogs/end_demo_popup.gd
+# res://src/dialogs/end_demo_popup.tscn
+# res://src/dialogs/error_popup.gd
+# res://src/dialogs/error_popup.tscn
+# res://src/dialogs/escape_menu.gd
+# res://src/dialogs/escape_menu.tscn
+# res://src/dialogs/incompatible_memory_dialog.gd
+# res://src/dialogs/incompatible_memory_dialog.tscn
+# res://src/dialogs/installation_popup.gd
+# res://src/dialogs/installation_popup.tscn
+# res://src/dialogs/intro_demo_popup.gd
+# res://src/dialogs/intro_demo_popup.tscn
+# res://src/dialogs/loading_server.gd
+# res://src/dialogs/loading_server.tscn
+# res://src/dialogs/load_menu.gd
+# res://src/dialogs/load_menu.tscn
+# res://src/dialogs/lore_book_popup.gd
+# res://src/dialogs/lore_book_popup.tscn
+# res://src/dialogs/memory_dialog.gd
+# res://src/dialogs/memory_dialog.tscn
+# res://src/dialogs/options_dialog.gd
+# res://src/dialogs/options_dialog.tscn
+# res://src/dialogs/story_editor.gd
+# res://src/dialogs/story_editor.tscn
+# res://src/dialogs/translate_scenario_pop_up.gd
+# res://src/dialogs/translate_scenario_pop_up.tscn
+# res://src/dialogs/update_workshop_dialog.tscn
+# res://src/dialogs/upload_workshop_dialog.tscn
+# res://src/dialogs/wait_dialog.gd
+# res://src/dialogs/wait_dialog.tscn
+# res://src/custom_nodes/advanced_list.gd
+# res://src/custom_nodes/ai_list.gd
+# res://src/custom_nodes/ai_list.tscn
+# res://src/custom_nodes/audio_button.gd
+# res://src/custom_nodes/audio_button.tscn
+# res://src/custom_nodes/audio_options_button.gd
+# res://src/custom_nodes/audio_options_button.tscn
+# res://src/custom_nodes/device_map_option_button.gd
+# res://src/custom_nodes/device_map_option_button.tscn
+# res://src/custom_nodes/dots_wait_animation.gd
+# res://src/custom_nodes/dots_wait_animation.tscn
+# res://src/custom_nodes/download_window.gd
+# res://src/custom_nodes/download_window.tscn
+# res://src/custom_nodes/edit_buttons.gd
+# res://src/custom_nodes/edit_buttons.tscn
+# res://src/custom_nodes/filters_inputs.gd
+# res://src/custom_nodes/filters_inputs.tscn
+# res://src/custom_nodes/generator_preset_options_button.gd
+# res://src/custom_nodes/generator_preset_options_button.tscn
+# res://src/custom_nodes/lorebook_list.gd
+# res://src/custom_nodes/lorebook_list.tscn
+# res://src/custom_nodes/notification.gd
+# res://src/custom_nodes/notification.tscn
+# res://src/custom_nodes/scenario_list.gd
+# res://src/custom_nodes/scenario_list.tscn
+# res://src/custom_nodes/story_element_info.gd
+# res://src/custom_nodes/story_element_info.tscn
+# res://src/custom_nodes/story_element_list.gd
+# res://src/custom_nodes/torch_dtype_option_button.gd
+# res://src/custom_nodes/torch_dtype_option_button.tscn
+# res://src/custom_nodes/ask_name_dialog/ask_lorebook_entry_name_dialog.gd
+# res://src/custom_nodes/ask_name_dialog/ask_lorebook_entry_name_dialog.tscn
+# res://src/custom_nodes/ask_name_dialog/ask_lorebook_name_dialog.gd
+# res://src/custom_nodes/ask_name_dialog/ask_lorebook_name_dialog.tscn
+# res://src/custom_nodes/ask_name_dialog/ask_name_dialog.gd
+# res://src/custom_nodes/ask_name_dialog/ask_name_dialog.tscn
+# res://src/custom_nodes/ask_name_dialog/ask_scenario_name_dialog.gd
+# res://src/custom_nodes/ask_name_dialog/ask_scenario_name_dialog.tscn
+# res://src/custom_nodes/ask_name_dialog/ask_story_element_name_dialog.gd
+# res://src/custom_nodes/ask_name_dialog/ask_story_element_name_dialog.tscn
+# res://src/classes/character.gd
+# res://src/classes/client.gd
+# res://src/classes/config.gd
+# res://src/classes/context.gd
+# res://src/classes/die.gd
+# res://src/classes/dir_utils.gd
+# res://src/classes/file_simple.gd
+# res://src/classes/game_settings.gd
+# res://src/classes/game_translator.gd
+# res://src/classes/language.gd
+# res://src/classes/logger.gd
+# res://src/classes/name.gd
+# res://src/classes/null_file_simple.gd
+# res://src/classes/null_language.gd
+# res://src/classes/parser.gd
+# res://src/classes/save.gd
+# res://src/classes/scenario_translator.gd
+# res://src/classes/server.gd
+# res://src/classes/translation_handler.gd
+# res://src/classes/story_elements/embedded_lorebook.gd
+# res://src/classes/story_elements/lorebook.gd
+# res://src/classes/story_elements/scenario.gd
+# res://src/classes/story_elements/story_element.gd
+# res://src/classes/story_elements/workshop_lorebook.gd
+# res://src/classes/story_elements/workshop_scenario.gd
+# res://src/classes/steam/steam_integration.gd
+# res://src/classes/steam/steam_integration_blank.gd
+# res://src/classes/steam/steam_workshop.gd
+# res://src/classes/steam/steam_workshop_item.gd
+# res://src/classes/ai/ai.gd
+# res://src/classes/ai/custom_ai.gd
+# res://src/classes/ai/generator.gd
+# res://src/classes/ai/generator_settings.gd
+# res://src/classes/ai/translator.gd
+# res://src/autoload/ai_autoload.gd
+# res://src/autoload/audio.gd
+# res://src/autoload/display.gd
+# res://src/autoload/features.gd
+# res://src/autoload/fonts.gd
+# res://src/autoload/global_variables.gd
+# res://src/autoload/icons.gd
+# res://src/autoload/installer.gd
+# res://src/autoload/languages.gd
+# res://src/autoload/notification_autoload.gd
+# res://src/autoload/steam_autoload.gd
+# res://src/autoload/tags.gd
+# res://src/autoload/thread_pool_autoload.gd
+# res://src/dialogs/merge_lorebook_dialog.gd
+# res://src/dialogs/merge_lorebook_dialog.tscn
+# res://src/dialogs/select_lorebook_dialog.gd
+# res://src/dialogs/select_lorebook_dialog.tscn
+# res://src/custom_nodes/advanced_tab_container.gd
+# res://src/custom_nodes/advanced_tab_container.tscn
+# res://src/custom_nodes/display_options_button.gd
+# res://src/custom_nodes/display_options_button.tscn
+# res://src/custom_nodes/font_options_button.gd
+# res://src/custom_nodes/font_options_button.tscn
+# res://src/custom_nodes/h_slider_with_counter.gd
+# res://src/custom_nodes/h_slider_with_counter.tscn
+# res://src/custom_nodes/load_generator.gd
+# res://src/custom_nodes/load_generator.tscn
+# res://src/custom_nodes/memory_sliders.gd
+# res://src/custom_nodes/memory_sliders.tscn
+# res://src/custom_nodes/options_buttons.gd
+# res://src/custom_nodes/options_buttons.tscn
+# res://src/custom_nodes/pov_options_button.gd
+# res://src/custom_nodes/pov_options_button.tscn
+# res://src/custom_nodes/published_workshop_item_list.gd
+# res://src/custom_nodes/published_workshop_item_list.tscn
+# res://src/custom_nodes/saves_list.gd
+# res://src/custom_nodes/saves_list.tscn
+# res://src/custom_nodes/server_log_display.gd
+# res://src/custom_nodes/server_log_display.tscn
+# res://src/custom_nodes/language_buttons/auto_translation_option_button.gd
+# res://src/custom_nodes/language_buttons/auto_translation_option_button.tscn
+# res://src/custom_nodes/language_buttons/languages_button.gd
+# res://src/custom_nodes/language_buttons/languages_button.tscn
+# res://src/custom_nodes/language_buttons/localization_option_button.gd
+# res://src/custom_nodes/language_buttons/localization_option_button.tscn
+# res://src/custom_nodes/language_buttons/translator_option_button.gd
+# res://src/custom_nodes/language_buttons/translator_option_button.tscn
+# res://src/custom_nodes/ask_name_dialog/ask_save_name_dialog.gd
+# res://src/custom_nodes/ask_name_dialog/ask_save_name_dialog.tscn
+# res://src/custom_nodes/ai_options_button/ai_option_button.gd
+# res://src/custom_nodes/ai_options_button/ai_option_button.tscn
+# res://src/custom_nodes/ai_options_button/generators_options_button.gd
+# res://src/custom_nodes/ai_options_button/generators_options_button.tscn
+# res://src/autoload/global_functions.gd
+# res://src/autoload/server_autoload.gd
+# res://src/autoload/strings.gd
+# res://src/classes/default_config.gd
+# res://src/classes/ai/ai_translator.gd
+# res://src/classes/ai/null_generator.gd
+# res://src/classes/fonts/custom_font.gd
+# res://src/classes/fonts/font_simple.gd
+# res://src/classes/story_elements/null_scenario.gd
+# res://src/classes/story_elements/save.gd
+# res://src/classes/translators/lorebook_translator.gd
+# res://src/classes/translators/scenario_translator.gd
+# res://src/classes/translators/story_element_translator.gd
+# res://src/classes/translators/translator.gd
+# res://src/dialogs/lorebook_info_popup_window.gd
+# res://src/dialogs/lorebook_info_popup_window.tscn
+# res://src/dialogs/server_off_warning.gd
+# res://src/dialogs/server_off_warning.tscn
+# res://src/dialogs/hardware_form/gpu_form.gd
+# res://src/dialogs/hardware_form/gpu_form.tscn
+# res://src/dialogs/hardware_form/hardware_form.gd
+# res://src/dialogs/hardware_form/hardware_form.tscn
+# res://src/dialogs/hardware_form/memory_form.gd
+# res://src/dialogs/hardware_form/memory_form.tscn
+# res://src/interfaces/character_menu.gd
+# res://src/interfaces/character_menu.tscn
+# res://src/interfaces/create_menu.gd
+# res://src/interfaces/create_menu.tscn
+# res://src/interfaces/end_demo.gd
+# res://src/interfaces/end_demo.tscn
+# res://src/interfaces/game.gd
+# res://src/interfaces/game.tscn
+# res://src/interfaces/game_top_bar_menu.gd
+# res://src/interfaces/game_top_bar_menu.tscn
+# res://src/interfaces/load_translator.gd
+# res://src/interfaces/load_translator.tscn
+# res://src/interfaces/options_menu.gd
+# res://src/interfaces/published_workshop_item_menu.gd
+# res://src/interfaces/published_workshop_item_menu.tscn
+# res://src/interfaces/server_menu.gd
+# res://src/interfaces/server_menu.tscn
+# res://src/interfaces/start_game_workflow.gd
+# res://src/interfaces/start_game_workflow.tscn
+# res://src/interfaces/workshop_menu.tscn
+# res://src/interfaces/options/preferences.gd
+# res://src/interfaces/options/preferences.tscn
+# res://src/interfaces/options/server.gd
+# res://src/interfaces/options/server.tscn
+# res://src/dialogs/custom_ai_download_window.gd
+# res://src/dialogs/custom_ai_download_window.tscn
+#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AIdventure\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Lyaaaaa <lyaaaaa@lyaaaaagames.com>\n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.4\n"
+
+#: src/interfaces/ai_info.gd src/interfaces/ai_info.tscn
+msgid "?"
+msgstr "?"
+
+#: src/interfaces/ai_info.tscn
+msgid "Size"
+msgstr "Tamaño"
+
+#: src/interfaces/ai_info.tscn
+msgid "Space on disk"
+msgstr "Espacio en el disco duro"
+
+#: src/interfaces/ai_info.tscn
+msgid "Number of files"
+msgstr "Número de archivos"
+
+#: src/interfaces/ai_info.tscn
+msgid "RAM needed"
+msgstr "RAM necesario"
+
+#: src/interfaces/ai_info.tscn
+msgid "VRAM needed"
+msgstr "VRAM necesario"
+
+#: src/interfaces/ai_info.tscn src/custom_nodes/story_element_info.tscn
+msgid "Language"
+msgstr "Idioma"
+
+#: src/interfaces/ai_info.tscn
+msgid "Description"
+msgstr "Descripción"
+
+#: src/interfaces/ai_menu.tscn src/custom_nodes/filters_inputs.tscn
+msgid "Filter by name"
+msgstr "Filtrar por nombre"
+
+#: src/interfaces/ai_menu.tscn
+msgid "Installed AI"
+msgstr "IA instalado"
+
+#: src/interfaces/ai_menu.tscn
+msgid "NSFW AI"
+msgstr "IA NSFW"
+
+#: src/interfaces/ai_menu.tscn
+msgid "Custom AI"
+msgstr "IA personalizada"
+
+#: src/interfaces/ai_menu.tscn src/custom_nodes/filters_inputs.tscn
+msgid "Filter by language"
+msgstr "Filtrar por idioma"
+
+#: src/interfaces/ai_menu.tscn src/custom_nodes/filters_inputs.tscn
+msgid "Reset filters"
+msgstr "Resetear filtros"
+
+#: src/interfaces/ai_menu.tscn
+msgid "Artificial intelligences"
+msgstr "Inteligencias artificiales"
+
+#: src/interfaces/ai_menu.tscn
+msgid "Download custom AI"
+msgstr "Descargar IA personalizada"
+
+#: src/interfaces/ai_menu.tscn src/interfaces/translator_menu.tscn
+msgid "Download AI"
+msgstr "Descargar IA"
+
+#: src/interfaces/ai_menu.tscn
+msgid "Open AIs' folder"
+msgstr "Abrir archivo del IA"
+
+#: src/interfaces/ai_menu.tscn src/interfaces/translator_menu.tscn
+msgid "Delete AI"
+msgstr "Borrar IA"
+
+#: src/interfaces/ai_menu.tscn
+msgid "Save settings"
+msgstr "Salvar ajustes"
+
+#: src/interfaces/ai_menu.tscn
+msgid "Save settings to all AIs"
+msgstr "Salvar configuraciones para todas IA"
+
+#: src/interfaces/ai_menu.tscn
+msgid "Reset AI's settings"
+msgstr "Resetear configuraciones de la IA"
+
+#: src/interfaces/ai_menu.tscn
+msgid "Reset all AIs settings"
+msgstr "Resetear configuraciones de todas IA"
+
+#: src/interfaces/ai_menu.tscn src/interfaces/lorebook_menu.tscn
+#: src/interfaces/scenario_menu.tscn src/interfaces/translator_menu.tscn
+#: src/dialogs/ask_custom_ai_name_popup.tscn
+#: src/custom_nodes/options_buttons.tscn src/dialogs/server_off_warning.tscn
+#: src/interfaces/character_menu.tscn src/interfaces/server_menu.tscn
+msgid "Close"
+msgstr "Cerrar"
+
+#: src/interfaces/ai_options.tscn
+msgid "AI settings"
+msgstr "Configuraciones de IA"
+
+#: src/interfaces/ai_options.tscn
+msgid "The maximum words to be generated."
+msgstr "Número máximo de palabras generadas."
+
+#: src/interfaces/ai_options.tscn
+msgid "Generation's max length"
+msgstr "Largura máxima de Generación"
+
+#: src/interfaces/ai_options.tscn
+msgid ""
+"Make the generated text more or less coherent. Commonly named "
+"\"Temperature\", 0 means no randomness."
+msgstr ""
+"Haz que el texto generado sea más o menos coherente. Comúnmente llamado "
+"\"Temperatura\", 0 significa sin aleatoriedad."
+
+#: src/interfaces/ai_options.tscn
+msgid "Randomness"
+msgstr "Aleatoriedad"
+
+#: src/interfaces/ai_options.tscn
+msgid ""
+"If greater than 1.0, penalizes repetition in a text to avoid infinite "
+"loops.\n"
+"1 means no penalty."
+msgstr ""
+"Si es superior a 1.0, penaliza la repetición en un texto para evitar ciclos "
+"infinitos.\n"
+"1 significa sin penalización."
+
+#: src/interfaces/ai_options.tscn
+msgid "Repetition penalty"
+msgstr "Penalización por repetición"
+
+#: src/interfaces/ai_options.tscn
+msgid ""
+"The maximum amount of time you allow the AI to generate text, in seconds."
+msgstr "Tiempo máximo que permites a la IA para generar texto, en segundos."
+
+#: src/interfaces/ai_options.tscn
+msgid "Generation's max time"
+msgstr "Tiempo máximo de Generación"
+
+#: src/interfaces/ai_options.tscn
+msgctxt "characters like in a text. Not an individual."
+msgid "How many of the story's last characters the AI must remember."
+msgstr "Cuántos caracteres de la historia deben ser recordados por la IA."
+
+#: src/interfaces/ai_options.tscn
+msgid "Context's max length"
+msgstr "Largura máxima del contexto"
+
+#: src/interfaces/ai_options.tscn
+msgctxt "characters like in a text. Not an individual."
+msgid "How many characters the memory can hold."
+msgstr "Cuántos caracteres la memoria puede contener."
+
+#: src/interfaces/ai_options.tscn
+msgid "Memory's max length"
+msgstr "Largura máxima de la memoria"
+
+#: src/interfaces/ai_options.tscn
+msgid ""
+"If a model doesn’t fully fit in VRAM, it will offload the rest on the CPU "
+"(RAM), or even the hard drive if you don’t have enough RAM."
+msgstr ""
+"Si un modelo no se ajusta bien en la VRAM, el resto será descargado en el "
+"CPU (RAM), o hasta en el disco duro si no tienes RAM suficiente."
+
+#: src/interfaces/ai_options.tscn
+msgid "Offload model"
+msgstr "Descargar modelo"
+
+#: src/interfaces/ai_options.tscn
+msgid ""
+"Limiting the memory will force the server to never use more memory than "
+"specified for loading a model.\n"
+"It might still go over it while generating text.\n"
+"Therefore, if you want to limit the RAM usage to 10000 Mb, you should "
+"probably set it to 9500Mb.\n"
+"Same for the VRAM limit."
+msgstr ""
+"Limitar la memoria obligará al servidor a nunca utilizar más memoria de la "
+"especificada para cargar un modelo.\n"
+"Aún podrá superarla mientras se genera el texto.\n"
+"Por lo tanto, si quieres limitar el uso de RAM para 10000 Mb, deberás "
+"probablemente ponerlo a 9500Mb.\n"
+"Lo mismo se aplica al límite de VRAM."
+
+#: src/interfaces/ai_options.tscn
+msgid "Limit memory usage"
+msgstr "Limitar el uso de memoria"
+
+#: src/interfaces/ai_options.tscn
+msgid "Display advanced options"
+msgstr "Mostrar opciones avanzadas"
+
+#: src/interfaces/ai_options.tscn
+msgid "Advanced options"
+msgstr "Opciones avanzadas"
+
+#: src/interfaces/ai_options.tscn
+msgid ""
+"It is recommended to only edit the advanced options if you know what you are "
+"doing.\n"
+"If you happen to \"break\" the generation, just press the \"reset\" button."
+msgstr ""
+"Se recomienda editar las opciones avanzadas sólo si sabes lo que estás "
+"haciendo.\n"
+"Si, por ocurrencia, \"rompes\" la generación, basta pulsar el botón "
+"\"resetear\"."
+
+#: src/interfaces/ai_options.tscn
+msgid ""
+"This is an experimental feature.\n"
+"It reduces by ~2 the memory needed by the server."
+msgstr ""
+"Esta es una función experimental.\n"
+"Reduce ~2 a la memoria necesaria el servidor."
+
+#: src/interfaces/ai_options.tscn
+msgid "Low RAM mode"
+msgstr "Modo de RAM bajo"
+
+#: src/interfaces/ai_options.tscn
+msgid ""
+"Enable randomly picking the next word.\n"
+"It limits the repetition."
+msgstr ""
+"Activa la selección aleatoria de la palabra siguiente.\n"
+"Limita la repetición."
+
+#: src/interfaces/ai_options.tscn
+msgid "Do sample"
+msgstr "Hacer muestra"
+
+#: src/interfaces/ai_options.tscn
+msgid ""
+"The K most likely next words are filtered and the probability mass is "
+"redistributed\n"
+"among only those K next words.\n"
+"Set to 0 to disable it."
+msgstr ""
+"Las palabras K siguientes son filtradas y la probabilidad de masa es "
+"redistribuida\n"
+"entre solamente esas K palabras siguientes.\n"
+"Ajusta para 0 para desactivarlo."
+
+#: src/interfaces/ai_options.tscn
+msgid "Top k"
+msgstr "Top k"
+
+#: src/interfaces/ai_options.tscn
+msgid ""
+"Chooses from the smallest possible set of words whose cumulative probability "
+"exceeds the probability p.\n"
+"The probability mass is then redistributed among this set of words.\n"
+"If set to < 1, only the most probable tokens with probabilities that\n"
+"add up to top_p or higher are kept for generation.\n"
+"Set to 0 to disable it."
+msgstr ""
+"Elige entre el menor conjunto posible de palabras cuya probabilidad "
+"acumulada supere la probabilidad p.\n"
+"A continuación, la masa de probabilidad se redistribuye en ese conjunto de "
+"palabras.\n"
+"Si se ajusta a < 1, sólo los elementos com probabilidades más grandes de \n"
+"sumar hasta top_p o más se salvan para la generación.\n"
+"Ajusta para 0 para desactivarlo."
+
+#: src/interfaces/ai_options.tscn
+msgid "Top p"
+msgstr "Top p"
+
+#: src/interfaces/ai_options.tscn
+msgid ""
+"If greater than 1, executes beam search for cleaner text.\n"
+"1 means no beam search."
+msgstr ""
+"Si es mayor que 1, ejecuta una búsqueda de texto más limpio.\v\n"
+"1 significa sin búsqueda de vías."
+
+#: src/interfaces/ai_options.tscn
+msgid "Number of beams"
+msgstr "Número de vías"
+
+#: src/interfaces/ai_options.tscn
+msgid ""
+"Token length to avoid repeating given phrases.\n"
+"Set to 0 to disable it."
+msgstr ""
+"Largura de los elementos para evitar la repetición de frases determinadas.\n"
+"Ajusta para 0 para desactivarlo."
+
+#: src/interfaces/ai_options.tscn
+msgid "No repeat ngram size"
+msgstr "Sin repetición del tamaño ngram"
+
+#: src/interfaces/ai_options.tscn
+msgid ""
+"If the weight of the CPU state dictionnary + the biggest shard of the "
+"checkpoint does not fit,\n"
+"will temporarily offload the CPU state dictionary to the hard drive to avoid "
+"getting out of CPU RAM."
+msgstr ""
+"Si el peso del diccionario de estado de la CPU + el fragmento más grande del "
+"checkpoint no cabe,\n"
+"se descargará temporalmente el diccionario de estado de la CPU al disco duro "
+"para evitar salir de la RAM de la CPU."
+
+#: src/interfaces/ai_options.tscn
+msgid "Offload dictionary"
+msgstr "Descargar diccionario"
+
+#: src/interfaces/ai_options.tscn
+msgid "Change how the AI is dispatched on the GPU and CPU."
+msgstr "Cambiar el modo de envío de la IA en la GPU y CPU."
+
+#: src/interfaces/ai_options.tscn
+msgid "Device map"
+msgstr "Mapa de dispositivos"
+
+#: src/interfaces/ai_options.tscn
+msgid ""
+"A torch.dtype is an object that represents the data type of a torch.Tensor. "
+"PyTorch has twelve different data types."
+msgstr ""
+"La torch.dtype es un objeto que representa el tipo de datos de una torch."
+"Tensor. PyTorch tiene doce tipos de datos diferentes."
+
+#: src/interfaces/ai_options.tscn
+msgid "Torch Dtype"
+msgstr "Torcn Dtype"
+
+#: src/interfaces/edit_bar.tscn
+#: src/custom_nodes/ask_name_dialog/ask_name_dialog.tscn
+#: src/dialogs/select_lorebook_dialog.tscn
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: src/interfaces/edit_bar.tscn src/dialogs/hardware_form/hardware_form.tscn
+msgid "Previous"
+msgstr "Anterior"
+
+#: src/interfaces/edit_bar.tscn src/dialogs/hardware_form/hardware_form.tscn
+msgid "Next"
+msgstr "Siguiente"
+
+#: src/interfaces/edit_bar.tscn
+msgid "Ask another generation"
+msgstr "Pedir otra generación"
+
+#: src/interfaces/edit_bar.tscn src/interfaces/character_menu.tscn
+msgid "Validate"
+msgstr "Validar"
+
+#: src/interfaces/input_bar.tscn
+msgid "Undo"
+msgstr "Deshacer"
+
+#: src/interfaces/input_bar.tscn
+msgid "Redo"
+msgstr "Rehacer"
+
+#: src/interfaces/input_bar.tscn
+msgid "Lorebook"
+msgstr "Enciclopedia"
+
+#: src/interfaces/input_bar.tscn
+msgctxt "characters like an individual. Not like characters in a word."
+msgid "Character"
+msgstr "Personage"
+
+#: src/interfaces/input_bar.tscn
+msgid "Click to modify memory."
+msgstr "Pulsa para modificar memoria."
+
+#: src/interfaces/input_bar.tscn src/interfaces/scenario_info.tscn
+#: src/dialogs/memory_dialog.tscn
+msgid "Memory"
+msgstr "Memoria"
+
+#: src/interfaces/input_bar.tscn
+msgid "Click to switch of mode."
+msgstr "Pulsa para cambiar de modo."
+
+#: src/interfaces/input_bar.tscn src/interfaces/scenario_info.tscn
+#: src/autoload/strings.gd
+msgid "Story"
+msgstr "Historia"
+
+#: src/interfaces/input_bar.tscn src/autoload/strings.gd
+msgid "The knight draws his sword and takes a step forward."
+msgstr "El caballero desenvaina su espada y da un paso hacia delante."
+
+#: src/interfaces/input_bar.tscn
+msgid "Generate"
+msgstr "Generar"
+
+#: src/interfaces/lorebook_info.tscn
+msgid "Export"
+msgstr "Exportar"
+
+#: src/interfaces/lorebook_info.tscn
+msgid "Import"
+msgstr "Importar"
+
+#: src/interfaces/lorebook_info.tscn
+msgid "Rename"
+msgstr "Cambiar nombre"
+
+#: src/interfaces/lorebook_info.tscn
+msgid "Add"
+msgstr "Adicionar"
+
+#: src/interfaces/lorebook_info.tscn src/custom_nodes/edit_buttons.tscn
+msgid "Delete"
+msgstr "Borrar"
+
+#: src/interfaces/lorebook_menu.tscn
+msgid "Lorebooks"
+msgstr "Enciclopedias"
+
+#: src/interfaces/lorebook_menu.tscn
+msgid "Open Lorebooks' folder."
+msgstr "Abrir carpeta de la Enciclopedia."
+
+#: src/interfaces/main_menu.gd src/interfaces/main_menu.tscn
+msgid "Buy the complete version to unlock."
+msgstr "Compra la versión completa para desbloquear."
+
+#: src/interfaces/main_menu.tscn src/interfaces/scenario_menu.tscn
+msgid "Play"
+msgstr "Jugar"
+
+#: src/interfaces/main_menu.tscn
+msgid "Create"
+msgstr "Crear"
+
+#: src/interfaces/main_menu.tscn
+msgid "Steam Workshop"
+msgstr "Steam Workshop"
+
+#: src/interfaces/main_menu.tscn src/dialogs/escape_menu.tscn
+msgid "Options"
+msgstr "Opciones"
+
+#: src/interfaces/main_menu.tscn
+msgid "Community"
+msgstr "Comunidad"
+
+#: src/interfaces/main_menu.tscn
+msgid "Help"
+msgstr "Ayuda"
+
+#: src/interfaces/main_menu.tscn
+msgid "Credits"
+msgstr "Créditos"
+
+#: src/interfaces/main_menu.tscn
+msgid "Exit"
+msgstr "Salir"
+
+#: src/interfaces/main_menu.tscn src/dialogs/escape_menu.tscn
+msgid "AIdventure"
+msgstr "AIdventure"
+
+#: src/interfaces/main_menu.tscn
+msgid "Copyright (c) 2022-Present Lyaaaaa Games™"
+msgstr "Copyright (c) 2022-Present Lyaaaaa Games™"
+
+#: src/interfaces/output_display.tscn
+msgid "Double click to edit the story."
+msgstr "Pulsa dos veces para editar la historia."
+
+#: src/interfaces/output_display.tscn
+msgid ""
+"Press enter to validate.\n"
+"Press escape to cancel.\n"
+"Press shift + enter to insert a new line."
+msgstr ""
+"Pulsa enter para validar.\n"
+"Pulsa escape para cancelar.\n"
+"Pulsa shift + enter para inserir una nueva línea."
+
+#: src/interfaces/scenario_menu.tscn
+msgid "Scenarios"
+msgstr "Escenarios"
+
+#: src/interfaces/scenario_menu.tscn
+msgid "Open scenarios' folder"
+msgstr "Abrir carpeta de escenarios"
+
+#: src/interfaces/scenario_menu.tscn
+msgid "Custom start"
+msgstr "Inicio personalizado"
+
+#: src/interfaces/splash_screen.tscn
+msgid "Lyaaaaa Games™"
+msgstr "Lyaaaaa Games™"
+
+#: src/interfaces/translator_menu.tscn
+msgid "Open AI's folder"
+msgstr "Abrir carpeta de la IA"
+
+#: src/dialogs/asking_memory_size_pop_up.tscn
+msgid "How much memory do you want to allocate to the server?"
+msgstr "¿Cuanta memoria quieres asignar al servidor?"
+
+#: src/dialogs/ask_custom_ai_name_popup.tscn
+msgid ""
+"Enter the name of the AI from huggingface.co.\n"
+"E.g: For https://huggingface.co/sshleifer/tiny-gpt2 enter sshleifer/tiny-gpt2"
+msgstr ""
+"Introduce el nombre de la IA proveniente de huggingface.co.\n"
+"Ex.: Para https://huggingface.co/sshleifer/tiny-gpt2, introduce sshleifer/"
+"tiny-gpt2"
+
+#: src/dialogs/ask_custom_ai_name_popup.tscn
+msgid "enter the name of the AI"
+msgstr "introduce el nombre de la IA"
+
+#: src/dialogs/ask_custom_ai_name_popup.tscn
+msgid ""
+"Customs AIs aren't tested. They might not work or be too big for your PC."
+msgstr ""
+"IAs personalizadas no están testadas. Puede que no funcionen o son demasiado "
+"grandes para tu PC."
+
+#: src/dialogs/ask_custom_ai_name_popup.tscn
+msgid "Browse for AIs"
+msgstr "Buscar un IA"
+
+#: src/dialogs/ask_custom_ai_name_popup.tscn
+msgid "Download"
+msgstr "Descargar"
+
+#: src/dialogs/confirmation_dialog.tscn
+#: src/dialogs/incompatible_memory_dialog.tscn
+#: src/interfaces/load_translator.tscn
+msgid "No"
+msgstr "No"
+
+#: src/dialogs/confirmation_dialog.tscn
+#: src/dialogs/incompatible_memory_dialog.tscn
+#: src/interfaces/load_translator.tscn
+msgid "Yes"
+msgstr "Sí"
+
+#: src/dialogs/error_popup.tscn
+msgid "An error occured!"
+msgstr "¡Ha ocurrido un error!"
+
+#: src/dialogs/error_popup.tscn
+msgid "Report the error on Discord or the forum\n"
+msgstr "Informa sobre el error en Discord o en el foro\n"
+
+#: src/dialogs/error_popup.tscn
+msgid "Logs copied in the clipboard!"
+msgstr "¡Registros copiados en el clipboard!"
+
+#: src/dialogs/error_popup.tscn
+msgid "Copy logs to clipboard\n"
+msgstr "Copiar registros para el clipboard\n"
+
+#: src/dialogs/error_popup.tscn
+msgid "Forum"
+msgstr "Foro"
+
+#: src/dialogs/error_popup.tscn
+msgid "Main menu"
+msgstr "Menú principal"
+
+#: src/dialogs/escape_menu.tscn
+msgid "Resume"
+msgstr "Continuar"
+
+#: src/dialogs/escape_menu.tscn src/interfaces/end_demo.tscn
+msgid "Return to main menu"
+msgstr "Volver al menú principal"
+
+#: src/dialogs/escape_menu.tscn
+msgid "Exit the game"
+msgstr "Salir del juego"
+
+#: src/dialogs/incompatible_memory_dialog.tscn
+msgid ""
+"The \"Memory max length\" defined in your option is too small for this "
+"scenario.\n"
+"Memory length required :"
+msgstr ""
+"La \"Largura máxima de Memoria\" definida en tus opciones es demasiado "
+"pequeña para este escenario.\n"
+"Largura de memoria necesaria:"
+
+#: src/dialogs/incompatible_memory_dialog.tscn
+msgid ""
+"Do you want to change the \"Memory max length\" option to play this scenario "
+"in the best conditions?"
+msgstr ""
+"¿Deseas cambiar la opción de \"Largura máxima de Memoria\" para jugar esta "
+"escena en las mejores condiciones?"
+
+#: src/dialogs/installation_popup.gd src/dialogs/installation_popup.tscn
+msgid ""
+"The game didn't find the installation. Please, run the installer and install "
+"the game."
+msgstr ""
+"El juego no encontró la instalación. Por favor, ejecuta el instalador e "
+"instala el juego."
+
+#: src/dialogs/installation_popup.gd src/dialogs/installation_popup.tscn
+msgid "Your installation is outdated. Please, run the installer and update."
+msgstr ""
+"Tu instalación no está actualizada. Por favor, ejecuta el instalador y "
+"actualización."
+
+#: src/dialogs/installation_popup.gd src/dialogs/installation_popup.tscn
+msgid "Installer not found."
+msgstr "Instalador no encontrado."
+
+#: src/dialogs/installation_popup.tscn
+msgid "Launch the installer"
+msgstr "Inicia el instalador"
+
+#: src/dialogs/installation_popup.tscn
+#: src/dialogs/hardware_form/hardware_form.tscn
+msgid "Skip"
+msgstr "Saltar"
+
+#: src/dialogs/installation_popup.tscn
+msgid "I already installed the game\n"
+msgstr "Ya he instalado el juego\n"
+
+#: src/dialogs/intro_demo_popup.tscn
+msgid "Thank you for downloading AIdventure's demo!"
+msgstr "¡Gracias por descargar la demo de AIdventure!"
+
+#: src/dialogs/intro_demo_popup.tscn
+msgid "The following features are disabled in the demo:"
+msgstr "Las siguientes funciones están desactivadas en la demo:"
+
+#: src/dialogs/intro_demo_popup.tscn
+msgid ""
+"The creation menu\n"
+"Custom scenarios\n"
+"Connecting to a remote server\n"
+"Steam Workshop menu"
+msgstr ""
+"El menú de creación \n"
+"Escenarios personalizados\n"
+"Conexión a un servidor remoto\n"
+"Menu del Steam Workshop"
+
+#: src/dialogs/intro_demo_popup.tscn
+msgid "You also have a limited number of AIs:"
+msgstr "También tienes un número de IAs limitado:"
+
+#: src/dialogs/intro_demo_popup.tscn
+msgctxt "characters like in a text. Not an individual."
+msgid "The stories are limited to a maximum number of characters:"
+msgstr "Las historias están limitadas a un número máximo de caracteres:"
+
+#: src/dialogs/intro_demo_popup.tscn
+msgid "Play the game"
+msgstr "Jugar el juego"
+
+#: src/dialogs/intro_demo_popup.tscn src/interfaces/end_demo.tscn
+msgid "Join the community"
+msgstr "Unirse a la comunidad"
+
+#: src/dialogs/intro_demo_popup.tscn
+msgid "Buy the game"
+msgstr "Comprar el juego"
+
+#: src/dialogs/memory_dialog.tscn
+msgid "Write here what the AI must always remember."
+msgstr "Escribe aquí lo que la IA debe siempre recordar."
+
+#: src/dialogs/wait_dialog.tscn
+msgid "Please, wait"
+msgstr "Por favor, aguarda"
+
+#: src/custom_nodes/download_window.tscn
+msgid "AI downloading"
+msgstr "descargando IA"
+
+#: src/custom_nodes/download_window.tscn
+#: src/dialogs/custom_ai_download_window.tscn
+msgid "Please wait until the download is done."
+msgstr "Por favor aguarda hasta que la descarga termine."
+
+#: src/custom_nodes/edit_buttons.tscn
+msgid "Enable edition"
+msgstr "Permitir edición"
+
+#: src/custom_nodes/edit_buttons.tscn
+msgid "Show embedded lorebook"
+msgstr "Mostrar la enciclopedia incorporada"
+
+#: src/custom_nodes/edit_buttons.tscn
+msgid "Merge the entries of multiple lorebooks together."
+msgstr "Mezclar las entradas de varias enciclopedias."
+
+#: src/custom_nodes/edit_buttons.tscn
+msgid "Merge entries"
+msgstr "Mezclar entradas"
+
+#: src/custom_nodes/edit_buttons.tscn
+msgid "Translate"
+msgstr "Traducir"
+
+#: src/custom_nodes/edit_buttons.tscn src/custom_nodes/options_buttons.tscn
+msgid "Save"
+msgstr "Salvar"
+
+#: src/custom_nodes/edit_buttons.tscn
+msgid "Save as"
+msgstr "Salvar como"
+
+#: src/custom_nodes/filters_inputs.tscn
+msgid "Filter by workshop"
+msgstr "Filtrar por workshop"
+
+#: src/custom_nodes/generator_preset_options_button.gd
+#: src/custom_nodes/generator_preset_options_button.tscn
+msgid "Memory saving preset."
+msgstr "Preset de grabación de memoria."
+
+#: src/custom_nodes/generator_preset_options_button.gd
+#: src/custom_nodes/generator_preset_options_button.tscn
+msgid "Memory saving preset for CPU only."
+msgstr "Preset de grabación de memoria sólo para CPU."
+
+#: src/custom_nodes/generator_preset_options_button.gd
+#: src/custom_nodes/generator_preset_options_button.tscn
+msgid "Performance preset."
+msgstr "Preset de ejecución."
+
+#: src/custom_nodes/generator_preset_options_button.gd
+#: src/custom_nodes/generator_preset_options_button.tscn
+msgid "Performance preset for CPU only."
+msgstr "Preset de ejecución sólo para CPU."
+
+#: src/custom_nodes/notification.tscn
+msgid "AIdventure notification"
+msgstr "Notificación de AIdventure"
+
+#: src/custom_nodes/story_element_info.tscn
+msgid "Title"
+msgstr "Título"
+
+#: src/custom_nodes/story_element_info.tscn
+msgid "Author"
+msgstr "Autor"
+
+#: src/custom_nodes/story_element_info.tscn
+msgid "Steam Workshop ID"
+msgstr "ID del Steam Workshop"
+
+#: src/custom_nodes/story_element_info.tscn
+msgid "Category"
+msgstr "Categoría"
+
+#: src/custom_nodes/ask_name_dialog/ask_name_dialog.tscn
+msgid "Enter a name."
+msgstr "Introduce un nombre."
+
+#: src/custom_nodes/ask_name_dialog/ask_name_dialog.tscn
+msgid "Cool name"
+msgstr "Qué guay"
+
+#: src/custom_nodes/ask_name_dialog/ask_name_dialog.tscn
+msgid "This name is already taken. Please, choose another one."
+msgstr "Este nombre ya está siendo usado. Por favor, elige otro."
+
+#: src/custom_nodes/ask_name_dialog/ask_name_dialog.tscn
+#: src/dialogs/select_lorebook_dialog.tscn
+#: src/dialogs/hardware_form/hardware_form.tscn
+msgid "Ok"
+msgstr "Okay"
+
+#: src/classes/client.gd
+msgid "Closed the connection with the server."
+msgstr "Conexión con el servidor cerrada."
+
+#: src/classes/client.gd
+msgid "Failed to connect to the server."
+msgstr "No se pudo conectar al servidor."
+
+#: src/classes/client.gd
+msgid "Connection established with the server."
+msgstr "Conexión al servidor establecida."
+
+#: src/classes/client.gd
+msgid "Text generated."
+msgstr "Texto generado."
+
+#: src/classes/client.gd
+msgid "Generator loaded."
+msgstr "Generador cargado."
+
+#: src/classes/client.gd
+msgid "Failed loading Generator."
+msgstr "Falla al cargar el Generador."
+
+#: src/classes/client.gd
+msgid "Translators loaded."
+msgstr "Traductores cargados."
+
+#: src/dialogs/merge_lorebook_dialog.tscn
+msgid ""
+"If enabled, the source lorebook will overwrite conflicting entries.\n"
+"If disabled, no entry will be erased but the conflicting entries will be "
+"renamed."
+msgstr ""
+"Si activado, la enciclopedia original sobrescribirá las entradas "
+"conflictivas.\n"
+"Si desactivado, ninguna entrada será borrada, pero las entradas conflictivas "
+"serán renombradas."
+
+#: src/dialogs/merge_lorebook_dialog.tscn
+msgid "Allow overwriting"
+msgstr "Permitir sobrescritura"
+
+#: src/dialogs/select_lorebook_dialog.tscn
+msgid "Select a lorebook to import."
+msgstr "Selecciona una enciclopedia para importar."
+
+#: src/custom_nodes/display_options_button.gd
+#: src/custom_nodes/display_options_button.tscn
+msgid "Windowed"
+msgstr "Ventana"
+
+#: src/custom_nodes/display_options_button.gd
+#: src/custom_nodes/display_options_button.tscn
+msgid "Fullscreen"
+msgstr "Pantalla completa"
+
+#: src/custom_nodes/display_options_button.gd
+#: src/custom_nodes/display_options_button.tscn
+msgid "Borderless"
+msgstr "Sin bordes"
+
+#: src/custom_nodes/h_slider_with_counter.tscn
+msgid "50"
+msgstr "50"
+
+#: src/custom_nodes/load_generator.tscn
+msgid "Select an AI for your game."
+msgstr "Selecciona una IA para tu partida."
+
+#: src/custom_nodes/load_generator.tscn
+msgid "Buy the game to unlock more powerful AIs"
+msgstr "Compra el juego para desbloquear IAs más avanzadas"
+
+#: src/custom_nodes/load_generator.tscn
+msgid "Load AI"
+msgstr "Cargar IA"
+
+#: src/custom_nodes/load_generator.tscn
+msgid "Manage AIs"
+msgstr "Gestionar IAs"
+
+#: src/custom_nodes/memory_sliders.tscn
+msgid "The maximum GPU memory allowed to be used by the Generator."
+msgstr ""
+"La memoria máxima de GPU permitida para ser utilizada por el Generador."
+
+#: src/custom_nodes/memory_sliders.tscn
+msgid "Max VRAM"
+msgstr "VRAM máxima"
+
+#: src/custom_nodes/memory_sliders.tscn
+msgid "The maximum memory allowed to be used by the Generator."
+msgstr "La memoria máxima permitida para ser utilizada por el Generador."
+
+#: src/custom_nodes/memory_sliders.tscn
+msgid "Max RAM"
+msgstr "RAM máxima"
+
+#: src/custom_nodes/options_buttons.tscn
+msgid "Reset"
+msgstr "Resetear"
+
+#: src/custom_nodes/pov_options_button.gd
+#: src/custom_nodes/pov_options_button.tscn
+msgid "First person"
+msgstr "Primera persona"
+
+#: src/custom_nodes/pov_options_button.gd
+#: src/custom_nodes/pov_options_button.tscn
+msgid "Second person"
+msgstr "Segunda persona"
+
+#: src/custom_nodes/server_log_display.tscn
+msgid "Copy logs to clipboard"
+msgstr "Copiar registros para el clipboard"
+
+#: src/autoload/strings.gd
+msgid "Select a language."
+msgstr "Selecciona un idioma."
+
+#: src/autoload/strings.gd
+msgid "Failed loading translator."
+msgstr "Falla al cargar traductor."
+
+#: src/autoload/strings.gd
+msgid "Translation in progress."
+msgstr "Traducción en curso."
+
+#: src/autoload/strings.gd
+msgid "Scenario's translation over."
+msgstr "Traducción del escenario terminada."
+
+#: src/autoload/strings.gd
+msgid "Lorebook's translation over."
+msgstr "Traducción de la enciclopedia terminada."
+
+#: src/autoload/strings.gd
+msgid "Memory's translation in progress."
+msgstr "Traducción de la memoria en curso."
+
+#: src/autoload/strings.gd
+msgid "Story's translation in progress."
+msgstr "Traducción de la historia en curso."
+
+#: src/autoload/strings.gd
+msgid "Lorebook's translation in progress."
+msgstr "Traducción de la enciclopedia en curso."
+
+#: src/autoload/strings.gd
+msgid "Scenario saved."
+msgstr "Escenario salvado."
+
+#: src/autoload/strings.gd
+msgid "Error, can't save scenario."
+msgstr "Error, no se pudo salvar el escenario."
+
+#: src/autoload/strings.gd
+msgid "empty your bucket of water on the knight's head."
+msgstr "vacia tu balde de agua en la cabeza del caballero."
+
+#: src/autoload/strings.gd
+msgid "conceal the stolen ring in your pocket."
+msgstr "esconde el anillo robado en tu bolsillo."
+
+#: src/autoload/strings.gd
+msgid "Sir, is that your mule or your mother?"
+msgstr "Señor, ¿es esa su mula o su madre?"
+
+#: src/autoload/strings.gd
+msgid "Do"
+msgstr "Hacer"
+
+#: src/autoload/strings.gd
+msgid "Say"
+msgstr "Decir"
+
+#: src/autoload/strings.gd
+msgid "Try"
+msgstr "Intentar"
+
+#: src/autoload/strings.gd
+msgid "Failed sending data to the server."
+msgstr "Falla al enviar datos para el servidor."
+
+#: src/autoload/strings.gd
+msgid "Couldn't save game."
+msgstr "No se pudo salvar la partida."
+
+#: src/autoload/strings.gd
+msgid "Successfully saved the lorebook."
+msgstr "Enciclopedia salvada con éxito."
+
+#: src/autoload/strings.gd
+msgid "Error, can't save the lorebook."
+msgstr "Error, no se pudo salvar la enciclopedia."
+
+#: src/autoload/strings.gd
+msgid "Added the following entry."
+msgstr "La siguiente entrada fue añadida."
+
+#: src/autoload/strings.gd
+msgid "Error, can't add the entry."
+msgstr "Error, no se pudo añadir la entrada."
+
+#: src/autoload/strings.gd
+msgid "Deleted the entry."
+msgstr "Entrada borrada."
+
+#: src/autoload/strings.gd
+msgid "Error, can't delete entry."
+msgstr "Error, no se pudo borrar la entrada."
+
+#: src/autoload/strings.gd
+msgid "Renamed the entry."
+msgstr "Nombre de la entrada cambiado."
+
+#: src/autoload/strings.gd
+msgid "Error, can't rename the entry."
+msgstr "Error, no se pudo cambiar el nombre de la entrada."
+
+#: src/autoload/strings.gd
+msgid "Successfully exported the lorebook."
+msgstr "Enciclopedia exportado con éxito."
+
+#: src/autoload/strings.gd
+msgid "Error, can't export the lorebook."
+msgstr "Error, no se pudo exportar la enciclopedia."
+
+#: src/autoload/strings.gd
+msgid "The server is off."
+msgstr "El servidor está desactivado."
+
+#: src/autoload/strings.gd
+msgctxt "The first person pronoun. It is placed before the user's input."
+msgid "I"
+msgstr "Yo"
+
+#: src/autoload/strings.gd
+msgctxt "The second person pronoun. It is placed before the user's input."
+msgid "You"
+msgstr "Tú"
+
+#: src/autoload/strings.gd
+msgctxt "Conjugate say for I. E.g: I say. (Don't add uppercase)"
+msgid "say"
+msgstr "digo"
+
+#: src/autoload/strings.gd
+msgctxt "Conjugate say for You. E.g: You say. (Don't add uppercase)"
+msgid "say"
+msgstr "dices"
+
+#: src/autoload/strings.gd
+msgctxt "Conjugate for I. E.g: I succeed to. (Don't add uppercase)"
+msgid "succeed to"
+msgstr "logré"
+
+#: src/autoload/strings.gd
+msgctxt "Conjugate for You. E.g: You succeed to. (Don't add uppercase)"
+msgid "succeed to"
+msgstr "lograste"
+
+#: src/autoload/strings.gd
+msgctxt "E.g: You satisfyingly punch the man. (Don't add uppercase)"
+msgid "satisfyingly"
+msgstr "satisfactoriamente"
+
+#: src/autoload/strings.gd
+msgctxt "E.g: You competently punch the man. (Don't add uppercase)"
+msgid "competently"
+msgstr "competentemente"
+
+#: src/autoload/strings.gd
+msgctxt "E.g: You perfectly punch the man. (Don't add uppercase)"
+msgid "perfectly"
+msgstr "perfectamente"
+
+#: src/autoload/strings.gd
+msgctxt "E.g: You fail to punch the man (Don't add uppercase)"
+msgid "fail to"
+msgstr "fallas al"
+
+#: src/autoload/strings.gd
+msgctxt "E.g: I fail to punch the man (Don't add uppercase)"
+msgid "fail to"
+msgstr "fallo al"
+
+#: src/autoload/strings.gd
+msgctxt "E.g: I pathetically fail to punch the man (Don't add uppercase)"
+msgid "pathetically fail to"
+msgstr "fallo patéticamente al"
+
+#: src/autoload/strings.gd
+msgctxt "E.g: You pathetically fail to punch the man (Don't add uppercase)"
+msgid "pathetically fail to"
+msgstr "fallas patéticamente al"
+
+#: src/autoload/strings.gd
+msgid "Visible to everyone."
+msgstr "Visible para todos."
+
+#: src/autoload/strings.gd
+msgid "Visible to friends only."
+msgstr "Visible sólo para amigos."
+
+#: src/autoload/strings.gd
+msgid "Only visible to the creator."
+msgstr "Visible solamente para el creador."
+
+#: src/autoload/strings.gd
+msgid ""
+"Visible to everyone, but will not be returned in any global queries.\n"
+"Will also not be returned in any user lists unless the caller is the creator "
+"or a subscriber."
+msgstr ""
+"Visible para todos, pero no se mostrará en ninguna búsqueda global.\n"
+"Tampoco se mostrará en ninguna lista de usuarios, a no ser que el "
+"solicitante sea el creador o un suscriptor."
+
+#: src/autoload/strings.gd
+msgid "Couldn't edit the Workshop item."
+msgstr "No se pudo editar el ítem del Workshop."
+
+#: src/autoload/strings.gd
+msgid "Couldn't upload to the Workshop."
+msgstr "No se pudo subir al Workshop."
+
+#: src/autoload/strings.gd
+msgid "Successfully uploaded to the Workshop."
+msgstr "Subido con éxito al Workshop."
+
+#: src/autoload/strings.gd
+msgid "Successfully updated the Workshop item."
+msgstr "Ítem del Workshop actualizado con éxito."
+
+#: src/autoload/strings.gd
+msgid "File deleted."
+msgstr "Archivo borrado."
+
+#: src/autoload/strings.gd
+msgid "Error, can't delete file."
+msgstr "Error, no se pudo borrar el archivo."
+
+#: src/autoload/strings.gd
+msgid "AI deleted."
+msgstr "IA borrada."
+
+#: src/autoload/strings.gd
+msgid "Error, can't delete AI."
+msgstr "Error, no se pudo borrar la IA."
+
+#: src/autoload/strings.gd
+msgid "AI added to download's queue."
+msgstr "IA añadida a la cola de descargas."
+
+#: src/autoload/strings.gd
+msgid "This custom AI is already installed."
+msgstr "Esta IA personalizada ya está instalada."
+
+#: src/autoload/strings.gd
+msgid "AI downloaded."
+msgstr "IA descargada."
+
+#: src/autoload/strings.gd
+msgid "Error, can't download AI."
+msgstr "Error, no se pudo descargar IA."
+
+#: src/autoload/strings.gd
+msgid "This AI is safe for work."
+msgstr "Esta IA no tiene contenido +18."
+
+#: src/autoload/strings.gd
+msgid ""
+"This AI is moderately safe. It might still generate 'light' erotic content "
+"by itself!"
+msgstr ""
+"Esta IA tiene contenido +18 moderado. ¡Aún puede generar contenido erótico "
+"'ligero' por si mismo!"
+
+#: src/autoload/strings.gd
+msgid "This AI isn't safe for work! It will generate erotic content by itself!"
+msgstr ""
+"¡Esta IA tiene contenido +18! ¡Generará contenido erótico por si mismo!"
+
+#: src/autoload/strings.gd
+msgid "This is a custom AI. It hasn't been tested and might not work."
+msgstr "Esta es una IA personalizada. No está testada y puede no funcionar."
+
+#: src/dialogs/lorebook_info_popup_window.tscn
+msgid "Save changes"
+msgstr "Salvar cambios"
+
+#: src/dialogs/server_off_warning.tscn
+msgid ""
+"To generate text the server has to be running.\n"
+"To translate text, you need to enable automatic translation."
+msgstr ""
+"Para generar texto, el servidor tiene que estar en marcha.\n"
+"Para traducir texto, necesitas permitir la traducción automática."
+
+#: src/dialogs/server_off_warning.tscn
+msgid "Open server's menu"
+msgstr "Abrir menu del servidor"
+
+#: src/dialogs/hardware_form/gpu_form.tscn
+msgid ""
+"This game uses CUDA to run AIs on your GPU.\n"
+"Do you have a Nvidia Graphical Card ?"
+msgstr ""
+"Este juego utiliza CUDA para ejecutar IAs en tu GPU.\n"
+"¿Tienes una Tarjeta Gráfica Nvidia?"
+
+#: src/dialogs/hardware_form/gpu_form.tscn
+msgid "Yes, I have a Nvidia card"
+msgstr "Sí, tengo una tarjeta Nvidia"
+
+#: src/dialogs/hardware_form/gpu_form.tscn
+msgid "No, I don't have a Nvidia card"
+msgstr "No, no tengo una tarjeta Nvidia"
+
+#: src/dialogs/hardware_form/gpu_form.tscn
+msgid "I don't know"
+msgstr "No sé"
+
+#: src/dialogs/hardware_form/gpu_form.tscn
+msgid "The list of the GPU compatible with CUDA"
+msgstr "La lista de GPUs compatibles con CUDA"
+
+#: src/dialogs/hardware_form/gpu_form.tscn
+msgid "See supported cards"
+msgstr "Ver tarjetas compatibles"
+
+#: src/dialogs/hardware_form/hardware_form.gd
+#: src/dialogs/hardware_form/hardware_form.tscn
+msgid "Successfully adapted settings to your hardware."
+msgstr "Configuraciones adaptadas correctamente a tu hardware."
+
+#: src/dialogs/hardware_form/hardware_form.gd
+#: src/dialogs/hardware_form/hardware_form.tscn
+msgid "Failed to adapt settings to your hardware."
+msgstr "No se pudo adaptar las configuraciones a tu hardware."
+
+#: src/dialogs/hardware_form/hardware_form.tscn
+msgid ""
+"AIdventure uses Artificial Intelligences (AIs). It's a tricky technology and "
+"can behave differently depending of your hardware.\n"
+"\n"
+"The game will try to adapt to your hardware as best as it can.\n"
+"This window will ask you multiple information to improve the automatic setup."
+msgstr ""
+"AIdventure utiliza Inteligencias Artificiales (IAs). Es una tecnología "
+"complicada y puede comportarse de forma diferente dependiendo de tu "
+"hardware.\n"
+"\n"
+"El juego intentará adaptarse a tu hardware lo mejor posible.\n"
+"Esta ventana te pedirá varias informaciones para mejorar la configuración "
+"automática."
+
+#: src/dialogs/hardware_form/hardware_form.tscn
+msgid ""
+"Thank you for your time.\n"
+"You can exit by click on OK."
+msgstr ""
+"Gracias por tu tiempo.\n"
+"Puedes salir pulsando OK."
+
+#: src/dialogs/hardware_form/memory_form.tscn
+msgid ""
+"Please, specify how much memory you want to allow AIdventure to use.\n"
+"You should always leave 2-4 GB of memory free for the OS and other "
+"applications."
+msgstr ""
+"Por favor, especifica cuánta memoria quieres permitir que AIdventure use.\n"
+"Debes siempre dejar 2-4 GB de memoria libres para el sistema operativo y "
+"otras aplicaciones."
+
+#: src/dialogs/hardware_form/memory_form.tscn
+msgid ""
+"You can choose to not limit memory.\n"
+"But you risk running out of memory."
+msgstr ""
+"Puedes elegir no limitar la memoria.\n"
+"Pero te arriesgas a quedarte sin memoria."
+
+#: src/dialogs/hardware_form/memory_form.tscn
+msgid "Don't limit memory"
+msgstr "No limitar la memoria"
+
+#: src/dialogs/hardware_form/memory_form.tscn
+msgid "I don't know how much memory I have"
+msgstr "No sé cuanta memoria tengo"
+
+#: src/interfaces/character_menu.tscn
+msgctxt "character like an individual. Not like characters in a word."
+msgid "Character menu"
+msgstr "Menu de personages"
+
+#: src/interfaces/character_menu.tscn
+msgid "Strength"
+msgstr "Fuerza"
+
+#: src/interfaces/character_menu.tscn
+msgid "Reroll"
+msgstr "Relanzar"
+
+#: src/interfaces/character_menu.tscn
+msgid "Constitution"
+msgstr "Constitución"
+
+#: src/interfaces/character_menu.tscn
+msgid "Dexterity"
+msgstr "Destreza"
+
+#: src/interfaces/character_menu.tscn
+msgid "Charisma"
+msgstr "Carisma"
+
+#: src/interfaces/character_menu.tscn
+msgid "Intelligence"
+msgstr "Inteligencia"
+
+#: src/interfaces/character_menu.tscn
+msgid "Wisdom"
+msgstr "Sabiduría"
+
+#: src/interfaces/character_menu.tscn
+msgid "Luck"
+msgstr "Suerte"
+
+#: src/interfaces/character_menu.tscn
+msgid "Name"
+msgstr "Nombre"
+
+#: src/interfaces/character_menu.tscn
+msgid "Arthur"
+msgstr "Arthur"
+
+#: src/interfaces/character_menu.tscn
+msgid "Randomize"
+msgstr "Aleatorizar"
+
+#: src/interfaces/character_menu.tscn
+msgid "How does it work?"
+msgstr "¿Cómo funciona?"
+
+#: src/interfaces/character_menu.tscn
+msgid ""
+"Attributes are between 15 and 90.\n"
+"When you try an action, you must do a score above your value.\n"
+"If you have 50 in strength and use it to try an action. You have 50% chances "
+"of success."
+msgstr ""
+"Los atributos oscilan entre 15 y 90.\n"
+"Cuando intentas hacer una acción, debes obtener una pontuación que supere tu "
+"valor.\n"
+"Si tienes 50 de fuerza e la usas para intentar una acción, tienes un 50% de "
+"possibilidad de éxito."
+
+#: src/interfaces/character_menu.tscn
+msgid "Randomize everything."
+msgstr "Aleatorizar todo."
+
+#: src/interfaces/character_menu.tscn
+msgid "Roll the dice"
+msgstr "Tirar los dados"
+
+#: src/interfaces/end_demo.tscn
+msgid ""
+"Thank you for playing AIdventure's demo!\n"
+"You reached the limit.\n"
+"Buy the game to continue this adventure."
+msgstr ""
+"¡Gracias por jugar la demo de AIdventure!\n"
+"Has alcanzado el límite.\n"
+"Compra el juego para continuar esta aventura."
+
+#: src/interfaces/end_demo.tscn
+msgid "Buy"
+msgstr "Comprar"
+
+#: src/interfaces/game_top_bar_menu.tscn
+msgid "Menu"
+msgstr "Menú"
+
+#: src/interfaces/game_top_bar_menu.tscn
+msgid "Server"
+msgstr "Servidor"
+
+#: src/interfaces/load_translator.tscn
+msgid "Do you want to use the automatic translation ?"
+msgstr "¿ Deseas utilisar la traducción automática ?"
+
+#: src/interfaces/load_translator.tscn
+msgid "Select the language for the automatic translation"
+msgstr "Selecciona el idioma para la traducción automática"
+
+#: src/interfaces/load_translator.tscn
+msgid "Load translators"
+msgstr "Cargar traductores"
+
+#: src/interfaces/load_translator.tscn
+msgid "Manage translators"
+msgstr "Gestionar traductores"
+
+#: src/interfaces/load_translator.tscn
+msgid "Disable automatic translation"
+msgstr "Desactivar la traducción automática"
+
+#: src/interfaces/server_menu.gd src/interfaces/server_menu.tscn
+msgctxt "Running like in 'The server is running'"
+msgid "Running"
+msgstr "En ejecución"
+
+#: src/interfaces/server_menu.gd src/interfaces/server_menu.tscn
+msgid "Turned off"
+msgstr "Apagado"
+
+#: src/interfaces/server_menu.gd src/interfaces/server_menu.tscn
+msgid "Error"
+msgstr "Error"
+
+#: src/interfaces/server_menu.tscn
+msgid "Server control center"
+msgstr "Centro de control de servidores"
+
+#: src/interfaces/server_menu.tscn
+msgid "Server status:"
+msgstr "Estatus del servidor:"
+
+#: src/interfaces/server_menu.tscn
+msgid "Start the server"
+msgstr "Iniciar el servidor"
+
+#: src/interfaces/server_menu.tscn
+msgid "Stop the server"
+msgstr "Parar el servidor"
+
+#: src/interfaces/server_menu.tscn
+msgid "The server is starting"
+msgstr "El servidor está arrancando"
+
+#: src/interfaces/server_menu.tscn
+msgid "Load Generator"
+msgstr "Cargar Generador"
+
+#: src/interfaces/server_menu.tscn
+msgid "To load translators, you need to enable automatic translation"
+msgstr "Para cargar traductores, necesitas permitir la traducción automática"
+
+#: src/interfaces/server_menu.tscn
+msgid "Enable automatic translation"
+msgstr "Permitir traducción automática"
+
+#: src/interfaces/server_menu.tscn
+msgid "Load Translators"
+msgstr "Cargar Traductores"
+
+#: src/interfaces/start_game_workflow.tscn
+msgid "The server is starting."
+msgstr "El servidor está arrancando."
+
+#: src/interfaces/start_game_workflow.tscn
+msgid "Please, wait."
+msgstr "Por favor, espera."
+
+#: src/interfaces/start_game_workflow.tscn
+msgid "What do you want to do?"
+msgstr "¿Qué deseas hacer?"
+
+#: src/interfaces/start_game_workflow.tscn
+msgid "New story"
+msgstr "Nueva historia"
+
+#: src/interfaces/start_game_workflow.tscn
+msgid "Load a story"
+msgstr "Cargar una historia"
+
+#: src/interfaces/start_game_workflow.tscn
+msgid "Select a save to load."
+msgstr "Selecciona un archivo para cargar."
+
+#: src/interfaces/start_game_workflow.tscn
+msgid "Load"
+msgstr "Cargar"
+
+#: src/interfaces/start_game_workflow.tscn
+msgid "Return"
+msgstr "Volver"
+
+#: src/interfaces/options/preferences.tscn
+msgid "Display mode"
+msgstr "Modo de visualización"
+
+#: src/interfaces/options/preferences.tscn
+msgid "Language of the interface"
+msgstr "Idioma del interfaz"
+
+#: src/interfaces/options/preferences.tscn
+msgid "Default AI"
+msgstr "IA predeterminado"
+
+#: src/interfaces/options/preferences.tscn
+msgid ""
+"Delete the last sentence if the AI didn't 'finish' it by a punctuation "
+"(, ; : ! ? .).\n"
+"It might delete the whole output if \"max length\" is too small!"
+msgstr ""
+"Borra la última frase si la IA no la ha 'terminado' com un signo de "
+"puntuación (, ; : ! ? .).\n"
+"¡Podrá borrar toda la salida si la \"largura máxima es demasiado pequeña!"
+
+#: src/interfaces/options/preferences.tscn
+msgid "Remove unfinished sentences"
+msgstr "Remover frases inacabadas"
+
+#: src/interfaces/options/preferences.tscn
+msgid ""
+"It will hide the top bar in the game.\n"
+"You can still access the menu by pressing the ESC key."
+msgstr ""
+"Esconderá la barra superior en el juego.\n"
+"Puedes seguir accediendo al menú pulsando la tecla ESC."
+
+#: src/interfaces/options/preferences.tscn
+msgid "Hide top bar"
+msgstr "Ocultar barra superior"
+
+#: src/interfaces/options/preferences.tscn
+msgid "It will use \"You\" or \"I\" in your inputs."
+msgstr "Utilizará \"Tú\" o \"Yo\" en tus entradas."
+
+#: src/interfaces/options/preferences.tscn
+msgid "Point of view"
+msgstr "Punto de vista"
+
+#: src/interfaces/options/preferences.tscn
+msgid ""
+"You can add custom fonts to the list.\n"
+"- Create a \"fonts\" folder in the game folder\n"
+"- Download fonts online (https://www.dafont.com/)\n"
+"- Add the \".ttf\" file in the fonts folder\n"
+"- Reload."
+msgstr ""
+"Puedes adicionar fuentes personalizadas a la lista.\n"
+"- Crea una carpeta de \"fuentes\" en la carpeta del juego\n"
+"- Descarga fuentes online (https://www.dafont.com/)\n"
+"- Adiciona el archivo \".ttf\" en la carpeta de fuentes\n"
+"- Vuelve a cargar."
+
+#: src/interfaces/options/preferences.tscn
+msgid "Application's Font"
+msgstr "Fuente de la aplicación"
+
+#: src/interfaces/options/preferences.tscn
+msgid "How many seconds before the notification disappears."
+msgstr "Cuántos segundos pasan antes que la notificación desaparezca."
+
+#: src/interfaces/options/preferences.tscn
+msgid "Notification's duration"
+msgstr "Duración de las notificaciones"
+
+#: src/interfaces/options/preferences.tscn
+msgid "Story reader preferences"
+msgstr "Preferencias del lector"
+
+#: src/interfaces/options/preferences.tscn
+msgid "Font"
+msgstr "Fuente"
+
+#: src/interfaces/options/preferences.tscn
+msgid "Font size"
+msgstr "Tamaño de fuente"
+
+#: src/interfaces/options/preferences.tscn
+msgid "The space left between two lines."
+msgstr "Espacio entre dos líneas."
+
+#: src/interfaces/options/preferences.tscn
+msgid "Line spacing"
+msgstr "Interlineado"
+
+#: src/interfaces/options/preferences.tscn
+msgid "Font color"
+msgstr "Color de fuente"
+
+#: src/interfaces/options/preferences.tscn
+msgid "Selection color"
+msgstr "Selección de color"
+
+#: src/interfaces/options/preferences.tscn
+msgid "Story reader preview"
+msgstr "Vista previa del lector"
+
+#: src/interfaces/options/preferences.tscn
+msgid "This is a sample text."
+msgstr "Esto es una muestra de texto."
+
+#: src/interfaces/options/server.tscn
+msgid "If you don't know what you are doing, don't change anything here."
+msgstr "Si no sabes qué estás haciendo, no cambies nada aqui."
+
+#: src/interfaces/options/server.tscn
+msgid ""
+"The seconds to wait before trying to connect to the server.\n"
+"It only works for local server."
+msgstr ""
+"Los segundos que se espera antes de intentar conectar al servidor.\n"
+"Sólo funciona para servidores locales."
+
+#: src/interfaces/options/server.tscn
+msgid "Connection delay"
+msgstr "Retraso en la conexión"
+
+#: src/interfaces/options/server.tscn
+msgid "If enabled, the server will try to download an AI if it's missing.\n"
+msgstr "Si permitido, el servidor intentará descargar una IA que falte. \n"
+
+#: src/interfaces/options/server.tscn
+msgid "Allow downloading AI"
+msgstr "Permitir descarga de IA"
+
+#: src/interfaces/options/server.tscn
+msgid "Connect to a remote server"
+msgstr "Connectarse a un servidor remoto"
+
+#: src/interfaces/options/server.tscn
+msgid ""
+"For now the communication with the server isn't secure. Use this for local "
+"networks only."
+msgstr ""
+"Por ahora, la comunicación con el servidor no es segura. Usa esto sólo para "
+"servidores locales."
+
+#: src/interfaces/options/server.tscn
+msgid "Server's IP"
+msgstr "IP del servidor"
+
+#: src/interfaces/options/server.tscn
+msgid "Server's port"
+msgstr "Puerto del servidor"
